@@ -97,9 +97,9 @@ public:
          * The characters are rarely used upper ASCII, not valid as UTF-8, and produce
          * a large 4-byte int at any alignment.
          */
-        pchMessageStart[0] = 0xt1;
-        pchMessageStart[1] = 0xp2;
-        pchMessageStart[2] = 0xd3;
+        pchMessageStart[0] = 0xd1;
+        pchMessageStart[1] = 0xd2;
+        pchMessageStart[2] = 0x23;
         pchMessageStart[3] = 0xd4;
         vAlertPubKey = ParseHex("3xzddyz5iu153bhf3rryqv7mdlz6f55n8uosfo31en2d83e1vkilr0p94rnbo26anv1c4ybj3vd0bvr5xn8ra6wyb670xjalpnvok74twudlhfuo5129cyhiwek2hylim4");
         nDefaultPort = 31000;
