@@ -1,4 +1,4 @@
-qt/qt_galilel_qt-exotic.o: qt/exotic.cpp /usr/include/stdc-predef.h \
+qt/qt_exotic_qt-exotic.o: qt/exotic.cpp /usr/include/stdc-predef.h \
  config/exotic-config.h qt/bitcoingui.h amount.h serialize.h \
  /usr/include/c++/5/algorithm /usr/include/c++/5/utility \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \

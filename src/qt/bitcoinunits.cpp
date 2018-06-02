@@ -44,9 +44,9 @@ QString BitcoinUnits::id(int unit)
     case GALILEL:
         return QString("exotic");
     case mGALILEL:
-        return QString("mgalilel");
+        return QString("mexotic");
     case uGALILEL:
-        return QString::fromUtf8("ugalilel");
+        return QString::fromUtf8("uexotic");
     default:
         return QString("???");
     }

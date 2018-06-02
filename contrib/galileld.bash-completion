@@ -5,8 +5,8 @@
 
 have exoticd && {
 
-# call $galileld for RPC
-_galilel_rpc() {
+# call $exoticd for RPC
+_exotic_rpc() {
     # determine already specified args necessary for RPC
     local rpcargs=()
     for i in ${COMP_LINE}; do
@@ -16,17 +16,17 @@ _galilel_rpc() {
                 ;;
         esac
     done
-    $galileld "${rpcargs[@]}" "$@"
+    $exoticd "${rpcargs[@]}" "$@"
 }
 
 # Add exotic accounts to COMPREPLY
-_galilel_accounts() {
+_exotic_accounts() {
     local accounts
-    accounts=$(_galilel_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
+    accounts=$(_exotic_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
     COMPREPLY=( "${COMPREPLY[@]}" $( compgen -W "$accounts" -- "$cur" ) )
 }
 
-_galileld() {
+_exoticd() {
     local cur prev words=() cword
     local exoticd
 
@@ -53,7 +53,7 @@ _galileld() {
     if ((cword > 3)); then
         case ${words[cword-3]} in
             addmultisigaddress)
-                _galilel_accounts
+                _exotic_accounts
                 return 0
                 ;;
             getbalance|gettxout|importaddress|importprivkey|listreceivedbyaccount|listreceivedbyaddress|listsinceblock)
@@ -74,7 +74,7 @@ _galileld() {
                 return 0
                 ;;
             move|setaccount)
-                _galilel_accounts
+                _exotic_accounts
                 return 0
                 ;;
         esac
@@ -90,7 +90,7 @@ _galileld() {
             return 0
             ;;
         getaccountaddress|getaddressesbyaccount|getbalance|getnewaddress|getreceivedbyaccount|listtransactions|move|sendfrom|sendmany)
-            _galilel_accounts
+            _exotic_accounts
             return 0
             ;;
     esac
@@ -114,12 +114,12 @@ _galileld() {
 
             # only parse --help if senseful
             if [[ -z "$cur" || "$cur" =~ ^- ]]; then
-                helpopts=$($galileld --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
+                helpopts=$($exoticd --help 2>&1 | awk '$1 ~ /^-/ { sub(/=.*/, "="); print $1 }' )
             fi
 
             # only parse help if senseful
             if [[ -z "$cur" || "$cur" =~ ^[a-z] ]]; then
-                commands=$(_galilel_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
+                commands=$(_exotic_rpc help 2>/dev/null | awk '$1 ~ /^[a-z]/ { print $1; }')
             fi
 
             COMPREPLY=( $( compgen -W "$helpopts $commands" -- "$cur" ) )
@@ -133,7 +133,7 @@ _galileld() {
     esac
 }
 
-complete -F _galileld exoticd exotic-cli
+complete -F _exoticd exoticd exotic-cli
 }
 
 # Local variables:

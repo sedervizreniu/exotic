@@ -50,7 +50,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "GALILEL"
-#define QAPP_ORG_DOMAIN "http://bit.galilels/"
+#define QAPP_ORG_DOMAIN "http://bit.exotics/"
 #define QAPP_APP_NAME_DEFAULT "GALILEL-Qt"
 #define QAPP_APP_NAME_TESTNET "GALILEL-Qt-testnet"
 

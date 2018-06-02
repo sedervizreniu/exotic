@@ -464,7 +464,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageGroup(_("Darksend options:"));
     strUsage += HelpMessageOpt("-enableDarksend=<n>", strprintf(_("Enable use of automated Darksend for funds stored in this wallet (0-1, default: %u)"), 0));
     strUsage += HelpMessageOpt("-Darksendrounds=<n>", strprintf(_("Use N separate masternodes to anonymize funds  (2-8, default: %u)"), 2));
-    strUsage += HelpMessageOpt("-anonymizegalilelamount=<n>", strprintf(_("Keep N GALILEL anonymized (default: %u)"), 0));
+    strUsage += HelpMessageOpt("-anonymizeexoticamount=<n>", strprintf(_("Keep N GALILEL anonymized (default: %u)"), 0));
     strUsage += HelpMessageOpt("-liquidityprovider=<n>", strprintf(_("Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)"), 0));
 
     strUsage += HelpMessageGroup(_("InstantX options:"));
@@ -1571,7 +1571,7 @@ bool AppInit2(boost::thread_group& threadGroup)
         nDarksendRounds = 99999;
     }
 
-    nAnonymizeGALILELAmount = GetArg("-anonymizegalilelamount", 0);
+    nAnonymizeGALILELAmount = GetArg("-anonymizeexoticamount", 0);
     if (nAnonymizeGALILELAmount > 999999) nAnonymizeGALILELAmount = 999999;
     if (nAnonymizeGALILELAmount < 2) nAnonymizeGALILELAmount = 2;
 

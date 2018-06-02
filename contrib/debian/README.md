@@ -14,8 +14,8 @@ To install:
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your galilelqt binary to `/usr/bin`
-and the `../../share/pixmaps/galilel128.png` to `/usr/share/pixmaps`
+the .desktop file or copy or symlink your exoticqt binary to `/usr/bin`
+and the `../../share/pixmaps/exotic128.png` to `/usr/share/pixmaps`
 
 exotic-qt.protocol (KDE)
 

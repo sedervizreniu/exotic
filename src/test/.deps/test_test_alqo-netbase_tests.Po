@@ -1,4 +1,4 @@
-test/test_test_galilel-netbase_tests.o: test/netbase_tests.cpp \
+test/test_test_exotic-netbase_tests.o: test/netbase_tests.cpp \
  /usr/include/stdc-predef.h netbase.h config/exotic-config.h compat.h \
  /usr/include/arpa/inet.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \

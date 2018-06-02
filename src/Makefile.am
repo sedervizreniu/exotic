@@ -361,7 +361,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
-galileld_LDADD = \
+exoticd_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -372,40 +372,40 @@ galileld_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_ZMQ
-galileld_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
+exoticd_LDADD += $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
 
 if ENABLE_WALLET
-galileld_LDADD += libbitcoin_wallet.a
+exoticd_LDADD += libbitcoin_wallet.a
 endif
-galileld_SOURCES = exoticd.cpp
+exoticd_SOURCES = exoticd.cpp
 #
 
 if TARGET_WINDOWS
-galileld_SOURCES += exoticd-res.rc
+exoticd_SOURCES += exoticd-res.rc
 endif
 
-galileld_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-galileld_CPPFLAGS = $(BITCOIN_INCLUDES)
-galileld_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+exoticd_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+exoticd_CPPFLAGS = $(BITCOIN_INCLUDES)
+exoticd_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 
 # exotic-cli binary #
-galilel_cli_LDADD = \
+exotic_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-galilel_cli_SOURCES = \
+exotic_cli_SOURCES = \
   exotic-cli.cpp
 
-galilel_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+exotic_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
 # exotic-tx binary #
-galilel_tx_LDADD = \
+exotic_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -414,15 +414,15 @@ galilel_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-galilel_tx_SOURCES = exotic-tx.cpp
-galilel_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+exotic_tx_SOURCES = exotic-tx.cpp
+exotic_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-galilel_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+exotic_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-galilel_cli_SOURCES += exotic-cli-res.rc
+exotic_cli_SOURCES += exotic-cli-res.rc
 endif
-galilel_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+exotic_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if BUILD_BITCOIN_LIBS
 include_HEADERS = script/bitcoinconsensus.h

@@ -188,7 +188,7 @@
         <translation>Кошелёк зашифрован</translation>
     </message>
     <message>
-        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your galilels from being stolen by malware infecting your computer.</source>
+        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your exotics from being stolen by malware infecting your computer.</source>
         <translation>Сейчас программа закроется для завершения процесса шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши даши от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -3713,7 +3713,7 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
         <source>To use exoticd, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=galilelrpc
+rpcuser=exoticrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3724,7 +3724,7 @@ for example: alertnotify=echo %%s | mail -s "GALILEL Alert" admin@foo.com
         <translation>Для использования exoticd или опции -server с exotic-qt, вы должны установить опцию rpcpassword в конфигурационном файле:
 %s
 Рекомендуется использовать следующий случайный пароль:
-rpcuser=galilelrpc
+rpcuser=exoticrpc
 rpcpassword=%s
 (вам не нужно запоминать этот пароль)
 Имя и пароль ДОЛЖНЫ различаться.

@@ -7,7 +7,7 @@ SetCompressor /SOLID lzma
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 2.0.0
 !define COMPANY "Exotic Core project"
-!define URL http://bit.galilels/
+!define URL http://bit.exotics/
 
 # MUI Symbol Definitions
 !define MUI_ICON "/root/GALILEL/share/pixmaps/bitcoin.ico"

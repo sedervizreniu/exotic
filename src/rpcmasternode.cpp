@@ -55,8 +55,8 @@ Value Darksend(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() == 0)
         throw runtime_error(
-            "Darksend <galileladdress> <amount>\n"
-            "galileladdress, reset, or auto (AutoDenominate)"
+            "Darksend <exoticaddress> <amount>\n"
+            "exoticaddress, reset, or auto (AutoDenominate)"
             "<amount> is a real and will be rounded to the next 0.1" +
             HelpRequiringPassphrase());
 
@@ -77,8 +77,8 @@ Value Darksend(const Array& params, bool fHelp)
 
     if (params.size() != 2)
         throw runtime_error(
-            "Darksend <galileladdress> <amount>\n"
-            "galileladdress, denominate, or auto (AutoDenominate)"
+            "Darksend <exoticaddress> <amount>\n"
+            "exoticaddress, denominate, or auto (AutoDenominate)"
             "<amount> is a real and will be rounded to the next 0.1" +
             HelpRequiringPassphrase());
 

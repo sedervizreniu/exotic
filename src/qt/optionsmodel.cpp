@@ -148,7 +148,7 @@ void OptionsModel::Init()
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-Darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
     if (settings.contains("nAnonymizeGALILELAmount"))
-        SoftSetArg("-anonymizegalilelamount", settings.value("nAnonymizeGALILELAmount").toString().toStdString());
+        SoftSetArg("-anonymizeexoticamount", settings.value("nAnonymizeGALILELAmount").toString().toStdString());
 
     language = settings.value("language").toString();
 }

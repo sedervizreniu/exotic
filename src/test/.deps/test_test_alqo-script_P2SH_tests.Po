@@ -1,4 +1,4 @@
-test/test_test_galilel-script_P2SH_tests.o: test/script_P2SH_tests.cpp \
+test/test_test_exotic-script_P2SH_tests.o: test/script_P2SH_tests.cpp \
  /usr/include/stdc-predef.h key.h allocators.h /usr/include/c++/5/map \
  /usr/include/c++/5/bits/stl_tree.h \
  /usr/include/c++/5/bits/stl_algobase.h \

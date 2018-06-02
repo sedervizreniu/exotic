@@ -475,7 +475,7 @@ SOURCES += src/activemasternode.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/Darksendconfig.cpp \
            src/qt/exotic.cpp \
-           src/qt/galilelstrings.cpp \
+           src/qt/exoticstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
            src/qt/intro.cpp \
@@ -554,7 +554,7 @@ SOURCES += src/activemasternode.cpp \
            src/test/sighash_tests.cpp \
            src/test/sigopcount_tests.cpp \
            src/test/skiplist_tests.cpp \
-           src/test/test_galilel.cpp \
+           src/test/test_exotic.cpp \
            src/test/timedata_tests.cpp \
            src/test/transaction_tests.cpp \
            src/test/uint256_tests.cpp \
@@ -645,21 +645,21 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/exotic.qrc src/qt/galilel_locale.qrc
+RESOURCES += src/qt/exotic.qrc src/qt/exotic_locale.qrc
 
-TRANSLATIONS += src/qt/locale/galilel_bg.ts \
-                src/qt/locale/galilel_de.ts \
-                src/qt/locale/galilel_en.ts \
-                src/qt/locale/galilel_es.ts \
-                src/qt/locale/galilel_fi.ts \
-                src/qt/locale/galilel_fr.ts \
-                src/qt/locale/galilel_it.ts \
-                src/qt/locale/galilel_ja.ts \
-                src/qt/locale/galilel_pl.ts \
-                src/qt/locale/galilel_pt.ts \
-                src/qt/locale/galilel_ru.ts \
-                src/qt/locale/galilel_sk.ts \
-                src/qt/locale/galilel_sv.ts \
-                src/qt/locale/galilel_vi.ts \
-                src/qt/locale/galilel_zh_CN.ts \
-                src/qt/locale/galilel_zh_TW.ts
+TRANSLATIONS += src/qt/locale/exotic_bg.ts \
+                src/qt/locale/exotic_de.ts \
+                src/qt/locale/exotic_en.ts \
+                src/qt/locale/exotic_es.ts \
+                src/qt/locale/exotic_fi.ts \
+                src/qt/locale/exotic_fr.ts \
+                src/qt/locale/exotic_it.ts \
+                src/qt/locale/exotic_ja.ts \
+                src/qt/locale/exotic_pl.ts \
+                src/qt/locale/exotic_pt.ts \
+                src/qt/locale/exotic_ru.ts \
+                src/qt/locale/exotic_sk.ts \
+                src/qt/locale/exotic_sv.ts \
+                src/qt/locale/exotic_vi.ts \
+                src/qt/locale/exotic_zh_CN.ts \
+                src/qt/locale/exotic_zh_TW.ts

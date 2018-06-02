@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/exotic_bg.qm</file>
+        <file alias="de">locale/exotic_de.qm</file>
+        <file alias="en">locale/exotic_en.qm</file>
+        <file alias="es">locale/exotic_es.qm</file>
+        <file alias="fi">locale/exotic_fi.qm</file>
+        <file alias="fr">locale/exotic_fr.qm</file>
+        <file alias="it">locale/exotic_it.qm</file>
+        <file alias="ja">locale/exotic_ja.qm</file>
+        <file alias="pl">locale/exotic_pl.qm</file>
+        <file alias="pt">locale/exotic_pt.qm</file>
+        <file alias="ru">locale/exotic_ru.qm</file>
+        <file alias="sk">locale/exotic_sk.qm</file>
+        <file alias="sv">locale/exotic_sv.qm</file>
+        <file alias="vi">locale/exotic_vi.qm</file>
+        <file alias="zh_CN">locale/exotic_zh_CN.qm</file>
+        <file alias="zh_TW">locale/exotic_zh_TW.qm</file>
+    </qresource>
+</RCC>

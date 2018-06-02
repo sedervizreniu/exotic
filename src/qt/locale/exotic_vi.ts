@@ -1,231 +1,231 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="vi" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Klikkaa hiiren oikealla muokataksesi osoitetta tai nimeä</translation>
+        <translation>Bấm phải chuột để sửa địa chỉ hoặc nhãn</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Luo uusi osoite</translation>
+        <translation>Tạo một địa chỉ mới</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>&amp;Uusi</translation>
+        <translation>&amp;Mới</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopioi valittu osoite leikepöydälle</translation>
+        <translation>Chép địa chỉ đã được chọn vào vùng đệm clipboard</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>&amp;Kopioi</translation>
+        <translation>&amp;Sao chép</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>Poista valittu osoite listalta</translation>
+        <translation>Xoá địa chỉ đang được chọn khỏi danh sách</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>&amp;Poista</translation>
+        <translation>&amp;Xoá</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Vie auki olevan välilehden tiedot tiedostoon</translation>
+        <translation>Kết xuất dữ liệu trong tab này sang một file</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>Vi&amp;e...</translation>
+        <translation>&amp;Kết xuất</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>&amp;Sulje</translation>
+        <translation>Đó&amp;ng</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Valitse osoite johon varat lähetetään</translation>
+        <translation>Chọn địa chỉ để gửi tiền đến</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Valitse vastaanottava osoite</translation>
+        <translation>Chọn địa chỉ để nhận tiền</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>V&amp;alitse</translation>
+        <translation>C&amp;họn</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>Lähettävä osoite</translation>
+        <translation>Đia chỉ gửi</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>Vastaanottava osoite</translation>
+        <translation>Địa chỉ nhận</translation>
     </message>
     <message>
         <source>These are your GALILEL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat GALILEL osoitteesi maksujen lähetykseen. Tarkista aina lähetettävä määrä ja vastaanottajan osoite ennen kuin lähetät varoja.</translation>
+        <translation>Đây là các địa chỉ GALILEL của bạn để gửi thanh toán. Luôn luôn kiểm tra số tiền và địa chỉ nhận trước khi bạn gửi tiền.</translation>
     </message>
     <message>
         <source>These are your GALILEL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat GALILEL osoitteesi suoritusten vastaanottamiseen. Suositellaan että annat uuden osoitteen kullekin siirtotapahtumalle.</translation>
+        <translation>Đây là các địa chỉ GALILEL của bạn để nhận thanh toán. Gợi ý là sử dụng một địa chỉ nhận mới cho mỗi giao dịch.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>Kopioi &amp;Osoite</translation>
+        <translation>&amp;Sao chép Địa chỉ</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>Kopioi &amp;Nimi</translation>
+        <translation>Sao chép &amp;Nhãn</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>&amp;Muokkaa</translation>
+        <translation>&amp;Sửa</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>Vie osoitekirja</translation>
+        <translation>Kết xuất danh sách Địa chỉ</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Pilkuilla eritelty tiedosto (*.csv)</translation>
+        <translation>File định dạng phân cách bởi dấu phẩy (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Vienti epäonnistui</translation>
+        <translation>Kết xuất không thành công</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Osoitelistan tallennuksessa tapahtui virhe tiedostoon %1. Yritä uudelleen.</translation>
+        <translation>Có lỗi xảy ra khi lưu các địa chỉ vào %1. Hãy thử lại.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Nhãn</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(không có nhãn)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Salasanan Dialogi</translation>
+        <translation>Khung hội thoại mật khẩu</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Kirjoita salasana</translation>
+        <translation>Mời nhập mật khẩu</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Uusi salasana</translation>
+        <translation>Mật khẩu mới</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Uusi salasana uudelleen</translation>
+        <translation>Nhập lại mật khẩu mới</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Poistaa käytöstä rahojen lähetyksen kun käyttöjärjestelmän käyttäjätili on vaarantunut. Ei tarjoa oikeaa turvallisuutta.</translation>
+        <translation>Phục vụ để tắt tính năng chuyển tiền vô giá trị khi tài khoản của hệ điều hành bị xâm nhập. Không cung cấp đủ an ninh thực sự.</translation>
     </message>
     <message>
         <source>For anonymization and staking only</source>
-        <translation>Vain anonymisointia varten</translation>
+        <translation>Chỉ dùng cho mục đích vô danh</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Anna lompakolle uusi salasana.&lt;br/&gt;Käytä salasanaa jossa on ainakin  &lt;b&gt;10 satunnaista mekkiä&lt;/b&gt; tai &lt;b&gt;kahdeksan sanaa&lt;/b&gt;.</translation>
+        <translation>Nhập mật khẩu mới cho ví. &lt;br/&gt;Hãy sử dụng mật khẩu có &lt;b&gt;10 hoặc hơn các ký tự ngẫu nhiên&lt;/b&gt;, hay &lt;b&gt;8 từ hoặc nhiều hơn&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>Salaa lompakko</translation>
+        <translation>Mã hoá ví</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Tätä toimintoa varten sinun täytyy antaa lompakon salasana sen avaamiseksi.</translation>
+        <translation>Công việc này cần mật khẩu ví của bạn để mở khoá ví.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Avaa lompakko</translation>
+        <translation>Mở khoá ví</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Tätä toimintoa varten sinun täytyy antaa lompakon salasana salauksen purkuun.</translation>
+        <translation>Công việc này cần mật khẩu ví của bạn để giải mã ví.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>Pura lompakon salaus</translation>
+        <translation>Giải mã ví</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Vaihda salasana</translation>
+        <translation>Đổi mật khẩu</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Anna vanha ja uusi salasana.</translation>
+        <translation>Hãy nhập mật khẩu cũ và mật khẩu mới cho ví.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>Vahvista lompakon salaus</translation>
+        <translation>Xác nhận mã hoá ví</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DNET&lt;/b&gt;!</source>
-        <translation>Varoitus: Jos salaat lompakon ja unohdat salasanan, &lt;b&gt;MENETÄT KAIKKI DNETisi&lt;/b&gt;!</translation>
+        <translation>Chú ý: Nếu bạn mã hoá ví và mất mật khẩu, bạn sẽ &lt;b&gt;MẤT TẤT CẢ DNET CỦA BẠN&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>Haluatko varmasti salata lompakkosi?</translation>
+        <translation>Bạn có chắc là mình muốn mã hoá ví?</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>Lompakko salattu</translation>
+        <translation>Ví đã được mã hoá.</translation>
     </message>
     <message>
-        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your galilels from being stolen by malware infecting your computer.</source>
-        <translation>GALILEL sulkeutuu nyt salauksen viimeistelyä varten. Muista että salaus pelkästään ei voi estää GALILELiesi varastamista jos koneesi saastuu haittaohjelmilla tai viruksilla.</translation>
+        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your exotics from being stolen by malware infecting your computer.</source>
+        <translation>GALILEL sẽ được đóng lại bây giờ để hoàn thành tiến trình mã hoá. Hãy nhớ rằng mã hoá ví của bạn không thể hoàn toàn bảo vệ exotic khỏi bị trộm bởi những mã độc lây nhiễm vào máy tính của bạn.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>TÄRKEÄÄ: Kaikki vanhat lompakon varmuuskopiot pitäisi korvata uusilla salatuilla varmuuskopioilla. Turvallisuussyistä edelliset salaamattomat varmuuskopiot muuttuvat turhiksi kun aloitat uuden salatun lompakon käytön.</translation>
+        <translation>QUAN TRỌNG: Bất kỳ sao lưu nào mà bạn đã thực hiện trước với ví của bạn sẽ nên được thay thế bởi tệp Ví mới, được mã hoá. Vì lý do an ninh, những tệp sao lưu trước của ví không mã hoá sẽ trở nên vô nghĩa khi bạn bắt đầu sử dụng ví mới, có mã hoá.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>Lompakon salaus epäonnistui</translation>
+        <translation>Mã hoá ví không thành công</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>Lompakon salaaminen epäonnistui sisäisen virheen vuoksi. Lompakkoasi ei salattu.</translation>
+        <translation>Mã hoá ví bị lỗi vì lỗi bên trong của phần mềm. Ví của bạn không được mã hoá.</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>Annetut salasanat eivät täsmää.</translation>
+        <translation>Mật khẩu bạn cung cấp không tương xứng.</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>Lompakon avaaminen epäonnistui.</translation>
+        <translation>Mở khoá ví không thành công</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Annettu salasana oli väärä.</translation>
+        <translation>Mật khẩu bạn nhập để giải mã ví không chính xác.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>Lompakon salauksen purku epäonnistui.</translation>
+        <translation>Giải mã ví không thành công</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>Lompakon salasana vaihdettiin onnistuneesti.</translation>
+        <translation>Mật khẩu ví đã được đổi thành công.</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>Varoitus: Caps Lock on käytössä!</translation>
+        <translation>Cảnh báo: Khoá Caps Lock đang được bật!</translation>
     </message>
 </context>
 <context>
@@ -236,335 +236,335 @@
     </message>
     <message>
         <source>Wallet</source>
-        <translation>Lompakko</translation>
+        <translation>Ví</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>Solmu</translation>
+        <translation>Nút</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>&amp;Yleisnäkymä</translation>
+        <translation>&amp;Tổng thể</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>Lompakon tilanteen yleisnäkymä</translation>
+        <translation>Hiển thị thông tin tổng thể của ví</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>L&amp;ähetä</translation>
+        <translation>&amp;Gửi</translation>
     </message>
     <message>
         <source>Send coins to a GALILEL address</source>
-        <translation>Lähetä varoja GALILEL osoitteeseen</translation>
+        <translation>Gửi tiền vào địa chỉ GALILEL</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
-        <translation>&amp;Vastaanota</translation>
+        <translation>&amp;Nhận</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and exotic: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja GALILEL: URIt)</translation>
+        <translation>Yêu cầu thanh toán (sinh mã QR và exotic: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>&amp;Tapahtumat</translation>
+        <translation>Các &amp;Giao dịch</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>Selaa tapahtumahistoriaa</translation>
+        <translation>Xem lịch sử giao dịch</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>L&amp;opeta</translation>
+        <translation>T&amp;hoát</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>Sulje ohjelma</translation>
+        <translation>Thoát ứng dụng</translation>
     </message>
     <message>
         <source>&amp;About Exotic Core</source>
-        <translation>Tietoja &amp;Exotic Core:sta</translation>
+        <translation>&amp;Về Exotic Core</translation>
     </message>
     <message>
         <source>Show information about Exotic Core</source>
-        <translation>Näytä tietoja Exotic Core:sta</translation>
+        <translation>Hiển thị thông tin về Exotic Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>Tietoja &amp;Qt</translation>
+        <translation>Về &amp;QT</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>Näytä tietoja QT:sta</translation>
+        <translation>Hiển thị thông tin giới thiệu về Qt</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>&amp;Asetukset...</translation>
+        <translation>&amp;Tuỳ chọn...</translation>
     </message>
     <message>
         <source>Modify configuration options for GALILEL</source>
-        <translation>Muuta GALILEL asetuksia</translation>
+        <translation>Thay đổi tuỳ chọn cấu hình cho GALILEL</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>&amp;Näytä / Piilota</translation>
+        <translation>Ẩ&amp;n / Hiện</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>Näytä tai piilota GALILEL pääikkuna</translation>
+        <translation>Hiển thị hoặc ẩn cửa sổ chính</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Salaa Lompakko...</translation>
+        <translation>&amp;Mã hoá Ví...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>Salaa yksityiset avaimet jotka kuuluvat lompakkoosi</translation>
+        <translation>Mã hoá khoá riêng mà thuộc về ví của bạn</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Varmuuskopioi Lompakko...</translation>
+        <translation>&amp;Sao lưu Ví...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>Varmuuskopioi lompakko toiseen sijaintiin</translation>
+        <translation>Sao lưu ví vào vị trí khác</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Vaihda Salasana...</translation>
+        <translation>Đổi &amp;Mật khẩu...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Vaihda lompakon salaukseen käytettävä salasana</translation>
+        <translation>Đổi mật khẩu dùng để mã hoá ví</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>&amp;Avaa Lompakko...</translation>
+        <translation>&amp;Mở khoá Ví...</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Avaa lompakko</translation>
+        <translation>Mở khoá ví</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>&amp;Lukitse Lompakko</translation>
+        <translation>&amp;Khoá Ví</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>&amp;Allekirjoita Viesti...</translation>
+        <translation>Ký vào &amp;thông điệp...</translation>
     </message>
     <message>
         <source>Sign messages with your GALILEL addresses to prove you own them</source>
-        <translation>Allekirjoita viestit GALILEL osoitteillasi todistaaksesi että omistat ne</translation>
+        <translation>Ký vào thông điệp với địa chỉ GALILEL để chứng minh bạn là chủ của chúng</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>&amp;Tarkista Viesti...</translation>
+        <translation>&amp;Kiểm tra thông điệp...</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified GALILEL addresses</source>
-        <translation>Tarkista viestit ollaksesi varma että ne on allekirjoitettu määritetyillä GALILEL osoitteilla</translation>
+        <translation>Kiểm tra thông điệp để đảm bảo rằng nó đã được ký bằng địa chỉ GALILEL nhất định</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>T&amp;ietoa</translation>
+        <translation>&amp;Thông tin</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>Näytä diagnostiikka tietoja</translation>
+        <translation>Hiển thị thông tin chuẩn đoán</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>&amp;Testauskonsoli</translation>
+        <translation>Giao diện gỡ rối</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>Avaa testauskonsoli</translation>
+        <translation>Mở giao diện gỡ rối</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>&amp;Verkkoliikenne</translation>
+        <translation>Theo dõi &amp;Mạng</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>Näytä verkkoliikenne</translation>
+        <translation>Hiển thị thông tin theo dõi mạng</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Peers Lista</translation>
+        <translation>&amp;Các máy ngang cấp</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Näytä verkon peers tietoja</translation>
+        <translation>Hiển thị thông tin về các máy ngang cấp</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>Lompakon &amp;Korjaus</translation>
+        <translation>&amp;Sửa Ví</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>Näytä lompakon korjausvalinnat</translation>
+        <translation>Hiển thị các tuỳ chọn để sửa ví</translation>
     </message>
     <message>
         <source>Open &amp;Configuration File</source>
-        <translation>Avaa &amp;Asetustiedosto</translation>
+        <translation>Mở Tệp &amp;Cấu hình</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>Avaa asetustiedosto</translation>
+        <translation>Mở tệp cấu hình</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>&amp;Näytä Automaattiset Varmistukset</translation>
+        <translation>Hiển thị chế độ Tự động &amp;Sao lưu</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>Näytä automaattisesti tehdyt lompakon varmistukset</translation>
+        <translation>Hiển thị những ví được sao lưu tự động</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>&amp;Lähettävät Osoitteet...</translation>
+        <translation>&amp;Gửi địa chỉ...</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Näytä lähettämiseen käytettyjen osoitteiden ja nimien lista</translation>
+        <translation>Hiển thị danh sách các địa chỉ đã sử dụng và các nhãn</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>Va&amp;staanottavat Osoitteet...</translation>
+        <translation>Địa chỉ nhận...</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
+        <translation>Hiển thị danh sách các địa chỉ đã sử dụng để nhận và các nhãn</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Avaa &amp;URI...</translation>
+        <translation>Mở &amp;URI...</translation>
     </message>
     <message>
         <source>Open a exotic: URI or payment request</source>
-        <translation>Avaa GALILEL: URI tai maksupyyntö</translation>
+        <translation>Mở một exotic: URI hoặc một yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Komentorivin valinnat</translation>
+        <translation>&amp;Các Tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
         <source>Exotic Core client</source>
-        <translation>Exotic Core asiakasohjelma</translation>
+        <translation>Phần mềm Exotic Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>Käsitelty %n lohko tapahtumahistoriasta.</numerusform><numerusform>Käsitelty %n lohkoa tapahtumahistoriasta.</numerusform></translation>
+        <translation><numerusform>Xử lý được %n khối của các giao dịch đã qua.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>Synkronoidaan lisätietoja: %p%</translation>
+        <translation>Đang đồng bộ những dữ liệu bổ sung: %p%</translation>
     </message>
     <message>
         <source>Show the Exotic Core help message to get a list with possible GALILEL command-line options</source>
-        <translation>Näytä Exotic Core ohjelista komentorivin valinnoista</translation>
+        <translation>Hiển thị hướng dẫn của Exotic Core để có danh sách đầy đủ các tuỳ chọn dòng lệnh của GALILEL.</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>&amp;Tiedosto</translation>
+        <translation>&amp;Tệp</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>&amp;Asetukset</translation>
+        <translation>&amp;Thiết đặt</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
-        <translation>&amp;Työkalut</translation>
+        <translation>&amp;Công cụ</translation>
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>&amp;Apua</translation>
+        <translation>&amp;Trợ giúp</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>Välilehtipalkki</translation>
+        <translation>Bảng Thanh công cụ</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to GALILEL network</source>
-        <translation><numerusform>%n aktiivinen yhteys GALILEL verkkoon</numerusform><numerusform>%n aktiivista yhteyttä GALILEL verkkoon</numerusform></translation>
+        <translation><numerusform>%n kết nối hiện thời tới mạng lưới của GALILEL</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>Synkronoidaan verkkoon...</translation>
+        <translation>Đang đồng bộ với mạng lưới...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>Tuodaan lohkoja levyltä...</translation>
+        <translation>Nhập các khối từ đĩa...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>Uudelleen indeksoidaan lohkoja...</translation>
+        <translation>Sắp xếp lại các khối trên đĩa...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Lohkojen lähdettä ei saatavilla...</translation>
+        <translation>Không thấy nguồn sẵn sàng của các khối...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>Tapahtumahistoria on ajan tasalla</translation>
+        <translation>Mới nhất</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n tunti</numerusform><numerusform>%n tuntia</numerusform></translation>
+        <translation><numerusform>%n giờ</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n päivä</numerusform><numerusform>%n päivää</numerusform></translation>
+        <translation><numerusform>%n ngày</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n viikko</numerusform><numerusform>%n viikkoa</numerusform></translation>
+        <translation><numerusform>%n tuần</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1 ja %2</translation>
+        <translation>%1 và %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n vuosi</numerusform><numerusform>%n vuotta</numerusform></translation>
+        <translation><numerusform>%n năm</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>%1 jäljessä</translation>
+        <translation>%1 đằng sau</translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>Saavutetaan verkkoa...</translation>
+        <translation>Đang nạp bộ đệm...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Viimeisin vastaanotettu lohko luotu %1 sitten.</translation>
+        <translation>Khối vừa nhận đã được sinh ra từ %1.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Tämän jälkeiset siirtotapahtumat eivät ole vielä näkyvissä.</translation>
+        <translation>Các giao dịch sau đây sẽ chưa thể thấy được.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Lỗi</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation>Cảnh báo</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Tietoa</translation>
+        <translation>Thông tin</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>Lähetetty siirtotapahtuma</translation>
+        <translation>Giao dịch gửi đi</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>Saapuva siirtotapahtuma</translation>
+        <translation>Giao dịch nhận về</translation>
     </message>
     <message>
         <source>Date: %1
@@ -572,418 +572,418 @@ Amount: %2
 Type: %3
 Address: %4
 </source>
-        <translation>Päiväys: %1
-Määrä: %2
-Tyyppi: %3
-Osoite: %4
+        <translation>Ngày: %1
+Số tiền: %2
+Kiểu: %3
+Địa chỉ: %4
 </translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;avoinna&lt;/b&gt;</translation>
+        <translation>Ví &lt;b&gt;đã được mã hoá&lt;/b&gt; và hiện tại &lt;b&gt;đã được mở&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
-        <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;avoinna&lt;/b&gt; vain anonymisointia varten</translation>
+        <translation>Ví &lt;b&gt;đã được mã hoá&lt;/b&gt; và hiện tại &lt;b&gt;đã được mở&lt;/b&gt; chỉ để cho việc ẩn danh</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>Lompakko on &lt;b&gt;salattu&lt;/b&gt; ja tällä hetkellä &lt;b&gt;lukittu&lt;/b&gt;</translation>
+        <translation>Ví &lt;b&gt;đã được mã hoá&lt;/b&gt; và hiện tại &lt;b&gt;đã được khoá&lt;/b&gt;</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
         <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
-        <translation>Yhteensä: %1 (OBF yht.sopivia: %2 / Käytössä: %3)</translation>
+        <translation>Tổng số: %1 (Tương thích với OBF: %2 / Sẵn sàng: %3)</translation>
     </message>
     <message>
         <source>Network Alert</source>
-        <translation>Verkkohälytys</translation>
+        <translation>Cảnh báo mạng</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>Määrä:</translation>
+        <translation>Số lượng:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Tavuja:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Määrä:</translation>
+        <translation>Số tiền:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteetti:</translation>
+        <translation>Ưu tiên:</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Siirtomaksu:</translation>
+        <translation>Phí:</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>Kolikko Valinta</translation>
+        <translation>Chọn lựa coin</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Tomu:</translation>
+        <translation>Bụi</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Siirtomaksun jälkeen:</translation>
+        <translation>Phí sau:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Vaihtoraha:</translation>
+        <translation>Trả lại:</translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>Poista kaikki valinnat</translation>
+        <translation>(bỏ) chọn tất cả</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>Puurakenne</translation>
+        <translation>Kiểu cây</translation>
     </message>
     <message>
         <source>List mode</source>
-        <translation>Listarakenne</translation>
+        <translation>Kiểu danh sách</translation>
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 lukittu)</translation>
+        <translation>(1 khoá)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Số tiền</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>Vastaanotettu nimellä</translation>
+        <translation>Nhận được với nhãn</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>Vastaanotettu osoitteeseen</translation>
+        <translation>Nhận được với địa chỉ</translation>
     </message>
     <message>
         <source>OBF Rounds</source>
-        <translation>OBF Kierrokset</translation>
+        <translation>Số vòng OBF</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Ngày</translation>
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>Vahvistuksia</translation>
+        <translation>Lượt xác nhận</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Vahvistettu</translation>
+        <translation>Đã được xác nhận</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>Prioriteetti</translation>
+        <translation>Ưu tiên</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopioi osoite</translation>
+        <translation>Sao chép địa chỉ</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopioi nimi</translation>
+        <translation>Sao chép nhãn</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Sao chép số tiền</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopioi siirtotunnus</translation>
+        <translation>Sao chép mã giao dịch</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>Lukitse käyttämättömät</translation>
+        <translation>Khoá khoản chưa tiêu</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>Avaa käyttämättömät</translation>
+        <translation>Mở khoản chưa tiêu</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Sao chép số lượng</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopioi siirtomaksu</translation>
+        <translation>Sao chép phí</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopioi siirtomaksun jälkeen</translation>
+        <translation>Sao chép giá trị sau tính phí</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopioi tavut</translation>
+        <translation>Sao chép các bytes</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopioi prioriteetti</translation>
+        <translation>Sao chép ưu tiên</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopioi tomu</translation>
+        <translation>Sao chép bụi</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopioi vaihtoraha</translation>
+        <translation>Sao chép tiền trả lại</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Obfuscate will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscate, please deselect all non-nonymized inputs first and then check Obfuscate checkbox again.</source>
-        <translation>Ei anonyymeja syötteitä valittu. &lt;b&gt;Obfuscate poistetaan käytöstä.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Jos silti haluat käyttää Obfuscate:iä, poista ei anonyymit valinnat ensin ja valitse uudelleen Obfuscate optio.</translation>
+        <translation>Đầu vào không ẩn danh được chọn. &lt;b&gt;Obfuscate sẽ bị tắt.&lt;/b&gt;&lt;br&gt;&lt;br&gt;Nếu bạn vẫn muốn sử dụng Obfuscate, hãy bỏ chọn tata cả các đầu vào không ẩn danh trước và đánh dấu vào hộp Obfuscate lần nữa.</translation>
     </message>
     <message>
         <source>highest</source>
-        <translation>korkein</translation>
+        <translation>cao nhất</translation>
     </message>
     <message>
         <source>higher</source>
-        <translation>korkeampi</translation>
+        <translation>cao hơn</translation>
     </message>
     <message>
         <source>high</source>
-        <translation>korkea</translation>
+        <translation>cao</translation>
     </message>
     <message>
         <source>medium-high</source>
-        <translation>keski-korkea</translation>
+        <translation>cao-vừa</translation>
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>Voi vaihdella +/- %1 duffs per syöte.</translation>
+        <translation>Có thể thay đổi +/- %1 duff(s) cho mỗi đầu vào.</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>e/s</translation>
+        <translation>không áp dụng</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>keskisuuri</translation>
+        <translation>vừa</translation>
     </message>
     <message>
         <source>low-medium</source>
-        <translation>pieni-keskisuuri</translation>
+        <translation>thấp-vừa</translation>
     </message>
     <message>
         <source>low</source>
-        <translation>pieni</translation>
+        <translation>thấp</translation>
     </message>
     <message>
         <source>lower</source>
-        <translation>pienempi</translation>
+        <translation>thấp hơn</translation>
     </message>
     <message>
         <source>lowest</source>
-        <translation>pienin</translation>
+        <translation>thấp nhất</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 lukittu)</translation>
+        <translation>(%1 được khoá)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>ei mitään</translation>
+        <translation>không có</translation>
     </message>
     <message>
         <source>yes</source>
-        <translation>kyllä</translation>
+        <translation>có</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>ei</translation>
+        <translation>không</translation>
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>Tämä nimi muuttuu punaiseksi jos siirtotapahtuman koko on suurempi kuin 1000 tavua.</translation>
+        <translation>Nhãn này chuyển sang đỏ, nếu kích thước giao dịch lớn hơn 1000 bytes.</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Tämä tarkoittaa että vähintään %1 per kB siirtomaksu on pakollinen.</translation>
+        <translation>Điều này có nghĩa là cần một mức phí ít nhất %1 cho mỗi kB.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Voi vaihdella +/- 1 tavu per syöte</translation>
+        <translation>Có thể thay đổi +/-1 byte cho mỗi đầu vào</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>Siirtotapahtumat korkeammalla prioriteetilla sisällytetään varmemmin lohkoon.</translation>
+        <translation>Giao dịch với độ ưu tiên cao hơn có cơ hội nhiều hơn được đưa vào khối.</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Tämä nimi muuttuu punaiseksi jos prioriteetti on pienempi kuin "keskisuuri".</translation>
+        <translation>Nhãn này chuyển sang đỏ, nếu ưu tiên thấp hơn "trung bình".</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Tämä nimi muuttuu punaiseksi jos vastaanottaja saa pienemmän määrän kuin %1</translation>
+        <translation>Nhãn này chuyển sang đỏ, nếu bất kỳ bên nhận nào nhận một số tiền nhỏ hơn %1.</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(không có nhãn)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>Vaihda %1 (%2)</translation>
+        <translation>phần trả lại từ %1 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(vaihtoraha)</translation>
+        <translation>(phần trả lại)</translation>
     </message>
 </context>
 <context>
     <name>ObfuscateConfig</name>
     <message>
         <source>Configure Obfuscate</source>
-        <translation>Obfuscate Asetukset</translation>
+        <translation>Cấu hình Obfuscate</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>Perustason Yksityisyys</translation>
+        <translation>Mức Riêng tư Cơ bản</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>Korkean tason Yksityisyys</translation>
+        <translation>Mức Riêng tư Cao</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>Maksimaalinen Yksityisyys</translation>
+        <translation>Mức Riêng tư Tối đa</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>Valitse yksityisyyden taso.</translation>
+        <translation>Hãy chọn mức độ riêng tư.</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi varoja</translation>
+        <translation>Sử dụng 2 masternode khác nhau để trộn số tiền lên đến 1000 DNET</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi varoja</translation>
+        <translation>Sử dụng 8 masternode khác nhau để trộn số tiền lên đến 1000 DNET</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>Käytä 16 erillistä masternodea</translation>
+        <translation>Sử dụng 16 masternode khác nhau</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DNET to anonymize 1000 DNET</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 DNET kun anonymisoidaan 1000 DNET</translation>
+        <translation>Tuỳ chọn này là nhanh nhất và sẽ mất chi phí khoảng ~0.025 DNET để ẩn danh 1000 DNET</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DNET to anonymize 1000 DNET</source>
-        <translation>Tämä vaihtoehto on keskinopea ja maksaa noin ~0.05 DNET kun anonymisoidaan 1000 DNET</translation>
+        <translation>Tuỳ chọn này là tương đối nhanh và sẽ mất chi phí khoảng ~0.05 DNET để ẩn danh 1000 DNET</translation>
     </message>
     <message>
         <source>0.1 DNET per 1000 DNET you anonymize.</source>
-        <translation>0.1 DNET maksu per 1000 DNET jonka anonymisoit.</translation>
+        <translation>0.1 DNET cho mỗi 1000 DNET bạn muốn ẩn danh.</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>Tämä vaihtoehto on hitain ja kaikkein anonyymi. Suurimman yksityisyyden käyttö maksaa</translation>
+        <translation>Đây là tuỳ chọn chậm nhất và an toàn nhất. Sử dụng mức vô danh cao nhất sẽ tốn kém</translation>
     </message>
     <message>
         <source>Obfuscate Configuration</source>
-        <translation>Obfuscate Asetukset</translation>
+        <translation>Cấu hình Obfuscate</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening GALILEL's configuration screen.</source>
-        <translation>Obfuscate on asetettu perusasetuksiin (%1 and 2 kierrosta). Voit muuttaa asetuksia milloin vain GALILEL asetuksista.</translation>
+        <translation>Obfuscate được thiết lập thành công về mức cơ bản (%1 và 2 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình GALILEL.</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening GALILEL's configuration screen.</source>
-        <translation>Obfuscate on asetettu keskitason asetuksiin (%1 and 8 kierrosta). Voit muuttaa asetuksia milloin vain GALILEL asetuksista.</translation>
+        <translation>Obfuscate được thiết lập thành công về mức cao (%1 và 8 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình GALILEL.</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening GALILEL's configuration screen.</source>
-        <translation>Obfuscate on asetettu maksimitason asetuksiin (%1 and 16 kierrosta). Voit muuttaa asetuksia milloin vain GALILEL asetuksista.</translation>
+        <translation>Obfuscate được thiết lập thành công về mức tối đa (%1 và 16 vòng). Bạn có thể thay đổi nó bất cứ thời gian nào bằng cách mở màn hình cấu hình GALILEL.</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>Muokkaa osoitetta</translation>
+        <translation>Sửa địa chỉ</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>&amp;Nimi</translation>
+        <translation>&amp;Nhãn</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>Tähän osoitteeseen liitetty nimi</translation>
+        <translation>Nhãn tương ứng với địa chỉ này trong danh sách đầu vào</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>&amp;Osoite</translation>
+        <translation>Địa &amp;chỉ</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Osoite liitettynä tähän osoitekirjan alkioon. Tämä voidaan muokata vain lähetysosoitteissa.</translation>
+        <translation>Địa chỉ tương ứng với địa chỉ này trong danh sách đầu vào. Chỉ có thể thay đổi địa chỉ gửi đi.</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>Uusi vastaanottava osoite</translation>
+        <translation>Địa chỉ nhận mới</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>Uusi lähettävä osoite</translation>
+        <translation>Địa chỉ gửi mới</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>Muokkaa vastaanottavaa osoitetta</translation>
+        <translation>Sửa địa chỉ nhận</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>Muokkaa lähettävää osoitetta</translation>
+        <translation>Sửa địa chỉ gửi</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid GALILEL address.</source>
-        <translation>Annettu osoite "%1" ei ole pätevä GALILEL osoite.</translation>
+        <translation>Địa chỉ vừa nhập "%1" không phải địa chỉ GALILEL hợp lệ.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>Osoite "%1" on jo osoitekirjassa.</translation>
+        <translation>Địa chỉ vừa nhập "%1" đã có trong danh sách địa chỉ.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>Lompakkoa ei voitu avata.</translation>
+        <translation>Không thể mở khoá ví.</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>Uuden avaimen luonti epäonnistui.</translation>
+        <translation>Sinh khoá mới không thành công.</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>Luodaan uusi datahakemisto.</translation>
+        <translation>Một thư mục dữ liệu mớ đã được tạo.</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>Nimi</translation>
+        <translation>tên</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>Hakemisto on jo olemassa. Lisää %1 jos tarkoitus on luoda hakemisto tänne.</translation>
+        <translation>Thư mục đã tồn tại. Thêm %1 nếu bạn định tạo một thư mục mới tại đây.</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Polku on jo olemassa, eikä se ole hakemisto.</translation>
+        <translation>Đường dẫn đã tồn tại, và nó không phải là thư mục.</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>Ei voida luoda datahakemistoa tänne.</translation>
+        <translation>Không thể tạo thư mục dữ liệu ở đây.</translation>
     </message>
 </context>
 <context>
@@ -994,79 +994,78 @@ Osoite: %4
     </message>
     <message>
         <source>version</source>
-        <translation>versio</translation>
+        <translation>phiên bản</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1-bittinen)</translation>
+        <translation>(%1-bit)</translation>
     </message>
     <message>
         <source>About Exotic Core</source>
-        <translation>Tietoja Exotic Core:sta</translation>
+        <translation>Về Exotic Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>Komentorivin valinnat</translation>
+        <translation>Các tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>Käyttö:</translation>
+        <translation>Cách dùng:</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>komentorivi valintaparametrit</translation>
+        <translation>tuỳ chọn dòng lệnh</translation>
     </message>
     <message>
         <source>UI options</source>
-        <translation>Käyttöliittymän asetukset</translation>
+        <translation>Tuỳ chọn giao diện</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
-        <translation>Valitse datahakemisto käynnistyksessä (oletus: 0)</translation>
+        <translation>Chọn thư mục dữ liệu khi khởi động (ngầm định: 0)</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Aseta kieli, esim. "fi_FI" (oletus: sama kuin järjestelmän)</translation>
+        <translation>Chọn ngôn ngữ, ví dụ "vn_VN" (ngầm định: theo hệ thống)</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>Käynnistä pienennettynä</translation>
+        <translation>Bắt đầu thu nhỏ</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Aseta SSL root varmenne maksupyynnöille (oletus: -system-)</translation>
+        <translation>Đặt chứng thực gốc cho yêu cầu thanh toán (ngầm định: -hệ thống-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>Näytä aloitusruutu käynnistettäessä (oletus: 1)</translation>
+        <translation>Hiển thị màn hình giới thiệu khi khởi động (ngầm định: 1)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>Tervetuloa</translation>
+        <translation>Chào mừng</translation>
     </message>
     <message>
         <source>Welcome to Exotic Core.</source>
-        <translation>Exotic Core - Tervetuloa.</translation>
+        <translation>Chào mừng đến với Exotic Core.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Exotic Core will store its data.</source>
-        <translation>Koska tämä on ensimmäinen kerta kun ohjelma käynnistetään, voit valita minne Exotic Core tallettaa datansa.
-Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd levyltä, ohjaa talletettava data eri levyasemalle turvalliseen paikkaan.</translation>
+        <translation>Đây là lần đầu tiên chương trình được khởi động, bạn có thể chọn nơi mà Exotic Core sẽ lưu dữ liệu.</translation>
     </message>
     <message>
         <source>Exotic Core will download and store a copy of the GALILEL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Exotic Core lataa ja tallettaa kopion lohkoketjusta. Vähintään %1GB dataa talletetaan tähän hakemistoon, ja se myös kasvaa ajan myötä. Myös lompakko talletetaan tähän hakemistoon.</translation>
+        <translation>Exotic Core sẽ tải và lưu một bản của sổ cái GALILEL. Ít nhất %1GB dữ liệu sẽ được lưu trong thư mục này, và nó sẽ tăng lên theo thời gian. Ví của bạn cũng sẽ được lưu trong thư mục này.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Käytä oletushakemistoa</translation>
+        <translation>Sử dụng thư mục dữ liệu ngầm định</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Määritä oma hakemisto:</translation>
+        <translation>Sử dụng thư mục dữ liệu tuỳ chọn:</translation>
     </message>
     <message>
         <source>Exotic Core</source>
@@ -1074,30 +1073,30 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Virhe: Annettua datahakemistoa "%1" ei voida luoda.</translation>
+        <translation>Lỗi: Thư mục bạn cọn "%1" không thể tạo được.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Lỗi</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>%1 GB vapaata levytilaa</translation>
+        <translation>%1 GB còn trống </translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(tarvitaan %1GB)</translation>
+        <translation>(của %1 GB cần đến)</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>Avaa URI</translation>
+        <translation>Mở URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>Avaa maksupyyntö URI:sta tai tiedostosta</translation>
+        <translation>Mở yêu cầu thanh toán từ URI hoặc file</translation>
     </message>
     <message>
         <source>URI:</source>
@@ -1105,34 +1104,34 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>Valitse maksupyynnön tiedosto</translation>
+        <translation>Chọn file yêu cầ thanh toán</translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>Valitse avattava maksypyynnön tiedosto</translation>
+        <translation>Chọn tệp yêu cầu thanh toán để mở</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>Asetukset</translation>
+        <translation>Các tuỳ chọn</translation>
     </message>
     <message>
         <source>&amp;Main</source>
-        <translation>&amp;Yleiset</translation>
+        <translation>&amp;Chính</translation>
     </message>
     <message>
         <source>Automatically start GALILEL after logging in to the system.</source>
-        <translation>Käynnistä GALILEL automaattisesti kun järjestelmään kirjaudutaan.</translation>
+        <translation>Tự động khởi động GALILEL sau khi đăng nhập hệ thống.</translation>
     </message>
     <message>
         <source>&amp;Start GALILEL on system login</source>
-        <translation>&amp;Käynnistä GALILEL järjestelmään kirjauduttaessa</translation>
+        <translation>&amp;Khởi động GALILEL khi đăng nhập hệ thống</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>&amp;Tietokannan välimuistin koko</translation>
+        <translation>Kích thước của dữ liệu cache</translation>
     </message>
     <message>
         <source>MB</source>
@@ -1140,169 +1139,169 @@ Varoitus: Jos käytät käyttöjärjestelmää (Live os) suoraan usb, dvd tai cd
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>Script &amp;vahvistuksien säikeiden määrä</translation>
+        <translation>Số lượng các luồng kịch bản kiểm tra</translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 = auto, &lt;0 = jätä näin monta prosessorin ydintä vapaaksi)</translation>
+        <translation>(0 = tự động, &lt;0 = để đó rất nhiều lõi miễn phí)</translation>
     </message>
     <message>
         <source>Obfuscate rounds to use</source>
-        <translation>Kuinka montaa Obfuscate kierrosta käytetään</translation>
+        <translation>Số vòng Obfuscate sử dụng</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
-        <translation>Tämä määrä toimii rajana keskeytykselle kun Obfuscate anonymisointi sen saavuttaa.</translation>
+        <translation>Số lượng này hoạt động như là một ngưỡng để tắt Obfuscate một khi nó đạt đến.</translation>
     </message>
     <message>
         <source>Amount of GALILEL to keep anonymized</source>
-        <translation>GALILEL määrä joka pidetään anonymisoituna</translation>
+        <translation>Lượng GALILEL muốn giữ vô danh</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>&amp;Lompakko</translation>
+        <translation>&amp;Ví</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>Jos poistat vahvistamattomien vaihtorahojen käytön, siirtotapahtuman&lt;br/&gt;vaihtorahaa ei voida käyttää ennen vähintään yhtä vahvistusta.&lt;br/&gt;Tämä vaikuttaa myös kuinka saldosi lasketaan.</translation>
+        <translation>Nếu bạn vô hiệu hóa các chi tiêu của phần tiền lẻ chưa được xác nhận, phần tiền lẻ từ một giao dịch &lt;br/&gt;không thể được sử dụng đến khi giao dịch đó nhận được ít nhất một xác nhận. &lt;br/&gt;Điều này ảnh hưởng đến cách tính số dư của bạn.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>Hyväksy yhteydet ulkopuolelta</translation>
+        <translation>Chấp nhận kết nối từ bên ngoài</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>Salli sisään tulevat yhteydet</translation>
+        <translation>Cho phép các kết nối tới</translation>
     </message>
     <message>
         <source>Connect to the GALILEL network through a SOCKS5 proxy.</source>
-        <translation>Kytkeydy GALILEL verkkoon käyttäen SOCKS5 proxy:a.</translation>
+        <translation>Kết nối với mạng lưới GALILEL thông qua một SOCK5 proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Yhdistä SOCKS5 proxyn kautta (oletus: proxy):</translation>
+        <translation>&amp;Kết nối thông qua SOCK5 proxy (proxy ngầm định): </translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>Expertti</translation>
+        <translation>Chuyên gia</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>Tämä asetus määrittää kuinka monen erillisen masternoden kautta syötteen anonymisointi tehdään.&lt;br/&gt;Mitä enemmän anonymisoinnin kierroksia, sen parempi yksityisyys, mutta se myös maksaa enemmän siirtomaksuina.</translation>
+        <translation>Thiết lập này xác định số tiền cho mỗi master nodes mà đầu vào thông qua đó được ẩn danh.&lt;br/&gt;Càng có nhiều vòng ẩn danh thì sẽ cho mức độ riêng tư càng cao, nhưng nó cũng tốn nhiều phí hơn.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>Näytetäänkö kolikkokontrollin ominaisuuksia vai ei</translation>
+        <translation>Hiển thị hoặc không hiển thị tính năng coin control.</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ota käytöön &amp;kolikkokontrolli ominaisuudet</translation>
+        <translation>Bật tính năng Coin &amp;control</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Käytä vahvistamattomia vaihtorahoja</translation>
+        <translation>&amp;Tiêu phần trả lại chưa được xác nhận</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>&amp;Verkko</translation>
+        <translation>&amp;Mạng</translation>
     </message>
     <message>
         <source>Automatically open the GALILEL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa automaattisesti GALILEL asiakasohjelmalle portti reitittimeen. Tämä toimii vain jos reitittimesi tukee UPnP:tä ja se on käytössä.</translation>
+        <translation>Tự động mở cổng phần mềm GALILEL trên rounter. Nó chỉ làm việc khi router của bạn hỗ trợ UPnP và nó phải được bật.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>Kartoita portti käyttäen &amp;UPnP:tä</translation>
+        <translation>Ánh xạ cổng sử dụng &amp;UPnP</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP</translation>
+        <translation>Proxy &amp;IP:</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP osoite proxy:lle (esim. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+        <translation>Địa chỉ IP của proxy (ví dụ: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>&amp;Portti</translation>
+        <translation>&amp;Cổng:</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Proxyn portti (esim. 9050)</translation>
+        <translation>Cổng của proxy (ví dụ: 9050)</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>&amp;Ikkuna</translation>
+        <translation>&amp;Cửa sổ</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Näytä ainoastaan ikoni ilmaisinalueella ikkunan pienentämisen jälkeen.</translation>
+        <translation>Chỉ hiển thị biểu tượng ở khai sau khi thu nhỏ cửa sổ.</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Pienennä ilmaisinalueelle työkalurivin sijasta</translation>
+        <translation>Thu &amp;nhỏ về khay thay vì về thanh taskbar</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>Ikkunaa suljettaessa pienennä GALILEL asiakasohjelman ikkuna lopettamatta itse ohjelmaa. Kun tämä asetus on valittuna, ohjelman voi sulkea vain valitsemalla Lopeta ohjelman valikosta.</translation>
+        <translation>Thu nhỏ thay vì thoát ứng dụng khi cửa sổ được đóng lại. Khi tuỳ chọn này được bật thì chương trình sẽ chỉ đóng sau khi chọn chức năng Thoát trong menu.</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>P&amp;ienennä suljettaessa</translation>
+        <translation>Thu &amp;nhỏ khi đóng</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>&amp;Käyttöliittymä</translation>
+        <translation>&amp;Hiển thị</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>&amp;Käyttöliittymän kieli</translation>
+        <translation>&amp;Ngôn ngữ người dùng:</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting GALILEL.</source>
-        <translation>Käyttöliittymän kieli asetetaan tässä, Asetus tulee voimaan kun GALILEL asiakasohjelma käynnistetään uudelleen.</translation>
+        <translation>Ngôn ngữ người dùng có thể thiết lập ở đây. Thiết lập này sẽ có tác dụng sau khi khởi động lại GALILEL.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</source>
-        <translation>Puuttuuko sopiva kieli tai käännös on kesken? Auta käännöstyössä täällä:
+        <translation>Ngôn ngữ ị thiếu hoặc việc dịch chưa hoàn tất? Tham gia dịch giúp tại đây:
 https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>Käyttöliittymän Teema:</translation>
+        <translation>Kiểu giao diện người dùng</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>Yksikkö joina määrät näytetään</translation>
+        <translation>Đơn vị &amp;hiển thị số lượng:</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Valitse mitä yksikköä käytetään ensisijaisesti varojen määrien näyttämiseen.</translation>
+        <translation>Chọn đơn vị phân khu mặc định để hiển thị trong giao diện và khi gửi tiền.</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>Desimaalit</translation>
+        <translation>Số các chữ số thập phân</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Ulkopuoliset URL-osoitteet (esim. lohkoselain,) jotka esiintyvät tapahtumat-välilehdellä valikossa. %s URL-osoitteessa korvataan siirtotunnuksella. Useampi URL-osoite on eroteltu pystyviivalla |.</translation>
+        <translation>Địa chỉ web của bên thứ ba (VD: chức năng kiểm tra số cái) mà nó xuất hiện trong tab giao dịch giống như các mục trong menu ngữ cảnh. %s trong địa chỉ web được thay thế bởi mã băm giao dịch. Nhiều địa chỉ web được phân cách bởi dấu gạch đứng |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>Kolmannen osapuolen siirtotapahtuma URL:t</translation>
+        <translation>URLs của giao dịch bên thứ ba</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktiiviset komentorivivalinnat jotka ohittavat ylläolevat valinnat:</translation>
+        <translation>Kích hoạt các tuỳ chọn dòng lệnh sẽ thay thế cho các tuỳ chọn trên:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Palauta kaikki asetukset oletusarvoihin.</translation>
+        <translation>Tái lập lại tất cả các tuỳ chọn về ngầm định.</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>Palauta &amp;Asetukset</translation>
+        <translation>&amp;Tái lập Tuỳ chọn</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -1310,138 +1309,138 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>&amp;Cancel</source>
-        <translation>&amp;Peruuta</translation>
+        <translation>&amp;Huỷ</translation>
     </message>
     <message>
         <source>default</source>
-        <translation>oletus</translation>
+        <translation>ngầm định</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>ei mitään</translation>
+        <translation>không có</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>Vahvista asetusten palautus</translation>
+        <translation>Xác nhận tái lập tuỳ chọn</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>Ohjelman uudelleen käynnistys aktivoi muutokset käyttöön.</translation>
+        <translation>Cần phải khởi động phần mềm để kích hoạt các thay đổi.</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>Ohjelma suljetaan, haluatko jatkaa?</translation>
+        <translation>Phần mềm sẽ được tắt, bạn có muốn tiến hành?</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>Tämä muutos vaatii ohjelman uudelleen käynnistyksen.</translation>
+        <translation>Thay đổi này có thể cần phải khởi động lại phần mềm.</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>Antamasi proxyn osoite on virheellinen.</translation>
+        <translation>Địa chỉ proxy được cung cấp không hợp lệ.</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>Lomake</translation>
+        <translation>Biểu mẫu</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GALILEL network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytetyt tiedot eivät välttämättä ole ajan tasalla.&lt;br&gt;Lompakkosi synkronoituu automaattisesti GALILEL verkkoon kun&lt;br&gt;yhteys on muodostettu, mutta tämä prosessi ei vielä ole valmis.</translation>
+        <translation>Thông tin được hiển thị có thể đã lỗi thời. Ví của bạn sẽ tự động đồng bộ với mạng lưới GALILEL sau khi kết nối được thiết lập, tuy nhiên quá trình này chưa hoàn thành.</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>Käytettävissä:</translation>
+        <translation>Sẵn sàng:</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>Nykyinen käytettävissä oleva saldo</translation>
+        <translation>Số dư có thể chi tiêu của bạn</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>Vahvistamatta:</translation>
+        <translation>Đang chờ:</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>Vahvistamattomien siirtotapahtumien summa,&lt;br&gt;jota ei vielä lasketa käytettävissä olevaan saldoon</translation>
+        <translation>Tổng của những giao dịch chưa được xác nhận, và do đó chưa được tính vào số dư có thể tiêu được</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>Kypsymättä:</translation>
+        <translation>Chưa chín muồi:</translation>
     </message>
     <message>
         <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>Louhittu saldo, joka ei ole vielä kypsynyt</translation>
+        <translation>Số dư khai thác được chưa được xác nhận đủ</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>Saldot</translation>
+        <translation>Số dư</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Vahvistamattomat tapahtumat vain-luku osoitteisiin</translation>
+        <translation>Các giao dịch chưa được xác nhận cho các địa chỉ chỉ để theo dõi</translation>
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>Louhittu saldo vain-luku osoitteisiin, joka ei ole vielä kypsynyt</translation>
+        <translation>Số dư đào được trong các địa chỉ chỉ theo dõi nhưng chưa sẵn sàng để tiêu được</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>Saldo Yhteensä:</translation>
+        <translation>Tổng:</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>Saldo yhteensä tällä hetkellä</translation>
+        <translation>Tổng số dư hiện tại của bạn</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>Saldo yhteensä vain-luku osoitteissa</translation>
+        <translation>Tổng số dư hiện tại trong các địa chỉ chỉ theo dõi</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>Vain-luku:</translation>
+        <translation>Chỉ theo dõi:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>Nykyinen käytettävissä oleva saldo vain-luku osoitteissa</translation>
+        <translation>Số dư hiện tại của bạn trong địa chỉ chỉ theo dõi</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>Käytettävissä:</translation>
+        <translation>Có thể tiêu được:</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>Tila:</translation>
+        <translation>Tình trạng:</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>Käytössä/Ei käytössä</translation>
+        <translation>Bật/Tắt</translation>
     </message>
     <message>
         <source>Completion:</source>
-        <translation>Valmiina:</translation>
+        <translation>Hoàn thành:</translation>
     </message>
     <message>
         <source>Obfuscate Balance:</source>
-        <translation>Obfuscate Saldo:</translation>
+        <translation>Số dư cho Obfuscate:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>Määrä ja Kierrokset:</translation>
+        <translation>Số tiền và số vòng:</translation>
     </message>
     <message>
         <source>0 DNET / 0 Rounds</source>
-        <translation>0 DNET / 0 Kierrosta</translation>
+        <translation>0 DNET / 0 Vòng</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>Lähetetyt Denom:</translation>
+        <translation>Mệnh giá được gửi:</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>e/s</translation>
+        <translation>không áp dụng</translation>
     </message>
     <message>
         <source>Obfuscate</source>
@@ -1449,266 +1448,266 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>Viimeisimmät tapahtumat</translation>
+        <translation>Các giao dịch gần đây</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>Käynnistä/Lopeta Sekoitus</translation>
+        <translation>Bắt đầu/Tắt việc trộn</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>Masternodelle lähetetyt denominoinnit.&lt;br&gt;Jotta sekoitus onnistuisi, täytyy muiden käyttäjien käyttää saman arvoisia denominointeja.</translation>
+        <translation>Mệnh giá mà bạn gửi cho Masternode. &lt;br&gt;Để trộn, những người dùng khác cũng cần gửi chính xác dùng loại mệnh giá đó.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
-        <translation>(Viimeisin Viesti)</translation>
+        <translation>(Thông điệp cuối)</translation>
     </message>
     <message>
         <source>Try to manually submit a Obfuscate request.</source>
-        <translation>Yritä manuaalisesti esittää Obfuscate sekoituspyyntö.</translation>
+        <translation>Thử gửi yêu cầu Obfuscate bằng tay.</translation>
     </message>
     <message>
         <source>Try Mix</source>
-        <translation>Yritä Sekoittaa</translation>
+        <translation>Thử Trộn</translation>
     </message>
     <message>
         <source>Reset the current status of Obfuscate (can interrupt Obfuscate if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>Nollaa nykyinen Obfuscate tila (voi keskeyttää Obfuscate sekoituksen, joka voi maksaa ylimääräisiä kuluja)</translation>
+        <translation>Tái lập lại trạng thái hiện tại của Obfuscate (có thể gián đoạn Obfuscate nếu nó đang trong quá trình trộn, điều đó có thể làm bạn bị mất tiền!)</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation>Nollaus</translation>
+        <translation>Khởi động lại</translation>
     </message>
     <message>
         <source>out of sync</source>
-        <translation>Ei ajan tasalla</translation>
+        <translation>không đồng bộ</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>Ei käytössä</translation>
+        <translation>Đã tắt</translation>
     </message>
     <message>
         <source>Start Obfuscate Mixing</source>
-        <translation>Käynnistä Obfuscate Sekoitus</translation>
+        <translation>Bắt đầu trộn Obfuscate</translation>
     </message>
     <message>
         <source>Stop Obfuscate Mixing</source>
-        <translation>Lopeta Obfuscate Sekoitus</translation>
+        <translation>Tắt trộn Obfuscate</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>Syötteitä ei havaittu</translation>
+        <translation>Phát hiện không có đầu vào</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n Kierros</numerusform><numerusform>%n Kierrosta</numerusform></translation>
+        <translation><numerusform>%n Vòng</numerusform></translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>Ei tarpeeksi yhteensopivia syötteitä anonymisointiin &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;anonymisoidaan &lt;span style='color:red;'&gt;%2&lt;/span&gt; sen sijaan</translation>
+        <translation>Không đủ đầu vào tương ứng để ẩn danh &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;sẽ ẩn danh &lt;span style='color:red;'&gt;%2&lt;/span&gt; thay vào đó</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>Edistyminen</translation>
+        <translation>Tiến trình chung</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>Denominoitu</translation>
+        <translation>Đã chia mệnh giá</translation>
     </message>
     <message>
         <source>Anonymized</source>
-        <translation>Anonymisoitu</translation>
+        <translation>Đã được ẩn danh</translation>
     </message>
     <message numerus="yes">
         <source>Denominated inputs have %5 of %n rounds on average</source>
-        <translation><numerusform>Denominoiduilla syötteillä on keskimäärin %5 / %n kierrosta</numerusform><numerusform>Denominoiduilla syötteillä on keskimäärin %5 / %n kierrosta</numerusform></translation>
+        <translation><numerusform>Mệnh giá đầu vào có %5 của %n vòng trên trung bình</numerusform></translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>Löytyi tarpeeksi yhteensopivia syötteitä anonymisointiin %1</translation>
+        <translation>Đã tìm được đủ đầu vào tương thích để ẩn danh hoá %1</translation>
     </message>
     <message>
         <source>Mixed</source>
-        <translation>Sekoitettu</translation>
+        <translation>Đã trộn</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>Käytössä</translation>
+        <translation>Đã bật</translation>
     </message>
     <message>
         <source>Last Obfuscate message:
 </source>
-        <translation>Viimeisin Obfuscate viesti:
+        <translation>Thông điệp Obfuscate cuối cùng:
 </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>e/s</translation>
+        <translation>Không áp dụng</translation>
     </message>
     <message>
         <source>Obfuscate was successfully reset.</source>
-        <translation>Obfuscate nollattu onnistuneesti.</translation>
+        <translation>Obfuscate vừa được tái lập thành công.</translation>
     </message>
     <message>
         <source>If you don't want to see internal Obfuscate fees/transactions select "Most Common" as Type on the "Transactions" tab.</source>
-        <translation>Jos et halua nähdä sisäisiä Obfuscate sekoituksen kuluja/tapahtumia, valitse "Yleiset" tyypiksi siirtotapahtumissa.</translation>
+        <translation>Nếu bạn không muốn thấy các thông tin bên trong về Obfuscate phí/giao dịch thì hãy chọn "Thông dụng nhất" làm Kiểu trong trang "Giao dịch".</translation>
     </message>
     <message>
         <source>Obfuscate requires at least %1 to use.</source>
-        <translation>Obfuscatein käyttö vaatii vähintään %1.</translation>
+        <translation>Obfuscate cần ít nhất %1 để sử dụng.</translation>
     </message>
     <message>
         <source>Wallet is locked and user declined to unlock. Disabling Obfuscate.</source>
-        <translation>Lompakko on lukittu ja käyttäjä ei avannut sitä. Obfuscate asetetaan pois käytöstä.</translation>
+        <translation>Ví đã được khoá và người dùng từ chối mở khoá. Đang tắt Obfuscate.</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>Maksupyyntövirhe</translation>
+        <translation>Yêu cầu thanh toán bị lỗi</translation>
     </message>
     <message>
         <source>Cannot start exotic: click-to-pay handler</source>
-        <translation>Ei voi käynnistää GALILELia: click-to-pay handler</translation>
+        <translation>Không thể khởi động exotic: trình xử lý click-to-pay</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI käsittely</translation>
+        <translation>xử lý URI</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>Maksupyynnön haku URL on virheellinen: %1</translation>
+        <translation>Yêu cầu thanh toán lấy URL là không hợp lệ: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>Maksupyynnön tiedoston käsittely</translation>
+        <translation>Thanh toán cần file xử lý</translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>Virheellinen maksuosoite %1</translation>
+        <translation>Địa chỉ thanh toán không hợp lệ %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid GALILEL address or malformed URI parameters.</source>
-        <translation>URI:a ei voida jäsentää! Tämä voi johtua virheellisestä GALILEL osoitteesta tai virheellisestä URI:n muuttujasta. </translation>
+        <translation>URI không thể phân tích. Nó có thể bởi địa chỉ GALILEL không hợp lệ hoặc thông số URI dị hình.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Maksupyynnön tiedostoa ei voida lukea! Tämä voi johtua virheellisestä maksupyyntötiedostosta.</translation>
+        <translation>Tệp yêu cầu thanh toán không thể đọc được. Nó có thể là nguyên nhân bởi tệp thanh toán không hợp lệ.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>Maksupyyntö hylätty</translation>
+        <translation>Yêu cầu giao dịch bị từ chối</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>Maksupyynnon verkko ei täsmää asiakasverkkon kanssa.</translation>
+        <translation>Mạng yêu cầu thanh toán không tương xứng với mạng của phần mềm.</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>Maksupyyntö on vanhentunut.</translation>
+        <translation>Yêu cầu thanh toán đã hết hạn.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>Maksupyyntö ei ole alustettu.</translation>
+        <translation>Yêu cầu thanh toán không được khởi tạo.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Vahvistamattomia maksupyyntöjä kustomoituun maksupalvelun scripteihin ei tueta.</translation>
+        <translation>Yêu cầu thanh toán chưa được xác minh để tùy chỉnh các kịch bản thanh toán không được hỗ trợ.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>Maksupyyntö %1 on liian pieni (lasketaan tomuksi).</translation>
+        <translation>Yêu cầu thanh toán khoản tiền của  %1 là quá nhỏ (được xem là bụi).</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>Maksupalautus %1:sta</translation>
+        <translation>Trả lại từ %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Maksupyyntö %1 on liian iso (%2 tavua, sallitusta %3 tavusta).</translation>
+        <translation>Yêu cầu thanh toán %1 quá lớn (%2 bytes, cho phép %3 bytes)</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>Maksupyyntö DoS suojaus</translation>
+        <translation>Giao dịch yêu cầu bảo vệ tấn công từ chối dịch vụ</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>Virhe kommunikoidessa %1: %2</translation>
+        <translation>Lỗi kết nối với %1: %2</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>Maksupyyntöä ei voida jäsentää!</translation>
+        <translation>Yêu cầu thanh toán không thể xử lý!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>Epäkelpo vastaus palvelimelta %1</translation>
+        <translation>Phản hồi xấu từ máy chủ %1</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>Tietoverkon pyyntövirhe</translation>
+        <translation>Yêu cầu mạng bị lỗi</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>Rahansiirto tunnistettu</translation>
+        <translation>Thanh toán được ghi nhận</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>Osoite/Isäntänimi</translation>
+        <translation>Địa chỉ/Máy trạm</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Käyttäjäohjelma</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping aika</translation>
+        <translation>Thời gian phản hồi</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Số lượng</translation>
     </message>
     <message>
         <source>Enter a GALILEL address (e.g. %1)</source>
-        <translation>Syötä GALILEL osoite (esim. %1)</translation>
+        <translation>Hãy nhập một địa chỉ GALILEL (VD: %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
-        <translation>%1 d</translation>
+        <translation>%1 giờ</translation>
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 h</translation>
+        <translation>%1 giờ</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 m</translation>
+        <translation>%1 phút</translation>
     </message>
     <message>
         <source>%1 s</source>
-        <translation>%1 s</translation>
+        <translation>%1 giây</translation>
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>VERKKO</translation>
+        <translation>MẠNG</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>TUNTEMATON</translation>
+        <translation>KHÔNG XÁC ĐỊNH</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Ei mitään</translation>
+        <translation>Không</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>e/s</translation>
+        <translation>N/A</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1719,274 +1718,270 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Tallenna Kuva...</translation>
+        <translation>&amp;Lưu ảnh...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>&amp;Kopioi kuva</translation>
+        <translation>&amp;Sao chép ảnh</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>Tallenna QR-koodi</translation>
+        <translation>&amp;Lưu mã QR</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG kuva (*.png)</translation>
+        <translation>Ảnh dạng PNG (*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
         <source>Tools window</source>
-        <translation>Työkaluikkuna</translation>
+        <translation>Cửa sổ công cụ</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>T&amp;ietoa</translation>
+        <translation>&amp;Thông tin</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>Yleinen</translation>
+        <translation>Chung chung</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>Nimi</translation>
+        <translation>Tên</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>Asiakasohjelman nimi</translation>
+        <translation>Phiên bản</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>e/s</translation>
+        <translation>Không áp dụng</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>Yhteyksien määrä</translation>
+        <translation>Số kết nối</translation>
     </message>
     <message>
         <source>Open the GALILEL debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa GALILEL debug lokitiedosto nykyisestä datahakemistosta. Tämä saattaa kestää muutaman sekunnin isoilla tiedostoilla.</translation>
+        <translation>Mở file nhật kỹ lỗi GALILEL từ thư mục hiện tại. Nó có thể mất vài giây trong trường hợp file log lớn.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>&amp;Avaa</translation>
+        <translation>&amp;Mở</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>Käynnistysaika</translation>
+        <translation>Thời gian khởi động</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>Verkko</translation>
+        <translation>Mạng</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>Viimeisimmän lohkon aika</translation>
+        <translation>Thời gian block cuối cùng</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>Debug lokitiedosto</translation>
+        <translation>Debug log file</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>Käytössä oleva OpenSSL versio</translation>
+        <translation>Sử dụng phiên bản OpenSSL</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>Ohjelman päiväys</translation>
+        <translation>Ngày xây dựng</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>Nykyinen lohkojen määrä</translation>
+        <translation>Số khối hiện tại</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>Asiakasohjelman versio</translation>
+        <translation>Phiên bản</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
-        <translation>Käytössä oleva BerkeleyDB versio</translation>
+        <translation>Sử dụng BerkeleyDB version</translation>
     </message>
     <message>
         <source>Block chain</source>
-        <translation>Lohkoketju</translation>
+        <translation>Block chain</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>Masternodet määrä</translation>
+        <translation>Số lượng Masternodes</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>&amp;Konsoli</translation>
+        <translation>&amp;Console</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>Tyhjennä konsoli</translation>
+        <translation>Xoá console</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>&amp;Verkkoliikenne</translation>
+        <translation>&amp;Lưu lượng mạng</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation>&amp;Tyhjennä</translation>
+        <translation>&amp;Xoá</translation>
     </message>
     <message>
         <source>Totals</source>
-        <translation>Yhteensä</translation>
+        <translation>Tổng</translation>
     </message>
     <message>
         <source>Received</source>
-        <translation>Vastaanotettu</translation>
+        <translation>Đã nhận</translation>
     </message>
     <message>
         <source>Sent</source>
-        <translation>Lähetetty</translation>
+        <translation>Đã gửi</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
+        <translation>&amp;Máy ngang cấp</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>Valitse peer nähdäksesi tarkempia tietoja.</translation>
+        <translation>Hãy chọn một máy đồng cấp để xem thông tin chi tiết.</translation>
     </message>
     <message>
         <source>Direction</source>
-        <translation>Suunta</translation>
+        <translation>Hướng</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Versio</translation>
+        <translation>Phiên bản</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>Käyttäjäohjelma</translation>
+        <translation>Version</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>Palvelut</translation>
+        <translation>Dịch vụ</translation>
     </message>
     <message>
         <source>Starting Height</source>
-        <translation>Aloituskorkeus</translation>
+        <translation>Độ cao khởi đầu</translation>
     </message>
     <message>
         <source>Sync Height</source>
-        <translation>Synkronointikorkeus</translation>
+        <translation>Sync Height</translation>
     </message>
     <message>
         <source>Ban Score</source>
-        <translation>Kieltopisteet</translation>
+        <translation>Điểm cấm</translation>
     </message>
     <message>
         <source>Connection Time</source>
-        <translation>Yhteysaika</translation>
+        <translation>Thời gian kết nối</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>Viimeinen lähetys</translation>
+        <translation>Lần gửi cuối</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>Viimeinen vastaanotto</translation>
+        <translation>Lần nhận cuối</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>Tavuja lähetetty</translation>
+        <translation>Bytes Gửi</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>Tavuja vastaanotettu</translation>
+        <translation>Bytes Nhận</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping aika</translation>
+        <translation>Thời gian phản hồi</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>&amp;Lompakon Korjaus</translation>
+        <translation>Sửa &amp;Ví</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>Pelasta lompakko</translation>
+        <translation>Cứu ví</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>Skannaa lohkoketju uudelleen</translation>
+        <translation>Quét lại file blockchain</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>Palauta tapahtumat 1</translation>
+        <translation>Phục hồi các giao dịch 1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>Palauta tapahtumat 2</translation>
+        <translation>Phục hồi các giao dịch 2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>Päivitä lompakon formaatti</translation>
+        <translation>Nâng cấp định dạng ví</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Painikkeet käynnistävät lompakon korjauksen komentorivin valintoja käyttäen.
-Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/vanhentuneet tapahtumat.</translation>
+        <translation>Nút dưới đây sẽ khởi động lại ví với tuỳ chọn dòng lệnh để sửa lại ví, sửa lại những vấn đề với các tệp blockchain bị lỗi hoặc các giao dịch bị thiếu/cũ.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: Yrittää pelastaa yksityiset avaimet viallisesta lompakkotiedostosta.</translation>
+        <translation>-salvagewallet: Thử phục hồi khoá riêng từ tệp wallet.dat bị lỗi.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: Skannaa uudelleen puuttuvat tapahtumat lohkoketjusta.</translation>
+        <translation>-rescan: Quét lại blockchain để tìm những giao dịch bị thiếu.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: Palauta tapahtumat lohkoketjusta
- (pidä meta-data, esim. tilin omistaja).</translation>
+        <translation>-zapwallettxes=1: Phục hồi các giao dịch từ blockchain (giữ các meta-data, ví dụ: chủ tải khoản).</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: Palauta tapahtumat lohkoketjusta
- (poista meta-data).</translation>
+        <translation>-zapwallettxes=2: Phục hồi tất cả các giao dịch từ blockchain (bỏ đi các meta-data).</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-upgradewallet: Päivitä lompakko viimeisimpään formaattiin
- (Huom: tämä EI päivitä varsinaista lompakko-ohjelmistoa!).</translation>
+        <translation>-upgradewallet: Nâng cấp ví lên định dạng mới nhất khi khởi động. (Chú ý: điều này KHÔNG có nghĩa là nâng cấp bản thân phần mềm ví)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>Lompakon korjausvalinnat</translation>
+        <translation>Các tuỳ chọn sửa ví.</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>Rakenna indeksi uudelleen</translation>
+        <translation>Lập lại chỉ mục</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>-reindex: Rakenna uudelleen lohkoketjun indeksi nykyisistä blk000??.dat tiedostoista.</translation>
+        <translation>-reindex: Tái lập lại chỉ mục cho chuỗi khối từ tệp hiện tại blk000??.dat</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>Sisään:</translation>
+        <translation>Vào:</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>Ulos:</translation>
+        <translation>Ra:</translation>
     </message>
     <message>
         <source>Welcome to the GALILEL RPC console.</source>
-        <translation>Tervetuloa GALILEL RPC konsoliin.</translation>
+        <translation>Chào mừng đến với giao tiếp GALILEL RPC</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>Ylös- ja alas-nuolet selaavat historiaa ja &lt;b&gt;Ctrl-L&lt;/b&gt; tyhjentää ruudun.</translation>
+        <translation>Sử dụng các phím mũi tên lên và xuống để xem lịch sử, và &lt;b&gt;Ctrl-L&lt;/b&gt; để xoá màn hình.</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Kirjoita &lt;b&gt;help&lt;/b&gt; nähdäksesi käytettävissä olevat komennot.</translation>
+        <translation>Gõ &lt;b&gt;help&lt;/b&gt; để xem tổng thể các lệnh có thể dùng.</translation>
     </message>
     <message>
         <source>%1 B</source>
@@ -2006,141 +2001,141 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>via %1</source>
-        <translation>kautta %1</translation>
+        <translation>theo %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>ei koskaan</translation>
+        <translation>không bao giờ</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>Saapuva</translation>
+        <translation>Kết nối về</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Lähtevä</translation>
+        <translation>Kết nối đi</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Tuntematon</translation>
+        <translation>Không xác định</translation>
     </message>
     <message>
         <source>Fetching...</source>
-        <translation>Haetaan...</translation>
+        <translation>Đang tìm...</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>Uudelleenkäytä yksi vanhoista vastaanottavista osoitteista.&lt;br&gt;Uudelleenkäyttössä on turvallisuus- ja yksityisyysongelmia.&lt;br&gt;Älä käytä tätä ellet ole uudelleenluomassa aikaisempaa maksupyyntöä.</translation>
+        <translation>Sử dụng lại địa chỉ đã được sử dụng để nhận trước đây.&lt;br&gt;Sử dụng lại địa chỉ nảy sinh vấn đề an ninh và riêng tư.&lt;br&gt;Đừng sử dụng nó trừ khi bạn tạo lại yêu cầu thanh toán mà bạn đã làm trước đây.</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>&amp;Uudelleenkäytä vastaanottavaa osoitetta (ei suositella)</translation>
+        <translation>Tái &amp;sử dụng lại địa chỉ nhận đã có (không khuyến khích)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the GALILEL network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana GALILEL verkkoon.</translation>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở. Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới GALILEL.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>Vi&amp;esti:</translation>
+        <translation>&amp;Thông điệp:</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Valinnainen nimi liitetään uuteen vastaanottavaan osoitteeseen.</translation>
+        <translation>Một nhãn tuỳ chọn để liên kết với địa chỉ nhận mới.</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the GALILEL network.</source>
-        <translation>Valinnainen viesti liitettäväksi maksupyyntöön, joka näytetään kun pyyntö on avattu.&lt;br&gt;Huomio: Viestiä ei lähetetä maksun mukana GALILEL verkkoon.</translation>
+        <translation>Một thông điệp tuỳ chọn để đính vào yêu cầu thanh toán, nó sẽ hiển thị khi yêu cầu được mở.&lt;br&gt;Chú ý: Thông điệp sẽ không được gửi thông qua mạng lưới GALILEL.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>Käytä tätä lomaketta maksupyyntöihin. Kaikki kentät ovat &lt;b&gt;valinnaisia&lt;/b&gt;.</translation>
+        <translation>Sử dụng biểu mẫu này để yêu cầu thanh toán. Tất cả các trường đều là &lt;b&gt;không bắt buộc&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Nimi:</translation>
+        <translation>&amp;Nhãn:</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>Valinnainen pyyntömäärä. Jätä tyhjäksi tai nollaksi jos et pyydä tiettyä määrää.</translation>
+        <translation>Một tuỳ chọn về số tiền yêu cầu. Để nó trống hoặc bằng không để không yêu cầu một số tiền cụ thể.</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>&amp;Määrä</translation>
+        <translation>&amp;Số tiền:</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>&amp;Vastaanota maksu</translation>
+        <translation>&amp;Yêu cầu thanh toán</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Tyhjennä lomakkeen kaikki kentät.</translation>
+        <translation>Xoá tất cả các ô.</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>Tyhjennä</translation>
+        <translation>Xoá</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>Pyydettyjen maksujen historia</translation>
+        <translation>Xem lịch sử thanh toán</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>Näytä valittu pyyntö (sama toiminta kuin alkion tuplaklikkaus)</translation>
+        <translation>Hiển thị những yêu cầu được chọn (giống như click đúp vào mỗi thành phần)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>Näytä</translation>
+        <translation>Xem</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>Poista valitut merkinnät listasta</translation>
+        <translation>Xoá thành phần được chọn khỏi danh sách</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>Poista</translation>
+        <translation>Xoá</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopioi nimi</translation>
+        <translation>Sao chép nhãn</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>Kopioi viesti</translation>
+        <translation>Sao chép thông điệp</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Sao chép số tiền</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR-koodi</translation>
+        <translation>Mã QR</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>Kopioi &amp;URI</translation>
+        <translation>Copy &amp;URI</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>Kopioi &amp;Osoite</translation>
+        <translation>Copy địa chỉ</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Tallenna Kuva</translation>
+        <translation>&amp;Lưu ảnh...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>Vastaanota maksu %1</translation>
+        <translation>Yêu cầu thanh toán tới %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>Maksutiedot</translation>
+        <translation>Thông tin thanh toán</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2148,225 +2143,225 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Số tiền</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Nhãn</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Viesti</translation>
+        <translation>Thông điệp</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>Tuloksen URI liian pitkä, yritä lyhentää otsikon tekstiä / viestiä.</translation>
+        <translation>Kết quả là URI quá dài, hãy thử rút gọn chữ trong nhãn / thông điệp.</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>Virhe käännettäessä URI:a QR-koodiksi.</translation>
+        <translation>Lỗi mã hoá URI thành mã QR.</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Ngày</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Nhãn</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Viesti</translation>
+        <translation>Thông điệp</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Số tiền</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(không có nhãn)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(ei viestiä)</translation>
+        <translation>(không thông điệp)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(ei määrää)</translation>
+        <translation>(không số tiền)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä</translation>
+        <translation>Gửi tiền</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>Kolikkokontrolli ominaisuudet</translation>
+        <translation>Tính năng Coin Control</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>Sisääntulot...</translation>
+        <translation>Đầu vào...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>automaattisesti valitut</translation>
+        <translation>tự động chọn</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Lompakon saldo ei riitä!</translation>
+        <translation>Không đủ tiền!</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>Määrä:</translation>
+        <translation>Số lượng:</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>Tavuja:</translation>
+        <translation>Bytes:</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>Määrä:</translation>
+        <translation>Số tiền:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>Prioriteetti:</translation>
+        <translation>Ưu tiên:</translation>
     </message>
     <message>
         <source>medium</source>
-        <translation>keskisuuri</translation>
+        <translation>vừa</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>Siirtomaksu:</translation>
+        <translation>Phí:</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>Tomu:</translation>
+        <translation>Bụi</translation>
     </message>
     <message>
         <source>no</source>
-        <translation>ei</translation>
+        <translation>không</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>Siirtomaksun jälkeen:</translation>
+        <translation>Phí sau:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>Vaihtoraha:</translation>
+        <translation>Trả lại:</translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Jos tämä aktivoidaan mutta vaihtorahan osoite on tyhjä tai virheellinen, vaihtoraha tullaan lähettämään uuteen luotuun osoitteeseen.</translation>
+        <translation>Nếu nó được kích hoạt, nhưng địa chỉ tiền nhận lại là trống hoặc không hợp lệ, thì tiền lẻ trả lại sẽ được gửi đến một địa chỉ được sinh mới.</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>Kustomoitu vaihtorahan osoite</translation>
+        <translation>Thay đổi địa chỉ tiền trả lại</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>Siirtomaksu:</translation>
+        <translation>Phí giao dịch</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Valitse...</translation>
+        <translation>Chọn...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>pienennä siirtomaksu asetukset</translation>
+        <translation>Thu gọn các thiết lập về phí</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>Pienennä</translation>
+        <translation>Tối thiểu hoá</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
+        <translation>Nếu mức phí tuỳ chỉnh được đặt là 1000 duff và giao dịch chỉ có 250 byte, thì "theo kilobyte" chỉ trả 250 duff cho phí,&lt;br /&gt;trong khi "ít nhất" phải trả 1000 duff. Cho các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Jos mukautettu siirtomaksu on asetettu 1000 duff ja siirtotapahtuma on vain 250 tavua,&lt;br /&gt;tällöin "per kilotavu" maksaa vain 250 duffs siirtomaksun, kun taas "yhteensä vähintään" maksaa 1000 duffs.&lt;br /&gt;Siirtotapahtumat jotka ovat isompia kuin kilotavu, molemmat maksaa "per kilotavu".</translation>
+        <translation>Nếu phí giao dịch tuỳ chỉnh được đặt là 1000 duff và giao dịch chỉ có 250 bytes, thì "theo kilobyte" chỉ trả 250 duff phí,&lt;br /&gt;trong khi "tổng ít nhất" trả 1000 duff. Với các giao dịch lớn hơn 1 kilobyte thì cả hai đều trả theo kilobyte.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for exotic transactions than the network can process.</source>
-        <translation>Minimi siirtomaksun maksaminen on ok niin kauan kun siirtotapahtumien määrä on pienempi kuin tila lohkoissa.&lt;br /&gt;Mutta ota huomioon että tämä voi johtaa siirtotapahtumaan jota ei vahvisteta koskaan, jos siirtotapahtumia on enemmän kuin verkko voi käsitellä.</translation>
+        <translation>Chỉ trả phí tối thiểu cũng được chỉ khi mà có lượng giao dịch ít hơn không gian trong khối.&lt;br /&gt;Nhưng cần lưu ý là nó có thể xảy ra hiện tượng giao dịch không bao giờ được xác nhận một khi có nhiều nhu cầu giao exotic hơn khả năng mà mạng lưới có thể xử lý được.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>per kilotavu</translation>
+        <translation>mỗi kilobyte</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>yhteensä vähintään</translation>
+        <translation>tổng ít nhất</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(lue vinkki)</translation>
+        <translation>(xem gợi ý)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>Suositeltava:</translation>
+        <translation>Gợi ý:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>Mukautettu:</translation>
+        <translation>Tuỳ chỉnh:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Älykästä siirtomaksua ei ole alustettu vielä. Tämä kestää yleensä muutaman lohkon...)</translation>
+        <translation>(Phí khởi tạo thông minh chưa được khởi tạo. Thường thì sẽ mất vài block...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>Vahvistusaika:</translation>
+        <translation>Thời gian xác thực:</translation>
     </message>
     <message>
         <source>normal</source>
-        <translation>normaali</translation>
+        <translation>bình thường</translation>
     </message>
     <message>
         <source>fast</source>
-        <translation>nopea</translation>
+        <translation>nhanh</translation>
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>Lähetä nolla siirtomaksulla jos mahdollista</translation>
+        <translation>Gửi như là giao dịch không phí nếu có thể</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(vahvistus voi kestää pidempään)</translation>
+        <translation>(xác thưc có thể mất lâu hơn)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>Lähetä klikkaamalla</translation>
+        <translation>Xác nhận việc gửi</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>&amp;Lähetä</translation>
+        <translation>&amp;Gửi</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>Tyhjennä lomakkeen kaikki kentät.</translation>
+        <translation>Xoá tất cả các ô.</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>T&amp;yhjennä Kaikki</translation>
+        <translation>Xoá &amp;Tất cả</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>Lähetä usealle vastaanottajalle samanaikaisesti</translation>
+        <translation>Gửi đến nhiều địa chỉ một lúc</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>Lisää &amp;Vastaanottaja</translation>
+        <translation>Thêm &amp;Người nhận</translation>
     </message>
     <message>
         <source>Obfuscate</source>
@@ -2378,158 +2373,158 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Balance:</source>
-        <translation>Saldo:</translation>
+        <translation>Số dư:</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Sao chép số lượng</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Sao chép số tiền</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>Kopioi siirtomaksu</translation>
+        <translation>Sao chép phí</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Kopioi siirtomaksun jälkeen</translation>
+        <translation>Sao chép giá trị sau tính phí</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>Kopioi tavut</translation>
+        <translation>Sao chép bytes</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>Kopioi prioriteetti</translation>
+        <translation>Sao chép ưu tiên</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>Kopioi tomu</translation>
+        <translation>Sao chép bụi</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>Kopioi vaihtoraha</translation>
+        <translation>Sao chép tiền trả lại</translation>
     </message>
     <message>
         <source>using</source>
-        <translation>käyttäen</translation>
+        <translation>sử dụng</translation>
     </message>
     <message>
         <source>anonymous funds</source>
-        <translation>anonymisoituja varoja</translation>
+        <translation>các khoản tiền ẩn danh</translation>
     </message>
     <message>
         <source>(obfuscate requires this amount to be rounded up to the nearest %1).</source>
-        <translation>(obfuscate pyöristää tämän lähimpään %1).</translation>
+        <translation>(obfuscate yêu cầu số tiền này sẽ được làm tròn đến gần %1)</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
-        <translation>kaikkia käytössä olevia varoja (ei suositeltu)</translation>
+        <translation>bất kỳ khoản tiền sẵn nào (gợi ý không nên)</translation>
     </message>
     <message>
         <source>and InstantX</source>
-        <translation>ja InstantX</translation>
+        <translation>và InstantX</translation>
     </message>
     <message>
         <source>%1 to %2</source>
-        <translation>%1 -&gt; %2</translation>
+        <translation>%1 đến %2</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>Haluatko varmasti lähettää?</translation>
+        <translation>Bạn có chắc mình muốn gửi?</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>lisätty siirtomaksuna</translation>
+        <translation>được thêm vào như là phí giao dịch</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>Määrä yhteensä = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>Tổng số tiền = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Hyväksy lähettäminen</translation>
+        <translation>Xác nhận việc gửi tiền</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>Siirtomaksu %1 kertaa korkeampi kuin %2 per kB on erittäin korkea siirtomaksu.</translation>
+        <translation>Mức phí cao hơn %1 lần so với %2 cho mỗi kB được xem là mức phí rất cao.</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Arvioitu vahvistuksen aloitus %n lohkon kuluessa.</numerusform><numerusform>Arvioitu vahvistuksen aloitus %n lohkon kuluessa.</numerusform></translation>
+        <translation><numerusform>Ước lượng để bắt đầu xác thực trong vòng %n khối.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>Vastaanottajan osoite on virheellinen, tarkista osoite.</translation>
+        <translation>Địa chỉ nhận không hợp lệ, hãy kiểm tra lại.</translation>
     </message>
     <message>
         <source>&lt;b&gt;(%1 of %2 entries displayed)&lt;/b&gt;</source>
-        <translation>&lt;b&gt;(Näytetään %1 / %2 merkintää)&lt;/b&gt;</translation>
+        <translation>&lt;b&gt;(%1 của %2 các thành phần được hiển thị)&lt;/b&gt;</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>Maksettavan summan tulee olla suurempi kuin 0.</translation>
+        <translation>Số tiền thanh toán phải lớn hơn 0.</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>Määrä ylittää käytettävissä olevan saldon.</translation>
+        <translation>Số tiền này lớn hơn số dư của bạn.</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Summa yhteensä ylittää saldosi kun siihen lisätään siirtomaksu %1.</translation>
+        <translation>Tổng số lớn hơn số dư của bạn khi tính cả %1 phí giao dịch.</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>Sama osoite toistuu useamman kerran, samaan osoitteeseen voi lähettää vain kerran per maksutapahtuma.</translation>
+        <translation>Thấy trùng địa chỉ, chỉ có thể gửi cho mỗi địa chỉ một lần trong một giao dịch gửi.</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>Siirtotapahtuman luonti epäonnistui!</translation>
+        <translation>Tạo giao dịch không thành công!</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>Siirtotapahtuma hylättiin! Tämä saattaa tapahtua jos lompakossa olevat varat on jo kulutettu, kuten jos käytät kopiota wallet.dat tiedostosta ja varat oli jo käytetty mutta ei merkattu täällä.</translation>
+        <translation>Giao dịch đã bị từ chối! Điều này có thể xảy ra khi một số tiền trong ví của bạn đã được tiêu, ví dụ như là nếu bạn sử dụng một bản sao của wallet.dat và tiền đã được tiêu nhưng bản khác của ví nhưng lại chưa được đánh dấu đã tiêu trong bản này.</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>Virhe: Lompakko on avattu vain anonymisointia varten.</translation>
+        <translation>Lỗi: Ví vừa được mở chỉ cho việc ẩn danh tiền.</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>Maksa vain minimi siirtomaksu %1</translation>
+        <translation>Thanh toán chỉ mức phí tối thiểu của %1</translation>
     </message>
     <message>
         <source>Warning: Invalid GALILEL address</source>
-        <translation>Varoitus: Virheellinen GALILEL osoite</translation>
+        <translation>Cảnh báo: Địa chỉ GALILEL không hợp lệ</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Varoitus: Tuntematon vaihtorahan osoite</translation>
+        <translation>Cảnh báo: Không biết địa chỉ trả lại</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(ei nimeä)</translation>
+        <translation>(không có nhãn)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>Tämä on normaali maksu.</translation>
+        <translation>Đây là giao dịch thông thường.</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>Maksun &amp;saaja:</translation>
+        <translation>Trả &amp;Cho</translation>
     </message>
     <message>
         <source>The GALILEL address to send the payment to</source>
-        <translation>GALILEL osoite johon maksu lähetetään</translation>
+        <translation>Địa chỉ GALILEL để gửi thanh toán</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Valitse aikaisemmin käytetty osoite</translation>
+        <translation>Chọn địa chỉ đã sử dụng trước</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2537,7 +2532,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Liitä osoite leikepöydältä</translation>
+        <translation>Dán địa chỉ từ clipboard</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2545,81 +2540,81 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>Poista tämä alkio</translation>
+        <translation>Xoá thành phần này</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>&amp;Nimi:</translation>
+        <translation>&amp;Nhãn:</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
+        <translation>Nhập nhãn cho địa chỉ này để đưa vào danh sách địa chỉ đã dùng</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>&amp;Määrä:</translation>
+        <translation>&amp;Số tiền:</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>Viesti:</translation>
+        <translation>Thông điệp:</translation>
     </message>
     <message>
         <source>A message that was attached to the exotic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
-        <translation>Viesti joka liitettiin GALILEL: URI joka talletetaan siirtotapahtuman kanssa viitteeksi sinulle. Huomio: Tätä viestiä ei lähetetä GALILEL verkkoon.</translation>
+        <translation>Một thông điệp được đính với exotic: URI đó sẽ được lưu trữ với các giao dịch cho các bạn tham khảo. Lưu ý: Thông điệp này sẽ không được gửi qua mạng GALILEL. </translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>Tämä on vahvistamaton maksupyyntö</translation>
+        <translation>Đây là yêu cầu thanh toán chưa được xác thực.</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>Saaja:</translation>
+        <translation>Trả cho:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>Muistio:</translation>
+        <translation>Ghi nhớ:</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>Tämä on vahvistettu maksupyyntö.</translation>
+        <translation>Đây là một yêu cầu thanh toán được xác thực.</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>Anna nimi tälle osoitteelle, jos haluat lisätä sen osoitekirjaan</translation>
+        <translation>Nhập nhãn cho địa chỉ để thêm nó vào sổ địa chỉ của bạn.</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>Exotic Core is shutting down...</source>
-        <translation>Exotic Core sulkeutuu...</translation>
+        <translation>Exotic Core đang được tắt...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Älä sammuta tietokonetta ennen kuin tämä ikkuna katoaa.</translation>
+        <translation>Đừng tắt máy tính cho đến khi cửa sổ này biến mất.</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Allekirjoitukset - Allekirjoita / Tarkista viesti</translation>
+        <translation>Chữ ký - Ký / Kiểm tra Thông điệp</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Allekirjoita viesti</translation>
+        <translation>&amp;Ký thông điệp</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Voit allekirjoittaa viestit omilla osoitteillasi todistaaksesi että omistat ne. Ole huolellinen että et allekirjoita mitään epämääräistä, phishing-hyökkäjä voi huijata sinua allekirjoittamaan henkilöllisyytesi omasta puolestaan. Allekirjoita vain yksityiskohtaisesti täytetty selvitys johon sitoudut.</translation>
+        <translation>Bạn có thể ký vào thông điệp với địa chỉ của bạn để chứng minh bạn là chủ của nó. Hãy cẩn thận không ký vào những gì mơ hồ, như là thứ lừa đảo để lừa bạn ký xác nhận của bạn vào đó cho họ. Chỉ ký vào những gì mà bạn hoàn thoàn đồng ý.</translation>
     </message>
     <message>
         <source>The GALILEL address to sign the message with</source>
-        <translation>GALILEL osoite jolla viesti allekirjoitetaan</translation>
+        <translation>Địa chỉ GALILEL để ký cho thông điệp</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>Valitse aikaisemmin käytetty osoite</translation>
+        <translation>Chọn địa chỉ đã dùng</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2627,7 +2622,7 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>Liitä osoite leikepöydältä</translation>
+        <translation>Dán địa chỉ từ clipboard</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2635,107 +2630,107 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>Kirjoita tähän viesti jonka haluat allekirjoittaa</translation>
+        <translation>Nhập vào thông điệp mà bạn muốn ký tại đây</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>Allekirjoitus</translation>
+        <translation>Chữ ký</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>Kopioi tämän hetkinen allekirjoitus leikepöydälle</translation>
+        <translation>Copy chữ ký hiện tại vào bộ đệm của hệ thống</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this GALILEL address</source>
-        <translation>Allekirjoita viesti todistaaksesi että omistat tämän GALILEL osoitteen</translation>
+        <translation>Ký vào thông điệp để chứng tỏ bạn sở hữu địa chỉ GALILEL</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>Allekirjoita &amp;Viesti</translation>
+        <translation>&amp;Ký thông điệp</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>Tyhjennä kaikki kentät</translation>
+        <translation>Tái lập lại tất cả các trường cần ký</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>T&amp;yhjennä Kaikki</translation>
+        <translation>Xoá &amp;tất cả</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>&amp;Tarkista viesti</translation>
+        <translation>&amp;Xác thực Thông điệp</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Syötä allekirjoittava osoite, viesti ja allekirjoitus alla oleviin kenttiin varmistaaksesi allekirjoituksen aitouden. Varmista että kopioit kaikki kentät täsmälleen oikein, myös rivinvaihdot, välilyönnit, tabulaattorit, jne.</translation>
+        <translation>Hãy nhập địa chỉ ký, thông điệp (hãy chắc chắn rằng bạn copy cả các dấu xuống dòng, dấu cách, tab,... một cách chính xác) và chữ ký dưới đây để xác thực cho thông điệp. Hãy cẩn thận không thêm vào chữ ký hơn so với bản thân nó trong thông điệp đã ký, để tránh bị đánh lừa bởi kiểu tấn công người trung gian.</translation>
     </message>
     <message>
         <source>The GALILEL address the message was signed with</source>
-        <translation>GALILEL osoite jolla viesti on allekirjoitettu</translation>
+        <translation>Địa chỉ GALILEL mà thông điệp được ký bởi</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified GALILEL address</source>
-        <translation>Tarkista että viesti on allekirjoitettu määritetyllä GALILEL osoitteella</translation>
+        <translation>Kiểm tra lại thông điệp để đảm bảo rằng nó được ký với địa chỉ GALILEL cụ thể</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>Tarkista &amp;Viesti...</translation>
+        <translation>Xác thực &amp;Thông điệp</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>Tyhjennä kaikki kentät</translation>
+        <translation>Tái lập lại tất cả các trường kiểm tra</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>Klikkaa "Allekirjoita Viesti" luodaksesi allekirjoituksen</translation>
+        <translation>Bấm "Ký Thông điệp" để sinh chữ ký</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>Syötetty osoite on virheellinen.</translation>
+        <translation>Địa chỉ vừa nhập không hợp lệ.</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>Tarkista osoite ja yritä uudelleen.</translation>
+        <translation>Hãy kiểm tra địa chỉ và thử lại.</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>Syötetyn osoitteen avainta ei löydy.</translation>
+        <translation>Địa chỉ bạn nhập không đề cập đến một khoá.</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Lompakon avaaminen peruttiin.</translation>
+        <translation>Mở khoá ví bị huỷ bỏ.</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>Yksityistä avainta syötetylle osoitteelle ei ole saatavilla.</translation>
+        <translation>Khoá riêng cho địa chỉ vừa nhập không có.</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>Viestin allekirjoitus epäonnistui.</translation>
+        <translation>Ký vào thông điệp thất bại.</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>Viesti allekirjoitettu.</translation>
+        <translation>Thông điệp đã được ký.</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>Allekirjoitusta ei pystytty tulkitsemaan.</translation>
+        <translation>Chữ ký không thể giải mã được.</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>Tarkista allekirjoitus ja yritä uudelleen.</translation>
+        <translation>Hãy kiểm tra chữ ký và thử lại.</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>Allekirjoitus ei täsmää viestin tiivisteeseen.</translation>
+        <translation>Chữ ký không tương xứng với nội dung thông điệp.</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>Viestin tarkistus epäonnistui.</translation>
+        <translation>Không thể xác thực thông điệp.</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>Viesti tarkistettu.</translation>
+        <translation>Thông điệp đã được xác thực.</translation>
     </message>
 </context>
 <context>
@@ -2746,19 +2741,19 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     </message>
     <message>
         <source>Version %1</source>
-        <translation>Versio %1</translation>
+        <translation>Phiên bản %1</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>Bitcoin Core kehittäjät</translation>
+        <translation>Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
         <source>The Exotic Core developers</source>
-        <translation>Exotic Core kehittäjät</translation>
+        <translation>Nhóm phát triển Exotic Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
-        <translation>[testiverkko]</translation>
+        <translation>[mạng thử]</translation>
     </message>
 </context>
 <context>
@@ -2772,955 +2767,953 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Avoinna %n lisälohkolle</numerusform><numerusform>Avoinna %n lisälohkolle</numerusform></translation>
+        <translation><numerusform>Mở cho %n khối nữa</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Avoinna %1 asti</translation>
+        <translation>Mở đến khi %1</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>ristiriitainen</translation>
+        <translation>xung đột</translation>
     </message>
     <message>
         <source>%1/offline (verified via Instantx)</source>
-        <translation>%1/ei yhteyttä (vahvistettu Instantx:lla)</translation>
+        <translation>%1/ngắt kết nối (đã được kiểm tra qua Instantx)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via Instantx)</source>
-        <translation>%1/vahvistettu (vahvistettu Instantx:lla)</translation>
+        <translation>%1/đã được xác nhận (đã được kiểm tra qua Instantx)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via Instantx)</source>
-        <translation>%1 vahvistusta (vahvistettu Instantx:lla)</translation>
+        <translation>%1 xác nhận (đã được kiểm tra qua Instantx)</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1/ei yhteyttä</translation>
+        <translation>%1/ngắt kết nối</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1/vahvistamaton</translation>
+        <translation>%1/chưa xác nhận</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>%1 vahvistusta</translation>
+        <translation>%1 xác nhận</translation>
     </message>
     <message>
         <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1/ei yhteyttä (vahvistus Instantx:lla käynnissä - %2 / %3 allekirjoitusta)</translation>
+        <translation>%1/mất kết nối (Đang trong tiến trình kiểm tra InstantX - %2 trên %3 các chữ ký)</translation>
     </message>
     <message>
         <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1/vahvistettu (vahvistus Instantx:lla käynnissä - %2 / %3 allekirjoitusta)</translation>
+        <translation>%1/được xác nhận (Đang trong tiến trình kiểm tra InstantX - %2 trên %3 các chữ ký)</translation>
     </message>
     <message>
         <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 vahvistusta (vahvistus Instantx:lla käynnissä - %2 / %3 allekirjoitusta)</translation>
+        <translation>%1 xác nhận (Đang trong tiến trình kiểm tra InstantX - %2 trên %3 các chữ ký)</translation>
     </message>
     <message>
         <source>%1/offline (InstantX verification failed)</source>
-        <translation>%1/ei yhteyttä (Instantx vahvistus epäonnistui)</translation>
+        <translation>%1/mất kết nối (Thất bại trong việc kiểm tra InstantX)</translation>
     </message>
     <message>
         <source>%1/confirmed (InstantX verification failed)</source>
-        <translation>%1/vahvistettu (Instantx vahvistus epäonnistui)</translation>
+        <translation>%1/đã được xác nhận (Thất bại trong việc kiểm tra InstantX)</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>Tila</translation>
+        <translation>Trạng thái</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>, lähetys ei ole vielä onnistunut</translation>
+        <translation>, đã không được phát sóng thành công</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, lähetys %n solmun läpi</numerusform><numerusform>, lähetys %n solmun läpi</numerusform></translation>
+        <translation><numerusform>, quảng bá thông qua %n điểm nút</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Ngày</translation>
     </message>
     <message>
         <source>Source</source>
-        <translation>Lähde</translation>
+        <translation>Nguồn</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>Luotu</translation>
+        <translation>Đã được sinh</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>Lähettäjä</translation>
+        <translation>Từ</translation>
     </message>
     <message>
         <source>unknown</source>
-        <translation>tuntematon</translation>
+        <translation>không biết</translation>
     </message>
     <message>
         <source>To</source>
-        <translation>Saaja</translation>
+        <translation>Đến</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>oma osoite</translation>
+        <translation>địa chỉ của mình</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>vain-luku</translation>
+        <translation>chỉ theo dõi</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>nimi</translation>
+        <translation>nhãn</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>Suoritus</translation>
+        <translation>Có</translation>
     </message>
     <message numerus="yes">
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>kypsyy %n lohkon kuluttua</numerusform><numerusform>kypsyy %n lohkon kuluttua</numerusform></translation>
+        <translation><numerusform>mãn hạn trong %n khối nữa</numerusform></translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>ei hyväksytty</translation>
+        <translation>không chấp nhận</translation>
     </message>
     <message>
         <source>Debit</source>
-        <translation>Veloitus</translation>
+        <translation>Nợ</translation>
     </message>
     <message>
         <source>Total debit</source>
-        <translation>Veloitus yhteensä</translation>
+        <translation>Tổng nợ</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>Suoritus yhteensä</translation>
+        <translation>Tổng có</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>Siirtomaksu</translation>
+        <translation>Phí giao dịch</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>Nettosumma</translation>
+        <translation>Số tiền chưa gồm phí</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>Viesti</translation>
+        <translation>Thông điệp</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>Kommentti</translation>
+        <translation>Bình luận</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>Siirtotunnus</translation>
+        <translation>Mã giao dịch</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>Kauppias</translation>
+        <translation>Người bán</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Luodut (louhitut) varat täytyy kypsyä %1 lohkon ajan kunnes ne voidaan käyttää. Kun generoit tämän lohkon, se lähetettiin verkkoon lohkoketjuun. Jos se epäonnistuu pääsemään lohkoketjuun sen tila tulee muuttumaan "ei hyväksytty" ja sitä ei voida käyttää. Näin voi ajoittain tapahtua kun toisen solmun lohko luodaan samanaikaisesti omasi kanssa.</translation>
+        <translation>Coin được tạo phải được trưởng thành %1 khối trước khi chúng có thể được tiêu. Khi bạn sinh khối này, nó được quảng bá trong mạng để thêm vào chuỗi khối. Nếu nó không được đưa vào chuỗi, trạng thái của nó được chuyển thành "không được chấp nhận" và sẽ không thể tiêu được. Điều này thỉnh thoảng có xảy ra nếu những nút khác cũng sinh trong vòng vài giây với khối của bạn.</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>Debug tiedot</translation>
+        <translation>Thông tin gỡ rối</translation>
     </message>
     <message>
         <source>Transaction</source>
-        <translation>Siirtotapahtuma</translation>
+        <translation>Giao dịch</translation>
     </message>
     <message>
         <source>Inputs</source>
-        <translation>Sisääntulot</translation>
+        <translation>Đầu vào</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>Määrä</translation>
+        <translation>Số tiền</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>tosi</translation>
+        <translation>đúng</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>epätosi</translation>
+        <translation>sai</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>Siirtotapahtuman yksityiskohdat</translation>
+        <translation>Chi tiết giao dịch</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>Tämä ruutu näyttää yksityiskohtaisen tiedon siirtotapahtumasta</translation>
+        <translation>Bảng này hiển thị mô tả chi tiết về giao dịch</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Ngày</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation>Kiểu</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Địa chỉ</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Avoinna %n lisälohkolle</numerusform><numerusform>Avoinna %n lisälohkolle</numerusform></translation>
+        <translation><numerusform>Mở cho %n khối nữa</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>Avoinna %1 asti</translation>
+        <translation>Mở đến khi %1</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>Ei yhteyttä</translation>
+        <translation>Ngắt kết nối</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>Vahvistamaton</translation>
+        <translation>Chưa xác thực</translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>Vahvistetaan (%1 / %2 vahvistusta)</translation>
+        <translation>Đang xác nhận (%1 của %2 xác nhận được đề nghị)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>Vahvistettu (%1 vahvistusta)</translation>
+        <translation>Được xác nhận (%1 xác nhận)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>Ristiriitainen</translation>
+        <translation>Xung đột</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Epäkypsä (%1 vahvistusta, saatavilla %2 jälkeen)</translation>
+        <translation>Chưa hoàn thành (%1 xác nhận, sẽ sẵn sàng sau %2)</translation>
     </message>
     <message>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
-        <translation>Tätä lohkoa ei vastaanotettu mistään muusta solmusta ja sitä ei mahdollisesti hyväksytä!</translation>
+        <translation>Khối này đã không nhận được bởi bất kỳ các nút nào khác và có thể sẽ không được chấp nhận!</translation>
     </message>
     <message>
         <source>Generated but not accepted</source>
-        <translation>Luotu mutta ei hyväksytty</translation>
+        <translation>Đã sinh nhưng không được chấp nhận</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Vastaanotettu osoitteeseen</translation>
+        <translation>Nhận với</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>Vastaanotettu osoitteesta</translation>
+        <translation>Nhận từ</translation>
     </message>
     <message>
         <source>Received via Obfuscate</source>
-        <translation>Obfuscate vastaanotettu</translation>
+        <translation>Nhận qua Obfuscate</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Lähetetty osoitteeseen</translation>
+        <translation>Gửi đến</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>Maksu itsellesi</translation>
+        <translation>Trả cho bản thân bạn</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Louhittu</translation>
+        <translation>Được đào</translation>
     </message>
     <message>
         <source>Obfuscate Denominate</source>
-        <translation>Obfuscate denominointi</translation>
+        <translation>Obfuscate Denominate</translation>
     </message>
     <message>
         <source>Obfuscate Collateral Payment</source>
-        <translation>Obfuscate vakuus maksu</translation>
+        <translation>Thanh toán Obfuscate Collateral</translation>
     </message>
     <message>
         <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate luo vakuus syötteet</translation>
+        <translation>Obfuscate tạo đầu vào Collateral</translation>
     </message>
     <message>
         <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate denominointien luonti</translation>
+        <translation>Obfuscate tạo các mệnh giá</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Obfuscate lähetetty</translation>
+        <translation>Obfuscated</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>vain-luku</translation>
+        <translation>chỉ theo dõi</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(e/s)</translation>
+        <translation>(không áp dụng)</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Siirtotapahtuman tila. Siirrä osoitin kentän päälle nähdäksesi vahvistusten lukumäärä.</translation>
+        <translation>Trạng thái giao dịch: Di chuột qua ô này để hiển thị số lần xác nhận.</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>Siirtotapahtuman päivämäärä ja aika.</translation>
+        <translation>Thời gian giao dịch đã được nhận.</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>Siirtotapahtuman tyyppi.</translation>
+        <translation>Kiểu giao dịch.</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Käytetäänkö vai ei lue-vain osoitetta tässä tapahtumassa.</translation>
+        <translation>Cho dù có hay không thì một địa chỉ chỉ theo dõi cũng liên quan đến giao dịch này.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>Siirtotapahtuman GALILEL kohdeosoite</translation>
+        <translation>Địa chỉ đích của giao dịch.</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>Vähennetty tai lisätty määrä saldoon.</translation>
+        <translation>Lượng tiền được gỡ bỏ hoặc thêm vào số dư.</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
         <source>All</source>
-        <translation>Kaikki</translation>
+        <translation>Tất cả</translation>
     </message>
     <message>
         <source>Today</source>
-        <translation>Tänään</translation>
+        <translation>Hôm nay</translation>
     </message>
     <message>
         <source>This week</source>
-        <translation>Tällä viikolla</translation>
+        <translation>Tuần này</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>Tässä kuussa</translation>
+        <translation>Tháng này</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>Viime kuussa</translation>
+        <translation>Tháng gần nhất</translation>
     </message>
     <message>
         <source>This year</source>
-        <translation>Tänä vuonna</translation>
+        <translation>Năm nay</translation>
     </message>
     <message>
         <source>Range...</source>
-        <translation>Alue...</translation>
+        <translation>Khoảng...</translation>
     </message>
     <message>
         <source>Most Common</source>
-        <translation>Yleiset</translation>
+        <translation>Phổ biến nhất</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>Vastaanotettu</translation>
+        <translation>Nhận với</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>Lähetetty</translation>
+        <translation>Gửi đến</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>Obfuscate lähetetty</translation>
+        <translation>Obfuscated</translation>
     </message>
     <message>
         <source>Obfuscate Make Collateral Inputs</source>
-        <translation>Obfuscate luo vakuus syötteet</translation>
+        <translation>Obfuscate tạo đầu vào Collateral</translation>
     </message>
     <message>
         <source>Obfuscate Create Denominations</source>
-        <translation>Obfuscate denominointien luonti</translation>
+        <translation>Obfuscate tạo các mệnh giá</translation>
     </message>
     <message>
         <source>Obfuscate Denominate</source>
-        <translation>Obfuscate denominointi</translation>
+        <translation>Obfuscate Denominate</translation>
     </message>
     <message>
         <source>Obfuscate Collateral Payment</source>
-        <translation>Obfuscate vakuus maksu</translation>
+        <translation>Thanh toán Obfuscate Collateral</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>Itsellesi</translation>
+        <translation>Đến bản thân bạn</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>Louhittu</translation>
+        <translation>Được đào</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>Muu</translation>
+        <translation>Khác</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>Anna etsittävä osoite tai tunniste</translation>
+        <translation>Nhập địa chỉ hoặc nhãn để tìm</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>Minimimäärä</translation>
+        <translation>Số tiền tối thiểu</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>Kopioi osoite</translation>
+        <translation>Sao chép địa chỉ</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>Kopioi nimi</translation>
+        <translation>Sao chép nhãn</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>Kopioi määrä</translation>
+        <translation>Sao chép số tiền</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>Kopioi siirtotunnus</translation>
+        <translation>Sao chép mã giao dịch</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>Muokkaa nimeä</translation>
+        <translation>Sửa nhãn</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>Näytä siirtotapahtuman yksityiskohdat</translation>
+        <translation>Xem chi tiết giao dịch</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>Vie siirtotapahtumien historia</translation>
+        <translation>Kết xuất Lịch sử Giao dịch</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Pilkuilla eritelty tiedosto (*.csv)</translation>
+        <translation>File định dạng phân cách bởi dấu phẩy (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>Vahvistettu</translation>
+        <translation>Đã được xác nhận</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>Vain-luku</translation>
+        <translation>Chỉ theo dõi</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation>Päivämäärä</translation>
+        <translation>Ngày</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation>Tyyppi</translation>
+        <translation>Kiểu</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>Nimi</translation>
+        <translation>Nhãn</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>Osoite</translation>
+        <translation>Địa chỉ</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation>ID</translation>
+        <translation>Mã</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>Vienti epäonnistui</translation>
+        <translation>Kết xuất không thành công</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Siirtotapahtumien historian tallentamisessa tapahtui virhe paikkaan %1.</translation>
+        <translation>Có một lỗi xảy ra khi lưu lịch sử giao dịch vào %1.</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>Vienti onnistui</translation>
+        <translation>Kết xuất thành công</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>Siirtotapahtumien historia tallennettiin onnistuneesti paikkaan %1.</translation>
+        <translation>Lịch sử giao dịch đã được lưu thành công vào %1.</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>Alue:</translation>
+        <translation>Khoảng:</translation>
     </message>
     <message>
         <source>to</source>
-        <translation>-&gt;</translation>
+        <translation>đến</translation>
     </message>
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
     <message>
         <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Yksikkö jona summat näytetään. Klikkaa valitaksesi yksikön.</translation>
+        <translation>Đơn vị mà hiển thị số lượng trong đó. Hãy click để chọn một đơn vị khác.</translation>
     </message>
 </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>Lomakkoa ei ole ladattu.</translation>
+        <translation>Không có ví nào được nạp.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>Lähetä GALILELeja</translation>
+        <translation>Gửi tiền</translation>
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DNET.</source>
-        <translation>InstantX ei tue näin korkeaa lähetysmäärää vielä. Siirtotapahtumat on tällä hetkellä rajoitettu %1 DNET.</translation>
+        <translation>InstantX không hỗ trợ để gửi giá trị lớn đến như vậy. Giới hạn giao dịch hiện tại đến %1 DNET.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>&amp;Vie...</translation>
+        <translation>&amp;Kết xuất</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>Vie tällä hetkellä valitun välilehden tiedot tiedostoon</translation>
+        <translation>Kết xuất dữ liệu trong tab này sang một file</translation>
     </message>
     <message>
         <source>Selected amount:</source>
-        <translation>Valittu määrä:</translation>
+        <translation>Chọn số lượng:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>Varmuuskopioi lompakko</translation>
+        <translation>Sao lưu Ví</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>Lompakkodata (*.dat)</translation>
+        <translation>Dữ liệu Ví (*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>Varmuuskopiointi epäonnistui</translation>
+        <translation>Sao lưu không thành công</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Lompakon tallennuksessa tapahtui virhe %1.</translation>
+        <translation>Có lỗi xảy ra khi lưu dữ liệu ví xuống %1.</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>Varmuuskopiointi onnistui</translation>
+        <translation>Sao lưu thành công</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>Lompakko tallennettiin onnistuneesti tiedostoon %1.</translation>
+        <translation>Dữ liệu ví đã được lưu thành công vào %1.</translation>
     </message>
 </context>
 <context>
     <name>exotic-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Kytkeydy annettuun osoitteeseen ja pidä linja aina auki. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
+        <translation>Liên kết với địa chỉ nhất định và luôn luôn lắng nghe trên đó. Sử dụng ký hiệu [host]:port cho IPv6</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. Exotic Core is probably already running.</source>
-        <translation>Ei voida lukita data hakemistoa %s. Exotic Core on luultavasti jo käynnissä.</translation>
+        <translation>Không nhận được một khoá trong thư mục %s. Exotic Core có thể đã đang chạy.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
-        <translation>Obfuscate käyttää tarkalleen denominoituja syötteitä lähettäessään varoja, saatat tarvita anonymisoida lisää varoja.</translation>
+        <translation>Obfuscate sử dụng số lượng mệnh giá nhất định để gửi tiền, bạn có thể chỉ cần đơn giản ẩn danh vài coin nữa.</translation>
     </message>
     <message>
         <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
-        <translation>Aloita regressio testimoodi joka käyttää erikoisketjua jossa lohkoja voidaan ratkaista välittömästi.</translation>
+        <translation>Hãy nhập chế độ kiểm tra hồi quy, mà sử dụng một chuỗi đặc biệt mà trong những khối được giải tức thời.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Virhe: Sisääntulevien yhteyksien kuuntelu epäonnistui (kuuntelu palautti virheen %s)</translation>
+        <translation>Lỗi: Lắng nghe để nhận kết nối bị lỗi (lỗi trả về %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Aja komento kun olennainen hälytys vastaanotetaan tai nähdään todella pitkä haara (%s cmd korvataan viestillä)</translation>
+        <translation>Thực hiện lệnh khi một cảnh báo liên quan được nhận hoặc chúng ta thấy sự phân nhánh thực sự dài (%s trong cmd được thay bởi message)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Suorita käsky kun lompakon siirtotapahtuma muuttuu (%s cmd on vaihdettu TxID kanssa)</translation>
+        <translation>Thực hiện lệnh khi một giao dịch ví thay đổi (%s trong cmd được thay thế bởi TxID)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Suorita käsky kun paras lohko muuttuu (%s cmd on korvattu lohko tarkisteella)</translation>
+        <translation>Thực hiện lệnh khi khối tốt nhất thay đổi (%s trong cmd được thay thế bởi giá trị băm của khối)</translation>
     </message>
     <message>
         <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>Tässä moodissa -genproclimit ohjaa kuinka monta lohkoa luodaan välittömästi.</translation>
+        <translation>Chế độ này -genproclimit kiểm soát bao nhiêu khối được sinh tức thời.</translation>
     </message>
     <message>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>InstantX vaatii syötteille vähintään 6 vahvistusta, odota muutama minuutti ja yritä uudelleen.</translation>
+        <translation>InstantX cần đầu vào với ít nhất 6 xác nhận, bạn có thể cần phải đợi vài phút và thử lại.</translation>
     </message>
     <message>
         <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
-        <translation>Rakenne url nimi KeePass merkinnälle joka talentaa lompakon salasanan</translation>
+        <translation>Đặt tên để tạo dựng url cho các thành phần KeePass mà nó sẽ lưu giữ mật khẩu của ví</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
-        <translation>Tiedustele vertaisverkon osoitteita DNS hakua käyttäen jos osoitteita ei ole riittävästi (oletus: 1 paitsi jos -connect)</translation>
+        <translation>Truy vấn địa chỉ đối tác ngang hàng thông qua tìm kiếm DNS, nếu có ít địa chỉ (ngầm định: 1 trừ trường hợp -connect)</translation>
     </message>
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Aseta maksimikoko korkea prioriteetti/pienen siirtomaksun siirtotapahtumiin tavuissa (oletus: %d)</translation>
+        <translation>Đặt kích thước tối đa cho giao dịch với ưu tiên cao/phí thấp theo bytes (ngầm định: %d)</translation>
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Aseta script vahvistuksen säikeiden määrä (%u - %d, 0= auto, &lt;0 = jätä näin monta prosessorin ydintä vapaaksi, oletus: %d)</translation>
+        <translation>Thiết lập số luồng của kịch bản kiểm tra (%u to %d, 0 = tự động, &lt;0 = để nhiều lõi miễn phí, ngầm định: %d)</translation>
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Tämä on esi-julkaistu testiversio - Käytä omalla vastuulla - Älä käytä louhimiseen tai kauppasovelluksiin.</translation>
+        <translation>Đây là phiên bản chưa chính thức - hãy dùng và tự chấp nhận mạo hiểm - đừng dùng để đào coin hoặc các ứng dụng thương mại.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Exotic Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. Exotic Core on luultavasti jo käynnissä.</translation>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này. Exotic Core có thể đã chạy.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
-        <translation>Ei tarpeeksi Obfuscate anonymisoituja varoja tälle siirtotapahtumalle.</translation>
+        <translation>Không tìm đủ ngân sách Obfuscate denominated cho giao dịch này.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Ei tarpeeksi Obfuscate ei-anonymisoituja varoja tälle siirtotapahtumalle, joka ei ole 1000 DNET.</translation>
+        <translation>Không tìm đủ ngân sách Obfuscate denominated cho giao dịch mà nó không bằng 1000 DNET</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Varoitus: Siirtomaksu on asetettu erittäin korkeaksi! Tämä on siirtomaksu jonka tulet maksamaan kun lähetät siirron.</translation>
+        <translation>Cảnh báo: -paytxfee được đặt rất cao! Đây là mức phí giao dịch mà bạn sẽ trả nếu bạn gửi một giao dịch.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Varoitus: GALILEL verkossa on ristiriitoja! Louhijat näyttävät kokevan virhetilanteita.</translation>
+        <translation>Cảnh báo: Mạng lưới có vẻ chưa hoàn toàn đồng ý! Một vài máy đào có vẻ như đã kinh nghiệm với những vấn đề này.</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Varoitus: Olemme vertaisverkon kanssa ristiriidassa! Sinun ja/tai solmujen tulee päivitää uusimpaan versioon.</translation>
+        <translation>Cảnh báo: Chúng ta có vẻ không được sự đồng ý một cách đầy đủ từ các đối tác ngang hàng! Bạn cần nâng cấp hoặc các nút khác cần nâng cấp.</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Varoitus: Virhe luettaessa wallet.dat lompakkotiedostoa. Kaikki avaimet luettiin onnistuneesti, mutta siirtohistorian tai osoitekirjan merkinnät saattavat olla kadonneet tai virheellisiä.</translation>
+        <translation>Cảnh báo: lỗi đọc tệp wallet.dat! Tất cả các khoá được đọc đúng, như dữ liệu giao dich hoặc các thành phần địa chỉ khối có thể bị mất hoặc không chính xác.</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Varoitus: Wallet.dat lompakkotiedosto on vioittunut, tiedot pelastettu. Alkuperäinen wallet.dat lompakkotiedosto on tallennettu wallet.{timestamp}.bak kansioon %s, jos saldosi tai siirtohistoria on virheellinen, sinun tulisi palauttaa lompakkotiedosto varmuuskopiosta.</translation>
+        <translation>Cảnh báo: wallet.dat đã bị hỏng, dữ liệu đã được cứu! Tệp gốc wallet.dat đã được lưu thành wallet.{timestamp}.bak trong %s; nếu số dư hoặc các giao dịch của bạn không chính xác, bạn có thể khôi phục từ bản sao lưu.</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Sinun täytyy määritellä masternodeprivkey asetustiedostoon. Katso lisätietoja dokumentaatiosta.</translation>
+        <translation>Bạn cần chỉ rõ masternodeprivkey trong tệp cấu hình. Hãy xem tài liệu để có hướng dẫn.</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(oletus: 1)</translation>
+        <translation>(ngầm định: 1)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>Hyväksy merkkipohjaiset ja JSON-RPC käskyt</translation>
+        <translation>Chấp nhận dòng lệnh và các lệnh JSON-RPC</translation>
     </message>
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
-        <translation>Hyväksy yhteyksiä ulkopuolelta (oletus: 1 jos -proxy tai -connect ei ole määritelty)</translation>
+        <translation>Chấp nhật kết nối từ ngoài (ngầm định: 1 nếu không có -proxy hoặc -connect)</translation>
     </message>
     <message>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Lisää solmu mihin liittyä pitääksesi yhteyden auki</translation>
+        <translation>Thêm nút để kết nối tới và giữ mở kết nối</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Salli DNS kyselyt -addnode, -seednode ja -connect yhteydessä</translation>
+        <translation>Cho phép DNS tìm kiếm -addnode, -seednode và -connect</translation>
     </message>
     <message>
         <source>Already have that input.</source>
-        <translation>Syöte on jo olemassa.</translation>
+        <translation>Đã có đầu vào đó.</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>Yritetään palauttaa yksityisiä avaimia vioittuneesta wallet.dat lompakkotiedostosta</translation>
+        <translation>Thử khôi phục khoá riêng từ tệp wallet.dat bị lỗi</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>Lohkon luonnin asetukset:</translation>
+        <translation>Tuỳ chọn tạo khối:</translation>
     </message>
     <message>
         <source>Can't denominate: no compatible inputs left.</source>
-        <translation>Ei voida denominoida: yhteensopivia syötteitä ei ole jäljellä.</translation>
+        <translation>Không thể định giá: không còn đầu vào tương tích.</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>Et voi päivittää lompakkoasi vanhempaan versioon</translation>
+        <translation>Không thể hạ cấp ví</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>-bind osoitteen '%s' selvittäminen epäonnistui</translation>
+        <translation>Không thể phân giải địa chỉ -bind: '%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>-externalip osoitteen '%s' selvittäminen epäonnistui</translation>
+        <translation>Không thể phân giải địa chỉ -externalip: '%s'</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>Oletusosoitetta ei voi kirjoittaa</translation>
+        <translation>Không thể viết vào địa chỉ ngầm định</translation>
     </message>
     <message>
         <source>Collateral not valid.</source>
-        <translation>Vakuus ei ole pätevä.</translation>
+        <translation>Collateral không hợp lệ.</translation>
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
-        <translation>Yhdistä ainoastaan määriteltyihin solmuihin</translation>
+        <translation>Kết nối chỉ với (các) nút nhất định</translation>
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Yhdistä solmuun hakeaksesi peers osoitteet ja katkaise yhteys</translation>
+        <translation>Kết nối với một nút để lấy địa chỉ ngang hàng, và ngắt kết nối</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>Yhteyden valinnat:</translation>
+        <translation>Tuỳ chọn kết nối:</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>Vioittunut lohkotietokanta havaittu</translation>
+        <translation>Phát hiện ra dữ liệu khối bị hỏng</translation>
     </message>
     <message>
         <source>Obfuscate options:</source>
-        <translation>Obfuscate valinnat:</translation>
+        <translation>Tuỳ chọn Obfuscate:</translation>
     </message>
     <message>
         <source>Debugging/Testing options:</source>
-        <translation>Debuggaus/Testauksen valinnat:</translation>
+        <translation>Tuỳ chọn Gỡ rối/Kiểm tra:</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>Hae oma IP osoite (oletus: 1 kun kuunnellaan ja ei -externalip)</translation>
+        <translation>Phát hiện địa chỉ IP của mình (ngầm định: 1 khi lắng nghe và không dùng -externalip)</translation>
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Älä lataa lompakkoa ja poista käytöstä lompakon RPC kutsut</translation>
+        <translation>Không tải ví và tắt các lời gọi ví RPC</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>Haluatko uudelleenrakentaa lohkotietokannan nyt?</translation>
+        <translation>Bạn có muốn xây dựng lại dữ liệu khối bây giờ không?</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>Lataus on valmis</translation>
+        <translation>Nạp xong</translation>
     </message>
     <message>
         <source>Entries are full.</source>
-        <translation>Merkinnät on täynnä.</translation>
+        <translation>Các đầu vào đã đầy.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>Virhe lohkotietokannan alustuksessa</translation>
+        <translation>Lỗi khởi tạo cơ sở dữ liệu khối</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>Virhe lompakon tietokantaympäristön alustuksessa %s!</translation>
+        <translation>Lỗi khởi tạo cơ sở dữ liệu môi trường ví %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>Virhe lohkotietokannan latauksessa</translation>
+        <translation>Lỗi nạp cơ sở dữ liệu khối</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa</translation>
+        <translation>Lỗi nạp wallet.dat</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vioittunut</translation>
+        <translation>Lỗi nạp wallet.dat: Ví bị lỗi</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>Virhe lohkotietokannan avauksessa</translation>
+        <translation>Lỗi mở cơ sở dữ liệu khối</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>Virhe luettaessa tietokantaa, ohjelma suljetaan.</translation>
+        <translation>Lỗi đọc từ cơ sở dữ liệu, đang tắt phần mềm.</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>Virhe yleisen avaimen palautuksessa.</translation>
+        <translation>Lỗi khi phục hồi khoá công khai.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>Virhe</translation>
+        <translation>Lỗi</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>Virhe: Levytila on alhainen!</translation>
+        <translation>Lỗi: Dung lượng đĩa thấp!</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>Virhe: Lompakko on lukittu, siirtotapahtumaa ei voida luoda!</translation>
+        <translation>Lỗi: Ví đã bị khoá, không thể tạo giao dịch!</translation>
     </message>
     <message>
         <source>Error: You already have pending entries in the Obfuscate pool</source>
-        <translation>Virhe: Sinulla on jo odottavia merkintöjä Obfuscate varannossa</translation>
+        <translation>Lỗi: Bạn đã có các thành phần đang chờ trong Obfuscate pool</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Ei onnistuttu kuuntelemaan mitään porttia. Käytä -listen=0 jos haluat tätä.</translation>
+        <translation>Không thành công khi lắng nghe trên các cổng. Sử dụng -listen=0 nếu bạn muốn nó.</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>Lohkon luku epäonnistui</translation>
+        <translation>Thất bại trong việc đọc khối</translation>
     </message>
     <message>
         <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
-        <translation>Jos &lt;kategoria&gt; ei ole toimitettu, tulosta kaikki debuggaustieto.</translation>
+        <translation>Nếu &lt;category&gt; không được cung cấp, đưa ra tất cả các thông tin gỡ rối.</translation>
     </message>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = pidä tx meta data esim. tilin omistaja ja maksupyyntö tiedot, 2 = poista tx meta data)</translation>
+        <translation>(1 = giữ lại dữ liệu tx, ví dụ chủ tài khoản và thông tin yêu cầu thanh toán, 2 = bỏ dữ liệu tx)</translation>
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Salli JSON-RPC yhteydet määritetystä lähteestä. Pätee &lt;ip&gt; yksittäiseen IP:n (esim. 1.2.3.4), verkko/verkkomaski (esim. 1.2.3.4/255.255.255.0) tai verkko/CIDR (esim. 1.2.3.4/24). Tämä asetus voidaan määrittää useita kertoja.</translation>
+        <translation>Cho phép các kết nối JSON-RPC từ các nguồn nhất định. Các địa chỉ &lt;ip&gt; hợp lệ là các địa chỉ IP đơn (ví dụ: 1.2.3.4), một mạng/netmask (ví dụ: 1.2.3.4/255.255.255.0) hoặc một mạng/CIDR (ví dụ: 1.2.3.4/24). Tuỳ chọn này có thể chỉ ra nhiều lần.</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
-        <translation>Virhe asetettaessa RPC osoitetta %s portissa %u kuuntelemaan: %s</translation>
+        <translation>Có một lỗi xảy ra trong khi thiết lập địa chỉ RPC %s cổng %u để lắng nghe: %s</translation>
     </message>
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Kytkeydy annettuun osoitteeseen ja merkitse siihen kytkeytyvät peers:it luotettaviksi. Käytä [host]:port merkintätapaa IPv6:lle.</translation>
+        <translation>Liên kết với địa chỉ cụ thể và đưa nó vào danh sách chấp nhận của các đối tác kết nối vào nó. Sử dụng cách viết [địa chỉ máy]:cổng cho IPv6</translation>
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Kytkeydy annettuun osoitteeseen kuunnellaksesi JSON-RPC yhteyksiä. Käytä [host]:port merkintätapaa IPv6:lle. Tämä asetus voidaan määrittää useita kertoja  (oletus: kytkeydy kaikkiin rajapintoihin)</translation>
+        <translation>Liên kết với địa chỉ cụ thể để lắng nghe các kết nối JSON-RPC. Sử dụng cách viết [địa chỉ máy]:cổng cho IPv6. Tùy chọn này có thể được chỉ định nhiều lần (ngầm định: bind cho tất cả các giao diện)</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
-        <translation>Vaihda automaattisesti viimeistellyn budjetin äänestyskäyttäytyminen. mode=auto: Äänestä vain tarkkaan viimeisteltyä budjettia joka täsmää itse tekemääni budjettiin. (string, oletus: auto)</translation>
+        <translation>Thay đổi hành vi bỏ phiếu ngân sách cuối cùng tự động. mode = auto: Chỉ bỏ phiếu cho ngân sách cuối cùng tương ứng chính xác với ngân sách được cấp phát của tôi. (string, ngầm định: auto)</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
-        <translation>Rajoita jatkuvasti yhtäaikaiset ilmaiset siirtotapahtumat &lt;n&gt;*1000 tavuun per minuutti (oletus: %u)</translation>
+        <translation>Liên tục giới hạn tỷ lệ miễn phí giao dịch về &lt;n&gt;*1000 byte cho mỗi phút (ngầm định:%u)</translation>
     </message>
     <message>
         <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Luo uudet tiedostot järjestelmän oletus oikeuksilla, paitsi umask 077 (voimassa vain käytöstä poistettujen lompakon toimintojen kanssa)</translation>
+        <translation>Tạo tệp mới với các quyền hệ thống ngầm định, thay vì umask 077 (chỉ có tác dụng với chức năng ví được tắt)</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Poista kaikki lompakon siirtotapahtumat ja palauta vain nuo osat lohkoketjusta -rescan valinnan avulla käynnistyksessä</translation>
+        <translation>Xoá hết tất cả các giao dịch ví và chỉ phục hồi những phần đó của blockchain qua -rescan khi khởi động</translation>
     </message>
     <message>
         <source>Disable all GALILEL specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
-        <translation>Kytke pois käytöstä kaikki GALILEL:in erityistoiminnot (Masternodet, Obfuscate, InstantX, Budjetointi) (0-1, oletus: %u)</translation>
+        <translation>Tắt tất cả các chức năng đặc trưng của GALILEL (Masternode, Obfuscate, InstantX, Lập ngân sách) (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>Levitetään MIT ohjelmistolisenssin alaisuudessa. Tarkemmat tiedot löytyvät tiedostosta COPYING tai osoitteesta &lt;http://www.opensource.org/licenses/mit-license.php&gt;. </translation>
+        <translation>Phân phối dưới giấy phép phần mềm MIT, hãy xem file COPYING đi kèm hoặc &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
     </message>
     <message>
         <source>Enable Instantx, show confirmations for locked transactions (bool, default: %s)</source>
-        <translation>Ota Instantx käyttöön, näytä lukittujen siirtojen vahvistukset (bool, oletus: %s)</translation>
+        <translation>Bật InstantX, hiển thị các xác thực cho các giao dịch bị khoá (bool, ngầm định: %s)</translation>
     </message>
     <message>
         <source>Enable use of automated obfuscate for funds stored in this wallet (0-1, default: %u)</source>
-        <translation>Ota käyttöön automaattinen Obfuscate rahavaroille tässä lompakossa  (0-1, oletus: %u)</translation>
+        <translation>Cho phép sử dụng tự động obfuscate cho những ngân sách được lưu trong ví (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Virhe: Ei tuettu argumentti -socks. SOCKS version asettaminen ei ole enää mahdollista, vain SOCKS5 proxyt ovat tuettuja.</translation>
+        <translation>Lỗi: Thấy tham số không được hỗ trợ -socks. Thiết lập phiên bản SOCKS là không thể được nữa, chỉ hỗ trợ proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>Siirtomaksut (DNET/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi välityksessä (oletus: %s)</translation>
+        <translation>Phí (tính theo DNET/Kb) nhỏ hơn số này được coi là không mất phí cho việc chuyển tiền (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Siirtomaksut (DNET/Kb) jotka ovat pienempiä kuin tämä, tulkitaan nollamaksuksi siirtotapahtuman luonnissa (oletus: %s)</translation>
+        <translation>Phí (theo DNET/Kb) nhỏ hơn số này được coi không mất phí cho việc khởi tạo giao dịch (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>Aja tietokannan tapahtumat muistivarannosta kovalevylogiin joka &lt;n&gt; megatavu (oletus: %u)</translation>
+        <translation>Đẩy các hoạt động với cơ sở dữ liệu từ bộ nhớ xuống nhật ký trên đĩa mỗi &lt;n&gt; megabytes (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
-        <translation>Löytyi vahvistamattomia syötteitä, odotetaan että ne vahvistetaan.</translation>
+        <translation>Đã thấy các mệnh giá đầu ra chưa được xác nhận, sẽ đợi đến khi chúng xác nhận để tiếp tục.</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Kuinka vaativa lohkon vahvistus -checkblocks on (0-4, oletus: %u)</translation>
+        <translation>Cách kiểm tra khối triệt để -checkblocks là (0-4, ngầm định: %u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Jos paytxfee ei ole asetettu, sisällytä tarpeeksi siirtomaksua jotta siirtotapahtuman vahvistus alkaa keskimäärin lohkon aikana (oletus: %u)</translation>
+        <translation>Nếu paytxfee không được thiết lập, bao gồm đầy đủ phí để giao dịch bắt đầu xác nhận bình quân trong n khối (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Virheellinen määrä -maxtxfee=&lt;amount&gt;: '%s' (oltava vähintään minimi välitysmaksun verran %s:sta välttääksesi jumissa olevia siirtotapahtumia)</translation>
+        <translation>Số lượng không phù hợp cho -maxtxfee=&lt;số lượng&gt;: '%s' (phải bằng ít nhất mức phí chuyển tiếp tối thiểu %s để tránh tình trạng tắc các giao dịch)</translation>
     </message>
     <message>
         <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>Kirjaa siirtotapahtuman prioriteetti ja siirtomaksu per kB kun louhitaan lohkoja (oletus: %u)</translation>
+        <translation>Lưu nhật ký các ưu tiên và phí giao dịch cho mỗi kB khi đào các khối (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Ylläpidä täyttä siirtotapahtumien indeksiä, jota käyttää getrawtransaction rpc kutsu (oletus: %u)</translation>
+        <translation>Duy trì một chỉ mục giao dịch đầy đủ, sử dụng bởi lệnh gọi rpc getrawtransaction (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maksimi koko datalle datan kuljetustapahtumissa jotka välitämme ja louhimme (oletus: %u)</translation>
+        <translation>Kích thước tối đa của dữ liệu trong các giao dịch cung cấp dữ liệu, chúng tôi chuyển tiếp và đào (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>Yksittäisen siirtotapahtuman maksimi siirtomaksu, jos tämä asetetaan liian matalaksi, se voi keskeyttää isot siirtotapahtumat (oletus: %s)</translation>
+        <translation>Tổng số tối đa phí để sử dụng cho một giao dịch trên ví, đặt số này quá nhỏ có thể làm bỏ lỡ các giao dịch lớn (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Sekuntien määrä, kuinka kauan estetään huonosti käyttäytyviä peers:ejä uudelleen kytkeytymästä (oletus: %u)</translation>
+        <translation>Số giây hạn chế để không cho phép các đối tác ngang hàng cư xử không đúng tiếp tục kết nối lại (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Tulosta debuggaustieto (oletus: %u, tarjottava &lt;category&gt; on valinnainen)</translation>
+        <translation>Thông tin gỡ rối đầu ra (ngầm định: %u, cung cấp &lt;category&gt;  là một tuỳ chọn)</translation>
     </message>
     <message>
         <source>Provide liquidity to Obfuscate by infrequently mixing coins on a continual basis (0-100, default: %u, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
-        <translation>Tarjoa Obfuscate:ille likviditeettiä jatkuvaa kolikoiden sekoitusta varten (0-100, oletus: %u, 1=usein, isot maksukulut, 100=harvoin, pienet maksukulut)</translation>
+        <translation>Cung cấp thanh khoản cho Obfuscate bằng việc thường xuyên trộn tiền một cách liên tục (0-100, ngầm định: %u, 1=rất thường xuyên, phí cao, 100=rất ít thường xuyên, phí thấp)</translation>
     </message>
     <message>
         <source>Require high priority for relaying free or low-fee transactions (default:%u)</source>
-        <translation>Vaadi korkea prioriteetti välitettäville ilmaisille tai matalan siirtomaksun siirtotapahtumille (oletus: %u)</translation>
+        <translation>Yêu cầu ưu tiên cao cho việc chuyển tiếp các giao dịch miễn phí hoặc giao dịch phí thấp (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
-        <translation>Lähetä jäljitys/debug tiedot konsoliin debug.log tiedoston sijaan (default: %u)</translation>
+        <translation>Gửi thông tin trace/debug đến console thay vì ra tệp debug.log (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>Aseta prosessorin ytimien määrä louhintaan, jos päällä (-1 = kaikki ytimet, oletus: %d)</translation>
+        <translation>Thiết lập số các luồng cho việc sinh coin nếu bật (-1 = tất cả các lõi, ngầm định: %d)</translation>
     </message>
     <message>
         <source>Show N confirmations for a successfully locked transaction (0-9999, default: %u)</source>
-        <translation>Näytä N vahvistusta onnistuneesti lukitulle siirtotapahtumalle (0-9999, oletus: %u)</translation>
+        <translation>Hiển thị N xác nhận cho mỗi giao dịch được khoá thành công (0-9999, ngầm định: %u)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin &lt;https://www.openssl.org/&gt; sekä Eric Youngin kehittämän salausohjelmiston ja Thomas Bernardin kehittämän UPnP ohjelmiston.
-
-Käännös päivitetty: 1.9.2015 by AjM.</translation>
+        <translation>Sản phẩm này có kèm theo phần mềm được phát triển bởi dự án OpenSSL để sử dụng các công cụ OpenSSL &lt;https://www.openssl.org/&gt; và phần mềm mã hoá được viết bởi Eric Young và phần mềm UPnP được viết bởi Thomas Bernard.</translation>
     </message>
     <message>
         <source>To use exoticd, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=galilelrpc
+rpcuser=exoticrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3728,539 +3721,538 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "GALILEL Alert" admin@foo.com
 </source>
-        <translation>Käyttääksesi exoticd:ia tai -server valintaa exotic-qt:lle, sinun tulee asettaa rpc salasana asetustiedostossa:
+        <translation>Để sử dụng exoticd, hoặc tuỳ chọn -server với exotic-qt, bạn phải đặt một mật khẩu rpcpassword trong tệp cấu hình:
 %s
-Suositellaan että käytät allaolevaa satunnaista salasanaa:
-rpcuser=galilelrpc
+Gợi ý rằng bạn nên sử dụng những mật khẩu ngẫu nhiên sau:
+rpcuser=exoticrpc
 rpcpassword=%s
-(sinun ei tarvitse muistaa tätä salasanaa)
-Käyttäjätunnus ja salasana on oltava ERILAISET.
-Jos tiedostoa ei ole, luo se vain omistajan-luku-oikeudella.
-Suositellaan asetettavaksi alertnotify jotta saat tietoa ongelmista,
-esimerkiksi: alertnotify=echo %%s | mail -s "GALILEL Hälytys" admin@foo.com
+(bạn không cần thiết phải nhớ mật khẩu này)
+Username và mật khẩu KHÔNG ĐƯỢC giống nhau.
+Nếu tệp chưa có, thì hãy tạo ra với quyền chỉ đọc.
+Gợi ý bạn rằng cần đặt alertnotify để bạn nhận được thông báo về các vấn đề;
+ví dụ: alertnotify=echo %%s | mail -s "GALILEL Alert" admin@foo.com
 </translation>
     </message>
     <message>
         <source>Unable to locate enough funds for this transaction that are not equal 1000 DNET.</source>
-        <translation>Ei tarpeeksi varoja tälle siirtotapahtumalle, joka ei ole 1000 DNET.</translation>
+        <translation>Không tìm được đủ ngân sách cho giao dịch mà nó không đủ 1000 DNET.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Käytä erillistä SOCKS5 proxya tavoittaaksesi peers:it Tor piilotetun palvelun kautta (oletus: %s)</translation>
+        <translation>Sửa dụng các SOCKS5 proxy riêng biệt cho mỗi đối tác ngang hàng thông qua dịch vụ ẩn Tor (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>Varoitus: -maxtxfee on asetettu erittäin korkeaksi! Näin isot siirtomaksut voitaisiin maksaa yhdessä siirtotapahtumassa.</translation>
+        <translation>Cảnh báo: -maxtxfee được đặt rất cao! Mức Phí cao này sẽ được trả cho mỗi một giao dịch đơn.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Exotic Core will not work properly.</source>
-        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat oikein! GALILEL ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+        <translation>Cánh báo: Hãy vui lòng kiểm tra ngày giờ máy tính của bạn cho chính xác! Nếu đồng hồ của bạn sai thì Exotic Core sẽ không làm việc một cách hoàn hảo.</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Merkitse solmut luotettaviksi jotka kytkeytyvät annetusta verkkomaskista tai IP osoitteesta. Voidaan määrittää useita kertoja.</translation>
+        <translation>Các đối tác ngang hàng cho phép đang kết nối từ địa chỉ IP và netmask. Nó có thể được chỉ rõ nhiều lần.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Luotettaviksi merkittyjä peers:ejä ei voida DoS estää, ja niiden siirtotapahtumat välitetään aina, vaikka ne olisvatkin jo muistivarannossa, käyttökelpoinen esim. yhdyskäytävään</translation>
+        <translation>Cái điểm ngang hàng trong danh sách trắng không thể bị cấm DoS và các giao dịch của nó luôn được chuyển tiếp, thậm chí cả khi nó đã có trong mempool, hữu ích ví dụ như cho một cửa ngõ</translation>
     </message>
     <message>
         <source>(31000 could be used only on mainnet)</source>
-        <translation>(31000 voidaan käyttää vain pääverkossa)</translation>
+        <translation>(31000 chỉ được sử dụng trên mạng chính thức)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(oletus: %s)</translation>
+        <translation>(ngầm định: %s)</translation>
     </message>
     <message>
         <source>&lt;category&gt; can be:
 </source>
-        <translation>&lt;category&gt; voi olla:
-</translation>
+        <translation>&lt;category&gt; có thể là:</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
-        <translation>Hyväksy julkiset REST pyynnöt (oletus: %u)</translation>
+        <translation>Chấp nhận các yêu cầu REST công khai (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Acceptable ciphers (default: %s)</source>
-        <translation>Hyväksyttävät salaukset (oletus: %s)</translation>
+        <translation>Các loại mã hoá có thể chấp nhận (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Tiedustele aina peers osoitteita DNS hakua käyttäen (oletus: %u)</translation>
+        <translation>Luôn luôn tìm kiếm địa chỉ các đối tác ngang hàng thông qua tìm kiếm DNS (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Ei voida selvittää -whitebind osoitetta: '%s'</translation>
+        <translation>Không thể phân giải địa chỉ -whitebind: '%s'</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>Yhdistä SOCKS5 proxyn kautta</translation>
+        <translation>Kết nối thông qua SOCKS 5 proxy</translation>
     </message>
     <message>
         <source>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</source>
-        <translation>Yhdistä KeePassHttp porttiin &lt;port&gt; (oletus: %u)</translation>
+        <translation>Kết nối tới KeePassHttp trên cổng &lt;port&gt; (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>Copyright (C) 2009-%i Bitcoin Core Kehittäjät</translation>
+        <translation>Bản quyền (C) 2009-%i bởi Nhóm phát triển Bitcoin Core</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Exotic Core Developers</source>
-        <translation>Copyright (C) 2014-%i Exotic Core Kehittäjät</translation>
+        <translation>Bản quyền (C) 2014-%i bởi Nhóm phát triển Exotic Core</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
-        <translation>Ei voida jäsentää -rpcbind arvoa %s verkko-osoitteena</translation>
+        <translation>Không thể phân tích giá trị -rpcbind %s như là địa chỉ mạng</translation>
     </message>
     <message>
         <source>Obfuscate is idle.</source>
-        <translation>Obfuscate odottaa.</translation>
+        <translation>Obfuscate đang nghỉ.</translation>
     </message>
     <message>
         <source>Obfuscate request complete:</source>
-        <translation>Obfuscate pyyntö valmis:</translation>
+        <translation>Yêu cầu Obfuscate hoàn thành:</translation>
     </message>
     <message>
         <source>Obfuscate request incomplete:</source>
-        <translation>Obfuscate pyyntö kesken:</translation>
+        <translation>Yêu cầu Obfuscate chưa hoàn thành:</translation>
     </message>
     <message>
         <source>Disable safemode, override a real safe mode event (default: %u)</source>
-        <translation>Poista turvatila käytöstä, ohita todellinen turvatila tapahtuma (oletus: %u)</translation>
+        <translation>Tắt chế độ an toàn, ghi đè lên một sự kiện của chế đọ an toàn (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Enable the client to act as a masternode (0-1, default: %u)</source>
-        <translation>Aktivoi asiakasohjelman käyttö masternode:na (0-1, oletus: %u)</translation>
+        <translation>Cho phép phần mềm hoạt động như là masternode (0-1, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>Virhe masternode:en kytkeytymisessä.</translation>
+        <translation>Lỗi kết nối tới Masternode.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Exotic Core</source>
-        <translation>Virhe ladattaessa wallet.dat: Lompakko vaatii uudemman version Exotic Core:sta</translation>
+        <translation>Lỗi nạp wallet.dat: Ví cần một phiên bản mới hơn của Exotic Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>Virhe: Vakava sisäinen virhe, katso debug.log saadaksesi lisätietoja</translation>
+        <translation>Lỗi: Một lỗi nghiêm trọng đã xuất hiện, xem debug.log để biết thêm chi tiết</translation>
     </message>
     <message>
         <source>Error: Can't select current denominated inputs</source>
-        <translation>Virhe: Ei voida valita nykyisiä denominoituja syötteitä</translation>
+        <translation>Lỗi: Không thể chọn đầu vào gốc hiện tại</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>Virhe: Ei tuettu argumentti -tor löytyi, käytä -onion.</translation>
+        <translation>Lỗi: Tìm thấy tham số không được hỗ trợ -tor, thay vào đó hãy sử dụng -onion</translation>
     </message>
     <message>
         <source>Fee (in DNET/kB) to add to transactions you send (default: %s)</source>
-        <translation>Lisättävä siirtomaksu (DNET/Kb) siirtotapahtumaan jonka lähetät (oletus: %s)</translation>
+        <translation>Phí (theo DNET/Kb) sẽ thêm vào các giao dịch mà bạn gửi (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Finalizing transaction.</source>
-        <translation>Viimeistellään siirtotapahtuma.</translation>
+        <translation>Đang hoàn tất giao dịch.</translation>
     </message>
     <message>
         <source>Force safe mode (default: %u)</source>
-        <translation>Pakota turvatila (oletus: %u)</translation>
+        <translation>Cưỡng bức ở chế độ an toàn (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Found enough users, signing ( waiting %s )</source>
-        <translation>Löytyi tarpeeksi käyttäjiä, kirjaudutaan ( odotetaan %s )</translation>
+        <translation>Đã tìm đủ người dùng, đang ký (vui lòng đợi %s)</translation>
     </message>
     <message>
         <source>Found enough users, signing ...</source>
-        <translation>Löytyi tarpeeksi käyttäjiä, kirjaudutaan ...</translation>
+        <translation>Đã kiếm đủ người dùng, đang ký ...</translation>
     </message>
     <message>
         <source>Generate coins (default: %u)</source>
-        <translation>Louhi kolikoita (oletus: %u)</translation>
+        <translation>Sinh tiền (ngầm định: %u)</translation>
     </message>
     <message>
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Kuinka monta lohkoa tarkistetaan käynnistyksessä (oletus: %u, 0 = kaikki)</translation>
+        <translation>Bao nhiêu khối để kiểm tra khi khởi động (ngầm định: %u, 0 = tất cả)</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>Tuodaan...</translation>
+        <translation>Đang nạp...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>Tuodaan lohkoja ulkoisesta blk000??.dat tiedostosta</translation>
+        <translation>Nạp khối từ tệp ngoài blk000??.dat</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>Sisällytä IP osoitteet virhelogiin (oletus: %u)</translation>
+        <translation>Kèm địa chỉ IP trong thông tin gỡ rối đầu ra (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Incompatible mode.</source>
-        <translation>Yhteensopimaton tila.</translation>
+        <translation>Kiểu không tương thích.</translation>
     </message>
     <message>
         <source>Incompatible version.</source>
-        <translation>Yhteensopimaton versio.</translation>
+        <translation>Phiên bản không tương thích.</translation>
     </message>
     <message>
         <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Väärä tai ei alkuperäinen lohko löydetty. Väärä data hakemisto verkolle?</translation>
+        <translation>Khối sáng thế không chính xác hoặc không tìm thấy. Sai datadir cho mạng lưới?</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>Tietoa</translation>
+        <translation>Thông tin</translation>
     </message>
     <message>
         <source>Initialization sanity check failed. Exotic Core is shutting down.</source>
-        <translation>Alkuperäisyyden tarkistus epäonnistui. Exotic Core sulkeutuu.</translation>
+        <translation>Khởi tạo việc kiểm tra tính đúng đắn thất bại. Exotic Core đang được tắt.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
-        <translation>Syöte ei ole pätevä.</translation>
+        <translation>Đầu vào không hợp lệ.</translation>
     </message>
     <message>
         <source>InstantX options:</source>
-        <translation>InstantX valinnat:</translation>
+        <translation>Tuỳ chọn InstantX:</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>Saldo ei riitä.</translation>
+        <translation>Không đủ tiền.</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>Virheellinen -onion osoite: '%s'</translation>
+        <translation>Địa chỉ -onion không hợp lệ: '%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>Virheellinen proxyn osoite '%s'</translation>
+        <translation>Địa chỉ proxy không hợp lệ: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -maxtxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Số tiền không hợp lệ cho -maxtxfee=&lt;số tiền&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Số tiền không hợp lệ cho -minrelaytxfee=&lt;số tiền&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -mintxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Số tiền không hợp lệ cho -mintxfee =&lt;số tiền&gt;: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Virheellinen määrä -maxtxfee=&lt;amount&gt;: '%s' (oltava vähintään %s)</translation>
+        <translation>Số tiền không hợp lệ cho -paytxfee=&lt;số tiền&gt;: '%s' (ít nhất phải bằng %s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Virheellinen määrä -paytxfee=&lt;amount&gt;: '%s'</translation>
+        <translation>Số tiền không hợp lệ cho -paytxfee =&lt;số tiền&gt;: '%s'</translation>
     </message>
     <message>
         <source>Last successful Obfuscate action was too recent.</source>
-        <translation>Viimeinen onnistunut Obfuscate tapahtuma oli liian äskettäin.</translation>
+        <translation>Phiên giao dịch Obfuscate thành công cuối cùng quá gần đây.</translation>
     </message>
     <message>
         <source>Limit size of signature cache to &lt;n&gt; entries (default: %u)</source>
-        <translation>Rajoita allekirjoitusien välimuisti &lt;n&gt; merkintään (oletus: %u)</translation>
+        <translation>Giới hạn kích thước bộ đệm chữ ký tới &lt;n&gt; thành phần (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Kuuntele JSON-RPC yhteyksiä portissa &lt;port&gt; (oletus: %u tai testiverkossa: %u)</translation>
+        <translation>Lắng nghe kết nối JSON-RPC trên &lt;cổng&gt; (ngầm định: %u hoặc mạng thử: %u)</translation>
     </message>
     <message>
         <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Kuuntele yhteyksiä portissa &lt;port&gt; (oletus: %u tai testiverkossa: %u)</translation>
+        <translation>Lắng nghe kết nối từ &lt;cổng&gt; (ngầm định: %u hoặc mạng thử: %u)</translation>
     </message>
     <message>
         <source>Loading budget cache...</source>
-        <translation>Ladataan budjetti välimuistia...</translation>
+        <translation>Đang nạp bộ đệm ngân sách...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>Ladataan masternode välimuistia...</translation>
+        <translation>Đang tải cache cho masternode...</translation>
     </message>
     <message>
         <source>Loading masternode payment cache...</source>
-        <translation>Ladataan masternode maksuvälimuistia...</translation>
+        <translation>Đang tải bộ đệm thanh toán cho masternode...</translation>
     </message>
     <message>
         <source>Lock is already in place.</source>
-        <translation>On jo lukittu.</translation>
+        <translation>Khoá đã sẵn sàng.</translation>
     </message>
     <message>
         <source>Lock masternodes from masternode configuration file (default: %u)</source>
-        <translation>Lukitse masternodet niiden asetustiedoston kautta (oletus: %u)</translation>
+        <translation>Khoá các masternode từ tệp cấu hình masternode (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Ylläpidä enintään &lt;n&gt; peers yhteyttä (oletus: %u)</translation>
+        <translation>Duy trì nhiều nhất &lt;n&gt; kết nối tới các điểm ngang cấp (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimi per yhteys vastaanotto puskuri, &lt;n&gt;*1000 tavua (oletus: %u)</translation>
+        <translation>Tối đa cho bộ đệm nhận của mỗi kết nối, &lt;n&gt;*1000 bytes (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maksimi per yhteys lähetys puskuri, &lt;n&gt;*1000 tavua (oletus: %u)</translation>
+        <translation>Tối đa cho bộ đệm gửi của mỗi kết nối, &lt;n&gt;*1000 bytes (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>Sekoitus käynnissä...</translation>
+        <translation>Đang trong quá trình trộn...</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Tarvitaan määritellä portti -whitebind: '%s'</translation>
+        <translation>Cần chỉ rõ một cổng với -whitebind: '%s'</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>Masternodeja ei havaittu.</translation>
+        <translation>Không tìm thấy các Master node.</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>Yhteensopivaa Masternodea ei löytynyt.</translation>
+        <translation>Không tìm thấy Masternode tương thích.</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>Ei ole Masternode listassa.</translation>
+        <translation>Không có trong danh sách Masternode.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>Automaattisten lompakon varmistuksien määrä (oletus: 10)</translation>
+        <translation>Số lượng ví tự động sao lưu (ngầm định: 10)</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>Hyväksy vain lohkoketju joka täsmää tarkistuspisteisiin (oletus: %u)</translation>
+        <translation>Chỉ chấp nhận các chuỗi khối tương ứng với các điểm kiểm tra trong (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Kytkeydy verkon solmuihin vain &lt;net&gt; (ipv4, ipv6 tai onion)</translation>
+        <translation>Chỉ kết nối với các nút trong mạng &lt;net&gt; (IPv4, IPv6 hoặc onion)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Lisää debug lokitiedoston merkinnän alkuun pvm/aika (oletus: %u)</translation>
+        <translation>Thêm tiền tố đầu ra debug với dấu thời gian (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>Aja säie joka säännöllisesti tallettaa lompakon (oletus: %u)</translation>
+        <translation>Chạy một luồng để làm sạch ví một cách thường xuyên (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>Lähetä jäljitys/debug tiedot debug.log tiedostoon (default: %u)</translation>
+        <translation>Gửi thông tin trace/debug vào file debug.log (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Lähetä siirtotapahtumat nolla siirtomaksulla jos mahdollista (oletus: %u)</translation>
+        <translation>Gửi giao dịch như là giao dịch không phí nếu có thể (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Server certificate file (default: %s)</source>
-        <translation>Serverin sertifikaatti tiedosto (oletus: %s)</translation>
+        <translation>Tệp chứng thực máy chủ (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Server private key (default: %s)</source>
-        <translation>Serverin yksityisavain (oletus: %s)</translation>
+        <translation>Khoá riêng của máy chủ (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Set external address:port to get to this masternode (example: %s)</source>
-        <translation>Aseta ulkoinen osoite:portti tälle masternodelle (esim: %s)</translation>
+        <translation>Đặt external address:port cho masternode này (ví dụ: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Aseta avainvarannon koko &lt;n&gt; (oletus: %u)</translation>
+        <translation>Thiết lập kích thước pool đến &lt;n&gt; (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>Aseta minimi lohkon koko tavuina (oletus: %u)</translation>
+        <translation>Thiết lập kích thước khối tối thiểu tính theo bytes (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Aseta säikeiden lukumäärä RPC kutsuille (oletus: %d)</translation>
+        <translation>Thiết lập số luồng phục vụ các lời gọi RPC (ngầm định: %d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>Asettaa DB_PRIVATE lipun lompakon tietokantaympäristössä (oletus: %u)</translation>
+        <translation>Thiết lập cờ DB_PRIVATE trong môi trường cơ sở dữ liệu ví (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>Allekirjoitus aikaraja.</translation>
+        <translation>Ký không kịp.</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>Määritä asetustiedosto (oletus: %s)</translation>
+        <translation>Hãy chỉ rõ tệp cấu hình (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Määritä yhteyden aikakatkaisu millisekunneissa (minimi: 1, oletus: %d)</translation>
+        <translation>Hãy xác định thời gian hết hạn tính theo milli giây (tối thiểu: 1, ngầm định: %d)</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>Määritä masternoden asetustiedosto (oletus: %s)</translation>
+        <translation>Hãy chỉ ra tệp cấu hình masternode (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>Määritä pid tiedosto (oletus: %s)</translation>
+        <translation>Hãy chỉ rõ tệp pid (ngầm định: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Käytä vahvistamattomia vaihtorahoja lähetettäessä siirtotapahtumia (oletus: %u)</translation>
+        <translation>Tiên các khoản trả lại chưa được xác nhận khi gửi các giao dịch (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>Keskeytä kun kaikki lohkot tuotu levyltä (oletus: %u)</translation>
+        <translation>Dừng chạy sau khi nạp các khối từ đĩa (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Submitted following entries to masternode: %u / %d</source>
-        <translation>Esitetty seuraavat merkinnät masternodelle: %u / %d</translation>
+        <translation>Đã gửi các những thành phần sau tới masternode: %u / %d</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting for more entries ( %u / %d ) %s</source>
-        <translation>Esitetty masternodelle, odotetaan lisää merkintöjä ( %u / %d ) %s</translation>
+        <translation>Đã gửi đến masternode, đang đợi các đầu vào khác nữa (%u / %d) %s</translation>
     </message>
     <message>
         <source>Submitted to masternode, waiting in queue %s</source>
-        <translation>Esitetty masternodelle, odotetaan jonossa %s</translation>
+        <translation>Đã được gửi cho masternode, đang đợi trong hàng đợi %s</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>Synkronointi epäonnistui</translation>
+        <translation>Đồng bộ thất bại</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
-        <translation>Synkronointi valmis</translation>
+        <translation>Đồng bộ đã hoàn thành</translation>
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>Synkronoidaan budjetit...</translation>
+        <translation>Đang đồng bộ ngân sách...</translation>
     </message>
     <message>
         <source>Synchronizing masternode winners...</source>
-        <translation>Synkronoidaan masternode voittajat...</translation>
+        <translation>Đồng bộ các masternode được chọn...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>Synkronoidaan masternodet...</translation>
+        <translation>Đang đồng bộ các masternode...</translation>
     </message>
     <message>
         <source>Synchronizing sporks...</source>
-        <translation>Synkronoidaan sporkit...</translation>
+        <translation>Đang đồng bộ các sporks...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>Tämä ei ole Masternode.</translation>
+        <translation>Đây không phải là một Masternode.</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Yhteyden kynnysaika huonosti käyttäyville peers:lle (oletus: %u)</translation>
+        <translation>Ngưỡng ngắt kết nối khi đối tác ngang hàng cư xử không đúng (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Use KeePass 2 integration using KeePassHttp plugin (default: %u)</source>
-        <translation>Käytä KeePass 2 integraatiota käyttäen KeePassHttp liitännäistä (oletus: %u)</translation>
+        <translation>Sử dụng tích hợp KeePass 2 dùng KeePassHttp plugin (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Use N separate masternodes to anonymize funds  (2-8, default: %u)</source>
-        <translation>Käytä N erillistä masternodea varojen anonymisointiin (2-8, oletus: %u)</translation>
+        <translation>Sử dụng N masternods riêng biệt để ẩn danh khoản tiền (2-8, ngầm định: %u)</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Käytä UPnP:tä kuunneltavan portin kartoitukseen (oletus: %u)</translation>
+        <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Exotic Core to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä Exotic Core uudestaan viimeistelyä varten</translation>
+        <translation>Ví cần được ghi lại: khởi động lại Exotic Core để hoàn tất</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Varoitus: Ei tuettu argumentti -benchmark jätetty huomiotta, käytä -debug=bench.</translation>
+        <translation>Cảnh báo: Tham số không hỗ trợ -benchmark được bỏ qua, hãy sử dụng -debug=bench.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Varoitus: Ei tuettu argumentti -debugnet jätetty huomiotta, käytä -debug=net.</translation>
+        <translation>Cảnh báo: Tham số không hỗ trợ -debugnet được bỏ qua, hãy sử dụng -debug=net</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>Yritetään uudelleen...</translation>
+        <translation>Sẽ thử lại...</translation>
     </message>
     <message>
         <source>Invalid masternodeprivkey. Please see documenation.</source>
-        <translation>Virheellinen masternoden yksityisavain (masternodeprivkey). Katso lisätietoja dokumentaatiosta.</translation>
+        <translation>Masternodeprivkey không hợp lệ. Hãy xem lại tài liệu.</translation>
     </message>
     <message>
         <source>(must be36001 for mainnet)</source>
-        <translation>(oltava36001 pääverkossa)</translation>
+        <translation>(phải là36001 cho mạng chính thức)</translation>
     </message>
     <message>
         <source>Can't find random Masternode.</source>
-        <translation>Satunnaista Masternodea ei löydy.</translation>
+        <translation>Không tìm thấy Masternode ngẫu nhiên.</translation>
     </message>
     <message>
         <source>Can't mix while sync in progress.</source>
-        <translation>Ei voida sekoittaa synkronoinnin aikana.</translation>
+        <translation>Không thể trộn trong quá trình đồng bộ.</translation>
     </message>
     <message>
         <source>Could not parse masternode.conf</source>
-        <translation> Ei voitu jäsentää masternode.conf</translation>
+        <translation>Không hiểu được tệp masternode.conf</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Virheellinen verkkomaski määritelty -whitelist: '%s'</translation>
+        <translation>Lỗi netmask được chỉ ra trong -whitelist: '%s'</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
-        <translation>Virheellinen portti löytyi masternode.conf :sta</translation>
+        <translation>Phát hiện thấy cổng không hợp lệ trong tệp masternode.conf</translation>
     </message>
     <message>
         <source>Invalid private key.</source>
-        <translation>Virheellinen yksityisavain.</translation>
+        <translation>Khoá riêng không hợp lệ.</translation>
     </message>
     <message>
         <source>Invalid script detected.</source>
-        <translation>Virheellinen scripti havaittu.</translation>
+        <translation>Kịch bản được phát hiện không hợp lệ.</translation>
     </message>
     <message>
         <source>KeePassHttp id for the established association</source>
-        <translation>KeePassHttp tunnus (id) yhdistymiseen</translation>
+        <translation>KeePassHttp id cho thiết lập sự kết hợp</translation>
     </message>
     <message>
         <source>KeePassHttp key for AES encrypted communication with KeePass</source>
-        <translation>KeePassHttp avain AES salattuun viestintään</translation>
+        <translation>Khoá KeePassHttp cho liên lạc mã hoá AES với KeePass</translation>
     </message>
     <message>
         <source>Keep N DNET anonymized (default: %u)</source>
-        <translation>Pidä N DNET anonymisoituna (oletus: %u)</translation>
+        <translation>Giữ N DNET đã được ẩn danh (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Pidä enintään &lt;n&gt; ei yhdistettyä siirtotapahtumaa muistissa (oletus: %u)</translation>
+        <translation>Giữ nhiều nhất &lt;n&gt; các giao dịch không kết nối được trong bộ nhớ (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Last Obfuscate was too recent.</source>
-        <translation>Viimeisin Obfuscate oli liian äskettäin.</translation>
+        <translation>Obfuscate cuối cùng quá gần.</translation>
     </message>
     <message>
         <source>Line: %d</source>
-        <translation>Rivi: %d</translation>
+        <translation>Dòng: %d</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>Ladataan osoitteita...</translation>
+        <translation>Nạp các địa chỉ...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>Ladataan lohkoindeksiä...</translation>
+        <translation>Đang nạp chỉ mục khối...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>Ladataan lompakkoa... (%3.2f %%)</translation>
+        <translation>Đang nạp ví... (%3.2f %%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>Ladataan lompakkoa...</translation>
+        <translation>Đang tải ví...</translation>
     </message>
     <message>
         <source>Masternode options:</source>
-        <translation>Masternode valinnat:</translation>
+        <translation>Tuỳ chọn Masternode:</translation>
     </message>
     <message>
         <source>Masternode queue is full.</source>
-        <translation>Masternode jono on täysi.</translation>
+        <translation>Danh sách hàng đợi Masternode đã đầy.</translation>
     </message>
     <message>
         <source>Masternode:</source>
@@ -4268,279 +4260,279 @@ esimerkiksi: alertnotify=echo %%s | mail -s "GALILEL Hälytys" admin@foo.com
     </message>
     <message>
         <source>Missing input transaction information.</source>
-        <translation>Puuttuva siirtotapahtuman tieto.</translation>
+        <translation>Thiếu thông tin giao dịch đầu vào.</translation>
     </message>
     <message>
         <source>No funds detected in need of denominating.</source>
-        <translation>Denominointia tarvitsevia varoja ei löydy.</translation>
+        <translation>Không thấy có nguồn tiền cần thiết để định giá.</translation>
     </message>
     <message>
         <source>No matching denominations found for mixing.</source>
-        <translation>Vastaavia denominointeja sekoitukseen ei löydy.</translation>
+        <translation>Không tìm thấy mệnh giá tương ứng để trộn.</translation>
     </message>
     <message>
         <source>Node relay options:</source>
-        <translation>Solmun välitysasetukset:</translation>
+        <translation>Tuỳ chọn trung chuyển nút:</translation>
     </message>
     <message>
         <source>Non-standard public key detected.</source>
-        <translation>Epästandardi yleinen avain havaittu.</translation>
+        <translation>Phát hiện thấy khoá công khai không hợp chuẩn.</translation>
     </message>
     <message>
         <source>Not compatible with existing transactions.</source>
-        <translation>Ei yhteensopiva olemassa olevien siirtotapahtumien kanssa.</translation>
+        <translation>Không tương thích với các giao dịch hiện tại.</translation>
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
-        <translation>Ei tarpeeksi tiedostomerkintöjä saatavilla.</translation>
+        <translation>Chưa có đủ thông tin mô tả tệp.</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>Asetukset:</translation>
+        <translation>Tuỳ chọn:</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>Salasana JSON-RPC yhteyksille</translation>
+        <translation>Mật khẩu cho kết nối JSON-RPC</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL valinnat: (katso Bitcoin Wikistä SSL-asennuksen ohjeet)</translation>
+        <translation>Tuỳ chọn RPC SSL (xem Bitcoin Wiki để có hướng dẫn cài đặt SSL)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC palvelimen valinnat:</translation>
+        <translation>Tuỳ chọn cho RPC server</translation>
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>RPC tuki jatkuville HTTP yhteyksille (oletus: %d)</translation>
+        <translation>RPC hỗ trợ cho các kết nối HTTP cố định (ngầm định: %d)</translation>
     </message>
     <message>
         <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
-        <translation>Satunnaisesti pudota 1 joka &lt;n&gt; verkkoviestistä</translation>
+        <translation>Bỏ ngẫu nhiên 1 mỗi &lt;n&gt; thông điệp mạng</translation>
     </message>
     <message>
         <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
-        <translation>Satunnaisesti sekoita 1 joka &lt;n&gt; verkkoviestistä</translation>
+        <translation>Làm xơ ngẫu nhiên 1 trên mỗi &lt;n&gt; thông điệp mạng.</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>Uudelleenrakenna lohkoketjun indeksi nykyisistä blk000??.dat tiedostoista</translation>
+        <translation>Tái tạo lại chỉ mục chuỗi khối từ tệp blk000??.dat</translation>
     </message>
     <message>
         <source>Receive and display P2P network alerts (default: %u)</source>
-        <translation>Vastaanota ja näytä P2P verkon hälytykset (oletus: %u)</translation>
+        <translation>Nhận và hiển thị các cảnh báo mạng P2P (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Välitä ja louhi datan kuljetustapahtumia (oletus: %u)</translation>
+        <translation>Chuyển tiếp và đào các giao dịch mang dữ liệu (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Välitä non-P2SH multisig (oletus: %u)</translation>
+        <translation>Chuyển tiếp các khoá đa chữ ký không phải P2SH (ngầm định: %u)</translation>
     </message>
     <message>
         <source>Rescan the block chain for missing wallet transactions</source>
-        <translation>Skannaa uudelleen lohkoketju lompakon puuttuvien siirtotapahtumien vuoksi</translation>
+        <translation>Quét lại chuỗi khối cho các giao dịch ví bị thiếu.</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>Skannataan uudelleen...</translation>
+        <translation>Đang quét lại...</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
-        <translation>Aja taustalla palveluprosessina ja hyväksy komennot</translation>
+        <translation>Chạy trên chế độ nền như là một tiến trình ngầm và chấp nhận các lệnh</translation>
     </message>
     <message>
         <source>Session not complete!</source>
-        <translation>Istunto ei ole valmis!</translation>
+        <translation>Phiên làm việc chưa hoàn thành.</translation>
     </message>
     <message>
         <source>Session timed out.</source>
-        <translation>Istunnon aikaraja.</translation>
+        <translation>Hết thời gian cho phiên làm việc.</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Aseta tietokannan välimuistin koko megatavuissa (%d - %d, oletus: %d</translation>
+        <translation>Thiết lập kích thước bộ đệm cơ sở dữ liệu theo megabytes (%d đến %d, ngầm định: %d)</translation>
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Aseta lohkon maksimikoko tavuissa (oletus: %d)</translation>
+        <translation>Thiết lập kích thước khối tối đa theo bytes (ngầm định: %d)</translation>
     </message>
     <message>
         <source>Set the masternode private key</source>
-        <translation>Aseta masternoden yksityisavain.</translation>
+        <translation>Đặt khoá riêng cho masternode</translation>
     </message>
     <message>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Näytä kaikki debuggaus valinnat: (käyttö: --help -help-debug)</translation>
+        <translation>Hiển thị tất cả các tuỳ chọn gỡ rối (cách sử dụng: --help -help-debug)</translation>
     </message>
     <message>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Pienennä debug.log tiedosto käynnistyksen yhteydessä (vakioasetus: 1 kun ei -debug)</translation>
+        <translation>Rút gọn tệp debug.log khi phần mềm khởi động (ngầm định: 1 khi không có -debug)</translation>
     </message>
     <message>
         <source>Signing failed.</source>
-        <translation>Allekirjoitus epäonnistui.</translation>
+        <translation>Ký không thành công.</translation>
     </message>
     <message>
         <source>Signing transaction failed</source>
-        <translation>Siirtotapahtuman allekirjoitus epäonnistui</translation>
+        <translation>Thất bại khi ký giao dịch</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>Määritä datahakemisto</translation>
+        <translation>Hãy chọn thư mục</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>Määritä lompakkotiedosto (datahakemiston sisällä)</translation>
+        <translation>Xác định tệp ví (trong thư mục dữ liệu)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>Määritä julkinen osoitteesi</translation>
+        <translation>Hãy xác định địa chỉ công khai của bạn</translation>
     </message>
     <message>
         <source>Synchronization pending...</source>
-        <translation>Synkronointi odottaa...</translation>
+        <translation>Đang chuẩn bị đồng bộ...</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>Tämä ohjeviesti</translation>
+        <translation>Đây là thông điệp trợ giúp</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>Tämä on kokeellinen ohjelmisto.</translation>
+        <translation>Đây là phần mềm thử nghiệm.</translation>
     </message>
     <message>
         <source>This is intended for regression testing tools and app development.</source>
-        <translation>Tämä on tarkoitettu regression testityökaluille ja ohjelman kehittämiseen.</translation>
+        <translation>Điều này là để dành cho công cụ kiểm tra hồi quy và phát triển ứng dụng.</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>Siirtosumma on liian pieni</translation>
+        <translation>Số tiền của giao dịch quá nhỏ</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>Siirtosumman tulee olla positiivinen</translation>
+        <translation>Số tiền của giao dịch phải là số dương</translation>
     </message>
     <message>
         <source>Transaction created successfully.</source>
-        <translation>Siirtotapahtuma luotu onnistuneesti.</translation>
+        <translation>Giao dịch được tạo thành công.</translation>
     </message>
     <message>
         <source>Transaction fees are too high.</source>
-        <translation>Siirtotapahtuman siirtomaksu on liian iso.</translation>
+        <translation>Phí giao dịch quá cao.</translation>
     </message>
     <message>
         <source>Transaction not valid.</source>
-        <translation>Siirtotapahtuma ei ole voimassa.</translation>
+        <translation>Giao dịch không hợp lệ.</translation>
     </message>
     <message>
         <source>Transaction too large for fee policy</source>
-        <translation>Siirtotapahtuma on liian iso suhteessa siirtomaksujen käytäntöön.</translation>
+        <translation>Giao dịch quá lớn cho chính sách miễn phí</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>Siirtosumma on liian iso</translation>
+        <translation>Giao dịch quá lớn</translation>
     </message>
     <message>
         <source>Transmitting final transaction.</source>
-        <translation>Lähetetään lopullinen siirtotapahtuma.</translation>
+        <translation>Đang truyền tải giao dịch cuối cùng.</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa (yhdistäminen palautti virheen %s)</translation>
+        <translation>Không thể để ràng buộc vào %s trên máy tính này (bind trả lại lỗi %s)</translation>
     </message>
     <message>
         <source>Unable to sign spork message, wrong key?</source>
-        <translation>En voida allekirjoittaa spork viestiä, väärä avain?</translation>
+        <translation>Không thể ký vào thông điệp phân nhánh, sai khoá?</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Tuntematon verkkomääritys -onlynet parametrissa: '%s'</translation>
+        <translation>Không biết mạng được chỉ ra trong -onlynet: '%s'</translation>
     </message>
     <message>
         <source>Unknown state: id = %u</source>
-        <translation>Tuntematon tila: id = %u</translation>
+        <translation>Trạng thái không xác định: id = %u</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
-        <translation>Päivitä lompakko uusimpaan formaattiin</translation>
+        <translation>Nâng cấp ví lên định dạng mới nhất</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>Käytä OpenSSL:ää (https) JSON-RPC yhteyksille</translation>
+        <translation>Sử dụng OpenSSL (https) cho các kết nối JSON-RPC</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening)</source>
-        <translation>Käytä UPnP:tä kuunneltavan portin kartoitukseen (oletus: 1 kun kuunellaan)</translation>
+        <translation>Sử dụng UPnP để ánh xạ cổng lắng nghe (ngầm định: 1 khi lắng nghe)</translation>
     </message>
     <message>
         <source>Use the test network</source>
-        <translation>Käytä testiverkkoa</translation>
+        <translation>Sử dụng mạng thử</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>Käyttäjätunnus JSON-RPC yhteyksille</translation>
+        <translation>Username cho kết nối JSON-RPC</translation>
     </message>
     <message>
         <source>Value more than Obfuscate pool maximum allows.</source>
-        <translation>Määrä on enemmän kuin Obfuscate varannon maksimi sallii.</translation>
+        <translation>Giá tri trị lớn hơn giá trị tối đa mà bể Obfuscate cho phép.</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>Tarkistetaan lohkoja...</translation>
+        <translation>Đang kiểm tra các khối...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>Tarkistetaan lompakko...</translation>
+        <translation>Đang kiểm tra ví...</translation>
     </message>
     <message>
         <source>Wallet %s resides outside data directory %s</source>
-        <translation>Lompakko %s sijaitsee data hakemiston ulkopuolella %s</translation>
+        <translation>Ví %s nằm ở bên ngoài thư mục dữ liệu %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>Lompakko on lukittu.</translation>
+        <translation>Ví đã bị khoá.</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>Lompakon valinnat:</translation>
+        <translation>Tuỳ chọn ví:</translation>
     </message>
     <message>
         <source>Wallet window title</source>
-        <translation>Lompakon ikkunaotsikko</translation>
+        <translation>Tiêu đề cửa sổ ví</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation>Varoitus</translation>
+        <translation>Cảnh báo</translation>
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>Varoitus: Tämä versio on vanhentunut, päivitys vaaditaan!</translation>
+        <translation>Cảnh báo: Phiên bản này đã cũ, cần phải cập nhật mới!</translation>
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to change -txindex</source>
-        <translation>Sinun tulee uudelleenrakentaa tietokanta käyttäen -reindex vaihtaen -txindex</translation>
+        <translation>Bạn cần xây dựng lại cơ sở dữ liệu sử dụng -reindex để thay cho -txindex</translation>
     </message>
     <message>
         <source>Your entries added successfully.</source>
-        <translation>Merkinnnät lisätty onnistuneesti.</translation>
+        <translation>Các đầu vào của bạn đã được thêm vào một cách thành công.</translation>
     </message>
     <message>
         <source>Your transaction was accepted into the pool!</source>
-        <translation>Siirtotapahtuma hyväksytty varantoon!</translation>
+        <translation>Giao dịch của bạn đã được chấp nhận vào bể!</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>
-        <translation>Tyhjennetään kaikki siirtotapahtumat lompakosta....</translation>
+        <translation>Dọn sạch tất cả các giao dịch khỏi ví...</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>käynnistyksessä</translation>
+        <translation>khi khởi động</translation>
     </message>
     <message>
         <source>wallet.dat corrupt, salvage failed</source>
-        <translation>wallet.dat lompakkotiedosto vioittunut, pelastaminen epäonnistui</translation>
+        <translation>wallet.dat bị lỗi, cứu chữa không thành công.</translation>
     </message>
 </context>
 </TS>

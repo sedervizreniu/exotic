@@ -5002,7 +5002,7 @@ https://www.transifex.com/exotic-project/exotic-project-translations</source>
 <context>
     <name>exotic-core</name>
     <message>
-        <location filename="../galilelstrings.cpp" line="+12"/>
+        <location filename="../exoticstrings.cpp" line="+12"/>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation type="unfinished">(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</translation>
     </message>
@@ -5246,7 +5246,7 @@ https://www.transifex.com/exotic-project/exotic-project-translations</source>
         <source>To use exoticd, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=galilelrpc
+rpcuser=exoticrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.

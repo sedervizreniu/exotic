@@ -188,7 +188,7 @@
         <translation>Портфейлът е шифриран</translation>
     </message>
     <message>
-        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your galilels from being stolen by malware infecting your computer.</source>
+        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your exotics from being stolen by malware infecting your computer.</source>
         <translation>GALILEL ще се затвори, за да завърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да ви предпази от кражба на монетите чрез зловреден софтуер инфектирал компютъра ви. </translation>
     </message>
     <message>
@@ -3713,7 +3713,7 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
         <source>To use exoticd, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=galilelrpc
+rpcuser=exoticrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3721,7 +3721,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "GALILEL Alert" admin@foo.com
 </source>
-        <translation>За използване на exoticd, или the -server опция към exotic-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=galilelrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "GALILEL Alert" admin@foo.com
+        <translation>За използване на exoticd, или the -server опция към exotic-qt, трябва да зададете rpcpassword в конфигурационния файл: %s Препоръчително е да използвате следната произволна парола: rpcuser=exoticrpc rpcpassword=%s (не е нужно да запомняте тази парола) Потребителя и паролата НЕ ТРЯБВА да са еднакви. Ако файла не съществува , създайте го с права за само за четене. Препоръчително е да създадете сигнал за уведомяване за да бъдете осведомени при проблем; Пример: alertnotify=echo %%s | mail -s "GALILEL Alert" admin@foo.com
 </translation>
     </message>
     <message>

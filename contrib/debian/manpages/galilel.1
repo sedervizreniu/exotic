@@ -84,10 +84,10 @@ This help message
 \fBbackupwallet 'destination'\fR
 Safely copies *wallet.dat* to 'destination', which can be a directory or a path with filename.
 .TP
-\fBgetaccount 'galileladdress'\fR
+\fBgetaccount 'exoticaddress'\fR
 Returns the account associated with the given address.
 .TP
-\fBsetaccount 'galileladdress' ['account']\fR
+\fBsetaccount 'exoticaddress' ['account']\fR
 Sets the ['account'] associated with the given address. ['account'] may be omitted to remove an address from ['account'].
 .TP
 \fBgetaccountaddress 'account'\fR
@@ -129,8 +129,8 @@ Returns a new exotic address for receiving payments. If 'account' is specified (
 \fBgetreceivedbyaccount 'account' ['minconf=1']\fR
 Returns the total amount received by addresses associated with 'account' in transactions with at least ['minconf'] confirmations.
 .TP
-\fBgetreceivedbyaddress 'galileladdress' ['minconf=1']\fR
-Returns the total amount received by 'galileladdress' in transactions with at least ['minconf'] confirmations.
+\fBgetreceivedbyaddress 'exoticaddress' ['minconf=1']\fR
+Returns the total amount received by 'exoticaddress' in transactions with at least ['minconf'] confirmations.
 .TP
 \fBgettransaction 'txid'\fR
 Returns information about a specific transaction, given hexadecimal transaction ID.
@@ -182,21 +182,21 @@ Returns a list of the last ['count'] transactions for 'account' \- for all accou
 \fBmove <'fromaccount'> <'toaccount'> <'amount'> ['minconf=1'] ['comment']\fR
 Moves funds between accounts.
 .TP
-\fBsendfrom* <'account'> <'galileladdress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
-Sends amount from account's balance to 'galileladdress'. This method will fail if there is less than amount GALILEL with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
+\fBsendfrom* <'account'> <'exoticaddress'> <'amount'> ['minconf=1'] ['comment'] ['comment-to']\fR
+Sends amount from account's balance to 'exoticaddress'. This method will fail if there is less than amount GALILEL with ['minconf'] confirmations in the account's balance (unless account is the empty-string-named default account; it behaves like the *sendtoaddress* method). Returns transaction ID on success.
 .TP
-\fBsendtoaddress 'galileladdress' 'amount' ['comment'] ['comment-to']\fR
-Sends amount from the server's available balance to 'galileladdress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
+\fBsendtoaddress 'exoticaddress' 'amount' ['comment'] ['comment-to']\fR
+Sends amount from the server's available balance to 'exoticaddress'. amount is a real and is rounded to the nearest 0.01. Returns transaction id on success.
 .TP
 \fBstop\fR
 Stops the exotic server.
 .TP
-\fBvalidateaddress 'galileladdress'\fR
-Checks that 'galileladdress' looks like a proper GALILEL address. Returns an object containing:
+\fBvalidateaddress 'exoticaddress'\fR
+Checks that 'exoticaddress' looks like a proper GALILEL address. Returns an object containing:
 
     "isvalid" : true or false.
     "ismine"  : true if the address is in the server's wallet.
-    "address" : galileladdress.
+    "address" : exoticaddress.
 
     *note: ismine and address are only returned if the address is valid.
 

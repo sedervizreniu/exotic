@@ -646,22 +646,22 @@ add_executable(Exotic
         src/qt/forms/signverifymessagedialog.ui
         src/qt/forms/tradingdialog.ui
         src/qt/forms/transactiondescdialog.ui
-        src/qt/locale/galilel_bg.ts
-        src/qt/locale/galilel_de.ts
-        src/qt/locale/galilel_en.ts
-        src/qt/locale/galilel_es.ts
-        src/qt/locale/galilel_fi.ts
-        src/qt/locale/galilel_fr.ts
-        src/qt/locale/galilel_it.ts
-        src/qt/locale/galilel_ja.ts
-        src/qt/locale/galilel_pl.ts
-        src/qt/locale/galilel_pt.ts
-        src/qt/locale/galilel_ru.ts
-        src/qt/locale/galilel_sk.ts
-        src/qt/locale/galilel_sv.ts
-        src/qt/locale/galilel_vi.ts
-        src/qt/locale/galilel_zh_CN.ts
-        src/qt/locale/galilel_zh_TW.ts
+        src/qt/locale/exotic_bg.ts
+        src/qt/locale/exotic_de.ts
+        src/qt/locale/exotic_en.ts
+        src/qt/locale/exotic_es.ts
+        src/qt/locale/exotic_fi.ts
+        src/qt/locale/exotic_fr.ts
+        src/qt/locale/exotic_it.ts
+        src/qt/locale/exotic_ja.ts
+        src/qt/locale/exotic_pl.ts
+        src/qt/locale/exotic_pt.ts
+        src/qt/locale/exotic_ru.ts
+        src/qt/locale/exotic_sk.ts
+        src/qt/locale/exotic_sv.ts
+        src/qt/locale/exotic_vi.ts
+        src/qt/locale/exotic_zh_CN.ts
+        src/qt/locale/exotic_zh_TW.ts
         src/qt/res/css/dark.css
         src/qt/res/css/default.css
         src/qt/res/icons/add.png
@@ -727,13 +727,13 @@ add_executable(Exotic
         src/qt/res/icons/tx_output.png
         src/qt/res/icons/unit_btc.png
         src/qt/res/icons/unit_mbtc.png
-        src/qt/res/icons/unit_mgalilel.png
-        src/qt/res/icons/unit_tmgalilel.png
-        src/qt/res/icons/unit_tgalilel.png
-        src/qt/res/icons/unit_tugalilel.png
+        src/qt/res/icons/unit_mexotic.png
+        src/qt/res/icons/unit_tmexotic.png
+        src/qt/res/icons/unit_texotic.png
+        src/qt/res/icons/unit_tuexotic.png
         src/qt/res/icons/unit_ubtc.png
-        src/qt/res/icons/unit_galilel.png
-        src/qt/res/icons/unit_ugalilel.png
+        src/qt/res/icons/unit_exotic.png
+        src/qt/res/icons/unit_uexotic.png
         src/qt/res/images/about.png
         src/qt/res/images/downArrow.png
         src/qt/res/images/downArrow_small.png
@@ -743,8 +743,8 @@ add_executable(Exotic
         src/qt/res/images/splash.png
         src/qt/res/images/splash_testnet.png
         src/qt/res/images/upArrow_small.png
-        src/qt/res/images/galilel_logo_horizontal.png
-        src/qt/res/images/galilel_logo_horizontalold.png
+        src/qt/res/images/exotic_logo_horizontal.png
+        src/qt/res/images/exotic_logo_horizontalold.png
         src/qt/res/images/walletFrame.png
         src/qt/res/images/walletFrame_bg.png
         src/qt/res/images/walletFrame_bgdark.png
@@ -914,8 +914,8 @@ add_executable(Exotic
         src/qt/utilitydialog.h
         src/qt/exotic.cpp
         src/qt/exotic.qrc
-        src/qt/galilel_locale.qrc
-        src/qt/galilelstrings.cpp
+        src/qt/exotic_locale.qrc
+        src/qt/exoticstrings.cpp
         src/qt/walletframe.cpp
         src/qt/walletframe.h
         src/qt/walletmodel.cpp
@@ -1106,7 +1106,7 @@ add_executable(Exotic
         src/test/sighash_tests.cpp
         src/test/sigopcount_tests.cpp
         src/test/skiplist_tests.cpp
-        src/test/test_galilel.cpp
+        src/test/test_exotic.cpp
         src/test/timedata_tests.cpp
         src/test/transaction_tests.cpp
         src/test/uint256_tests.cpp

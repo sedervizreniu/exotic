@@ -5,7 +5,7 @@ SUBDIRS = src
 GZIP_ENV="-9n"
 export PYTHONPATH
 
-BITCOIND_BIN=$(top_builddir)/src/galileld$(EXEEXT)
+BITCOIND_BIN=$(top_builddir)/src/exoticd$(EXEEXT)
 BITCOIN_QT_BIN=$(top_builddir)/src/qt/exotic-qt$(EXEEXT)
 BITCOIN_CLI_BIN=$(top_builddir)/src/exotic-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
@@ -40,9 +40,9 @@ OSX_PACKAGING = $(OSX_DEPLOY_SCRIPT) $(OSX_FANCY_PLIST) $(OSX_INSTALLER_ICONS) \
   $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
 
 COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \
-  leveldb_baseline.info test_galilel_filtered.info total_coverage.info \
+  leveldb_baseline.info test_exotic_filtered.info total_coverage.info \
   baseline_filtered.info block_test_filtered.info \
-  leveldb_baseline_filtered.info test_galilel_coverage.info test_galilel.info
+  leveldb_baseline_filtered.info test_exotic_coverage.info test_exotic.info
 
 dist-hook:
 	-$(MAKE) -C $(top_distdir)/src/leveldb clean
@@ -174,16 +174,16 @@ leveldb_baseline_filtered.info: leveldb_baseline.info
 baseline_filtered_combined.info: leveldb_baseline_filtered.info baseline_filtered.info
 	$(LCOV) -a leveldb_baseline_filtered.info -a baseline_filtered.info -o $@
 
-test_galilel.info: baseline_filtered_combined.info
+test_exotic.info: baseline_filtered_combined.info
 	$(MAKE) -C src/ check
-	$(LCOV) -c -d $(abs_builddir)/src -t test_galilel -o $@
+	$(LCOV) -c -d $(abs_builddir)/src -t test_exotic -o $@
 	$(LCOV) -z -d $(abs_builddir)/src
 	$(LCOV) -z -d $(abs_builddir)/src/leveldb
 
-test_galilel_filtered.info: test_galilel.info
+test_exotic_filtered.info: test_exotic.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-block_test.info: test_galilel_filtered.info
+block_test.info: test_exotic_filtered.info
 	$(MKDIR_P) qa/tmp
 	-@TIMEOUT=15 qa/pull-tester/run-bitcoind-for-test.sh $(JAVA) -jar $(JAVA_COMPARISON_TOOL) qa/tmp/compTool 0
 	$(LCOV) -c -d $(abs_builddir)/src --t BitcoinJBlockTest -o $@
@@ -193,13 +193,13 @@ block_test.info: test_galilel_filtered.info
 block_test_filtered.info: block_test.info
 	$(LCOV) -r $< "/usr/include/*" -o $@
 
-test_galilel_coverage.info: baseline_filtered_combined.info test_galilel_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_galilel_filtered.info -o $@
+test_exotic_coverage.info: baseline_filtered_combined.info test_exotic_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_exotic_filtered.info -o $@
 
-total_coverage.info:  baseline_filtered_combined.info test_galilel_filtered.info block_test_filtered.info
-	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_galilel_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
+total_coverage.info:  baseline_filtered_combined.info test_exotic_filtered.info block_test_filtered.info
+	$(LCOV) -a baseline_filtered.info -a leveldb_baseline_filtered.info -a test_exotic_filtered.info -a block_test_filtered.info -o $@ | $(GREP) "\%" | $(AWK) '{ print substr($$3,2,50) "/" $$5 }' > coverage_percent.txt
 
-test_galilel.coverage/.dirstamp:  test_galilel_coverage.info
+test_exotic.coverage/.dirstamp:  test_exotic_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
@@ -207,7 +207,7 @@ total.coverage/.dirstamp: total_coverage.info
 	$(GENHTML) -s $< -o $(@D)
 	@touch $@
 
-cov: test_galilel.coverage/.dirstamp total.coverage/.dirstamp
+cov: test_exotic.coverage/.dirstamp total.coverage/.dirstamp
 
 endif
 
@@ -226,4 +226,4 @@ CLEANFILES = $(OSX_DMG) $(BITCOIN_WIN_INSTALLER)
 .INTERMEDIATE: $(COVERAGE_INFO)
 
 clean-local:
-	rm -rf test_galilel.coverage/ total.coverage/ $(OSX_APP)
+	rm -rf test_exotic.coverage/ total.coverage/ $(OSX_APP)

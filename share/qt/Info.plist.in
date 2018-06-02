@@ -65,7 +65,7 @@
         <string>application/x-exotic-payment-request</string>
         <key>public.filename-extension</key>
         <array>
-          <string>galilelpaymentrequest</string>
+          <string>exoticpaymentrequest</string>
         </array>
       </dict>
     </dict>

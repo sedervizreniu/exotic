@@ -1,4 +1,4 @@
-test/test_test_galilel-test_galilel.o: test/test_galilel.cpp \
+test/test_test_exotic-test_exotic.o: test/test_exotic.cpp \
  /usr/include/stdc-predef.h main.h config/exotic-config.h amount.h \
  serialize.h /usr/include/c++/5/algorithm /usr/include/c++/5/utility \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \

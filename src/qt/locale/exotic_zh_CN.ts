@@ -1,262 +1,262 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>右鍵點一下來修改位址或標記</translation>
+        <translation>右键点击编辑地址或标签</translation>
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>建立新的位址</translation>
+        <translation>创建新地址</translation>
     </message>
     <message>
         <source>&amp;New</source>
-        <translation>新增(&amp;N)</translation>
+        <translation>新建(&amp;N)</translation>
     </message>
     <message>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>複製目前選擇的位址到系統剪貼簿</translation>
+        <translation>复制当前选中的地址到系统剪贴板</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation>複製(&amp;C)</translation>
+        <translation>复制(&amp;C)</translation>
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
-        <translation>把目前選擇的位址從列表中刪除</translation>
+        <translation>从列表中删除选中的地址</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation>刪除(&amp;D)</translation>
+        <translation>删除(&amp;D)</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目前分頁的資料匯出存成檔案</translation>
+        <translation>导出当前数据到文件</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation>匯出(&amp;E)</translation>
+        <translation>导出(&amp;E)</translation>
     </message>
     <message>
         <source>C&amp;lose</source>
-        <translation>關閉(&amp;C)</translation>
+        <translation>关闭(&amp;C)</translation>
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>選擇要付錢過去的位址</translation>
+        <translation>选择发款地址</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>選擇要收錢進來的位址</translation>
+        <translation>选择收款地址</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
-        <translation>選取(&amp;C)</translation>
+        <translation>选择(&amp;H)</translation>
     </message>
     <message>
         <source>Sending addresses</source>
-        <translation>付款位址</translation>
+        <translation>正在发送地址</translation>
     </message>
     <message>
         <source>Receiving addresses</source>
-        <translation>收款位址</translation>
+        <translation>正在接收地址</translation>
     </message>
     <message>
         <source>These are your GALILEL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>這些是你要付款過去的達世幣位址。在付錢之前，務必要檢查金額和收款位址是否正確。</translation>
+        <translation>这些是你要付款过去的达世币地址。在付款之前，务必要检查金额和收款地址是否正确。</translation>
     </message>
     <message>
         <source>These are your GALILEL addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>這些是你用來收款的達世幣位址。建議在每次交易時，都使用一個新的收款位址。</translation>
+        <translation>这些是你用来收款的达世币地址。建议在每次交易时，都使用一个新的收款地址。</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
-        <translation>複製位址(&amp;C)</translation>
+        <translation>复制地址(&amp;C)</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
-        <translation>複製標記(&amp;L)</translation>
+        <translation>复制标签(&amp;L)</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
-        <translation>編輯(&amp;E)</translation>
+        <translation>编辑(&amp;E)</translation>
     </message>
     <message>
         <source>Export Address List</source>
-        <translation>匯出位址清單</translation>
+        <translation>导出地址列表</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>逗號分隔資料檔(*.csv)</translation>
+        <translation>逗号分隔文件 (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>匯出失敗</translation>
+        <translation>导出失败</translation>
     </message>
     <message>
         <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>儲存位址列表到 %1 時發生錯誤。請重試一次。</translation>
+        <translation>尝试保存地址列表至%1.时发生错误,请重新执行操作.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>位址</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(没有标签)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>密碼對話視窗</translation>
+        <translation>密码对话框</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>請輸入密碼</translation>
+        <translation>输入密码</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>新密碼</translation>
+        <translation>新密码</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>重複新密碼</translation>
+        <translation>重复新密码</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>當OS帳戶被盜時就停止發送幣。不能提供真正的保護</translation>
+        <translation>当OS帐号被盗就禁止发送币。这并不提供真正的安全性。</translation>
     </message>
     <message>
         <source>For anonymization and staking only</source>
-        <translation>只限匿名</translation>
+        <translation>仅限匿名</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>輸入錢包的新密碼。&lt;br/&gt;密碼請用&lt;b&gt;10 個以上的字元&lt;/b&gt;，或是&lt;b&gt;8 個以上的字詞&lt;/b&gt;。</translation>
+        <translation>输入钱包的新密码。&lt;br/&gt;使用的密码请至少包含&lt;b&gt;10个以上随机字符&lt;/&gt;，或者是&lt;b&gt;8个以上的单词&lt;/b&gt;。</translation>
     </message>
     <message>
         <source>Encrypt wallet</source>
-        <translation>加密錢包</translation>
+        <translation>加密钱包</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>這個動作需要你的錢包密碼來解鎖錢包。</translation>
+        <translation>此操作需要您首先使用密码解锁该钱包。</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>解鎖錢包</translation>
+        <translation>解锁钱包</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>這個動作需要你的錢包密碼來把錢包解密。</translation>
+        <translation>该操作需要您首先使用密码解密钱包。</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
-        <translation>解密錢包</translation>
+        <translation>解密钱包</translation>
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>更改密碼</translation>
+        <translation>更改密码</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>請輸入錢包的舊密碼及新密碼。</translation>
+        <translation>请输入该钱包的旧密码与新密码。</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
-        <translation>確認錢包加密</translation>
+        <translation>确认加密钱包</translation>
     </message>
     <message>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR DNET&lt;/b&gt;!</source>
-        <translation>警告: 如果把錢包加密後又忘記密碼，你就會從此&lt;b&gt;失去其中所有的達世幣了&lt;/b&gt;！</translation>
+        <translation>警告:如果把钱包加​​密后又忘记密码，你就会从此&lt;b&gt;失去所有的达世币了&lt;/b&gt;!</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>你確定要把錢包加密嗎？</translation>
+        <translation>您确定需要为钱包加密吗？</translation>
     </message>
     <message>
         <source>Wallet encrypted</source>
-        <translation>錢包已加密</translation>
+        <translation>钱包已加密</translation>
     </message>
     <message>
-        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your galilels from being stolen by malware infecting your computer.</source>
-        <translation>達世幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取達世幣。</translation>
+        <source>GALILEL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your exotics from being stolen by malware infecting your computer.</source>
+        <translation>达世币软体现在要关闭，以完成加密过程。请注意，加密钱包不能完全防止恶意软件入侵你的电脑盗取你的达世币。</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 請改用新產生有加密的錢包檔，來取代舊錢包檔的備份。為了安全性的理由，當你開始使用新的有加密的錢包後，舊錢包檔的備份就不能再使用了。</translation>
+        <translation>重要提示：您以前备份的钱包文件应该替换成最新生成的加密钱包文件（重新备份）。从安全性上考虑，您以前备份的未加密的钱包文件，在您使用新的加密钱包后将无效，请重新备份。</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
-        <translation>錢包加密失敗</translation>
+        <translation>钱包加密失败</translation>
     </message>
     <message>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>因為內部錯誤導致錢包加密失敗。你的錢包還是沒加密。</translation>
+        <translation>由于一个本地错误，加密钱包的操作已经失败。您的钱包没能被加密。</translation>
     </message>
     <message>
         <source>The supplied passphrases do not match.</source>
-        <translation>提供的密碼不一樣。</translation>
+        <translation>密码不匹配。</translation>
     </message>
     <message>
         <source>Wallet unlock failed</source>
-        <translation>錢包解鎖失敗</translation>
+        <translation>钱包解锁失败</translation>
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>輸入要用來解密錢包的密碼不對。</translation>
+        <translation>用于解密钱包的密码不正确。</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
-        <translation>錢包解密失敗</translation>
+        <translation>钱包解密失败。</translation>
     </message>
     <message>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>成功更改錢包的密碼。</translation>
+        <translation>修改钱包密码成功。</translation>
     </message>
     <message>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: 大寫字母鎖定作用中！</translation>
+        <translation>警告：大写锁定键处于打开状态！</translation>
     </message>
 </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
         <source>Exotic Core</source>
-        <translation>達世幣核心</translation>
+        <translation>达世币核心</translation>
     </message>
     <message>
         <source>Wallet</source>
-        <translation>錢包</translation>
+        <translation>钱包</translation>
     </message>
     <message>
         <source>Node</source>
-        <translation>節點</translation>
+        <translation>节点</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
-        <translation>總覽(&amp;O)</translation>
+        <translation>概况(&amp;O)</translation>
     </message>
     <message>
         <source>Show general overview of wallet</source>
-        <translation>顯示錢包一般總覽</translation>
+        <translation>显示钱包概况</translation>
     </message>
     <message>
         <source>&amp;Send</source>
-        <translation>發送(&amp;S)</translation>
+        <translation>发送(&amp;S)</translation>
     </message>
     <message>
         <source>Send coins to a GALILEL address</source>
-        <translation>付錢給一個達世幣位址</translation>
+        <translation>发送币至达世币地址</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -264,215 +264,215 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and exotic: URIs)</source>
-        <translation>要求付款(產生 QR Code 和達世幣付款協議的 URI)</translation>
+        <translation>请求付款(生成二维码和达世币付款协议的URI)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
-        <translation>交易(&amp;T)</translation>
+        <translation>交易记录(&amp;T)</translation>
     </message>
     <message>
         <source>Browse transaction history</source>
-        <translation>瀏覽交易紀錄</translation>
+        <translation>查看交易历史</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
-        <translation>結束(&amp;E)</translation>
+        <translation>退出(&amp;X)</translation>
     </message>
     <message>
         <source>Quit application</source>
-        <translation>結束應用程式</translation>
+        <translation>退出程序</translation>
     </message>
     <message>
         <source>&amp;About Exotic Core</source>
-        <translation>關於達世幣核心(&amp;A)</translation>
+        <translation>&amp;关于达世币核心</translation>
     </message>
     <message>
         <source>Show information about Exotic Core</source>
-        <translation>顯示達世幣核心的相關資訊</translation>
+        <translation>显示关于达世币核心信息</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
-        <translation>關於 &amp;Qt</translation>
+        <translation>关于 &amp;Qt</translation>
     </message>
     <message>
         <source>Show information about Qt</source>
-        <translation>顯示 Qt 相關資訊</translation>
+        <translation>显示 Qt 相关信息</translation>
     </message>
     <message>
         <source>&amp;Options...</source>
-        <translation>選項(&amp;O)...</translation>
+        <translation>选项(&amp;O)...</translation>
     </message>
     <message>
         <source>Modify configuration options for GALILEL</source>
-        <translation>修改達世幣軟體的設定選項</translation>
+        <translation>修改达世币配置选项</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
-        <translation>顯示或隱藏(&amp;S)</translation>
+        <translation>显示 / 隐藏(&amp;S)</translation>
     </message>
     <message>
         <source>Show or hide the main Window</source>
-        <translation>顯示或隱藏主視窗</translation>
+        <translation>显示或隐藏主窗口</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
-        <translation>加密錢包(&amp;E)</translation>
+        <translation>加密钱包(&amp;E)...</translation>
     </message>
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
-        <translation>把錢包中的密鑰加密</translation>
+        <translation>对钱包中的私钥加密</translation>
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
-        <translation>備份錢包(&amp;B)...</translation>
+        <translation>备份钱包(&amp;B)...</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
-        <translation>把錢包備份到其它地方</translation>
+        <translation>备份钱包到其他文件夹</translation>
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>更改密碼(&amp;C)...</translation>
+        <translation>更改密码(&amp;C)...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>更改錢包加密用的密碼</translation>
+        <translation>更改钱包加密口令</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
-        <translation>解鎖錢包(&amp;U)...</translation>
+        <translation>解锁钱包(&amp;U)</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>解鎖錢包</translation>
+        <translation>解锁钱包</translation>
     </message>
     <message>
         <source>&amp;Lock Wallet</source>
-        <translation>鎖定錢包(&amp;L)</translation>
+        <translation>锁定钱包(&amp;L)</translation>
     </message>
     <message>
         <source>Sign &amp;message...</source>
-        <translation>簽署訊息(&amp;M)...</translation>
+        <translation>消息签名(&amp;M)...</translation>
     </message>
     <message>
         <source>Sign messages with your GALILEL addresses to prove you own them</source>
-        <translation>用達世幣位址簽署訊息來證明位址是你的</translation>
+        <translation>用达世币地址签署讯息来证明地址是你的</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
-        <translation>驗證訊息(&amp;V)...</translation>
+        <translation>验证消息(&amp;V)...</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified GALILEL addresses</source>
-        <translation>驗證訊息是用來確定訊息是用指定的達世幣位址簽署的</translation>
+        <translation>验证讯息是用来确定讯息是用指定的达世币地址签署的</translation>
     </message>
     <message>
         <source>&amp;Information</source>
-        <translation>資訊(&amp;I)</translation>
+        <translation>信息(&amp;I)</translation>
     </message>
     <message>
         <source>Show diagnostic information</source>
-        <translation>顯示診斷信息</translation>
+        <translation>显示诊断信息</translation>
     </message>
     <message>
         <source>&amp;Debug console</source>
-        <translation>除錯主控台(&amp;D)</translation>
+        <translation>Debug控制台(&amp;D)</translation>
     </message>
     <message>
         <source>Open debugging console</source>
-        <translation>開啓除錯主控台</translation>
+        <translation>打开调试控制台</translation>
     </message>
     <message>
         <source>&amp;Network Monitor</source>
-        <translation>網絡監視器(&amp;N)</translation>
+        <translation>网络流量监控(&amp;N)</translation>
     </message>
     <message>
         <source>Show network monitor</source>
-        <translation>顯示網絡監視器</translation>
+        <translation>显示网络流量监控</translation>
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>節點列表(&amp;P)</translation>
+        <translation>&amp;节点列表</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>節點列表資訊</translation>
+        <translation>显示节点信息</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
-        <translation>錢包修復(&amp;R)</translation>
+        <translation>钱包&amp;修复</translation>
     </message>
     <message>
         <source>Show wallet repair options</source>
-        <translation>顯示修復錢包選項</translation>
+        <translation>显示钱包修复选项</translation>
     </message>
     <message>
         <source>Open &amp;Configuration File</source>
-        <translation>開啟配置文件(&amp;C)</translation>
+        <translation>打开 &amp;配置文件</translation>
     </message>
     <message>
         <source>Open configuration file</source>
-        <translation>開啟配置文件</translation>
+        <translation>打开配置文件</translation>
     </message>
     <message>
         <source>Show Automatic &amp;Backups</source>
-        <translation>顯示自動備份(&amp;B)</translation>
+        <translation>显示自动备份&amp;</translation>
     </message>
     <message>
         <source>Show automatically created wallet backups</source>
-        <translation>顯示自動創建的錢包備份檔</translation>
+        <translation>显示自动创建的钱包备份</translation>
     </message>
     <message>
         <source>&amp;Sending addresses...</source>
-        <translation>付款位址(&amp;S)...</translation>
+        <translation>&amp;付款地址 </translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>顯示已使用過的付款位址和標記的清單</translation>
+        <translation>显示用过的发送地址和标签的列表</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
-        <translation>收款位址(&amp;R)...</translation>
+        <translation>&amp;收款地址</translation>
     </message>
     <message>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>顯示已使用過的收款位址和標記的清單</translation>
+        <translation>显示用过的接收地址和标签的列表</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>開啓 &amp;URI...</translation>
+        <translation>打开 &amp;URI...</translation>
     </message>
     <message>
         <source>Open a exotic: URI or payment request</source>
-        <translation>開啓一個達世幣協議的 URI 或付款要求</translation>
+        <translation>打开达世币：网页或付款请求</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
-        <translation>命令列選項(&amp;C)</translation>
+        <translation>&amp;命令行 选项</translation>
     </message>
     <message>
         <source>Exotic Core client</source>
-        <translation>達世幣核心客戶端軟體</translation>
+        <translation>达世币核心客户端</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
-        <translation><numerusform>已經處理了 %n 個區塊的交易紀錄。</numerusform></translation>
+        <translation><numerusform>已处理了%n个区块的交易记录.</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing additional data: %p%</source>
-        <translation>正在同步額外的數據: %p%</translation>
+        <translation>正在同步附加数据:%p%</translation>
     </message>
     <message>
         <source>Show the Exotic Core help message to get a list with possible GALILEL command-line options</source>
-        <translation>顯示達世幣核心的說明訊息，來取得可用命令列選項的列表</translation>
+        <translation>打开达世币核心帮助信息取得可使用的命令行列表</translation>
     </message>
     <message>
         <source>&amp;File</source>
-        <translation>檔案(&amp;F)</translation>
+        <translation>文件(&amp;F)</translation>
     </message>
     <message>
         <source>&amp;Settings</source>
-        <translation>設定(&amp;S)</translation>
+        <translation>设置(&amp;S)</translation>
     </message>
     <message>
         <source>&amp;Tools</source>
@@ -480,75 +480,75 @@
     </message>
     <message>
         <source>&amp;Help</source>
-        <translation>說明(&amp;H)</translation>
+        <translation>帮助(&amp;H)</translation>
     </message>
     <message>
         <source>Tabs toolbar</source>
-        <translation>分頁工具列</translation>
+        <translation>分页工具栏</translation>
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to GALILEL network</source>
-        <translation><numerusform>%n 個運作中的達世幣網路連線</numerusform></translation>
+        <translation><numerusform>%n 已连接至达世币网络</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
-        <translation>正在跟網路進行同步...</translation>
+        <translation>正在与网络同步...</translation>
     </message>
     <message>
         <source>Importing blocks from disk...</source>
-        <translation>正在從磁碟匯入區塊資料...</translation>
+        <translation>正在从磁盘导入数据块...</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
-        <translation>正在為磁碟裡的區塊重建索引...</translation>
+        <translation>正在为数据块建立索引...</translation>
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>沒有可用的區塊來源...</translation>
+        <translation>沒有可用的区块来源...</translation>
     </message>
     <message>
         <source>Up to date</source>
-        <translation>最新狀態</translation>
+        <translation>已是最新</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%n 個小時</numerusform></translation>
+        <translation><numerusform>%n小时</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n day(s)</source>
-        <translation><numerusform>%n 天</numerusform></translation>
+        <translation><numerusform>%n天</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
-        <translation><numerusform>%n 個星期</numerusform></translation>
+        <translation><numerusform>%n周</numerusform></translation>
     </message>
     <message>
         <source>%1 and %2</source>
-        <translation>%1又 %2</translation>
+        <translation>%1 和 %2</translation>
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
+        <translation><numerusform>%n年</numerusform></translation>
     </message>
     <message>
         <source>%1 behind</source>
-        <translation>落後 %1</translation>
+        <translation>落后 %1 </translation>
     </message>
     <message>
         <source>Catching up...</source>
-        <translation>正在趕進度...</translation>
+        <translation>更新中...</translation>
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>最近收到的區塊是在 %1 以前產生的。</translation>
+        <translation>最新收到的区块产生于 %1。</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>暫時會看不到在這之後的交易。</translation>
+        <translation>在此之后的交易尚未可见</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -556,15 +556,15 @@
     </message>
     <message>
         <source>Information</source>
-        <translation>資訊</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <source>Sent transaction</source>
-        <translation>付款交易</translation>
+        <translation>发送交易</translation>
     </message>
     <message>
         <source>Incoming transaction</source>
-        <translation>收款交易</translation>
+        <translation>流入交易</translation>
     </message>
     <message>
         <source>Date: %1
@@ -573,76 +573,80 @@ Type: %3
 Address: %4
 </source>
         <translation>日期: %1
-金額: %2
-種類: %3
-位址: %4
+金额: %2
+类别: %3
+地址: %4
 </translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
-        <translation>錢包&lt;b&gt;已加密&lt;/b&gt;目前為&lt;b&gt;解鎖&lt;/b&gt;狀態</translation>
+        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;解锁&lt;/b&gt;状态</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
-        <translation>錢包&lt;b&gt;已加密&lt;/b&gt;目前為&lt;b&gt;解鎖&lt;/b&gt;狀態以進行匿名處理</translation>
+        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;并且目前处于&lt;b&gt;解锁&lt;/b&gt;状态以进行匿名处理</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
-        <translation>錢包&lt;b&gt;已加密&lt;/b&gt;目前為&lt;b&gt;鎖定&lt;/b&gt;狀態</translation>
+        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
 </context>
 <context>
     <name>ClientModel</name>
     <message>
+        <source>Total: %1 (OBF compatible: %2 / Enabled: %3)</source>
+        <translation>总量:%1 (匿名发送兼容: %2 / 可用: %3)</translation>
+    </message>
+    <message>
         <source>Network Alert</source>
-        <translation>網路警報</translation>
+        <translation>网络警报</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
         <source>Quantity:</source>
-        <translation>數目:</translation>
+        <translation>总量：</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>位元組數:</translation>
+        <translation>字节：</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>金額:</translation>
+        <translation>金额：</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>優先度:</translation>
+        <translation>优先级：</translation>
     </message>
     <message>
         <source>Fee:</source>
-        <translation>手續費:</translation>
+        <translation>费用：</translation>
     </message>
     <message>
         <source>Coin Selection</source>
-        <translation>選擇錢幣</translation>
+        <translation>选择币</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>零散錢:</translation>
+        <translation>零钱:</translation>
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>計費後金額:</translation>
+        <translation>加上交易费用后:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>找零金額:</translation>
+        <translation>变更 : </translation>
     </message>
     <message>
         <source>(un)select all</source>
-        <translation>(全不選)或全選</translation>
+        <translation>(不)全选</translation>
     </message>
     <message>
         <source>Tree mode</source>
-        <translation>樹狀模式</translation>
+        <translation>树状模式</translation>
     </message>
     <message>
         <source>List mode</source>
@@ -650,23 +654,23 @@ Address: %4
     </message>
     <message>
         <source>(1 locked)</source>
-        <translation>(1 鎖定)</translation>
+        <translation>(1 锁定)</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>金額</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>Received with label</source>
-        <translation>收款標記</translation>
+        <translation>收款标签</translation>
     </message>
     <message>
         <source>Received with address</source>
-        <translation>收款位址</translation>
+        <translation>收款地址</translation>
     </message>
     <message>
         <source>OBF Rounds</source>
-        <translation>匿名發送循環</translation>
+        <translation>匿名发送循环</translation>
     </message>
     <message>
         <source>Date</source>
@@ -674,71 +678,71 @@ Address: %4
     </message>
     <message>
         <source>Confirmations</source>
-        <translation>確認次數</translation>
+        <translation>确认</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>已確認</translation>
+        <translation>已确认</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation>優先度</translation>
+        <translation>优先级</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>複製位址</translation>
+        <translation>复制地址</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>複製標記</translation>
+        <translation>复制标签</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>複製金額</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>複製交易識別碼</translation>
+        <translation>复制交易编号</translation>
     </message>
     <message>
         <source>Lock unspent</source>
-        <translation>鎖定未動用資金</translation>
+        <translation>锁定未花费</translation>
     </message>
     <message>
         <source>Unlock unspent</source>
-        <translation>解鎖未動用資金</translation>
+        <translation>解锁未花费</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>複製數目</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>複製手續費</translation>
+        <translation>复制交易费</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>複製計費後金額</translation>
+        <translation>复制含交易费的金额</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>複製位元組數</translation>
+        <translation>复制字节</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>複製優先度</translation>
+        <translation>复制优先级</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>複製零散金額</translation>
+        <translation>复制零钱金额</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>複製找零金額</translation>
+        <translation>复制零钱</translation>
     </message>
     <message>
         <source>Non-anonymized input selected. &lt;b&gt;Obfuscate will be disabled.&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you still want to use Obfuscate, please deselect all non-nonymized inputs first and then check Obfuscate checkbox again.</source>
-        <translation>選擇了非匿名的輸入。 &lt;b&gt; 匿名發送將會被禁用。&lt;/ b&gt;&lt;br&gt; &lt;br&gt;如果你仍然想用匿名發送，請先取消選取所有非匿名的輸入，然後再勾選匿名發送的核取方塊</translation>
+        <translation>已选择非匿名输入. &lt;b&gt;匿名发送将会被禁用.&lt;/ b&gt;&lt;br&gt; &lt;br&gt;如果你仍然想使用匿名发送功能,请先取消所选的非匿名输入,然后再勾选匿名发送.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -746,7 +750,7 @@ Address: %4
     </message>
     <message>
         <source>higher</source>
-        <translation>很高</translation>
+        <translation>更高</translation>
     </message>
     <message>
         <source>high</source>
@@ -758,11 +762,11 @@ Address: %4
     </message>
     <message>
         <source>Can vary +/- %1 duff(s) per input.</source>
-        <translation>每組輸入可能有 +/- %1 個 duff(s) 的誤差。</translation>
+        <translation>每笔输入可能会有 +/- %1个duff(s)的偏差.</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>不適用</translation>
+        <translation>n/a</translation>
     </message>
     <message>
         <source>medium</source>
@@ -778,7 +782,7 @@ Address: %4
     </message>
     <message>
         <source>lower</source>
-        <translation>很低</translation>
+        <translation>更低</translation>
     </message>
     <message>
         <source>lowest</source>
@@ -786,11 +790,11 @@ Address: %4
     </message>
     <message>
         <source>(%1 locked)</source>
-        <translation>(%1 鎖定)</translation>
+        <translation>(%1 锁定)</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>無</translation>
+        <translation>无</translation>
     </message>
     <message>
         <source>yes</source>
@@ -802,191 +806,191 @@ Address: %4
     </message>
     <message>
         <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
-        <translation>當交易大小大於 1000 位元組時，文字會變紅色。</translation>
+        <translation>如果这笔交易大于1000字节，标签会变成红色。</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>表示每一千位元組(kB)需要至少 %1 的手續費。</translation>
+        <translation>这意味着将对交易收取 %1/千字节 的交易费。</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>每組輸入可能會誤差多或少 1 個位元組。</translation>
+        <translation>每笔输入可能会有 正负1字节的偏差。</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
-        <translation>優先度較高的交易比較有可能被接受放進區塊中。</translation>
+        <translation>交易的优先级越高，被矿工收入数据块的速度也越快。</translation>
     </message>
     <message>
         <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>當優先度低於「中等」時，文字會變紅色。</translation>
+        <translation>如果优先级小于"中位数" ，标签将变成红色。</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>當任何一個收款金額小於 %1 時，文字會變紅色。</translation>
+        <translation>如果收款地址收到小于%1的比特币，标签将变成红色。</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(没有标签)</translation>
     </message>
     <message>
         <source>change from %1 (%2)</source>
-        <translation>找零前是 %1 (%2)</translation>
+        <translation>来自%1的零钱 (%2)</translation>
     </message>
     <message>
         <source>(change)</source>
-        <translation>(找零)</translation>
+        <translation>(零钱)</translation>
     </message>
 </context>
 <context>
     <name>ObfuscateConfig</name>
     <message>
         <source>Configure Obfuscate</source>
-        <translation>配置匿名發送</translation>
+        <translation>配置匿名发送</translation>
     </message>
     <message>
         <source>Basic Privacy</source>
-        <translation>基本隱私</translation>
+        <translation>基本隐私</translation>
     </message>
     <message>
         <source>High Privacy</source>
-        <translation>高度隱私</translation>
+        <translation>高度隐私</translation>
     </message>
     <message>
         <source>Maximum Privacy</source>
-        <translation>最大隱私</translation>
+        <translation>最大隐私</translation>
     </message>
     <message>
         <source>Please select a privacy level.</source>
-        <translation>請選擇穩私級別。</translation>
+        <translation>请选择隐私等级。</translation>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>使用2個獨立的主節點來混合最高達1000達世幣的資金</translation>
+        <translation>使用2个独立的主节点混合资金最多1000达世币</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 1000 DNET</source>
-        <translation>使用8個獨立的主節點來混合最高達1000達世幣的資金</translation>
+        <translation>使用8个独立的主节点混合资金最多1000达世币</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
-        <translation>使用16個獨立的主節點</translation>
+        <translation>使用16个独立主节点</translation>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DNET to anonymize 1000 DNET</source>
-        <translation>這個是最快的選項，將耗費約~0.025達世幣作為匿名處理1000達世幣的費用</translation>
+        <translation>此选项为最快速度，需要支付0.025达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DNET to anonymize 1000 DNET</source>
-        <translation>這個是一般的選項，將耗費約0.05達世幣作為匿名處理1000達世幣的費用</translation>
+        <translation>此选项为一般速度，需要支付0.05达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
         <source>0.1 DNET per 1000 DNET you anonymize.</source>
-        <translation>每1000達世幣耗費0.1達世幣作為匿名處理費用</translation>
+        <translation>0.1达世币/1000达世币的匿名处理费用。</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
-        <translation>這是最慢的和最安全的選頁。耗費最多的匿名處理費</translation>
+        <translation>此选项提供最慢速度但是却最安全的匿名服务。最多匿名化将花费</translation>
     </message>
     <message>
         <source>Obfuscate Configuration</source>
-        <translation>匿名發送配置</translation>
+        <translation>匿名发送配置</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening GALILEL's configuration screen.</source>
-        <translation>匿名發送已成功設置為一般(%1到2次循環)。你可以隨時打開達世幣配置窗口來修改。</translation>
+        <translation>匿名发送已成功设置为一般(%1到2次循环)。可以通过打开达世币配置窗口来随时修改。</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening GALILEL's configuration screen.</source>
-        <translation>匿名發送已成功設置為高(%1到8次循環)。你可以隨時打開達世幣配置窗口來修改。</translation>
+        <translation>匿名发送已成功设置为高(%1到8次循环)。可以通过打开达世币配置窗口来随时修改。</translation>
     </message>
     <message>
         <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening GALILEL's configuration screen.</source>
-        <translation>匿名發送已成功設置為最高(%1到16次循環)。你可以隨時打開達世幣配置窗口來修改。</translation>
+        <translation>匿名发送已成功设置为最高(%1到16次循环)。可以通过打开达世币配置窗口来随时修改。</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
-        <translation>編輯位址</translation>
+        <translation>编辑地址</translation>
     </message>
     <message>
         <source>&amp;Label</source>
-        <translation>標記(&amp;L)</translation>
+        <translation>标签(&amp;L)</translation>
     </message>
     <message>
         <source>The label associated with this address list entry</source>
-        <translation>跟這個位址簿項目關聯的標記</translation>
+        <translation>与此地址相关的标签项</translation>
     </message>
     <message>
         <source>&amp;Address</source>
-        <translation>位址(&amp;A)</translation>
+        <translation>地址(&amp;A)</translation>
     </message>
     <message>
         <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>跟這個位址簿項目關聯的位址。只有付款位址才能被修改。</translation>
+        <translation>该地址已与地址列表中的条目关联，只能被发送地址修改。</translation>
     </message>
     <message>
         <source>New receiving address</source>
-        <translation>新建收款位址</translation>
+        <translation>新建接收地址</translation>
     </message>
     <message>
         <source>New sending address</source>
-        <translation>新建付款位址</translation>
+        <translation>新建发送地址</translation>
     </message>
     <message>
         <source>Edit receiving address</source>
-        <translation>編輯收款位址</translation>
+        <translation>编辑接收地址</translation>
     </message>
     <message>
         <source>Edit sending address</source>
-        <translation>編輯付款位址</translation>
+        <translation>编辑发送地址</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid GALILEL address.</source>
-        <translation>輸入的位址 %1 並不是有效的達世幣位址。</translation>
+        <translation>输入的地址"%1"不是有效的达世币地址。</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
-        <translation>輸入的位址 %1 在位址簿中已經有了。</translation>
+        <translation>输入的地址“%1”已经存在于地址簿中。</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
-        <translation>沒辦法把錢包解鎖。</translation>
+        <translation>无法解锁钱包</translation>
     </message>
     <message>
         <source>New key generation failed.</source>
-        <translation>產生新的密鑰失敗了。</translation>
+        <translation>新的密钥生成失败。</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
         <source>A new data directory will be created.</source>
-        <translation>將會創建一個新的資料目錄。</translation>
+        <translation>一个新的数据目录将被创建。</translation>
     </message>
     <message>
         <source>name</source>
-        <translation>名稱</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
-        <translation>已經有這個目錄了。如果你要在裡面造出新的目錄的話，請加上 %1.</translation>
+        <translation>目录已存在。如果您打算在这里创建一个新目录，添加 %1。</translation>
     </message>
     <message>
         <source>Path already exists, and is not a directory.</source>
-        <translation>已經有指定的路徑了，並且不是一個目錄。</translation>
+        <translation>路径已存在，并且不是一个目录。</translation>
     </message>
     <message>
         <source>Cannot create data directory here.</source>
-        <translation>沒辦法在這裡建立資料目錄。</translation>
+        <translation>无法在此创建数据目录。</translation>
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
         <source>Exotic Core</source>
-        <translation>達世幣核心</translation>
+        <translation>达世币核心</translation>
     </message>
     <message>
         <source>version</source>
@@ -994,124 +998,125 @@ Address: %4
     </message>
     <message>
         <source>(%1-bit)</source>
-        <translation>(%1 位元)</translation>
+        <translation>(%1 位)</translation>
     </message>
     <message>
         <source>About Exotic Core</source>
-        <translation>關於達世幣核心</translation>
+        <translation>关于 达世币核心</translation>
     </message>
     <message>
         <source>Command-line options</source>
-        <translation>命令列選項</translation>
+        <translation>命令行选项</translation>
     </message>
     <message>
         <source>Usage:</source>
-        <translation>用法:</translation>
+        <translation>使用：</translation>
     </message>
     <message>
         <source>command-line options</source>
-        <translation>命令列選項</translation>
+        <translation>命令行选项</translation>
     </message>
     <message>
         <source>UI options</source>
-        <translation>使用界面選項</translation>
+        <translation>UI选项</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: 0)</source>
-        <translation>啓動時選擇資料目錄(預設值: 0)</translation>
+        <translation>在启动时选择数据目录（默认：0）</translation>
     </message>
     <message>
         <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>設定語言，比如說 de_DE (預設值: 系統語系)</translation>
+        <translation>设置语言, 例如“zh-TW”（默认为系统语言）</translation>
     </message>
     <message>
         <source>Start minimized</source>
-        <translation>啓動時縮到最小</translation>
+        <translation>启动时最小化
+</translation>
     </message>
     <message>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>設定付款請求時所使用的 SSL 根憑證 (預設值: 系統憑證庫)</translation>
+        <translation>设置SSL根证书的付款请求(默认：-系统-)</translation>
     </message>
     <message>
         <source>Show splash screen on startup (default: 1)</source>
-        <translation>顯示啓動畫面(預設值: 1)</translation>
+        <translation>启动时显示版权页 (缺省: 1)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
         <source>Welcome</source>
-        <translation>歡迎</translation>
+        <translation>欢迎</translation>
     </message>
     <message>
         <source>Welcome to Exotic Core.</source>
-        <translation>歡迎使用達世幣核心</translation>
+        <translation>欢迎来到达世币核心。</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where Exotic Core will store its data.</source>
-        <translation>因為這是程式第一次啓動，你可以選擇達世幣核心儲存資料的地方。</translation>
+        <translation>此次为第一次程序启动，你可以选择储存达世币核心数据的路径。</translation>
     </message>
     <message>
         <source>Exotic Core will download and store a copy of the GALILEL block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>達世幣核心會下載並儲存一份達世幣區塊鏈的副本。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
+        <translation>达世币核心将会下载并存储达世币数据链。至少有%1GB的数据会保存到此路径下，并且随着时间增长。钱包文件也将存储到此路径下。</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>使用預設的資料目錄</translation>
+        <translation>使用默认的数据目录</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>使用自定的資料目錄:</translation>
+        <translation>使用自定义的数据目录：</translation>
     </message>
     <message>
         <source>Exotic Core</source>
-        <translation>達世幣核心</translation>
+        <translation>达世币核心</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>錯誤: 無法新增指定的資料目錄: %1</translation>
+        <translation>错误:指定的数据目录“%1”无法被创建.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <source>%1 GB of free space available</source>
-        <translation>可用空間尚存 %1 GB</translation>
+        <translation>%1GB的可用空间</translation>
     </message>
     <message>
         <source>(of %1 GB needed)</source>
-        <translation>(需要 %1 GB)</translation>
+        <translation>(需要 %1 GB的空间)</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
         <source>Open URI</source>
-        <translation>開啓 URI</translation>
+        <translation>打开 URI</translation>
     </message>
     <message>
         <source>Open payment request from URI or file</source>
-        <translation>從 URI 或檔案開啟付款要求</translation>
+        <translation>打开来自URI或文件的付款请求 </translation>
     </message>
     <message>
         <source>URI:</source>
-        <translation>URI:</translation>
+        <translation>URI: </translation>
     </message>
     <message>
         <source>Select payment request file</source>
-        <translation>選擇付款要求資料檔</translation>
+        <translation>选择付款请求文件 </translation>
     </message>
     <message>
         <source>Select payment request file to open</source>
-        <translation>選擇要開啟的付款要求資料檔</translation>
+        <translation>选择需要打开的付款请求文件 </translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
         <source>Options</source>
-        <translation>選項</translation>
+        <translation>选项</translation>
     </message>
     <message>
         <source>&amp;Main</source>
@@ -1119,189 +1124,189 @@ Address: %4
     </message>
     <message>
         <source>Automatically start GALILEL after logging in to the system.</source>
-        <translation>在登入系統後自動啓動達世幣軟體。</translation>
+        <translation>登录系统后自动启动达世币程序</translation>
     </message>
     <message>
         <source>&amp;Start GALILEL on system login</source>
-        <translation>系統登入時啟動達世幣(&amp;S)</translation>
+        <translation>&amp;系统登录时启动达世币程序</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
-        <translation>資料庫快取大小</translation>
+        <translation>数据库缓存大小(&amp;D)</translation>
     </message>
     <message>
         <source>MB</source>
-        <translation>MB (百萬位元組)</translation>
+        <translation>MB</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
-        <translation>指令碼驗證執行緒數目</translation>
+        <translation>脚本&amp;验证 进程数 </translation>
     </message>
     <message>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
-        <translation>(0 表示程式自動決定，小於 0 表示保留處理器核心不用的數目)</translation>
+        <translation>(0 = 自动, &lt;0 = 离开很多免费的核心)</translation>
     </message>
     <message>
         <source>Obfuscate rounds to use</source>
-        <translation>匿名發送的循環次數</translation>
+        <translation>匿名传送的循环次数</translation>
     </message>
     <message>
         <source>This amount acts as a threshold to turn off Obfuscate once it's reached.</source>
-        <translation>此金額為關閉匿名發送的門檻。</translation>
+        <translation>此金额为关闭匿名发送的极限.</translation>
     </message>
     <message>
         <source>Amount of GALILEL to keep anonymized</source>
-        <translation>保持匿名的達世幣數量</translation>
+        <translation>保持匿名化的达世币数</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
-        <translation>錢包(&amp;W)</translation>
+        <translation>&amp;钱包</translation>
     </message>
     <message>
         <source>If you disable the spending of unconfirmed change, the change from a transaction&lt;br/&gt;cannot be used until that transaction has at least one confirmation.&lt;br/&gt;This also affects how your balance is computed.</source>
-        <translation>如果你關掉「可以花還沒確認的零錢」，那麼交易中找零的零錢&lt;br/&gt;就必須要等交易至少有一次確認後，才能夠使用。&lt;br/&gt;這也會影響餘額的計算方式。</translation>
+        <translation>如果禁用未确认的零钱，则零钱&lt;br/&gt;至少需要1个确认&lt;br/&gt;才能使用。同时账户余额显示会受到影响。</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
-        <translation>接受外來連線</translation>
+        <translation>接受来自外部的链接</translation>
     </message>
     <message>
         <source>Allow incoming connections</source>
-        <translation>接受外來連線</translation>
+        <translation>接受外来链接</translation>
     </message>
     <message>
         <source>Connect to the GALILEL network through a SOCKS5 proxy.</source>
-        <translation>透過 SOCKS5 代理伺服器來連線到達世幣網路。</translation>
+        <translation>通过SOCKS5代理链接达世币网络。</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>透過 SOCKS5 代理伺服器連線(預設代理伺服器):(&amp;C)</translation>
+        <translation>&amp;通过 SOCKS5 代理连接 (默认代理):</translation>
     </message>
     <message>
         <source>Expert</source>
-        <translation>專家</translation>
+        <translation>专家</translation>
     </message>
     <message>
         <source>This setting determines the amount of individual masternodes that an input will be anonymized through.&lt;br/&gt;More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.</source>
-        <translation>這項設置決定輸入的資金將會經過多少個主節點進,行匿名處理。&lt;br/&gt;多輪的匿名化處理提供了更高程度的隱私，但也花費更多的費用。</translation>
+        <translation>此选项用以调整进行匿名化操作的主节点数量。&lt;br/&gt;越多的循环次数提供了更高级别的匿名性，同时也会花费更多的手续费</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
-        <translation>是否要顯示錢幣控制功能。</translation>
+        <translation>是否需要交易源地址控制功能。</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>開啟錢幣控制功能(&amp;C)</translation>
+        <translation>启动货币 &amp;控制功能</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
-        <translation>可以花還沒確認的零錢(&amp;S)</translation>
+        <translation>&amp;选择未经确认的花费</translation>
     </message>
     <message>
         <source>&amp;Network</source>
-        <translation>網絡(&amp;N)</translation>
+        <translation>网络(&amp;N)</translation>
     </message>
     <message>
         <source>Automatically open the GALILEL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自動在路由器上開放達世幣的客戶端通訊埠。只有在你的路由器支援且開啓「通用即插即用」協定(UPnP)時才有作用。</translation>
+        <translation>自动对路由器打开达世币客户端端口。此项只在路由器支持UPnP时有效。</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
-        <translation>用 &amp;UPnP 設定通訊埠對應</translation>
+        <translation>使用 &amp;UPnP 映射端口</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
-        <translation>代理位址:</translation>
+        <translation>代理服务器 &amp;IP：</translation>
     </message>
     <message>
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>代理伺服器的網際網路位址(像是 IPv4 的 127.0.0.1 或 IPv6 的 ::1)</translation>
+        <translation>代理的 IP 地址 (例如 IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
-        <translation>埠號:(&amp;P)</translation>
+        <translation>端口(&amp;P)：</translation>
     </message>
     <message>
         <source>Port of the proxy (e.g. 9050)</source>
-        <translation>代理伺服器的通訊埠(例如 9050)</translation>
+        <translation>代理端口（例如 9050）</translation>
     </message>
     <message>
         <source>&amp;Window</source>
-        <translation>視窗(&amp;)</translation>
+        <translation>窗口(&amp;W)</translation>
     </message>
     <message>
         <source>Show only a tray icon after minimizing the window.</source>
-        <translation>視窗縮到最小後只在通知區域顯示圖示。</translation>
+        <translation>最小化窗口后仅显示托盘图标</translation>
     </message>
     <message>
         <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>縮到最小到通知區域而不是工作列(&amp;M)</translation>
+        <translation>最小化到托盘(&amp;M)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
-        <translation>當視窗關閉時，把應用程式縮到最小，而不是結束。當勾選這個選項時，只能夠用選單中的結束來關掉應用程式。</translation>
+        <translation>当窗口关闭时程序最小化而不是退出。当使用该选项时，程序只能通过在菜单中选择退出来关闭</translation>
     </message>
     <message>
         <source>M&amp;inimize on close</source>
-        <translation>關閉時縮到最小(&amp;i)</translation>
+        <translation>单击关闭按钮最小化(&amp;I)</translation>
     </message>
     <message>
         <source>&amp;Display</source>
-        <translation>顯示(&amp;D)</translation>
+        <translation>显示(&amp;D)</translation>
     </message>
     <message>
         <source>User Interface &amp;language:</source>
-        <translation>用戶界面語言:</translation>
+        <translation>用户界面语言(&amp;L)：</translation>
     </message>
     <message>
         <source>The user interface language can be set here. This setting will take effect after restarting GALILEL.</source>
-        <translation>可以在這裡設定用戶介面的語言。這個設定在重啓達世幣軟體後才會生效。</translation>
+        <translation>用户界面语言在这里设置。在重启达世币程序后生效。</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
 https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</source>
-        <translation>缺少相關語言或翻譯不完整？請到這裡協助翻譯
+        <translation>缺少相关语言或翻译不完整? 请到这里协助翻译:
 https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
-        <translation>用戶界面主題：</translation>
+        <translation>用户界面主题:</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
-        <translation>金額顯示單位:(&amp;U)</translation>
+        <translation>&amp;达世币金额单位：</translation>
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>選擇操作界面和付款時，預設顯示金額的細分單位。</translation>
+        <translation>选择达世币单位。</translation>
     </message>
     <message>
         <source>Decimal digits</source>
-        <translation>小數位數</translation>
+        <translation>小数位数</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>在交易頁籤的情境選單出現的第三方(比如說區塊探索網站)網址連結。網址中的 %s 會被取代為交易的雜湊值。可以用直線符號 | 來分隔多個連結。</translation>
+        <translation>出现在交易的选项卡的上下文菜单项的第三方网址 (例如：区块链接查询) 。 %s的URL被替换为交易哈希。多个的URL需要竖线 | 分隔。</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
-        <translation>交易的第三方網址連結</translation>
+        <translation>第三方交易网址</translation>
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>從命令列取代掉以上設定的選項:</translation>
+        <translation>有效的命令行参数覆盖上述选项:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>重設所有客戶端軟體選項成預設值。</translation>
+        <translation>恢复客户端的缺省设置</translation>
     </message>
     <message>
         <source>&amp;Reset Options</source>
-        <translation>重設選項</translation>
+        <translation>恢复缺省设置(&amp;R)</translation>
     </message>
     <message>
         <source>&amp;OK</source>
-        <translation>確認(&amp;O)</translation>
+        <translation>确定(&amp;O)</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -1309,110 +1314,110 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>default</source>
-        <translation>預設值</translation>
+        <translation>默认</translation>
     </message>
     <message>
         <source>none</source>
-        <translation>無</translation>
+        <translation>无</translation>
     </message>
     <message>
         <source>Confirm options reset</source>
-        <translation>確認重設選項</translation>
+        <translation>确认恢复缺省设置</translation>
     </message>
     <message>
         <source>Client restart required to activate changes.</source>
-        <translation>需要重新啟動客戶端軟體來讓改變生效。</translation>
+        <translation>更改生效需要重启客户端。</translation>
     </message>
     <message>
         <source>Client will be shutdown, do you want to proceed?</source>
-        <translation>客戶端軟體將會關閉，確定要繼續嗎?</translation>
+        <translation>客户端即将关闭，确定继续吗？</translation>
     </message>
     <message>
         <source>This change would require a client restart.</source>
-        <translation>此變更需要重新啟動客戶端軟體。</translation>
+        <translation>此更改需要重启客户端。</translation>
     </message>
     <message>
         <source>The supplied proxy address is invalid.</source>
-        <translation>提供的代理伺服器位址無效。</translation>
+        <translation>提供的代理服务器地址无效。</translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
         <source>Form</source>
-        <translation>表單</translation>
+        <translation>表单</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the GALILEL network after a connection is established, but this process has not completed yet.</source>
-        <translation>顯示的資訊可能是過期的。跟達世幣網路的連線建立後，你的錢包會自動和網路同步，但是這個步驟還沒完成。</translation>
+        <translation>显示信息也许已过期。当与达世币网络连接后钱包程序会自动同步，但现在还未完成。</translation>
     </message>
     <message>
         <source>Available:</source>
-        <translation>可用金額:</translation>
+        <translation>可使用的余额：</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
-        <translation>目前可用餘額</translation>
+        <translation>您当前可使用的余额</translation>
     </message>
     <message>
         <source>Pending:</source>
-        <translation>待確認金額:</translation>
+        <translation>等待中的余额：</translation>
     </message>
     <message>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
-        <translation>還沒被確認的交易的總金額，可用餘額不包含這些金額</translation>
+        <translation>尚未确认的交易总额，未计入当前余额</translation>
     </message>
     <message>
         <source>Immature:</source>
-        <translation>未成熟金額:</translation>
+        <translation>未成熟的：</translation>
     </message>
     <message>
         <source>Staked or masternode rewards that has not yet matured</source>
-        <translation>還沒成熟的開採金額</translation>
+        <translation>尚未成熟的挖矿收入余额</translation>
     </message>
     <message>
         <source>Balances</source>
-        <translation>餘額</translation>
+        <translation>余额</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>所有僅限查看的位址裡還沒確認的交易</translation>
+        <translation>仅限查看的还未交易确认的地址</translation>
     </message>
     <message>
         <source>Staked or masternode rewards in watch-only addresses that has not yet matured</source>
-        <translation>所有僅限查看的位址裡還沒成熟的開採金額</translation>
+        <translation>仅限查看的地址中尚未成熟的挖矿收入余额</translation>
     </message>
     <message>
         <source>Total:</source>
-        <translation>總金額:</translation>
+        <translation>总额：</translation>
     </message>
     <message>
         <source>Your current total balance</source>
-        <translation>目前全部餘額</translation>
+        <translation>您当前的总余额</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
-        <translation>僅限查看的位址之總餘額</translation>
+        <translation>仅限查看地址中的当前总余额</translation>
     </message>
     <message>
         <source>Watch-only:</source>
-        <translation>僅限查看:</translation>
+        <translation>仅限查看:</translation>
     </message>
     <message>
         <source>Your current balance in watch-only addresses</source>
-        <translation>所有僅限查看的位址之目前餘額</translation>
+        <translation>仅限查看地址中的当前余额</translation>
     </message>
     <message>
         <source>Spendable:</source>
-        <translation>能夠花費：</translation>
+        <translation>可花费:</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation>狀況:</translation>
+        <translation>状态:</translation>
     </message>
     <message>
         <source>Enabled/Disabled</source>
-        <translation>啟用/禁用</translation>
+        <translation>打开/关闭</translation>
     </message>
     <message>
         <source>Completion:</source>
@@ -1420,39 +1425,39 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Obfuscate Balance:</source>
-        <translation>匿名發送餘額:</translation>
+        <translation>匿名传送余额:</translation>
     </message>
     <message>
         <source>Amount and Rounds:</source>
-        <translation>金額和循環次數:</translation>
+        <translation>数量与循环次数:</translation>
     </message>
     <message>
         <source>0 DNET / 0 Rounds</source>
-        <translation>0 達世幣 / 0 循環次數</translation>
+        <translation>0 达世币 / 0 循环数</translation>
     </message>
     <message>
         <source>Submitted Denom:</source>
-        <translation>已經提交的面額:</translation>
+        <translation>提交的面额:</translation>
     </message>
     <message>
         <source>n/a</source>
-        <translation>不適用</translation>
+        <translation>n/a</translation>
     </message>
     <message>
         <source>Obfuscate</source>
-        <translation>匿名發送</translation>
+        <translation>匿名发送</translation>
     </message>
     <message>
         <source>Recent transactions</source>
-        <translation>最近的交易</translation>
+        <translation>最近交易</translation>
     </message>
     <message>
         <source>Start/Stop Mixing</source>
-        <translation>啟動/停止混合</translation>
+        <translation>开始/关闭 混合</translation>
     </message>
     <message>
         <source>The denominations you submitted to the Masternode.&lt;br&gt;To mix, other users must submit the exact same denominations.</source>
-        <translation>你提交到主節點的面額。&lt;br&gt;為了混合，其他用戶必須提交完全一樣的面額。</translation>
+        <translation>您向主节点所提交的用以面额化混合的DNET,&lt;br&gt;当其他用户提交相同的面额化DNET数量时,将开始混合.</translation>
     </message>
     <message>
         <source>(Last Message)</source>
@@ -1460,15 +1465,15 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Try to manually submit a Obfuscate request.</source>
-        <translation>嘗試手動提交匿名發送請求。</translation>
+        <translation>尝试手动提交一次匿名化请求</translation>
     </message>
     <message>
         <source>Try Mix</source>
-        <translation>嘗試混合</translation>
+        <translation>尝试混合</translation>
     </message>
     <message>
         <source>Reset the current status of Obfuscate (can interrupt Obfuscate if it's in the process of Mixing, which can cost you money!)</source>
-        <translation>重置目前匿名發送狀態(此操作可能會影響您目前正在執行的混合過程，並且產生費用!)</translation>
+        <translation>重置目前匿名状态(此操作可能会影响您目前正在执行的混合过程，并且产生费用!)</translation>
     </message>
     <message>
         <source>Reset</source>
@@ -1476,186 +1481,194 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>out of sync</source>
-        <translation>還沒同步</translation>
+        <translation>数据同步中</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation>己禁用</translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <source>Start Obfuscate Mixing</source>
-        <translation>開始匿名發送混合</translation>
+        <translation>开始匿名化混合</translation>
     </message>
     <message>
         <source>Stop Obfuscate Mixing</source>
-        <translation>停止匿名發送混合</translation>
+        <translation>关闭匿名化混合</translation>
     </message>
     <message>
         <source>No inputs detected</source>
-        <translation>沒有檢測到任何輸入</translation>
+        <translation>未检测到输入</translation>
     </message>
     <message numerus="yes">
         <source>%n Rounds</source>
-        <translation><numerusform>%n 次循環</numerusform></translation>
+        <translation><numerusform>%n 次循环</numerusform></translation>
     </message>
     <message>
         <source>Not enough compatible inputs to anonymize &lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;will anonymize &lt;span style='color:red;'&gt;%2&lt;/span&gt; instead</source>
-        <translation>沒有足夠相容的輸入來進行匿名處理&lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;將匿名處理 &lt;span style='color:red;'&gt;%2&lt;/span&gt; 作為代替</translation>
+        <translation>没有足够相容的输入来进行匿名处理&lt;span style='color:red;'&gt;%1&lt;/span&gt;,&lt;br&gt;将匿名处理 &lt;span style='color:red;'&gt;%2&lt;/span&gt; 作为代替</translation>
     </message>
     <message>
         <source>Overall progress</source>
-        <translation>整體進度</translation>
+        <translation>总体进度</translation>
     </message>
     <message>
         <source>Denominated</source>
-        <translation>已經除名的</translation>
+        <translation>已面额化的</translation>
     </message>
     <message>
         <source>Anonymized</source>
-        <translation>經過匿名處理的</translation>
+        <translation>已匿名处理的</translation>
     </message>
     <message>
         <source>Found enough compatible inputs to anonymize %1</source>
-        <translation>找到足夠的相容的輸入進行匿名處理 %1</translation>
+        <translation>找到足够的相容的输入进行匿名处理 %1</translation>
     </message>
     <message>
         <source>Mixed</source>
-        <translation>混合的</translation>
+        <translation>混淆的</translation>
     </message>
     <message>
         <source>Enabled</source>
-        <translation>己啟用</translation>
+        <translation>打开</translation>
     </message>
     <message>
         <source>Last Obfuscate message:
 </source>
-        <translation>最近收到的匿名發送訊息:
+        <translation>最后一次匿名信息:
 </translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>不適用</translation>
+        <translation>不可用</translation>
     </message>
     <message>
         <source>Obfuscate was successfully reset.</source>
-        <translation>匿名發送成功重置。</translation>
+        <translation>匿名化被成功重置。</translation>
     </message>
-    </context>
+    <message>
+        <source>Obfuscate requires at least %1 to use.</source>
+        <translation>匿名化要求至少 %1 以使用</translation>
+    </message>
+    <message>
+        <source>Wallet is locked and user declined to unlock. Disabling Obfuscate.</source>
+        <translation>钱包已锁定需要用户解锁。 正在关闭匿名化。</translation>
+    </message>
+</context>
 <context>
     <name>PaymentServer</name>
     <message>
         <source>Payment request error</source>
-        <translation>要求付款時發生錯誤</translation>
+        <translation>支付请求出错</translation>
     </message>
     <message>
         <source>Cannot start exotic: click-to-pay handler</source>
-        <translation>無法啟動達世幣 : 點擊支付處理程序</translation>
+        <translation>无法启动达世币程序：click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
-        <translation>URI 處理</translation>
+        <translation>URI 处理</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>取得付款要求的 URL 無效: %1</translation>
+        <translation>付款请求URI链接非法: %1</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
-        <translation>處理付款要求檔案</translation>
+        <translation>付款请求文件处理 </translation>
     </message>
     <message>
         <source>Invalid payment address %1</source>
-        <translation>無效的付款位址 %1</translation>
+        <translation>无效的付款地址 %1</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid GALILEL address or malformed URI parameters.</source>
-        <translation>沒辦法解析 URI 位址！可能是因為達世幣位址無效，或是 URI 參數格式錯誤。</translation>
+        <translation>链接不能被解析! 原因可能是无效的达世币地址或输入的链接有错。</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>沒辦法讀取付款要求檔案！可能是無效的檔案造成的。</translation>
+        <translation>付款请求文件不能读取! 这可能是个无效的付款请求文件.</translation>
     </message>
     <message>
         <source>Payment request rejected</source>
-        <translation>付款的要求被拒絕了</translation>
+        <translation>付款请求被拒绝</translation>
     </message>
     <message>
         <source>Payment request network doesn't match client network.</source>
-        <translation>付款要求的網路類型跟客戶端不符。</translation>
+        <translation>付款请求网络与客户端网络不符.</translation>
     </message>
     <message>
         <source>Payment request has expired.</source>
-        <translation>付款的要求已經過期了。</translation>
+        <translation>支付请求已过期.</translation>
     </message>
     <message>
         <source>Payment request is not initialized.</source>
-        <translation>付款的要求沒有完成初始化。</translation>
+        <translation>付款请求没有完成初始化.</translation>
     </message>
     <message>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>不支援含有自訂付款指令碼，且沒驗證過的付款要求。</translation>
+        <translation>不支持到自定义付款脚本的未验证付款请求。</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
-        <translation>要求付款的金額 %1 太少(會被網路認為是沒必要的零散錢)。</translation>
+        <translation>请求支付的金额 %1 太小（就像尘埃）。</translation>
     </message>
     <message>
         <source>Refund from %1</source>
-        <translation>來自 %1 的退款</translation>
+        <translation>退款来自 %1</translation>
     </message>
     <message>
         <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>付款要求 %1 過大 (%2 位元組, 上限 %3 位元組).</translation>
+        <translation>付款请求 %1 过大 (%2 位,上限 %3 位).</translation>
     </message>
     <message>
         <source>Payment request DoS protection</source>
-        <translation>支付請求的分佈式阻斷服務攻擊DoS保護</translation>
+        <translation>支付请求的Dos保护</translation>
     </message>
     <message>
         <source>Error communicating with %1: %2</source>
-        <translation>跟 %1 通訊時發生錯誤: %2</translation>
+        <translation>%1: %2 通讯出错</translation>
     </message>
     <message>
         <source>Payment request cannot be parsed!</source>
-        <translation>沒辦法解析付款要求內容！</translation>
+        <translation>支付请求不能被解析!</translation>
     </message>
     <message>
         <source>Bad response from server %1</source>
-        <translation>伺服器 %1 的回應有誤</translation>
+        <translation>来自 %1 服务器的错误响应</translation>
     </message>
     <message>
         <source>Network request error</source>
-        <translation>發出要求時發生網路錯誤</translation>
+        <translation>网络请求出错</translation>
     </message>
     <message>
         <source>Payment acknowledged</source>
-        <translation>已確認付款</translation>
+        <translation>支付已到账</translation>
     </message>
 </context>
 <context>
     <name>PeerTableModel</name>
     <message>
         <source>Address/Hostname</source>
-        <translation>位址/主機名稱</translation>
+        <translation>地址/主机名</translation>
     </message>
     <message>
         <source>Version</source>
-        <translation>使用者代理</translation>
+        <translation>用户代理</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping 時間</translation>
+        <translation>Ping 时间</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
-        <translation>金額</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>Enter a GALILEL address (e.g. %1)</source>
-        <translation>輸入達世幣位址 (例如 %1)</translation>
+        <translation>输入达世币地址(e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1663,11 +1676,11 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>%1 h</source>
-        <translation>%1 小時</translation>
+        <translation>%1 小时</translation>
     </message>
     <message>
         <source>%1 m</source>
-        <translation>%1 分鐘</translation>
+        <translation>%1 分钟</translation>
     </message>
     <message>
         <source>%1 s</source>
@@ -1675,19 +1688,19 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>NETWORK</source>
-        <translation>網路</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <source>UNKNOWN</source>
-        <translation>不明</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>無</translation>
+        <translation>无</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>不適用</translation>
+        <translation>不可用</translation>
     </message>
     <message>
         <source>%1 ms</source>
@@ -1698,86 +1711,90 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     <name>QRImageWidget</name>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>儲存圖片(&amp;S)...</translation>
+        <translation>保存图片(&amp;S)...</translation>
     </message>
     <message>
         <source>&amp;Copy Image</source>
-        <translation>複製圖片(&amp;C)</translation>
+        <translation>复制图片(&amp;C)</translation>
     </message>
     <message>
         <source>Save QR Code</source>
-        <translation>儲存 QR Code</translation>
+        <translation>保存二维码</translation>
     </message>
     <message>
         <source>PNG Image (*.png)</source>
-        <translation>PNG 圖檔(*.png)</translation>
+        <translation>PNG图片(*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
+        <source>Tools window</source>
+        <translation>工具窗口</translation>
+    </message>
+    <message>
         <source>&amp;Information</source>
-        <translation>資訊(&amp;I)</translation>
+        <translation>信息(&amp;I)</translation>
     </message>
     <message>
         <source>General</source>
-        <translation>普通</translation>
+        <translation>常规</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation>名稱</translation>
+        <translation>姓名</translation>
     </message>
     <message>
         <source>Client name</source>
-        <translation>客戶端軟體名稱</translation>
+        <translation>客户端名称</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation>不適用</translation>
+        <translation>不可用</translation>
     </message>
     <message>
         <source>Number of connections</source>
-        <translation>連線數</translation>
+        <translation>连接数</translation>
     </message>
     <message>
         <source>Open the GALILEL debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>從目前的資料目錄下開啓達世幣軟體的除錯紀錄檔。當紀錄檔很大時，可能會花好幾秒的時間。</translation>
+        <translation>从数据路径打开达世币Debug日志，这个过程可能需要几秒钟。</translation>
     </message>
     <message>
         <source>&amp;Open</source>
-        <translation>開啓</translation>
+        <translation>打开(&amp;O)</translation>
     </message>
     <message>
         <source>Startup time</source>
-        <translation>啓動時間</translation>
+        <translation>启动时间</translation>
     </message>
     <message>
         <source>Network</source>
-        <translation>網路</translation>
+        <translation>网络</translation>
     </message>
     <message>
         <source>Last block time</source>
-        <translation>最近區塊時間</translation>
+        <translation>上一数据块时间</translation>
     </message>
     <message>
         <source>Debug log file</source>
-        <translation>除錯紀錄檔</translation>
+        <translation>调试日志文件</translation>
     </message>
     <message>
         <source>Using OpenSSL version</source>
-        <translation>使用的 OpenSSL 版本</translation>
+        <translation>使用 OpenSSL 版本</translation>
     </message>
     <message>
         <source>Build date</source>
-        <translation>建置日期</translation>
+        <translation>创建时间</translation>
     </message>
     <message>
         <source>Current number of blocks</source>
-        <translation>目前區塊數</translation>
+        <translation>当前数据块数量</translation>
     </message>
     <message>
         <source>Client version</source>
-        <translation>客戶端軟體版本</translation>
+        <translation>客户端版本</translation>
     </message>
     <message>
         <source>Using BerkeleyDB version</source>
@@ -1785,23 +1802,23 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Block chain</source>
-        <translation>區塊鏈</translation>
+        <translation>数据链</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
-        <translation>主節點數目</translation>
+        <translation>主节点数量</translation>
     </message>
     <message>
         <source>&amp;Console</source>
-        <translation>主控台(&amp;C)</translation>
+        <translation>控制台(&amp;C)</translation>
     </message>
     <message>
         <source>Clear console</source>
-        <translation>清空主控台</translation>
+        <translation>清空控制台</translation>
     </message>
     <message>
         <source>&amp;Network Traffic</source>
-        <translation>網路流量(&amp;N)</translation>
+        <translation>网络流量(&amp;N)</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
@@ -1809,7 +1826,7 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Totals</source>
-        <translation>總計</translation>
+        <translation>总数</translation>
     </message>
     <message>
         <source>Received</source>
@@ -1817,15 +1834,15 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Sent</source>
-        <translation>發送</translation>
+        <translation>发送</translation>
     </message>
     <message>
         <source>&amp;Peers</source>
-        <translation>節點(&amp;P)</translation>
+        <translation>&amp;节点</translation>
     </message>
     <message>
         <source>Select a peer to view detailed information.</source>
-        <translation>選擇一個節點來查看詳細資訊。</translation>
+        <translation>选择一个节点查看详细信息.</translation>
     </message>
     <message>
         <source>Direction</source>
@@ -1837,11 +1854,11 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Version</source>
-        <translation>使用者代理</translation>
+        <translation>用户代理</translation>
     </message>
     <message>
         <source>Services</source>
-        <translation>服務</translation>
+        <translation>服务</translation>
     </message>
     <message>
         <source>Starting Height</source>
@@ -1852,262 +1869,266 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
         <translation>同步高度</translation>
     </message>
     <message>
+        <source>Ban Score</source>
+        <translation>禁止得分</translation>
+    </message>
+    <message>
         <source>Connection Time</source>
-        <translation>連線時間</translation>
+        <translation>连接时间</translation>
     </message>
     <message>
         <source>Last Send</source>
-        <translation>最近送出</translation>
+        <translation>最近发送</translation>
     </message>
     <message>
         <source>Last Receive</source>
-        <translation>最近收到</translation>
+        <translation>最近接收</translation>
     </message>
     <message>
         <source>Bytes Sent</source>
-        <translation>送出位元組</translation>
+        <translation>发送字节</translation>
     </message>
     <message>
         <source>Bytes Received</source>
-        <translation>收到位元組</translation>
+        <translation>接收字节</translation>
     </message>
     <message>
         <source>Ping Time</source>
-        <translation>Ping 時間</translation>
+        <translation>Ping 时间</translation>
     </message>
     <message>
         <source>&amp;Wallet Repair</source>
-        <translation>錢包修復(&amp;W)</translation>
+        <translation>&amp;钱包修复</translation>
     </message>
     <message>
         <source>Salvage wallet</source>
-        <translation>搶救錢包</translation>
+        <translation>抢救钱包</translation>
     </message>
     <message>
         <source>Rescan blockchain files</source>
-        <translation>重新掃描區塊鏈文件</translation>
+        <translation>重新扫描区块链文件</translation>
     </message>
     <message>
         <source>Recover transactions 1</source>
-        <translation>復原交易 1</translation>
+        <translation>恢复交易 1</translation>
     </message>
     <message>
         <source>Recover transactions 2</source>
-        <translation>復原交易 2</translation>
+        <translation>恢复交易 2</translation>
     </message>
     <message>
         <source>Upgrade wallet format</source>
-        <translation>升級錢包格式</translation>
+        <translation>升级钱包版本</translation>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>下面的按鈕將重新啟動錢包並使用命令行選項來修復錢包，修復損壞或丟失的區塊鏈文件/過時的交易問題。</translation>
+        <translation>下面的按钮将重新启动钱包并使用命令行选项进行修复,解决损坏或丢失的区块链文件/超时的交易问题.</translation>
     </message>
     <message>
         <source>-salvagewallet: Attempt to recover private keys from a corrupt wallet.dat.</source>
-        <translation>-salvagewallet: 嘗試從損壞的 wallet.dat 裡恢復私鑰。</translation>
+        <translation>-salvagewallet: 尝试从已损坏的钱包文件中找回私钥.</translation>
     </message>
     <message>
         <source>-rescan: Rescan the block chain for missing wallet transactions.</source>
-        <translation>-rescan: 重新掃描區塊鏈，來尋找錢包可能漏掉的交易。</translation>
+        <translation>-rescan: 对丢失的钱包交易重新扫描数据块链.</translation>
     </message>
     <message>
         <source>-zapwallettxes=1: Recover transactions from blockchain (keep meta-data, e.g. account owner).</source>
-        <translation>-zapwallettxes=1: 從區塊鏈恢復交易資料 (保留交易描述資料，例如帳戶擁有者)。</translation>
+        <translation>-zapwallettxes=1: 从区块链恢复交易 (保留交易描述信息,例如:账户拥有者).</translation>
     </message>
     <message>
         <source>-zapwallettxes=2: Recover transactions from blockchain (drop meta-data).</source>
-        <translation>-zapwallettxes=2: 從區塊鏈恢復交易資料 (丟棄交易描述資料)。</translation>
+        <translation>-zapwallettxes=2: 从区块链恢复交易 (删除交易描述信息).</translation>
     </message>
     <message>
         <source>-upgradewallet: Upgrade wallet to latest format on startup. (Note: this is NOT an update of the wallet itself!)</source>
-        <translation>-upgradewallet: 在啟動時升級錢包到最新的格式。 (注：這不是錢包軟件本身的更新！)</translation>
+        <translation>-upgradewallet: 在启动时升级钱包到最新格式.(注:这并不是钱包软件本身的更新!)</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
-        <translation>錢包修復選項。</translation>
+        <translation>钱包修复选项.</translation>
     </message>
     <message>
         <source>Rebuild index</source>
-        <translation>重建區塊鏈的索引</translation>
+        <translation>重建区块链的索引</translation>
     </message>
     <message>
         <source>-reindex: Rebuild block chain index from current blk000??.dat files.</source>
-        <translation>-reindex : 從目前的區塊檔 blk000??.dat 重建區塊鏈的索引</translation>
+        <translation>-reindex: 从现在的blk000??.dat文件重新建立数据块链索引.</translation>
     </message>
     <message>
         <source>In:</source>
-        <translation>輸入:</translation>
+        <translation>输入：</translation>
     </message>
     <message>
         <source>Out:</source>
-        <translation>輸出:</translation>
+        <translation>输出：</translation>
     </message>
     <message>
         <source>Welcome to the GALILEL RPC console.</source>
-        <translation>歡迎使用達世幣 RPC 主控台。</translation>
+        <translation>欢迎来到达世币RPC控制台。</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
-        <translation>請用上下游標鍵來瀏覽先前指令的紀錄，並用 &lt;b&gt;Ctrl-L&lt;/b&gt; 來清除畫面。</translation>
+        <translation>使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。</translation>
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>請鍵入 &lt;b&gt;help&lt;/b&gt; 來查看可用指令的簡介。</translation>
+        <translation>使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
     <message>
         <source>%1 B</source>
-        <translation>%1 B (位元組)</translation>
+        <translation>%1 字节</translation>
     </message>
     <message>
         <source>%1 KB</source>
-        <translation>%1 KB (千位元組)</translation>
+        <translation>%1 KB</translation>
     </message>
     <message>
         <source>%1 MB</source>
-        <translation>%1 MB (百萬位元組)</translation>
+        <translation>%1 MB</translation>
     </message>
     <message>
         <source>%1 GB</source>
-        <translation>%1 GB (十億位元組)</translation>
+        <translation>%1 GB</translation>
     </message>
     <message>
         <source>via %1</source>
-        <translation>經由 %1</translation>
+        <translation>经由 %1</translation>
     </message>
     <message>
         <source>never</source>
-        <translation>沒有過</translation>
+        <translation>永不</translation>
     </message>
     <message>
         <source>Inbound</source>
-        <translation>進來</translation>
+        <translation>导入</translation>
     </message>
     <message>
         <source>Outbound</source>
-        <translation>出去</translation>
+        <translation>导出</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>不明</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>Fetching...</source>
-        <translation>正在擷取中...</translation>
+        <translation>正在读取中...</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
         <source>Reuse one of the previously used receiving addresses.&lt;br&gt;Reusing addresses has security and privacy issues.&lt;br&gt;Do not use this unless re-generating a payment request made before.</source>
-        <translation>重新使用以前用過的接收地址。&lt;br&gt;重複使用地址會產生安全和私隱問題。&lt;br&gt;不要使用這個選項，除非再次生成之前提出的支付請求。</translation>
+        <translation>重复使用以前用过的接收地址。&lt;br&gt;重用地址有安全和隐私方面的隐患。&lt;br&gt;除非是为重复生成同一项支付请求，否则请不要这样做。</translation>
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
-        <translation>重複使用現有的收款位址(不建議)(&amp;e)</translation>
+        <translation>重用现有的接收地址（不推荐）</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the GALILEL network.</source>
-        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。注意: 這個訊息不會隨著付款送到達世幣網路上。</translation>
+        <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。注意: 这个讯息不会随着付款送到达世币网路上。</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
-        <translation>訊息:(&amp;M)</translation>
+        <translation>消息(&amp;M)：</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>跟新收款位址關聯的標記，可以不填。</translation>
+        <translation>可为新建的收款地址添加一个标签。</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the GALILEL network.</source>
-        <translation>附加在付款要求中的訊息，可以不填，打開要求內容時會顯示。&lt;br&gt;注意: 這個訊息不會隨著付款送到達世幣網路上。</translation>
+        <translation>附加在付款要求中的讯息，可以不填，打开要求内容时会显示。&lt;br&gt;注意: 这个讯息不会随着付款送到达世币网路上。</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
-        <translation>請用這份表單來要求付款。所有欄位都&lt;b&gt;可以不填&lt;/b&gt;。</translation>
+        <translation>使用此表单要求付款。所有字段都是&lt;b&gt;可选&lt;/b&gt;。</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>標記:(&amp;L)</translation>
+        <translation>标签(&amp;L)：</translation>
     </message>
     <message>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
-        <translation>要求付款的金額，可以不填。不確定金額時可以留空或是填零。</translation>
+        <translation>可选的请求金额。留空或填零为不要求具体金额。</translation>
     </message>
     <message>
         <source>&amp;Amount:</source>
-        <translation>金額:(&amp;A)</translation>
+        <translation>总额(&amp;A)：</translation>
     </message>
     <message>
         <source>&amp;Request payment</source>
-        <translation>要求付款(&amp;R)</translation>
+        <translation>请求付款(&amp;R)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>把表單中的所有欄位清空。</translation>
+        <translation>清空此表单的所有字段。</translation>
     </message>
     <message>
         <source>Clear</source>
-        <translation>清空</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <source>Requested payments history</source>
-        <translation>先前要求付款的記錄</translation>
+        <translation>请求付款的历史</translation>
     </message>
     <message>
         <source>Show the selected request (does the same as double clicking an entry)</source>
-        <translation>顯示選擇的要求內容(效果跟雙擊一樣)</translation>
+        <translation>显示选中的请求 (双击也可以显示)</translation>
     </message>
     <message>
         <source>Show</source>
-        <translation>顯示</translation>
+        <translation>显示</translation>
     </message>
     <message>
         <source>Remove the selected entries from the list</source>
-        <translation>從列表中刪掉選擇的項目</translation>
+        <translation>从列表中移除选中的条目</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation>刪掉</translation>
+        <translation>移除</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>複製標記</translation>
+        <translation>复制标签</translation>
     </message>
     <message>
         <source>Copy message</source>
-        <translation>複製訊息</translation>
+        <translation>复制消息 </translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>複製金額</translation>
+        <translation>复制金额</translation>
     </message>
 </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
         <source>QR Code</source>
-        <translation>QR Code</translation>
+        <translation>二维码</translation>
     </message>
     <message>
         <source>Copy &amp;URI</source>
-        <translation>複製 &amp;URI</translation>
+        <translation>复制 URI(&amp;U)</translation>
     </message>
     <message>
         <source>Copy &amp;Address</source>
-        <translation>複製位址(&amp;A)</translation>
+        <translation>复制地址(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;Save Image...</source>
-        <translation>儲存圖片...(&amp;S)</translation>
+        <translation>保存图片(&amp;S)...</translation>
     </message>
     <message>
         <source>Request payment to %1</source>
-        <translation>付款給 %1 的要求</translation>
+        <translation>请求付款到 %1</translation>
     </message>
     <message>
         <source>Payment information</source>
-        <translation>付款資訊</translation>
+        <translation>付款信息</translation>
     </message>
     <message>
         <source>URI</source>
@@ -2115,27 +2136,27 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Address</source>
-        <translation>位址</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>金額</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>訊息</translation>
+        <translation>消息</translation>
     </message>
     <message>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
-        <translation>產生的 URI 過長，請試著縮短標記或訊息的文字內容。</translation>
+        <translation>URI 太长，请试着精简标签或消息文本。</translation>
     </message>
     <message>
         <source>Error encoding URI into QR Code.</source>
-        <translation>把 URI 編碼成 QR Code 時發生錯誤。</translation>
+        <translation>将 URI 转为二维码失败。</translation>
     </message>
 </context>
 <context>
@@ -2146,66 +2167,66 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>訊息</translation>
+        <translation>消息</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>金額</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(没有标签)</translation>
     </message>
     <message>
         <source>(no message)</source>
-        <translation>(無訊息)</translation>
+        <translation>(无消息)</translation>
     </message>
     <message>
         <source>(no amount)</source>
-        <translation>(無金額)</translation>
+        <translation>(无金额) </translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
         <source>Send Coins</source>
-        <translation>付款</translation>
+        <translation>发送货币</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
-        <translation>錢幣控制功能</translation>
+        <translation>交易源地址控制功能</translation>
     </message>
     <message>
         <source>Inputs...</source>
-        <translation>輸入...</translation>
+        <translation>输入...</translation>
     </message>
     <message>
         <source>automatically selected</source>
-        <translation>自動選擇</translation>
+        <translation>自动选择</translation>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>餘額不足！</translation>
+        <translation>存款不足！</translation>
     </message>
     <message>
         <source>Quantity:</source>
-        <translation>數目:</translation>
+        <translation>总量：</translation>
     </message>
     <message>
         <source>Bytes:</source>
-        <translation>位元組數:</translation>
+        <translation>字节：</translation>
     </message>
     <message>
         <source>Amount:</source>
-        <translation>金額:</translation>
+        <translation>金额：</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation>優先度:</translation>
+        <translation>优先级：</translation>
     </message>
     <message>
         <source>medium</source>
@@ -2213,11 +2234,11 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Fee:</source>
-        <translation>手續費:</translation>
+        <translation>费用：</translation>
     </message>
     <message>
         <source>Dust:</source>
-        <translation>零散錢:</translation>
+        <translation>零钱:</translation>
     </message>
     <message>
         <source>no</source>
@@ -2225,75 +2246,79 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>After Fee:</source>
-        <translation>計費後金額:</translation>
+        <translation>加上交易费用后:</translation>
     </message>
     <message>
         <source>Change:</source>
-        <translation>找零金額:</translation>
+        <translation>变更 : </translation>
     </message>
     <message>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>如果這項有打開，但是找零位址是空的或無效，那麼找零的錢會送到一個新產生的位址去。</translation>
+        <translation>如果激活该选项，但是零钱地址用光或者非法，将会新生成零钱地址，转入零钱。</translation>
     </message>
     <message>
         <source>Custom change address</source>
-        <translation>自定找零位址</translation>
+        <translation>自定义零钱地址</translation>
     </message>
     <message>
         <source>Transaction Fee:</source>
-        <translation>交易手續費:</translation>
+        <translation>交易手续费:</translation>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>選項...</translation>
+        <translation>选择...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
-        <translation>收起手續費設定</translation>
+        <translation>收起手续费设置</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation>縮小</translation>
+        <translation>最小化</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自訂手續費設定為 1000 duffs ，而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 duffs 的手續費，&lt;br /&gt;而「至少」會支付 1000 duffs。但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+        <translation>
+如果自定手续费设定为1000 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"至少"会支付1000 duffs.
+但如果交易信息大于一千字节,那么两者都要支付千字节费用.</translation>
     </message>
     <message>
         <source>If the custom fee is set to 1000 duffs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 duffs in fee,&lt;br /&gt;while "total at least" pays 1000 duffs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自訂手續費設定為 1000 duffs ，而交易資料大小只有 250 個位元組的話，那麽選擇「每千位元組」就只會付 250 duffs 的手續費，&lt;br /&gt;而「總共至少」會支付 1000 duffs。但是如果交易資料大小超過一千個位元組，那麽兩者都是每千位元組的費用。</translation>
+        <translation>
+如果自定手续费设定为1000 duffs,而交易信息只有250字节的话,那么选择"每千位字节"就只会支付250 duffs的手续费,&lt;br /&gt;而"总共至少"会支付1000 duffs.
+但如果交易信息大于一千字节,那么两者都要支付千字节费用.</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for exotic transactions than the network can process.</source>
-        <translation>當交易量少於區塊可容納的空間時，只付最低手續費不會有什麽問題。&lt;br /&gt;但是當交易量的需求成長到超過整體網路可以處理的量時，可能會造成一筆一直不會被確認的交易。</translation>
+        <translation>当交易量少于区块可容纳的空间时,只需支付最低手续费.&lt;br /&gt;但当交易量的需求增长到超过总体网络可处理的量时,可能会造成一笔一直不被确认的交易.</translation>
     </message>
     <message>
         <source>per kilobyte</source>
-        <translation>每千位元組</translation>
+        <translation>每千位字节</translation>
     </message>
     <message>
         <source>total at least</source>
-        <translation>總共最少</translation>
+        <translation>总共至少</translation>
     </message>
     <message>
         <source>(read the tooltip)</source>
-        <translation>(請看提示)</translation>
+        <translation>(请看提示)</translation>
     </message>
     <message>
         <source>Recommended:</source>
-        <translation>建議值:</translation>
+        <translation>建议:</translation>
     </message>
     <message>
         <source>Custom:</source>
-        <translation>自訂:</translation>
+        <translation>自定义:</translation>
     </message>
     <message>
         <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(手續費智慧演算法還沒準備好。通常都要等幾個區塊才行...)</translation>
+        <translation>(手续费演算法还没有准备好.通常都要等几个块才可以...)</translation>
     </message>
     <message>
         <source>Confirmation time:</source>
-        <translation>確認時間:</translation>
+        <translation>确认时间:</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2305,83 +2330,99 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Send as zero-fee transaction if possible</source>
-        <translation>如果可能的話，發送零手續費的交易</translation>
+        <translation>如果可能,发送零手续费的交易</translation>
     </message>
     <message>
         <source>(confirmation may take longer)</source>
-        <translation>(確認時間可能會較長)</translation>
+        <translation>(确认可能需要一点时间)</translation>
     </message>
     <message>
         <source>Confirm the send action</source>
-        <translation>確認付款動作</translation>
+        <translation>确认并发送货币</translation>
     </message>
     <message>
         <source>S&amp;end</source>
-        <translation>付款(&amp;e)</translation>
+        <translation>发送(&amp;E)</translation>
     </message>
     <message>
         <source>Clear all fields of the form.</source>
-        <translation>把表單中的所有欄位清空。</translation>
+        <translation>清除此表单的所有字段。</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>全部清除(&amp;A)</translation>
+        <translation>清除所有(&amp;A)</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
-        <translation>一次付給多個收款人</translation>
+        <translation>一次发送给多个接收者</translation>
     </message>
     <message>
         <source>Add &amp;Recipient</source>
-        <translation>增加收款人(&amp;R)</translation>
+        <translation>添加收款人(&amp;R)</translation>
     </message>
     <message>
         <source>Obfuscate</source>
-        <translation>匿名發送</translation>
+        <translation>匿名发送</translation>
     </message>
     <message>
         <source>InstantX</source>
-        <translation>即時到帳</translation>
+        <translation>即时支付</translation>
     </message>
     <message>
         <source>Balance:</source>
-        <translation>餘額:</translation>
+        <translation>余额：</translation>
     </message>
     <message>
         <source>Copy quantity</source>
-        <translation>複製數目</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>複製金額</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
         <source>Copy fee</source>
-        <translation>複製手續費</translation>
+        <translation>复制交易费</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>複製計費後金額</translation>
+        <translation>复制含交易费的金额</translation>
     </message>
     <message>
         <source>Copy bytes</source>
-        <translation>複製位元組數</translation>
+        <translation>复制字节</translation>
     </message>
     <message>
         <source>Copy priority</source>
-        <translation>複製優先度</translation>
+        <translation>复制优先级</translation>
     </message>
     <message>
         <source>Copy dust</source>
-        <translation>複製零散錢</translation>
+        <translation>复制零钱金额</translation>
     </message>
     <message>
         <source>Copy change</source>
-        <translation>複製找零金額</translation>
+        <translation>复制零钱</translation>
+    </message>
+    <message>
+        <source>using</source>
+        <translation>用法</translation>
+    </message>
+    <message>
+        <source>anonymous funds</source>
+        <translation>匿名化金额</translation>
+    </message>
+    <message>
+        <source>(obfuscate requires this amount to be rounded up to the nearest %1).</source>
+        <translation>(匿名发送需要四舍五入此金额致最接近的值%1).</translation>
+    </message>
+    <message>
+        <source>any available funds (not recommended)</source>
+        <translation>全部有效金额(不推荐)</translation>
     </message>
     <message>
         <source>and InstantX</source>
-        <translation>和 即時到帳</translation>
+        <translation>和 即时支付</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2389,90 +2430,94 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Are you sure you want to send?</source>
-        <translation>你確定要付錢出去嗎？</translation>
+        <translation>您确定要发出吗？</translation>
     </message>
     <message>
         <source>are added as transaction fee</source>
-        <translation>加做交易手續費</translation>
+        <translation>作为交易费被添加</translation>
     </message>
     <message>
         <source>Total Amount = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</source>
-        <translation>總金額 = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+        <translation>总额 = &lt;b&gt;%1&lt;/b&gt;&lt;br /&gt;= %2</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>确认发送货币</translation>
     </message>
     <message>
         <source>A fee %1 times higher than %2 per kB is considered an insanely high fee.</source>
-        <translation>每 kB 手續費高於%2的 %1 倍被認為是非常高的費用。</translation>
+        <translation>每kB手续费高于%2的 %1倍被认为是非常高的费用.</translation>
     </message>
     <message numerus="yes">
         <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>預計可在 %n 個區塊內開始確認。</numerusform></translation>
+        <translation><numerusform>预计在%n 个区块内开始确认.</numerusform></translation>
     </message>
     <message>
         <source>The recipient address is not valid, please recheck.</source>
-        <translation>收款位址無效，請再檢查看看。</translation>
+        <translation>收款人地址不合法，请检查。</translation>
     </message>
     <message>
         <source>The amount to pay must be larger than 0.</source>
-        <translation>付款金額必須大於 0。</translation>
+        <translation>支付金额必须大于0。</translation>
     </message>
     <message>
         <source>The amount exceeds your balance.</source>
-        <translation>金額超過了你的餘額。</translation>
+        <translation>金额超出您的账上余额。</translation>
     </message>
     <message>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>包含 %1 的交易手續費後，總金額超過你的餘額了。</translation>
+        <translation>计入 %1 交易费后的金额超出您的账上余额。</translation>
     </message>
     <message>
         <source>Duplicate address found, can only send to each address once per send operation.</source>
-        <translation>發現有重複的位址。每個付款動作中，只能付給個別的位址一次。</translation>
+        <translation>发现重复的地址, 每次只能对同一地址发送一次。</translation>
     </message>
     <message>
         <source>Transaction creation failed!</source>
-        <translation>製造交易失敗了！</translation>
+        <translation>交易创建失败！</translation>
     </message>
     <message>
         <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
-        <translation>交易被拒絕了！有時候會發生這種錯誤，是因為你錢包中的一些錢已經被花掉了。比如說你複製了錢包檔 wallet.dat, 然後用複製的錢包花掉了錢，你現在所用的原來的錢包中，卻沒有那筆錢已經花掉的紀錄。</translation>
+        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的达世币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了达世币，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
         <source>Error: The wallet was unlocked only to anonymize coins.</source>
-        <translation>錯誤：錢包只是被解鎖來進行匿名處理。</translation>
+        <translation>错误： 钱包被锁定以用于匿名化您的达世币。</translation>
     </message>
     <message>
         <source>Pay only the minimum fee of %1</source>
-        <translation>只付最低手續費 %1</translation>
+        <translation>只付最低手续费%1</translation>
     </message>
     <message>
         <source>Warning: Invalid GALILEL address</source>
-        <translation>警告: 無效的達世幣位址</translation>
+        <translation>警告：无效的达世币地址</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>警告: 不明的找零位址</translation>
+        <translation>警告：未知的更改地址</translation>
     </message>
     <message>
         <source>(no label)</source>
-        <translation>(無標記)</translation>
+        <translation>(没有标签)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
         <source>This is a normal payment.</source>
-        <translation>這是一筆正常的付款。</translation>
+        <translation>这是笔正常的支付。</translation>
     </message>
     <message>
         <source>Pay &amp;To:</source>
-        <translation>付給:(&amp;T)</translation>
+        <translation>付给(&amp;T)：</translation>
     </message>
     <message>
         <source>The GALILEL address to send the payment to</source>
-        <translation>接收付款的達世幣位址</translation>
+        <translation>选择发款地址</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>選擇先前使用過的位址</translation>
+        <translation>选择以前用过的地址</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2480,7 +2525,7 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>貼上剪貼簿裡的位址</translation>
+        <translation>从剪贴板粘贴地址</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2488,81 +2533,81 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Remove this entry</source>
-        <translation>刪除這個項目</translation>
+        <translation>移除此项</translation>
     </message>
     <message>
         <source>&amp;Label:</source>
-        <translation>標記:(&amp;L)</translation>
+        <translation>标签(&amp;L)：</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to the list of used addresses</source>
-        <translation>請輸入這個位址的標記，來把它加進去已使用過位址的清單。</translation>
+        <translation>请为此地址输入一个标签以将它加入用过的地址列表</translation>
     </message>
     <message>
         <source>A&amp;mount:</source>
-        <translation>金額:(&amp;A)</translation>
+        <translation>金额(&amp;M)</translation>
     </message>
     <message>
         <source>Message:</source>
-        <translation>訊息:</translation>
+        <translation>消息：</translation>
     </message>
     <message>
         <source>A message that was attached to the exotic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
-        <translation>附加在達世幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到達世幣網路上。</translation>
+        <translation>附加在达世币付款协议URI中的信息,会和交易内容一并存储,可供您参考.提示:此信息不会发送到达世币网络上.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
-        <translation>這是個沒驗證過的付款要求。</translation>
+        <translation>这是个非有效的支付请求。</translation>
     </message>
     <message>
         <source>Pay To:</source>
-        <translation>付給:</translation>
+        <translation>支付给:</translation>
     </message>
     <message>
         <source>Memo:</source>
-        <translation>備註:</translation>
+        <translation>便条：</translation>
     </message>
     <message>
         <source>This is a verified payment request.</source>
-        <translation>這是個已驗證的付款要求。</translation>
+        <translation>这是个有效的支付请求。</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
-        <translation>請輸入這個位址的標記來把它加進位址簿中</translation>
+        <translation>为这个地址输入一个标签，以便将它添加到您的地址簿</translation>
     </message>
 </context>
 <context>
     <name>ShutdownWindow</name>
     <message>
         <source>Exotic Core is shutting down...</source>
-        <translation>達世幣核心正在關閉中...</translation>
+        <translation>达世币核心正在关闭...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
-        <translation>在這個視窗消失以前，請不要關掉電腦。</translation>
+        <translation>在此窗口消失前不要关闭计算机。</translation>
     </message>
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>簽章 - 簽署或驗證訊息</translation>
+        <translation>签名 - 为消息签名/验证签名消息</translation>
     </message>
     <message>
         <source>&amp;Sign Message</source>
-        <translation>簽署訊息(&amp;S)</translation>
+        <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>你可以用自己的位址簽署訊息，來證明你對位址的所有權。但是請小心，不要簽署語意含糊不清的內容，因為釣魚式詐騙可能會用騙你簽署的手法來冒充是你。只有在語句中的細節你都同意時才簽署。</translation>
+        <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
         <source>The GALILEL address to sign the message with</source>
-        <translation>用來簽署訊息的達世幣位址</translation>
+        <translation>对此地址进行签名</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
-        <translation>選擇先前使用過的位址</translation>
+        <translation>选择以前用过的地址</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2570,7 +2615,7 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Paste address from clipboard</source>
-        <translation>貼上剪貼簿裡的位址</translation>
+        <translation>从剪贴板粘贴地址</translation>
     </message>
     <message>
         <source>Alt+P</source>
@@ -2578,114 +2623,114 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Enter the message you want to sign here</source>
-        <translation>請在這裡輸入你想簽署的訊息</translation>
+        <translation>请输入您要发送的签名消息</translation>
     </message>
     <message>
         <source>Signature</source>
-        <translation>簽章</translation>
+        <translation>签名</translation>
     </message>
     <message>
         <source>Copy the current signature to the system clipboard</source>
-        <translation>複製目前的簽章到系統剪貼簿</translation>
+        <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
         <source>Sign the message to prove you own this GALILEL address</source>
-        <translation>簽署這個訊息來證明這個達世幣位址是你的</translation>
+        <translation>签署信息证明你拥有此达世币地址</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
-        <translation>簽署訊息(&amp;M)</translation>
+        <translation>消息签名(&amp;M)</translation>
     </message>
     <message>
         <source>Reset all sign message fields</source>
-        <translation>重設所有訊息簽署欄位</translation>
+        <translation>清空所有签名消息栏</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
-        <translation>全部清除</translation>
+        <translation>清除所有(&amp;A)</translation>
     </message>
     <message>
         <source>&amp;Verify Message</source>
-        <translation>驗證訊息</translation>
+        <translation>验证消息(&amp;V)</translation>
     </message>
     <message>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>請在下面輸入簽署的位址，訊息(請確定完整複製了所包含的換行，空格，跳位符號等等)，以及簽章，來驗證這個訊息。請小心，除了訊息內容以外，不要對簽章本身過度解讀，以避免被用「中間人攻擊法」詐騙。</translation>
+        <translation>在下面输入签名地址，消息（请确保换行符、空格符、制表符等等一个不漏）和签名以验证消息。请确保签名信息准确，提防中间人攻击。</translation>
     </message>
     <message>
         <source>The GALILEL address the message was signed with</source>
-        <translation>簽署這個訊息的達世幣位址</translation>
+        <translation>已签名的地址</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified GALILEL address</source>
-        <translation>驗證這個訊息來確定是用指定的達世幣位址簽署的</translation>
+        <translation>验证信息用来确保此被签署信息对应相对的达世币地址</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
-        <translation>驗證訊息(&amp;M)</translation>
+        <translation>验证消息签名(&amp;M)</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
-        <translation>重設所有訊息驗證欄位</translation>
+        <translation>清空所有验证消息栏</translation>
     </message>
     <message>
         <source>Click "Sign Message" to generate signature</source>
-        <translation>請按一下「簽署訊息」來產生簽章</translation>
+        <translation>单击“签名消息“产生签名。</translation>
     </message>
     <message>
         <source>The entered address is invalid.</source>
-        <translation>輸入的位址無效。</translation>
+        <translation>输入的地址非法。</translation>
     </message>
     <message>
         <source>Please check the address and try again.</source>
-        <translation>請檢查位址是否正確後再試一次。</translation>
+        <translation>请检查地址后重试。</translation>
     </message>
     <message>
         <source>The entered address does not refer to a key.</source>
-        <translation>輸入的位址沒有找到對應的密鑰。</translation>
+        <translation>输入的地址没有关联的公私钥对。</translation>
     </message>
     <message>
         <source>Wallet unlock was cancelled.</source>
-        <translation>錢包解鎖已取消。</translation>
+        <translation>钱包解锁动作取消。</translation>
     </message>
     <message>
         <source>Private key for the entered address is not available.</source>
-        <translation>沒有找到輸入位址的對應密鑰。</translation>
+        <translation>找不到输入地址关联的私钥。</translation>
     </message>
     <message>
         <source>Message signing failed.</source>
-        <translation>訊息簽署失敗。</translation>
+        <translation>消息签名失败。</translation>
     </message>
     <message>
         <source>Message signed.</source>
-        <translation>訊息簽署好了。</translation>
+        <translation>消息已签名。</translation>
     </message>
     <message>
         <source>The signature could not be decoded.</source>
-        <translation>沒辦法把這個簽章解碼。</translation>
+        <translation>签名无法解码。</translation>
     </message>
     <message>
         <source>Please check the signature and try again.</source>
-        <translation>請檢查簽章是否正確後再試一次。</translation>
+        <translation>请检查签名后重试。</translation>
     </message>
     <message>
         <source>The signature did not match the message digest.</source>
-        <translation>這個簽章跟訊息的數位摘要不符。</translation>
+        <translation>签名与消息摘要不匹配。</translation>
     </message>
     <message>
         <source>Message verification failed.</source>
-        <translation>訊息驗證失敗。</translation>
+        <translation>消息验证失败。</translation>
     </message>
     <message>
         <source>Message verified.</source>
-        <translation>訊息驗證成功。</translation>
+        <translation>消息验证成功。</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
         <source>Exotic Core</source>
-        <translation>達世幣核心</translation>
+        <translation>达世币核心</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2693,11 +2738,11 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
-        <translation>位元幣核心開發人員</translation>
+        <translation>Bitcoin Core 的开发者</translation>
     </message>
     <message>
         <source>The Exotic Core developers</source>
-        <translation>達世幣核心開發人員</translation>
+        <translation>达世币核心开发人员</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2715,71 +2760,71 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     <name>TransactionDesc</name>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>到下 %n 個區塊產生前可修改</numerusform></translation>
+        <translation><numerusform>对于%n个块开放</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>至 %1 個數據塊時開啟</translation>
+        <translation>至 %1 个数据块时开启</translation>
     </message>
     <message>
         <source>conflicted</source>
-        <translation>發生衝突</translation>
+        <translation>发现冲突</translation>
     </message>
     <message>
         <source>%1/offline (verified via Instantx)</source>
-        <translation>%1 次/離線 (經即時到帳系統核實)</translation>
+        <translation>%1/下线(经过即时支付系统认证)</translation>
     </message>
     <message>
         <source>%1/confirmed (verified via Instantx)</source>
-        <translation>%1 次/確認 (經即時到帳系統核實)</translation>
+        <translation>%1/已确认(经过即时支付系统认证)</translation>
     </message>
     <message>
         <source>%1 confirmations (verified via Instantx)</source>
-        <translation>確認 %1 次 (經即時到帳系統核實)</translation>
+        <translation>%1/确认完成(经过即时支付付系统认证)</translation>
     </message>
     <message>
         <source>%1/offline</source>
-        <translation>%1 次/離線</translation>
+        <translation>%1 / 离线</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
-        <translation>%1 次/未確認</translation>
+        <translation>%1/未确认</translation>
     </message>
     <message>
         <source>%1 confirmations</source>
-        <translation>確認 %1 次</translation>
+        <translation>%1 已确认</translation>
     </message>
     <message>
         <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 次/離線 (即時到帳系統正在進行核實- 共 %3 個簽署中的 %2 個 )</translation>
+        <translation>%1/下线 (即时支付系统正在认证中 - %2 of %3签名数)</translation>
     </message>
     <message>
         <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
-        <translation>%1 次/已確認 (即時到帳系統正在進行核實- 共 %3 個簽署中的 %2 個 )</translation>
+        <translation>%1/已确认 (即时支付系统正在认证中 - %2 of %3签名数)</translation>
     </message>
     <message>
         <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
-        <translation>%1 次確認 (即時到帳系統正在進行核實- 共 %3 個簽署中的 %2 個 )</translation>
+        <translation>%1/确认完成 (即时支付系统正在认证中 - %2 of %3签名数)</translation>
     </message>
     <message>
         <source>%1/offline (InstantX verification failed)</source>
-        <translation>%1 次/離線 (即時到帳系統未能核實)</translation>
+        <translation>%1/下线 (即时支付系统认证失败)</translation>
     </message>
     <message>
         <source>%1/confirmed (InstantX verification failed)</source>
-        <translation>%1 次/已確認 (即時到帳系統未能核實)</translation>
+        <translation>%1/已确认 (即时支付系统认证失败)</translation>
     </message>
     <message>
         <source>Status</source>
-        <translation>狀態</translation>
+        <translation>状态</translation>
     </message>
     <message>
         <source>, has not been successfully broadcast yet</source>
-        <translation>，尚未成功廣播</translation>
+        <translation>，未被成功广播</translation>
     </message>
     <message numerus="yes">
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>，已通過%n 個節點廣播 </numerusform></translation>
+        <translation><numerusform>，通过%n多个节点广播</numerusform></translation>
     </message>
     <message>
         <source>Date</source>
@@ -2787,15 +2832,15 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Source</source>
-        <translation>來源</translation>
+        <translation>源</translation>
     </message>
     <message>
         <source>Generated</source>
-        <translation>產生</translation>
+        <translation>生成</translation>
     </message>
     <message>
         <source>From</source>
-        <translation>來源</translation>
+        <translation>来自</translation>
     </message>
     <message>
         <source>unknown</source>
@@ -2803,31 +2848,27 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>To</source>
-        <translation>目的</translation>
+        <translation>到</translation>
     </message>
     <message>
         <source>own address</source>
-        <translation>自己的位址</translation>
+        <translation>自己的地址</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>僅限查看</translation>
+        <translation>仅限查看</translation>
     </message>
     <message>
         <source>label</source>
-        <translation>標記</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Credit</source>
-        <translation>入帳</translation>
-    </message>
-    <message numerus="yes">
-        <source>matures in %n more block(s)</source>
-        <translation><numerusform>再過 %n 個區塊產生後成熟</numerusform></translation>
+        <translation>收入</translation>
     </message>
     <message>
         <source>not accepted</source>
-        <translation>不被接受</translation>
+        <translation>未被接受</translation>
     </message>
     <message>
         <source>Debit</source>
@@ -2835,43 +2876,43 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Total debit</source>
-        <translation>支出總額</translation>
+        <translation>支出总额</translation>
     </message>
     <message>
         <source>Total credit</source>
-        <translation>入帳總額</translation>
+        <translation>入账总额</translation>
     </message>
     <message>
         <source>Transaction fee</source>
-        <translation>交易手續費</translation>
+        <translation>交易费</translation>
     </message>
     <message>
         <source>Net amount</source>
-        <translation>淨額</translation>
+        <translation>净额</translation>
     </message>
     <message>
         <source>Message</source>
-        <translation>訊息</translation>
+        <translation>消息</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation>附註</translation>
+        <translation>备注</translation>
     </message>
     <message>
         <source>Transaction ID</source>
-        <translation>交易識別碼</translation>
+        <translation>交易ID</translation>
     </message>
     <message>
         <source>Merchant</source>
-        <translation>商家</translation>
+        <translation>商店</translation>
     </message>
     <message>
         <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>生產出來的錢要再等 %1 個區塊產生後成熟才可以用。當區塊產生時會發布到網路上，然後被加進區塊鏈。如果失敗了，狀態就會變成「不被接受」，而且不能夠花。如果在你生產出區塊的幾秒鐘內，也有其他節點生產出來的話，就有可能會發生這種情形。</translation>
+        <translation>生成的达世币在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
     </message>
     <message>
         <source>Debug information</source>
-        <translation>除錯資訊</translation>
+        <translation>调试信息</translation>
     </message>
     <message>
         <source>Transaction</source>
@@ -2879,30 +2920,30 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Inputs</source>
-        <translation>輸入</translation>
+        <translation>输入</translation>
     </message>
     <message>
         <source>Amount</source>
-        <translation>金額</translation>
+        <translation>金额</translation>
     </message>
     <message>
         <source>true</source>
-        <translation>是</translation>
+        <translation>正确</translation>
     </message>
     <message>
         <source>false</source>
-        <translation>否</translation>
+        <translation>错误</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
         <source>Transaction details</source>
-        <translation>交易明細</translation>
+        <translation>交易细节</translation>
     </message>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
-        <translation>這個版面顯示這次交易的詳細說明</translation>
+        <translation>当前面板显示了交易的详细信息</translation>
     </message>
 </context>
 <context>
@@ -2913,103 +2954,127 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Type</source>
-        <translation>種類</translation>
+        <translation>类型</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>位址</translation>
+        <translation>地址</translation>
     </message>
     <message numerus="yes">
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>到下 %n 個區塊產生前可修改</numerusform></translation>
+        <translation><numerusform>对于%n个块开放</numerusform></translation>
     </message>
     <message>
         <source>Open until %1</source>
-        <translation>至 %1 個數據塊時開啟</translation>
+        <translation>至 %1 个数据块时开启</translation>
     </message>
     <message>
         <source>Offline</source>
-        <translation>離線</translation>
+        <translation>掉线</translation>
     </message>
     <message>
         <source>Unconfirmed</source>
-        <translation>未確認</translation>
+        <translation>未确认的 </translation>
     </message>
     <message>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
-        <translation>確認中(已經 %1 次，建議至少 %2 次)</translation>
+        <translation>确认中 (推荐 %2个确认，已经有 %1个确认)</translation>
     </message>
     <message>
         <source>Confirmed (%1 confirmations)</source>
-        <translation>已確認(%1 次)</translation>
+        <translation>已确认 (%1 条确认信息)</translation>
     </message>
     <message>
         <source>Conflicted</source>
-        <translation>發生衝突</translation>
+        <translation>冲突的</translation>
     </message>
     <message>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>未成熟金額 (%1  次確認，經 %2 次確認後方可使用)</translation>
+        <translation>未成熟 (%1 个确认，将在 %2 个后可用)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>此数据块未被任何其他节点接收，可能不被接受！</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>已生成但未被接受</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>收款</translation>
+        <translation>接收于</translation>
     </message>
     <message>
         <source>Received from</source>
-        <translation>收款來自</translation>
+        <translation>收款来自</translation>
     </message>
     <message>
         <source>Received via Obfuscate</source>
-        <translation>經由匿名發送收到</translation>
+        <translation>已通过匿名处理接收</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>付款給</translation>
+        <translation>发送给</translation>
     </message>
     <message>
         <source>Payment to yourself</source>
-        <translation>付給自己</translation>
+        <translation>付款给自己</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>開採所得</translation>
+        <translation>挖矿所得</translation>
+    </message>
+    <message>
+        <source>Obfuscate Denominate</source>
+        <translation>匿名发送面额化</translation>
+    </message>
+    <message>
+        <source>Obfuscate Collateral Payment</source>
+        <translation>匿名发送附加费用</translation>
+    </message>
+    <message>
+        <source>Obfuscate Make Collateral Inputs</source>
+        <translation>匿名发送会产生附加费用</translation>
+    </message>
+    <message>
+        <source>Obfuscate Create Denominations</source>
+        <translation>匿名发送会生成面值额度</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>匿名發送</translation>
+        <translation>匿名发送</translation>
     </message>
     <message>
         <source>watch-only</source>
-        <translation>僅限查看</translation>
+        <translation>仅限查看</translation>
     </message>
     <message>
         <source>(n/a)</source>
-        <translation>(不適用)</translation>
+        <translation>（不可用）</translation>
     </message>
     <message>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>交易狀態。把游標停在欄位上會顯示確認次數。</translation>
+        <translation>交易状态。 鼠标移到此区域可显示确认项数量。</translation>
     </message>
     <message>
         <source>Date and time that the transaction was received.</source>
-        <translation>收到交易的日期和時間。</translation>
+        <translation>接收到交易的时间</translation>
     </message>
     <message>
         <source>Type of transaction.</source>
-        <translation>交易的種類。</translation>
+        <translation>交易类别。</translation>
     </message>
     <message>
         <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>決定是否有一個僅限查看的位址參與這次的交易</translation>
+        <translation>决定是否有一个仅限查看的地址参与这次交易.</translation>
     </message>
     <message>
         <source>Destination address of transaction.</source>
-        <translation>交易的目的地位址。</translation>
+        <translation>交易目的地址。</translation>
     </message>
     <message>
         <source>Amount removed from or added to balance.</source>
-        <translation>從餘額中添加或扣除的金額。</translation>
+        <translation>从余额添加或移除的金额。</translation>
     </message>
 </context>
 <context>
@@ -3024,15 +3089,15 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>This week</source>
-        <translation>這星期</translation>
+        <translation>本周</translation>
     </message>
     <message>
         <source>This month</source>
-        <translation>這個月</translation>
+        <translation>本月</translation>
     </message>
     <message>
         <source>Last month</source>
-        <translation>上個月</translation>
+        <translation>上月</translation>
     </message>
     <message>
         <source>This year</source>
@@ -3040,79 +3105,95 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Range...</source>
-        <translation>指定範圍...</translation>
+        <translation>范围...</translation>
     </message>
     <message>
         <source>Received with</source>
-        <translation>收款</translation>
+        <translation>接收于</translation>
     </message>
     <message>
         <source>Sent to</source>
-        <translation>付款給</translation>
+        <translation>发送给</translation>
     </message>
     <message>
         <source>Obfuscated</source>
-        <translation>匿名發送</translation>
+        <translation>匿名发送</translation>
+    </message>
+    <message>
+        <source>Obfuscate Make Collateral Inputs</source>
+        <translation>匿名发送会产生附加费用</translation>
+    </message>
+    <message>
+        <source>Obfuscate Create Denominations</source>
+        <translation>匿名发送会生成面值额度</translation>
+    </message>
+    <message>
+        <source>Obfuscate Denominate</source>
+        <translation>匿名发送面额化</translation>
+    </message>
+    <message>
+        <source>Obfuscate Collateral Payment</source>
+        <translation>匿名发送附加费用</translation>
     </message>
     <message>
         <source>To yourself</source>
-        <translation>給自己</translation>
+        <translation>到自己</translation>
     </message>
     <message>
         <source>Mined</source>
-        <translation>開採所得</translation>
+        <translation>挖矿所得</translation>
     </message>
     <message>
         <source>Other</source>
-        <translation>其它</translation>
+        <translation>其他</translation>
     </message>
     <message>
         <source>Enter address or label to search</source>
-        <translation>請輸入要搜尋的位址或標記</translation>
+        <translation>输入地址或标签进行搜索</translation>
     </message>
     <message>
         <source>Min amount</source>
-        <translation>最小金額</translation>
+        <translation>最小金额</translation>
     </message>
     <message>
         <source>Copy address</source>
-        <translation>複製位址</translation>
+        <translation>复制地址</translation>
     </message>
     <message>
         <source>Copy label</source>
-        <translation>複製標記</translation>
+        <translation>复制标签</translation>
     </message>
     <message>
         <source>Copy amount</source>
-        <translation>複製金額</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
         <source>Copy transaction ID</source>
-        <translation>複製交易識別碼</translation>
+        <translation>复制交易编号</translation>
     </message>
     <message>
         <source>Edit label</source>
-        <translation>編輯標記</translation>
+        <translation>编辑标签</translation>
     </message>
     <message>
         <source>Show transaction details</source>
-        <translation>顯示交易明細</translation>
+        <translation>显示交易详情</translation>
     </message>
     <message>
         <source>Export Transaction History</source>
-        <translation>匯出交易記錄</translation>
+        <translation>导出交易历史</translation>
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>逗點分隔資料檔(*.csv)</translation>
+        <translation>逗号分隔文件 (*.csv)</translation>
     </message>
     <message>
         <source>Confirmed</source>
-        <translation>已確認</translation>
+        <translation>已确认</translation>
     </message>
     <message>
         <source>Watch-only</source>
-        <translation>僅限查看</translation>
+        <translation>仅限查看</translation>
     </message>
     <message>
         <source>Date</source>
@@ -3120,39 +3201,39 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Type</source>
-        <translation>種類</translation>
+        <translation>类别</translation>
     </message>
     <message>
         <source>Label</source>
-        <translation>標記</translation>
+        <translation>标签</translation>
     </message>
     <message>
         <source>Address</source>
-        <translation>位址</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <source>ID</source>
-        <translation>識別碼</translation>
+        <translation>ID</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
-        <translation>匯出失敗</translation>
+        <translation>导出失败</translation>
     </message>
     <message>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>儲存交易記錄到 %1 時發生錯誤。</translation>
+        <translation>导出交易历史到 %1 时发生错误。</translation>
     </message>
     <message>
         <source>Exporting Successful</source>
-        <translation>匯出成功</translation>
+        <translation>导出成功</translation>
     </message>
     <message>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>交易記錄已經成功儲存到 %1 了。</translation>
+        <translation>交易历史已成功保存到 %1。</translation>
     </message>
     <message>
         <source>Range:</source>
-        <translation>範圍:</translation>
+        <translation>范围：</translation>
     </message>
     <message>
         <source>to</source>
@@ -3161,561 +3242,672 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
 </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
-    <message>
-        <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>金額顯示單位。可以點選其他單位。</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>WalletFrame</name>
     <message>
         <source>No wallet has been loaded.</source>
-        <translation>沒有載入錢包。</translation>
+        <translation>没有载入钱包。</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
         <source>Send Coins</source>
-        <translation>付款</translation>
+        <translation>发送达世币</translation>
     </message>
     <message>
         <source>InstantX doesn't support sending values that high yet. Transactions are currently limited to %1 DNET.</source>
-        <translation>即時到帳系統暫時並不支援這麼高的交易金額。目前的金額僅限於%1 DNET。</translation>
+        <translation>即时支付功能目前还不支持发送如此高的金额.目前限制在%1 达世币.</translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
         <source>&amp;Export</source>
-        <translation>匯出(&amp;E)</translation>
+        <translation>导出(&amp;E)</translation>
     </message>
     <message>
         <source>Export the data in the current tab to a file</source>
-        <translation>把目前分頁的資料匯出存成檔案</translation>
+        <translation>导出当前数据到文件</translation>
+    </message>
+    <message>
+        <source>Selected amount:</source>
+        <translation>选择总额:</translation>
     </message>
     <message>
         <source>Backup Wallet</source>
-        <translation>備份錢包</translation>
+        <translation>备份钱包</translation>
     </message>
     <message>
         <source>Wallet Data (*.dat)</source>
-        <translation>錢包資料檔(*.dat)</translation>
+        <translation>钱包文件(*.dat)</translation>
     </message>
     <message>
         <source>Backup Failed</source>
-        <translation>備份失敗</translation>
+        <translation>备份失败</translation>
     </message>
     <message>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>儲存錢包資料到 %1 時發生錯誤。</translation>
+        <translation>尝试保存钱包数据至 %1 时发生错误。</translation>
     </message>
     <message>
         <source>Backup Successful</source>
-        <translation>備份成功</translation>
+        <translation>备份成功</translation>
     </message>
     <message>
         <source>The wallet data was successfully saved to %1.</source>
-        <translation>錢包的資料已經成功儲存到 %1 了。</translation>
+        <translation>钱包数据成功保存至 %1 。</translation>
     </message>
 </context>
 <context>
     <name>exotic-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>和指定的位址繫結，並且一直在指定位址聽候連線。IPv6 請用 [主機]:通訊埠 這種格式</translation>
+        <translation>与提供地址绑定，持续监听。使用[host]:标记IPv6端口</translation>
+    </message>
+    <message>
+        <source>Cannot obtain a lock on data directory %s. Exotic Core is probably already running.</source>
+        <translation>不能获得锁定的数据目录 %s. 达世币核心可能已经在运行。</translation>
+    </message>
+    <message>
+        <source>Obfuscate uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation>为了匿名发送的正常发送,您可能需要再混淆一些币.</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>进入回滚测试模式,它可使用特殊区块链来立刻解出区块.</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>錯誤: 聽候外來連線失敗(回傳錯誤 %s)</translation>
+        <translation>错误:监听输入链接失败(监听回馈错误 %s)</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>當收到相關警示，或發現相當長的分支時，所要執行的指令(指令中的 %s 會被取代成警示訊息)</translation>
+        <translation>当收到相关警示或产生相当长的分叉时,执行命令(命令中的 %s 会被警示信息代替)</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>當錢包有交易改變時要執行的指令(指令中的 %s 會被取代成交易識別碼)</translation>
+        <translation>当钱包有交易改变时需要执行命令(命令中的 %s 会被交易识别码代替)</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>當最新區塊改變時要執行的指令(指令中的 %s 會被取代成區塊雜湊值)</translation>
+        <translation>当最新区块改变时需要执行的命令(命令中的 %s 会被区块哈希值代替)</translation>
     </message>
     <message>
         <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
-        <translation>即時到帳系統要求輸入的資金最少要有6個確認，你可能需要等待數分鐘然後再重試。</translation>
-    </message>
-    <message>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>設定高優先度或低手續費的交易資料大小上限成多少位元組(預設值: %d)</translation>
-    </message>
-    <message>
-        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>設定指令碼驗證的執行緒數目 (%u 到 %d，0 表示程式自動決定，小於 0 表示保留處理器核心不用的數目，預設值: %d)</translation>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>這是個還沒發表的測試版本 - 使用請自負風險 - 請不要用來開採或商業應用</translation>
+        <translation>即时支付功能需要6步确认，您可以稍后重试。</translation>
     </message>
     <message>
         <source>Unable to bind to %s on this computer. Exotic Core is probably already running.</source>
-        <translation>沒辦法繫結在這台電腦上的 %s 。達世幣核心可能已經在執行了。</translation>
+        <translation>无法绑定%s此计算机. 达世币核心应该已经在运行中了.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Obfuscate denominated funds for this transaction.</source>
+        <translation>无法找到足够的已匿名化资金来完成交易,不足1000 DNET.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough Obfuscate non-denominated funds for this transaction that are not equal 1000 DNET.</source>
+        <translation>无法找到足够的未匿名化资金来完成交易,不足1000 DNET.</translation>
     </message>
     <message>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>警告: -paytxfee 設定了很高的金額！這可是你交易付款所要付的手續費。</translation>
+        <translation>警告: -paytxfee 设定了很高的金额！这可是你交易付款所要付的手续费。</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>警告: 達世幣網路對於區塊鏈結的決定目前有分歧！看來有些礦工會有問題。</translation>
+        <translation>警告: 达世币网路对于区块链结的决定目前有分歧！看来有些矿工会有问题。</translation>
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>警告: 我們和某些連線的節點對於區塊鏈結的決定不同！你可能需要升級，或是需要等其它的節點升級。</translation>
+        <translation>警告: 我们和某些连线的节点对于区块链结的决定不同！你可能需要升级，或是需要等其它的节点升级。</translation>
     </message>
     <message>
         <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>警告: 讀取錢包檔 wallet.dat 時發生錯誤！所有的密鑰都正確讀取了，但是交易資料或位址簿資料可能會缺少或不正確。</translation>
+        <translation>警告: 读取钱包档wallet.dat 时发生错误！所有的密钥都正确读取了，但是交易资料或位址簿资料可能会缺少或不正确。</translation>
     </message>
     <message>
         <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>警告: 錢包檔 wallet.dat 壞掉，但資料被拯救回來了！原來的 wallet.dat 會改儲存在 %s, 檔名是 wallet.{timestamp}.bak. 如果餘額或交易資料有誤，你應該要用備份資料復原回來。</translation>
+        <translation>警告: 钱包档wallet.dat 损坏，但资料被拯救回来了！原来的wallet.dat 会改储存在%s, 档名是wallet.{timestamp}.bak. 如果余额或交易资料有误，你应该要用备份资料复原回来。</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>您必須在配置文件中指定一個masternodeprivkey。請參閱文檔以獲得幫助。</translation>
+        <translation>您必须在配置中指定一个主节点密钥。请参阅文档以获得帮助。</translation>
     </message>
     <message>
         <source>(default: 1)</source>
-        <translation>(預設值: 1)</translation>
+        <translation>(默认: 1)</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
-        <translation>接受指令列和 JSON-RPC 指令</translation>
+        <translation>接受命令行以及JSON-RPC命令</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>接受来自外部链接 (默认: 1 if no -proxy or -connect)</translation>
+    </message>
+    <message>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation>添加一个可连接节点，并尝试保持连接开放。</translation>
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>允許對 -addnode, -seednode, -connect 的參數使用域名查詢</translation>
+        <translation>允许DNS查找 -新节点, -子节点 和 -链接</translation>
+    </message>
+    <message>
+        <source>Already have that input.</source>
+        <translation>输入已存在。</translation>
     </message>
     <message>
         <source>Attempt to recover private keys from a corrupt wallet.dat</source>
-        <translation>嘗試從壞掉的錢包檔 wallet.dat 復原密鑰</translation>
+        <translation>尝试从已损坏的钱包文件中找回私钥</translation>
     </message>
     <message>
         <source>Block creation options:</source>
-        <translation>區塊製造選項:</translation>
+        <translation>数据块创建选项：</translation>
+    </message>
+    <message>
+        <source>Can't denominate: no compatible inputs left.</source>
+        <translation>不能面额化：没有可匹配的输入。</translation>
     </message>
     <message>
         <source>Cannot downgrade wallet</source>
-        <translation>沒辦法把錢包格式降級</translation>
+        <translation>不能降级钱包</translation>
     </message>
     <message>
         <source>Cannot resolve -bind address: '%s'</source>
-        <translation>沒辦法解析 -bind 位址: '%s'</translation>
+        <translation>不能解决 -绑定地址：'%s'</translation>
     </message>
     <message>
         <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>沒辦法解析 -externalip 位址: '%s'</translation>
+        <translation>不能解决 -外部ip地址：'%s'</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
-        <translation>沒辦法把預設位址寫進去</translation>
+        <translation>不能写入默认钱包</translation>
+    </message>
+    <message>
+        <source>Collateral not valid.</source>
+        <translation>并行无效。</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>连接至指定(多个)节点</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>连接至节点来找回对等地址和断开链接</translation>
     </message>
     <message>
         <source>Connection options:</source>
-        <translation>連線選項:</translation>
+        <translation>连接选项：</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
-        <translation>發現區塊資料庫壞掉了</translation>
+        <translation>已找到损坏的数据块</translation>
     </message>
     <message>
         <source>Obfuscate options:</source>
-        <translation>匿名發送選項:</translation>
+        <translation>匿名发送选项：</translation>
+    </message>
+    <message>
+        <source>Debugging/Testing options:</source>
+        <translation>排除故障/测试 选项：</translation>
     </message>
     <message>
         <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
-        <translation>找出自己的網際網路位址(預設值: 當有聽候連線且沒有 -externalip 時為 1)</translation>
-    </message>
-    <message>
-        <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>不要載入錢包，並且拿掉錢包相關的 RPC 功能請求。</translation>
+        <translation>发现私有IP地址(默认：1 当监听时没有外部IP)</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
-        <translation>你想要現在重建區塊資料庫嗎？</translation>
+        <translation>你想要现在重建区块资料库吗？</translation>
     </message>
     <message>
         <source>Done loading</source>
-        <translation>載入完成</translation>
+        <translation>读取完成</translation>
+    </message>
+    <message>
+        <source>Entries are full.</source>
+        <translation>词条已满.</translation>
     </message>
     <message>
         <source>Error initializing block database</source>
-        <translation>初始化區塊資料庫時發生錯誤</translation>
+        <translation>正在初始化数据库块错误</translation>
     </message>
     <message>
         <source>Error initializing wallet database environment %s!</source>
-        <translation>初始化錢包資料庫環境 %s 時發生錯誤！</translation>
+        <translation>正在初始钱包数据库环境错误 %s!</translation>
     </message>
     <message>
         <source>Error loading block database</source>
-        <translation>載入區塊資料庫時發生錯誤</translation>
+        <translation>读取数据库块错误</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>
-        <translation>載入錢包檔 wallet.dat 時發生錯誤</translation>
+        <translation>读取钱包文件错误</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet corrupted</source>
-        <translation>載入檔案 wallet.dat 時發生錯誤: 錢包損毀了</translation>
+        <translation>读取钱包文件错误：钱包已损坏</translation>
     </message>
     <message>
         <source>Error opening block database</source>
-        <translation>打開區塊資料庫時發生錯誤</translation>
+        <translation>正在打开数据库块错误</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>
-        <translation>讀取資料庫時發生錯誤，要關閉了。</translation>
+        <translation>读取数据库错误，正在关闭。</translation>
     </message>
     <message>
         <source>Error recovering public key.</source>
-        <translation>恢復公鑰時發生錯誤。</translation>
+        <translation>恢复公钥时发生错误。</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation>錯誤</translation>
+        <translation>错误</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
-        <translation>錯誤: 磁碟空間很少！</translation>
+        <translation>错误:磁盘空间不够!</translation>
     </message>
     <message>
         <source>Error: Wallet locked, unable to create transaction!</source>
-        <translation>錯誤: 錢包被鎖定，無法創建交易！</translation>
-    </message>
-    <message>
-        <source>Error: You already have pending entries in the Obfuscate pool</source>
-        <translation>錯誤: 你已經有待處理項目在匿名發送資金池中</translation>
+        <translation>错误:钱包被锁定,无法创建交易!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>在任意的通訊埠聽候失敗。如果你希望這樣的話，可以設定 -listen=0.</translation>
+        <translation>监听端口失败。如果想使用此项 修改-listen=0</translation>
     </message>
     <message>
         <source>Failed to read block</source>
-        <translation>無法讀取區塊</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>允許指定的來源建立 JSON-RPC 連線。&lt;ip&gt; 的有效值可以是一個單獨位址(像是 1.2.3.4)，一個網段/網段罩遮值(例如 1.2.3.4/255.255.255.0)，或是網段/CIDR值(像是 1.2.3.4/24)。這個選項可以設定多次。</translation>
+        <translation>读取数据块失败</translation>
     </message>
     <message>
         <source>An error occurred while setting up the RPC address %s port %u for listening: %s</source>
-        <translation>設定在網路上以位址 %s 和通訊埠 %u 聽候 RPC 連線時發生錯誤: %s</translation>
-    </message>
-    <message>
-        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>和指定的位址繫結，並且把連線過來的節點放進白名單。IPv6 請用 [主機]:通訊埠 這種格式</translation>
-    </message>
-    <message>
-        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>和指定的位址繫結以聽候 JSON-RPC 連線。IPv6 請用 [主機]:通訊埠 這種格式。這個選項可以設定多次。(預設值: 跟所有網路界面上的位址繫結)</translation>
-    </message>
-    <message>
-        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>用系統預設權限來造出新的檔案，而不是用使用者權限罩遮(umask)值 077 (只有在關掉錢包功能時才有作用)。</translation>
+        <translation>建立RPC地址 %s 时发生了一个错误 %u, 正在监听 : %s</translation>
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>清掉錢包裡的所有交易資料，並且在下次啟動時，使用 -rescan 來從區塊鏈中復原回來。</translation>
+        <translation>删除钱包里的所有交易信息, 并且在下次启动时, 使用 -rescan 来从区块链中恢复</translation>
     </message>
     <message>
-        <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
-        <translation>這套軟體是依據 MIT 軟體授權條款發布，詳情請見附帶的 COPYING 檔案，或是以下網站:&lt;http://www.opensource.org/licenses/mit-license.php&gt;.</translation>
+        <source>Disable all GALILEL specific functionality (Masternodes, Obfuscate, InstantX, Budgeting) (0-1, default: %u)</source>
+        <translation>禁止所有达世币附加功能(主节点, 匿名发送, 即时发送, 预算) (0-1, default: %u)</translation>
     </message>
     <message>
-        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>錯誤: 找到不再支援的 -socks 參數。現在只支援 SOCKS5 協定的代理伺服器了，因為不再能夠指定 SOCKS 協定版本。</translation>
+        <source>Enable Instantx, show confirmations for locked transactions (bool, default: %s)</source>
+        <translation>激活即时支付,显示锁定交易的确认数(bool, 默认: %s)</translation>
+    </message>
+    <message>
+        <source>Enable use of automated obfuscate for funds stored in this wallet (0-1, default: %u)</source>
+        <translation>允许存储在这个钱包内的资金自动使用匿名发送(0-1, 默认: %u)</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
-        <translation>當處理轉發的交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
+        <translation>如果手续费比这个值低,就视为没有付手续费(当产生交易时)(默认: %s)</translation>
     </message>
     <message>
         <source>Fees (in DNET/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>當建立交易時，如果每千位元組(Kb)的手續費比這個值低，就視為沒付手續費 (預設值: %s)</translation>
+        <translation>如果手续费比这个值低,就视为没有付手续费(当产生交易时)(默认: %s)</translation>
     </message>
     <message>
-        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: %u)</source>
-        <translation>每當累積到 &lt;n&gt; 百萬位元組(MB)時，才將資料庫的變動從記憶體暫存池中寫進磁碟紀錄檔(預設值: %u)</translation>
+        <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
+        <translation>未确认的面额化输出，将等待他们确认后继续。</translation>
     </message>
     <message>
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>使用 -checkblocks 檢查區塊的仔細程度(0-4，預設值: %u)</translation>
+        <translation>使用 -checkblocks 检查区块的仔细程度 (0-4, 默认:%u)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>當沒有設定 paytxfee 時，自動包含可以讓交易能在平均 n 個區塊內開始確認的手續費(預設值: %u)</translation>
+        <translation>当没有设定 paytxfee 时, 自动包含可以让交易能在平均 n 个区块内开始确认的手续费 (默认: %u)</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效 (必須大於最低轉發手續費 %s 以避免交易無法確認)</translation>
-    </message>
-    <message>
-        <source>Log transaction priority and fee per kB when mining blocks (default: %u)</source>
-        <translation>開採區塊的時候，紀錄交易的優先度以及每千位元組(kB)的手續費(預設值: %u)</translation>
-    </message>
-    <message>
-        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>維護全部交易的索引，用在 getrawtransaction 這個 RPC 請求(預設值: %u)</translation>
-    </message>
-    <message>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>轉發和開採時，對只帶資料的交易的大小上限(預設值: %u)</translation>
+        <translation>设定 -maxtxfee=&lt;金额&gt;  的金额无效: '%s' (必须大于最低转发手续费%s 以避免交易无法被确认)</translation>
     </message>
     <message>
         <source>Maximum total fees to use in a single wallet transaction, setting too low may abort large transactions (default: %s)</source>
-        <translation>單一的錢包交易允許付出最高的總手續費，設定太低的話，可能會無法進行資料量大的交易(預設值: %s)</translation>
+        <translation>单一的钱包交易允许支付最大的总手续费, 设定过低可能会导致无法进行大量交易 (默认: %s)</translation>
     </message>
     <message>
         <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>避免與異常的節點重新連線的秒數(預設: %u)</translation>
+        <translation>禁止与作弊节点重新链接的秒数 (默认: %u)</translation>
     </message>
     <message>
         <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>輸出除錯資訊(預設值: %u, 不一定要指定 &lt;category&gt;)</translation>
+        <translation>输出除错信息(默认: %u,  &lt;category&gt;是可选项)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file (default: %u)</source>
+        <translation>发送追踪/debug信息而并非debug.log文件至控制台 (默认: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads for coin generation if enabled (-1 = all cores, default: %d)</source>
-        <translation>設定產生錢幣的執行緒數目(-1 表示處理器核心數，預設值: %d)</translation>
+        <translation>设定生成币的执行绪数目(-1 表示处理器核心数, 默认: %d)</translation>
     </message>
     <message>
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>此產品也包含了由 OpenSSL Project 所開發的 OpenSSL Toolkit 軟體 &lt;https://www.openssl.org/&gt;, 和由 Eric Young 撰寫的加解密軟體，以及由 Thomas Bernard 所撰寫的 UPnP 軟體。</translation>
+        <translation>此产品包括了由OpenSSL Project所开发的OpenSSL Toolkit 软件&lt;https://www.openssl.org/&gt;, 和由Eric Young 编写的加密软件, 以及由Thomas Bernard 编写的UPnP软件.</translation>
+    </message>
+    <message>
+        <source>Unable to locate enough funds for this transaction that are not equal 1000 DNET.</source>
+        <translation>无法找到足够的资金完成交易,不足1000 DNET.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>使用另外的 SOCK5 代理伺服器，來透過 Tor 隱藏服務跟節點聯繫(預設值: %s)</translation>
+        <translation>使用独立的SOCK5 代理服务器, 来通过Tor 隐藏服务器与节点的链接 (默认: %s)</translation>
     </message>
     <message>
         <source>Warning: -maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>警告: -maxtxfee 設定了很高的金額！這可是一次交易就有可能付出的最高手續費。</translation>
+        <translation>警告: -maxtxfee 设定的金额过高! 这是一次交易就要支付的手续费.</translation>
     </message>
     <message>
         <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Exotic Core will not work properly.</source>
-        <translation>警告: 請檢查電腦日期和時間是否正確！達世幣核心沒辦法在時鐘不準的情況下正常運作。</translation>
+        <translation>警告: 请检查电脑日期和时间是否正确！达世币核心没办法在时钟不准的情况下正常运作。</translation>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>把來自指定網域或位址的節點放進白名單。這個選項可以設定多次。</translation>
+        <translation>把来自指定网络或IP地址放进白名单. 这个选项可以设定多次.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>在白名單中的節點不會因為偵測到阻斷服務攻擊而被停用。來自這些節點的交易也一定會被轉發，即使說交易本來就在記憶池裡了也一樣。適用於像是閘道伺服器。</translation>
+        <translation>在白名单中的节点不会因为检测到DoS攻击而被停用. 来自这些节点的交易也一定会被转发, 即使说交易本神就来自记忆池. 适用于网关</translation>
+    </message>
+    <message>
+        <source>(31000 could be used only on mainnet)</source>
+        <translation>(31000 只能被用于主网)</translation>
     </message>
     <message>
         <source>(default: %s)</source>
-        <translation>(預設值: %s)</translation>
+        <translation>(默认: %s)</translation>
+    </message>
+    <message>
+        <source>&lt;category&gt; can be:
+</source>
+        <translation>&lt;category&gt; 可以是:
+</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: %s)</source>
+        <translation>可接受的密码 (默认: %s)</translation>
+    </message>
+    <message>
+        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
+        <translation>总是通过DNS查询对等地址(默认: %u)</translation>
     </message>
     <message>
         <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>沒辦法解析 -whitebind 指定的位址: '%s'</translation>
+        <translation>不能解决 -whitebind 地址: '%s'</translation>
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
-        <translation>透過 SOCKS5 代理伺服器連線</translation>
+        <translation>通过SOCKS5代理连接</translation>
+    </message>
+    <message>
+        <source>Connect to KeePassHttp on port &lt;port&gt; (default: %u)</source>
+        <translation>连接至 KeePassHttp 端口 &lt;port&gt; (默认: %u)</translation>
     </message>
     <message>
         <source>Copyright (C) 2009-%i The Bitcoin Core Developers</source>
-        <translation>版權為位元幣核心開發人員自西元 2009 至 %i 年起所有</translation>
+        <translation>版权(C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
         <source>Copyright (C) 2014-%i The Exotic Core Developers</source>
-        <translation>版權為達世幣核心開發人員自西元 2014 至 %i 年起所有</translation>
+        <translation>版权 (C) 2014-%i The Exotic Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
-        <translation>沒辦法解析 -rpcbind 參數值 %s 為網路位址</translation>
+        <translation>无法解析 -rpcbind 参数 %s 作为网络地址</translation>
     </message>
     <message>
         <source>Obfuscate is idle.</source>
-        <translation>匿名發送處於閒置狀態。</translation>
+        <translation>匿名化处于空闲状态</translation>
     </message>
     <message>
         <source>Obfuscate request complete:</source>
-        <translation>完成匿名發送請求:</translation>
+        <translation>匿名化请求已完成:</translation>
     </message>
     <message>
         <source>Obfuscate request incomplete:</source>
-        <translation>未完成匿名發送請求:</translation>
+        <translation>匿名化请求未完成:</translation>
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: %u)</source>
+        <translation>未激活安全模式，重新写入真正安全模式项目(默认: %u)</translation>
+    </message>
+    <message>
+        <source>Enable the client to act as a masternode (0-1, default: %u)</source>
+        <translation>激活客户端,使其作为主节点(0-1, 默认: %u)</translation>
     </message>
     <message>
         <source>Error connecting to Masternode.</source>
-        <translation>連接到主節點時發生錯誤。</translation>
+        <translation>连接到主节点时发生错误.</translation>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of Exotic Core</source>
-        <translation>載入 wallet.dat 檔案時發生錯誤: 這個錢包需要新版的達世幣核心</translation>
+        <translation>读取钱包文件错误: 需要较为新版本的达世币核心来读取钱包</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
-        <translation>錯誤:一個致命的內部錯誤，到debug.log查看更多細節</translation>
+        <translation>错误: 一个之名的内部错误, 到debug.log查看更多细节</translation>
+    </message>
+    <message>
+        <source>Error: Can't select current denominated inputs</source>
+        <translation>错误: 无法选择现在也面额化的输入</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -tor found, use -onion.</source>
-        <translation>錯誤: 找到不再支援的 -tor 參數，請改用 -onion 參數。</translation>
+        <translation>錯誤: 找到不再支援的 -tor 參數，請改用 -onion 參數。
+错误: 找到不支持 -tor 参数, 请改用 -onion 参数.</translation>
+    </message>
+    <message>
+        <source>Finalizing transaction.</source>
+        <translation>正在完成交易。</translation>
+    </message>
+    <message>
+        <source>Found enough users, signing ( waiting %s )</source>
+        <translation>用户数已满足，开始签名 (等待中 %s)</translation>
+    </message>
+    <message>
+        <source>Found enough users, signing ...</source>
+        <translation>用户数已满足，开始签名 ... </translation>
+    </message>
+    <message>
+        <source>Generate coins (default: %u)</source>
+        <translation>生成币 (默认: %u)</translation>
     </message>
     <message>
         <source>Importing...</source>
-        <translation>正在匯入中...</translation>
+        <translation>正在导入...</translation>
     </message>
     <message>
         <source>Imports blocks from external blk000??.dat file</source>
-        <translation>從其它來源的 blk000??.dat 檔匯入區塊</translation>
+        <translation>从其它来源的 blk000??.dat 档汇入区块</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>在除錯輸出內容中包含網際網路位址(預設值: %u)</translation>
+        <translation>在除错输出内容中包含网络IP地址(默认: %u)</translation>
+    </message>
+    <message>
+        <source>Incompatible mode.</source>
+        <translation>不兼容模式。</translation>
+    </message>
+    <message>
+        <source>Incompatible version.</source>
+        <translation>不兼容版本。</translation>
     </message>
     <message>
         <source>Information</source>
-        <translation>資訊</translation>
+        <translation>信息</translation>
+    </message>
+    <message>
+        <source>Initialization sanity check failed. Exotic Core is shutting down.</source>
+        <translation>初始化检查失败。达世币核心正在关闭。</translation>
+    </message>
+    <message>
+        <source>Input is not valid.</source>
+        <translation>输入是无效的。</translation>
     </message>
     <message>
         <source>InstantX options:</source>
-        <translation>即時到帳選項:</translation>
+        <translation>即时支付 选项：</translation>
     </message>
     <message>
         <source>Insufficient funds.</source>
-        <translation>餘額不足。</translation>
+        <translation>存款不足。</translation>
     </message>
     <message>
         <source>Invalid -onion address: '%s'</source>
-        <translation>無效的 -onion 位址: '%s'</translation>
+        <translation>无效-洋葱头地址：'%s'</translation>
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
-        <translation>無效的 -proxy 位址: '%s'</translation>
+        <translation>无效-代理地址：'%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金額無效</translation>
+        <translation>设定 -maxtxfee=&lt;金额&gt; 的金额无效: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>設定最低轉發手續費 -minrelaytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+        <translation>设定 --minrelaytxfee=&lt;金额&gt; 的金额无效: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>設定 -mintxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+        <translation>设定 -mintxfee=&lt;金额&gt; 的金额无效: '%s'</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s' (至少要有 %s)</translation>
+        <translation>设定 -paytxfee=&lt;金额&gt;  的金额无效: '%s' (至少要有%s)</translation>
     </message>
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>設定 -paytxfee=&lt;金額&gt; 的金額無效: '%s'</translation>
+        <translation>设定 -paytxfee=&lt;金额&gt; 的金额无效: '%s'</translation>
+    </message>
+    <message>
+        <source>Last successful Obfuscate action was too recent.</source>
+        <translation>最后一次成功匿名发送刚刚完成.</translation>
     </message>
     <message>
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>在通訊埠 &lt;port&gt; 聽候 JSON-RPC 連線(預設值: %u, 或若為測試網路: %u)</translation>
+        <translation>监听 JSON-RPC&lt;port&gt;(默认: %u 或 测试网络: %u)</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
+        <translation>Listen for connections on &lt;port&gt; (default: %u 或 testnet: %u)</translation>
+    </message>
+    <message>
+        <source>Loading budget cache...</source>
+        <translation>正在读取预算缓存...</translation>
     </message>
     <message>
         <source>Loading masternode cache...</source>
-        <translation>正在載入主節點緩存...</translation>
+        <translation>正在读取主节点缓存...</translation>
+    </message>
+    <message>
+        <source>Loading masternode payment cache...</source>
+        <translation>正在读取主节点奖励缓存...</translation>
     </message>
     <message>
         <source>Mixing in progress...</source>
-        <translation>正在進行混合...</translation>
+        <translation>混淆中...</translation>
     </message>
     <message>
         <source>No Masternodes detected.</source>
-        <translation>沒有檢測到主節點。</translation>
+        <translation>没有检测到任何主节点。</translation>
     </message>
     <message>
         <source>No compatible Masternode found.</source>
-        <translation>沒有找到相容的主節點。</translation>
+        <translation>没有找到任何兼容的主节点。</translation>
     </message>
     <message>
         <source>Not in the Masternode list.</source>
-        <translation>不在主節點列表中。</translation>
+        <translation>在主节点列表中不存在.</translation>
     </message>
     <message>
         <source>Number of automatic wallet backups (default: 10)</source>
-        <translation>自動備份的錢包數目 (預設值：10)</translation>
+        <translation>自动备份的钱包数目 (默认: 10)</translation>
     </message>
     <message>
         <source>Only accept block chain matching built-in checkpoints (default: %u)</source>
-        <translation>只接受與內建的檢查段點吻合的區塊鎖鏈(預設值: %u)</translation>
+        <translation>只接受与镶入检验点匹配的数据块链 (默认: %u)</translation>
     </message>
     <message>
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>只會連接到網絡節點 &lt;net&gt;  (IPv4，IPv6或onion)</translation>
+        <translation>在网络中只连接至节点 &lt;net&gt; (ipv4, ipv6 或 onion)</translation>
     </message>
     <message>
         <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>在除錯輸出內容前附加時間(預設值: %u)</translation>
+        <translation>通过时间标记预先调试输出 (默认: %u)</translation>
     </message>
     <message>
         <source>Run a thread to flush wallet periodically (default: %u)</source>
-        <translation>啟用定期將變動寫入錢包檔的執行緒(預設值: %u)</translation>
+        <translation>启用定期将变动写入​​钱包档的执行绪(默认: %u)</translation>
     </message>
     <message>
         <source>Send trace/debug info to debug.log file (default: %u)</source>
-        <translation>發送追蹤或除錯資訊到debug.log 中 (預設值: %u)</translation>
+        <translation>发送 追踪或除错 信息到debug.log中 (默认: %u)</translation>
     </message>
     <message>
         <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>盡可能送出不用付手續費的交易(預設值: %u)</translation>
+        <translation>如果可能,发送零手续费的交易(默认: %u)</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: %s)</source>
+        <translation>服务器证书文件(默认: %s)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: %s)</source>
+        <translation>服务器私钥 (默认: %s)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>設定密鑰池大小為 &lt;n&gt; (預設值: %u)</translation>
+        <translation>设置钥匙池大小至&lt;n&gt; (默认: %u)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
-        <translation>設定區塊大小下限為多少位元組(預設值: %u)</translation>
+        <translation>以字节为单位设置最小的块(默认: %u)</translation>
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>設定處理 RPC 服務請求的執行緒數目(預設值: %d)</translation>
+        <translation>设定处理RPC 服务请求的执行绪数目(默认: %d)</translation>
     </message>
     <message>
         <source>Sets the DB_PRIVATE flag in the wallet db environment (default: %u)</source>
-        <translation>在錢包資料庫環境變數設定 DB_PRIVATE 旗標(預設值: %u)</translation>
+        <translation>在钱包资料库环境变数设定DB_PRIVATE 旗标(默认: %u)</translation>
     </message>
     <message>
         <source>Signing timed out.</source>
-        <translation>簽署超時。</translation>
+        <translation>签名超时.</translation>
     </message>
     <message>
         <source>Specify configuration file (default: %s)</source>
-        <translation>指定設定檔(預設值: %s)</translation>
+        <translation>指定配置文件(默认: %s)</translation>
     </message>
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>指定連線在幾毫秒後逾時 (最少值: 1, 預設值: %d)</translation>
+        <translation>指定连接超时毫秒数 (最小值: 1, 默认: %d)</translation>
     </message>
     <message>
         <source>Specify masternode configuration file (default: %s)</source>
-        <translation>指定主節點配置文件(預設值: %s)</translation>
+        <translation>指定主节点配置文件 (默认: %s)</translation>
     </message>
     <message>
         <source>Specify pid file (default: %s)</source>
-        <translation>指定行程識別碼檔案(預設值: %s)</translation>
+        <translation>指定pid 文件 (默认: %s)</translation>
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>傳送交易時可以花還沒確認的零錢(預設值: %u)</translation>
+        <translation>发送交易时花费未确认的费用(默认: %u)</translation>
     </message>
     <message>
         <source>Stop running after importing blocks from disk (default: %u)</source>
-        <translation>從磁碟匯入區塊資料後停止執行(預設值: %u)</translation>
+        <translation>从硬盘导入区块信息后停止运行(默认: %u)</translation>
     </message>
     <message>
         <source>Synchronization failed</source>
-        <translation>同步失敗</translation>
+        <translation>同步失败</translation>
     </message>
     <message>
         <source>Synchronization finished</source>
@@ -3723,151 +3915,332 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Synchronizing budgets...</source>
-        <translation>正在跟預算案進行同步...</translation>
+        <translation>正在同步预算...</translation>
+    </message>
+    <message>
+        <source>Synchronizing masternode winners...</source>
+        <translation>正在同步获得奖励的主节点...</translation>
     </message>
     <message>
         <source>Synchronizing masternodes...</source>
-        <translation>正在跟主節點網絡進行同步...</translation>
+        <translation>正在同步主节点...</translation>
+    </message>
+    <message>
+        <source>Synchronizing sporks...</source>
+        <translation>同步分叉...</translation>
     </message>
     <message>
         <source>This is not a Masternode.</source>
-        <translation>這並不是一個主節點。</translation>
+        <translation>这并不是一个主节点。</translation>
     </message>
     <message>
         <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>與異常的節點斷線的臨界值 (預設: %u)</translation>
+        <translation>断开的作弊节点临界值(默认: %u)</translation>
     </message>
     <message>
         <source>Wallet needed to be rewritten: restart Exotic Core to complete</source>
-        <translation>錢包需要重寫: 請重新啓動達世幣核心來完成</translation>
+        <translation>錢包需要重寫: 請重新啓動達世幣核心來完成
+钱包需要重写: 请重新启动达世币核心来完成</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>警告: 忽略了不再支援的 -benchmark 參數，請改用 -debug=bench.</translation>
+        <translation>警告: 忽略了不再支持的 -benchmark 参数, 请改用 -debug=bench.</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>警告: 忽略了不再支援的 -debugnet 參數，請改用 -debug=net.</translation>
+        <translation>警告: 忽略了不再支持的 -debugnet 参数, 请改用 -debug=net.</translation>
     </message>
     <message>
         <source>Will retry...</source>
-        <translation>將重新嘗試...</translation>
+        <translation>即将重试...</translation>
+    </message>
+    <message>
+        <source>Invalid masternodeprivkey. Please see documenation.</source>
+        <translation>无效主节点私钥。请查阅文件材料。</translation>
+    </message>
+    <message>
+        <source>(must be36001 for mainnet)</source>
+        <translation>(设置36001 为主网)</translation>
+    </message>
+    <message>
+        <source>Can't find random Masternode.</source>
+        <translation>无法找到随机主节点.</translation>
+    </message>
+    <message>
+        <source>Can't mix while sync in progress.</source>
+        <translation>无法在同步过程中进行混淆.</translation>
+    </message>
+    <message>
+        <source>Could not parse masternode.conf</source>
+        <translation>无法解析主节点配置文件</translation>
+    </message>
+    <message>
+        <source>Invalid port detected in masternode.conf</source>
+        <translation>在主节点配置文件中检测到无效端口</translation>
+    </message>
+    <message>
+        <source>Invalid private key.</source>
+        <translation>无效私钥。</translation>
+    </message>
+    <message>
+        <source>Invalid script detected.</source>
+        <translation>检测到无效脚本。</translation>
+    </message>
+    <message>
+        <source>Keep N DNET anonymized (default: %u)</source>
+        <translation>保持定量达世币匿名化(默认: %u)</translation>
+    </message>
+    <message>
+        <source>Last Obfuscate was too recent.</source>
+        <translation>最后一次匿名发送刚刚完成。</translation>
+    </message>
+    <message>
+        <source>Line: %d</source>
+        <translation>线路: %d</translation>
     </message>
     <message>
         <source>Loading addresses...</source>
-        <translation>正在載入位址資料...</translation>
+        <translation>正在读取地址...</translation>
     </message>
     <message>
         <source>Loading block index...</source>
-        <translation>正在載入區塊索引...</translation>
+        <translation>正在读取数据块索引...</translation>
     </message>
     <message>
         <source>Loading wallet... (%3.2f %%)</source>
-        <translation>正在載入錢包資料... (%3.2f %%)</translation>
+        <translation>正在读取钱包...(%3.2f%%)</translation>
     </message>
     <message>
         <source>Loading wallet...</source>
-        <translation>正在載入錢包資料...</translation>
+        <translation>正在读取钱包...</translation>
+    </message>
+    <message>
+        <source>Masternode options:</source>
+        <translation>主节点选项：</translation>
+    </message>
+    <message>
+        <source>Masternode queue is full.</source>
+        <translation>主节点列队已满。</translation>
     </message>
     <message>
         <source>Masternode:</source>
-        <translation>主節點:</translation>
+        <translation>主节点：</translation>
+    </message>
+    <message>
+        <source>Missing input transaction information.</source>
+        <translation>丢失输入交易信息。</translation>
+    </message>
+    <message>
+        <source>No funds detected in need of denominating.</source>
+        <translation>在面额化过程中没有检测到所需的资金。</translation>
+    </message>
+    <message>
+        <source>No matching denominations found for mixing.</source>
+        <translation>对于混淆处理，没有找到匹配的面额资金。</translation>
+    </message>
+    <message>
+        <source>Non-standard public key detected.</source>
+        <translation>检测到非标准的公钥。</translation>
+    </message>
+    <message>
+        <source>Not compatible with existing transactions.</source>
+        <translation>与已存在交易不匹配。</translation>
+    </message>
+    <message>
+        <source>Not enough file descriptors available.</source>
+        <translation>文件说明符不可用</translation>
     </message>
     <message>
         <source>Options:</source>
-        <translation>選項:</translation>
+        <translation>选项：</translation>
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC 連線密碼</translation>
+        <translation>JSON-RPC连接密码</translation>
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>RPC SSL 選項: (SSL 設定程序請見 Bitcoin Wiki)</translation>
+        <translation>RPC SSL选项： (请在比特币维基百科查看SSL建立说明)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
-        <translation>RPC 伺服器選項:</translation>
+        <translation>RPC服务器选项：</translation>
     </message>
     <message>
         <source>RPC support for HTTP persistent connections (default: %d)</source>
-        <translation>RPC 是否支援 HTTP 持久連線(預設值: %d)</translation>
+        <translation>RPC 支持HTTP 持久链接 (默认: %d)</translation>
     </message>
     <message>
         <source>Rebuild block chain index from current blk000??.dat files</source>
-        <translation>從目前的區塊檔 blk000??.dat 重建區塊鏈的索引</translation>
+        <translation>从现在的blk000??.dat文件重新建立数据块链索引</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>对丢失的钱包交易重新扫描数据块链</translation>
     </message>
     <message>
         <source>Rescanning...</source>
-        <translation>正在重新掃描...</translation>
+        <translation>正在重新扫描...</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>运行至后台并且接受命令</translation>
+    </message>
+    <message>
+        <source>Session not complete!</source>
+        <translation>对话未完成！</translation>
+    </message>
+    <message>
+        <source>Session timed out.</source>
+        <translation>对话超市</translation>
     </message>
     <message>
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>設定資料庫快取大小是多少百萬位元組(MB，範圍: %d 到 %d，預設值: %d)</translation>
+        <translation>以兆字节为单位设置缓存数据大小 (%d to %d, 默认： %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>以字节为单位设置最大的块(默认： %d)</translation>
+    </message>
+    <message>
+        <source>Set the masternode private key</source>
+        <translation>设置主节点私钥</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>显示所有debug选项(使用： --help -help-debug)</translation>
+    </message>
+    <message>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>客户启动时缩小debug.log文件(默认： 1 when no -debug)</translation>
+    </message>
+    <message>
+        <source>Signing failed.</source>
+        <translation>签名失败。</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>交易签名失败</translation>
     </message>
     <message>
         <source>Specify data directory</source>
-        <translation>指定資料目錄</translation>
+        <translation>指定数据目录</translation>
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
-        <translation>指定錢包檔(在資料目錄當中)</translation>
+        <translation>指定钱包文件(通过数据目录)</translation>
     </message>
     <message>
         <source>Specify your own public address</source>
-        <translation>指定自己的公開位址</translation>
+        <translation>指定你个人公开地址</translation>
+    </message>
+    <message>
+        <source>Synchronization pending...</source>
+        <translation>同步即将开始...</translation>
     </message>
     <message>
         <source>This help message</source>
-        <translation>這是說明訊息</translation>
+        <translation>此帮助信息</translation>
     </message>
     <message>
         <source>This is experimental software.</source>
-        <translation>這套軟體屬於實驗性質。</translation>
+        <translation>这是一款实验软件.</translation>
+    </message>
+    <message>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>这被用来作为回归测试工具和app的开发。</translation>
     </message>
     <message>
         <source>Transaction amount too small</source>
-        <translation>交易金額太小</translation>
+        <translation>交易额过小</translation>
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
-        <translation>交易金額必須是正數</translation>
+        <translation>交易额一定要真实有效</translation>
     </message>
     <message>
-        <source>Transaction too large for fee policy</source>
-        <translation>根據交易手續費準則，本交易的位元量過大</translation>
+        <source>Transaction created successfully.</source>
+        <translation>交易创建成功。</translation>
+    </message>
+    <message>
+        <source>Transaction fees are too high.</source>
+        <translation>交易费用过高。</translation>
+    </message>
+    <message>
+        <source>Transaction not valid.</source>
+        <translation>交易无效。</translation>
     </message>
     <message>
         <source>Transaction too large</source>
-        <translation>交易位元量太大</translation>
+        <translation>交易过大</translation>
+    </message>
+    <message>
+        <source>Transmitting final transaction.</source>
+        <translation>正在传输最终交易.</translation>
+    </message>
+    <message>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation>无法绑定%s此计算机 (绑定返回错误 %s)</translation>
+    </message>
+    <message>
+        <source>Unable to sign spork message, wrong key?</source>
+        <translation>无法签署交叉信息，错误的密钥？</translation>
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>在 -onlynet 指定了不明的網路別: '%s'</translation>
+        <translation>在 -onlynet 指定了不明的网路别: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown state: id = %u</source>
+        <translation>未知状态: id = %u</translation>
+    </message>
+    <message>
+        <source>Upgrade wallet to latest format</source>
+        <translation>升级钱包至最新版本</translation>
     </message>
     <message>
         <source>Use OpenSSL (https) for JSON-RPC connections</source>
-        <translation>在 JSON-RPC 連線使用 OpenSSL (https)</translation>
+        <translation>对JSON-RPC链接使用OpenSSL(https)</translation>
+    </message>
+    <message>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation>使用UPnP来映射监听端口(默认：1为监听中)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>使用测试网络</translation>
     </message>
     <message>
         <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC 連線使用者名稱</translation>
+        <translation>链接JSON-RPC的用户名</translation>
+    </message>
+    <message>
+        <source>Value more than Obfuscate pool maximum allows.</source>
+        <translation>数值超过匿名发送池所允许的最大数。</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
-        <translation>正在驗證區塊資料...</translation>
+        <translation>验证数据块中...</translation>
     </message>
     <message>
         <source>Verifying wallet...</source>
-        <translation>正在驗證錢包資料...</translation>
+        <translation>验证钱包中...</translation>
+    </message>
+    <message>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation>钱包 %s 属于外部数据目录 %s</translation>
     </message>
     <message>
         <source>Wallet is locked.</source>
-        <translation>錢包被鎖定。</translation>
+        <translation>钱包被锁。</translation>
     </message>
     <message>
         <source>Wallet options:</source>
-        <translation>錢包選項:</translation>
+        <translation>钱包选项：</translation>
+    </message>
+    <message>
+        <source>Wallet window title</source>
+        <translation>钱包窗口标题</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -3875,11 +4248,31 @@ https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation
     </message>
     <message>
         <source>Warning: This version is obsolete, upgrade required!</source>
-        <translation>警告: 這個版本已經過時了，必須要升級！</translation>
+        <translation>警告：版本过低，请升级！</translation>
+    </message>
+    <message>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation>你需要通过使用-reindex改变-txindex来重新建立数据库</translation>
+    </message>
+    <message>
+        <source>Your entries added successfully.</source>
+        <translation>您的词条也添加成功.</translation>
+    </message>
+    <message>
+        <source>Your transaction was accepted into the pool!</source>
+        <translation>您的交易成功被矿池接受!</translation>
+    </message>
+    <message>
+        <source>Zapping all transactions from wallet...</source>
+        <translation>从钱包正在展开所有交易记录...</translation>
     </message>
     <message>
         <source>on startup</source>
-        <translation>當啟動時</translation>
+        <translation>正在启动</translation>
     </message>
-    </context>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>钱包数据损坏，恢复失败</translation>
+    </message>
+</context>
 </TS>

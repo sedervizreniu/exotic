@@ -1,4 +1,4 @@
-test/test_test_galilel-checkblock_tests.o: test/checkblock_tests.cpp \
+test/test_test_exotic-checkblock_tests.o: test/checkblock_tests.cpp \
  /usr/include/stdc-predef.h clientversion.h config/exotic-config.h \
  /usr/include/c++/5/string \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
