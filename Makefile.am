@@ -6,8 +6,8 @@ GZIP_ENV="-9n"
 export PYTHONPATH
 
 BITCOIND_BIN=$(top_builddir)/src/galileld$(EXEEXT)
-BITCOIN_QT_BIN=$(top_builddir)/src/qt/galilel-qt$(EXEEXT)
-BITCOIN_CLI_BIN=$(top_builddir)/src/galilel-cli$(EXEEXT)
+BITCOIN_QT_BIN=$(top_builddir)/src/qt/exotic-qt$(EXEEXT)
+BITCOIN_CLI_BIN=$(top_builddir)/src/exotic-cli$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
 
 empty :=

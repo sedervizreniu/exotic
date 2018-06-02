@@ -10,7 +10,249 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa69c21f-7170-496a-be6f-c6fe75669c7d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build-aux/m4/bitcoin_qt.m4" beforeDir="false" afterPath="$PROJECT_DIR$/build-aux/m4/bitcoin_qt.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/changelog" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/changelog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/control" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/control" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/examples/galilel.conf" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/examples/galilel.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/galilel-qt.desktop.desktop" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galilel-qt.desktop.desktop" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/galilel-qt.install" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galilel-qt.install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/galilel-qt.lintian-overrides" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galilel-qt.lintian-overrides" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/galilel-qt.protocol" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galilel-qt.protocol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/galileld.examples" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galileld.examples" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/galileld.install" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galileld.install" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/galileld.manpages" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galileld.manpages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/galilel-qt.1" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/galilel-qt.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/galilel.1" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/galilel.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/galilel.conf.5" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/galilel.conf.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/rules" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/rules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/galilel-qt.pro" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/galilel-qt.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/galileld.bash-completion" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/galileld.bash-completion" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-rpi2.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-rpi2.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win-signer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/init/galileld.conf" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/init/galileld.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/init/galileld.openrc" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/init/galileld.openrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/init/galileld.openrcconf" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/init/galileld.openrcconf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/init/galileld.service" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/init/galileld.service" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/qos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/qos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/seeds/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/seeds/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/spendfrom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/spendfrom/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/masternode.sh" beforeDir="false" afterPath="$PROJECT_DIR$/masternode.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/pull-tester/run-bitcoind-for-test.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qa/pull-tester/run-bitcoind-for-test.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/pull-tester/run-bitcoind-for-test.sh.in" beforeDir="false" afterPath="$PROJECT_DIR$/qa/pull-tester/run-bitcoind-for-test.sh.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh.in" beforeDir="false" afterPath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/rpc-tests/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa/rpc-tests/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/rpc-tests/util.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qa/rpc-tests/util.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/qt/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/qt/Info.plist.in" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/Info.plist.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/setup.nsi" beforeDir="false" afterPath="$PROJECT_DIR$/share/setup.nsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/setup.nsi.in" beforeDir="false" afterPath="$PROJECT_DIR$/share/setup.nsi.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Darksend.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Darksend.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Darksend.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Darksend.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Makefile.qt.include" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile.qt.include" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chainparams.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainparams.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chainparamsbase.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainparamsbase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientversion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientversion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coins.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/coins.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compat.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/compat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compat/.deps/libbitcoin_util_a-glibc_sanity.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/compat/.deps/libbitcoin_util_a-glibc_sanity.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compat/.deps/libbitcoin_util_a-strnlen.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/compat/.deps/libbitcoin_util_a-strnlen.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compat/glibc_compat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/compat/glibc_compat.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compat/glibc_sanity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/compat/glibc_sanity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/compat/strnlen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/compat/strnlen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/galilel-config.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/galilel-config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/galilel-config.h.in" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/galilel-config.h.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/stamp-h1" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/stamp-h1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/galilel-cli-res.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/galilel-cli-res.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/galilel-cli.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/galilel-cli.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/galilel-tx.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/galilel-tx.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/galileld.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/galileld.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/init.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode-budget.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode-budget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/miner.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixTX.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixTX.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixTX.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixTX.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/net.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netbase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/netbase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/netbase.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/netbase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/pow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/primitives/.deps/libbitcoin_common_a-block.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/.deps/libbitcoin_common_a-block.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/primitives/.deps/libbitcoin_common_a-transaction.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/.deps/libbitcoin_common_a-transaction.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/primitives/.deps/libbitcoinconsensus_la-transaction.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/src/primitives/.deps/libbitcoinconsensus_la-transaction.Plo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_alqo_qt-alqo.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_alqo_qt-alqo.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-Darksendconfig.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-Darksendconfig.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-addressbookpage.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-addressbookpage.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-addresstablemodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-addresstablemodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-askpassphrasedialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-askpassphrasedialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bip38tooldialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bip38tooldialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bitcoinaddressvalidator.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bitcoinaddressvalidator.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bitcoingui.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bitcoingui.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bitcoinunits.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-bitcoinunits.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-blockexplorer.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-blockexplorer.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-clientmodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-clientmodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-coincontroldialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-coincontroldialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-coinmix.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-coinmix.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-guiutil.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-guiutil.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-intro.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-intro.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-masternodelist.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-masternodelist.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_bitcoingui.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_bitcoingui.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_blockexplorer.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_blockexplorer.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_masternodelist.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_masternodelist.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_notificator.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_notificator.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_paymentserver.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_paymentserver.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_peertablemodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_peertablemodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_receiverequestdialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_receiverequestdialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_recentrequeststablemodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_recentrequeststablemodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_rpcconsole.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_rpcconsole.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_sendcoinsdialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_sendcoinsdialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_sendcoinsentry.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_sendcoinsentry.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_walletmodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_walletmodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_walletview.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-moc_walletview.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-multisenddialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-multisenddialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-notificator.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-notificator.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-openuridialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-openuridialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-optionsdialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-optionsdialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-optionsmodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-optionsmodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-overviewpage.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-overviewpage.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-paymentrequestplus.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-paymentrequestplus.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-paymentserver.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-paymentserver.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-peertablemodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-peertablemodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-receivecoinsdialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-receivecoinsdialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-receiverequestdialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-receiverequestdialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-recentrequeststablemodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-recentrequeststablemodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-rpcconsole.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-rpcconsole.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-sendcoinsdialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-sendcoinsdialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-sendcoinsentry.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-sendcoinsentry.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-signverifymessagedialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-signverifymessagedialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-splashscreen.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-splashscreen.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactiondesc.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactiondesc.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactionrecord.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactionrecord.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactiontablemodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactiontablemodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactionview.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-transactionview.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-utilitydialog.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-utilitydialog.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletframe.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletframe.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletmodel.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletmodel.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletmodeltransaction.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletmodeltransaction.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletview.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-walletview.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoingui.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/blockexplorer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/blockexplorer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/bip38tooldialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/bip38tooldialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/helpmessagedialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/helpmessagedialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/multisenddialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/multisenddialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/receivecoinsdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/receivecoinsdialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/tradingdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/tradingdialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/galilel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/galilel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/galilelstrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/galilelstrings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/guiutil.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiutil.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/guiutil.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiutil.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/intro.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/intro.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_bg.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_bg.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_de.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_de.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_en.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_es.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_es.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_fi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_fi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_fr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_fr.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_it.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_it.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_ja.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_ja.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_pl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_pl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_pt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_pt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_ru.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_ru.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_sk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_sk.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_sv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_sv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_vi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_vi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_zh_CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_zh_CN.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_zh_TW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_zh_TW.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/notificator.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/notificator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/openuridialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/openuridialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/paymentserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/paymentserver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/paymentserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/paymentserver.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/receiverequestdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/receiverequestdialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/recentrequeststablemodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/recentrequeststablemodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/res/galilel-qt-res.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/galilel-qt-res.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/rpcconsole.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/rpcconsole.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-moc_paymentservertests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-moc_paymentservertests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-paymentservertests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-paymentservertests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-test_main.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-test_main.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-uritests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-uritests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/test_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/uritests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/uritests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/walletmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletmodel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcblockchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcblockchain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcdump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcdump.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcmasternode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmasternode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcmining.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmining.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcmisc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmisc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcnet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcnet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcprotocol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcprotocol.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcserver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcwallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcwallet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/.deps/libbitcoin_common_a-sign.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/.deps/libbitcoin_common_a-sign.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/.deps/libbitcoin_common_a-standard.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/.deps/libbitcoin_common_a-standard.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/.deps/libbitcoin_server_a-sigcache.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/.deps/libbitcoin_server_a-sigcache.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/.deps/libbitcoinconsensus_la-bitcoinconsensus.Plo" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/.deps/libbitcoinconsensus_la-bitcoinconsensus.Plo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/script/bitcoinconsensus.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/script/bitcoinconsensus.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-DoS_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-DoS_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-accounting_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-accounting_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-allocator_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-allocator_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base58_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base58_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-checkblock_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-checkblock_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-compress_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-compress_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-getarg_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-getarg_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-key_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-key_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-main_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-main_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mempool_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mempool_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mruset_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mruset_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-multisig_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-multisig_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-netbase_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-netbase_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_wallet_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_wallet_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_P2SH_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_P2SH_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sighash_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sighash_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-skiplist_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-skiplist_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-test_alqo.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-test_alqo.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-transaction_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-transaction_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-util_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-util_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-wallet_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-wallet_tests.Po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/data/bitcoin-util-test.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data/bitcoin-util-test.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utiltime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/utiltime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/walletdb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/walletdb.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zmq/zmqconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/zmq/zmqconfig.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,11 +263,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+            <state relative-caret-position="620">
+              <caret line="344" column="38" selection-start-line="344" selection-start-column="38" selection-end-line="344" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bitcoin_qt.m4" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build-aux/m4/bitcoin_qt.m4">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -108,18 +359,18 @@
       <find>nLastPOWBlock</find>
       <find>COINBASE_MATURITY</find>
       <find>Galilel</find>
-      <find>galilel</find>
       <find>Exotic</find>
       <find>exotic.io</find>
       <find>36001</find>
       <find>36002</find>
+      <find>galilel</find>
     </findStrings>
     <replaceStrings>
       <replace>Exotic</replace>
-      <replace>exotic</replace>
       <replace />
       <replace>31000</replace>
       <replace>31001</replace>
+      <replace>exotic</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -135,6 +386,7 @@
         <option value="$PROJECT_DIR$/src/qt/splashscreen.cpp" />
         <option value="$PROJECT_DIR$/src/main.cpp" />
         <option value="$PROJECT_DIR$/src/chainparams.cpp" />
+        <option value="$PROJECT_DIR$/build-aux/m4/bitcoin_qt.m4" />
       </list>
     </option>
   </component>
@@ -147,7 +399,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="718" />
     <option name="y" value="70" />
     <option name="width" value="2681" />
@@ -211,18 +463,18 @@
       <workItem from="1527254357756" duration="342000" />
       <workItem from="1527284668035" duration="503000" />
       <workItem from="1527308235640" duration="2059000" />
-      <workItem from="1527965569498" duration="5052000" />
+      <workItem from="1527965569498" duration="5917000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11479000" />
+    <option name="totallyTimeSpent" value="12344000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="718" y="70" width="2681" height="1926" extended-state="0" />
+    <frame x="-11" y="-11" width="3862" height="2126" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28770214" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19921875" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -603,8 +855,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="101" column="32" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+        <state relative-caret-position="620">
+          <caret line="344" column="38" selection-start-line="344" selection-start-column="38" selection-end-line="344" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build-aux/m4/bitcoin_qt.m4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
         </state>
       </provider>
     </entry>

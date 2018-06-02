@@ -1,4 +1,4 @@
-# bash programmable completion for galileld(1) and galilel-cli(1)
+# bash programmable completion for galileld(1) and exotic-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -19,7 +19,7 @@ _galilel_rpc() {
     $galileld "${rpcargs[@]}" "$@"
 }
 
-# Add galilel accounts to COMPREPLY
+# Add exotic accounts to COMPREPLY
 _galilel_accounts() {
     local accounts
     accounts=$(_galilel_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
@@ -133,7 +133,7 @@ _galileld() {
     esac
 }
 
-complete -F _galileld galileld galilel-cli
+complete -F _galileld galileld exotic-cli
 }
 
 # Local variables:

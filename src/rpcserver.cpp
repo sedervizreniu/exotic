@@ -301,15 +301,15 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
         /* GALILEL features */
-        {"galilel", "masternode", &masternode, true, true, false},
-        {"galilel", "masternodelist", &masternodelist, true, true, false},
-        {"galilel", "mnbudget", &mnbudget, true, true, false},
-        {"galilel", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
-        {"galilel", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"galilel", "mnsync", &mnsync, true, true, false},
-        {"galilel", "spork", &spork, true, true, false},
+        {"exotic", "masternode", &masternode, true, true, false},
+        {"exotic", "masternodelist", &masternodelist, true, true, false},
+        {"exotic", "mnbudget", &mnbudget, true, true, false},
+        {"exotic", "mnbudgetvoteraw", &mnbudgetvoteraw, true, true, false},
+        {"exotic", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"exotic", "mnsync", &mnsync, true, true, false},
+        {"exotic", "spork", &spork, true, true, false},
 #ifdef ENABLE_WALLET
-        {"galilel", "Darksend", &Darksend, false, false, true}, /* not threadSafe because of SendMoney */
+        {"exotic", "Darksend", &Darksend, false, false, true}, /* not threadSafe because of SendMoney */
 
         /* Wallet */
         {"wallet", "addmultisigaddress", &addmultisigaddress, true, false, true},
@@ -575,7 +575,7 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use galileld, or the -server option to galilel-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use galileld, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
                                                "rpcuser=galilelrpc\n"
@@ -1024,7 +1024,7 @@ json_spirit::Value CRPCTable::execute(const std::string& strMethod, const json_s
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> galilel-cli " + methodname + " " + args + "\n";
+    return "> exotic-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

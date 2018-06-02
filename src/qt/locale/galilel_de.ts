@@ -263,8 +263,8 @@
         <translation>&amp;Empfangen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and galilel: URIs)</source>
-        <translation>Zahlungen anfordern (erzeugt QR-Codes und "galilel:"-URIs)</translation>
+        <source>Request payments (generates QR codes and exotic: URIs)</source>
+        <translation>Zahlungen anfordern (erzeugt QR-Codes und "exotic:"-URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -443,8 +443,8 @@
         <translation>&amp;URI öffnen...</translation>
     </message>
     <message>
-        <source>Open a galilel: URI or payment request</source>
-        <translation>Eine "galilel:"-URI oder Zahlungsanforderung öffnen</translation>
+        <source>Open a exotic: URI or payment request</source>
+        <translation>Eine "exotic:"-URI oder Zahlungsanforderung öffnen</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1262,9 +1262,9 @@ Adresse: %4</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</source>
+https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</source>
         <translation>Fehlt eine Sprache oder ist unvollständig übersetzt? Hier können Sie helfen:
-https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translation>
+https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1567,7 +1567,7 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
         <translation>Fehlerhafte Zahlungsanforderung</translation>
     </message>
     <message>
-        <source>Cannot start galilel: click-to-pay handler</source>
+        <source>Cannot start exotic: click-to-pay handler</source>
         <translation>GALILEL kann nicht gestartet werden: click-to-pay handler</translation>
     </message>
     <message>
@@ -2291,7 +2291,7 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
         <translation>Wenn die benutzerdefinierten Gebühren auf 1000 duffs gesetzt sind und eine Transaktion hat nur 250 Bytes, dann kostet "pro Kilobyte" nur 250 duffs Gebühren, während "mindestens" 1000 duffs kostet. Transaktionen größer als 1 Kilobyte werden immer pro Kilobyte bezahlt.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for galilel transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for exotic transactions than the network can process.</source>
         <translation>Nur die minimalen Gebühren zu zahlen ist völlig ausreichend so lange in einem neuen Block der Blockkette noch genug Platz für neue Transaktionen ist.&lt;br /&gt; Bitte beachten Sie dass wenn dies in der Zukunft nicht mehr der Fall sein sollte Ihre Transaktion eventuell niemals in einen neuen Block aufgenommen werden wird, also niemals bestätigt wird.</translation>
     </message>
     <message>
@@ -2559,8 +2559,8 @@ Dies kann passieren, wenn einige GALILEL aus ihrer Wallet bereits ausgegeben wur
         <translation>Nachricht:</translation>
     </message>
     <message>
-        <source>A message that was attached to the galilel: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
-        <translation>Eine an die "galilel:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das GALILEL-Netzwerk gesendet.</translation>
+        <source>A message that was attached to the exotic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
+        <translation>Eine an die "exotic:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das GALILEL-Netzwerk gesendet.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3320,7 +3320,7 @@ Dies kann passieren, wenn einige GALILEL aus ihrer Wallet bereits ausgegeben wur
     </message>
 </context>
 <context>
-    <name>galilel-core</name>
+    <name>exotic-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>
@@ -3710,7 +3710,7 @@ Dies kann passieren, wenn einige GALILEL aus ihrer Wallet bereits ausgegeben wur
         <translation>Dieses Produkt enthält vom OpenSSL-Projekt entwickelte Software zur Benutzung des OpenSSL Toolkit &lt;https://www.openssl.org/&gt;, kryptographische Software geschrieben von Eric Young und UPnP Software geschrieben von Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use galileld, or the -server option to galilel-qt, you must set an rpcpassword in the configuration file:
+        <source>To use galileld, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=galilelrpc
@@ -3721,7 +3721,7 @@ If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
 for example: alertnotify=echo %%s | mail -s "GALILEL Alert" admin@foo.com
 </source>
-        <translation>Um galileld (oder galilel-qt mit dem -server Parameter) zu benutzen müssen Sie ein rpcpasswort in dieser Konfigurationsdatei angeben:
+        <translation>Um galileld (oder exotic-qt mit dem -server Parameter) zu benutzen müssen Sie ein rpcpasswort in dieser Konfigurationsdatei angeben:
 %s
 Es wird empfohlen das folgende Zufallspasswort zu verwenden:
 rpcuser=galilelrpc

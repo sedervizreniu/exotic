@@ -15,7 +15,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.galilel.GALILEL-Qt";
+        return @"io.exotic.GALILEL-Qt";
     } else {
         return [self __bundleIdentifier];
     }

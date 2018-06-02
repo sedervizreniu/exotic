@@ -32,7 +32,7 @@
   <string>Exotic-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.galilel.Exotic-Qt</string>
+  <string>io.exotic.Exotic-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,10 +40,10 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.galilel.GalilelPayment</string>
+      <string>io.exotic.GalilelPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
-        <string>galilel</string>
+        <string>exotic</string>
       </array>
     </dict>
   </array>
@@ -52,7 +52,7 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>io.galilel.paymentrequest</string>
+      <string>io.exotic.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Exotic payment request</string>
       <key>UTTypeConformsTo</key>
@@ -62,7 +62,7 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
-        <string>application/x-galilel-payment-request</string>
+        <string>application/x-exotic-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>galilelpaymentrequest</string>
@@ -78,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>io.galilel.paymentrequest</string>
+        <string>io.exotic.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

@@ -263,8 +263,8 @@
         <translation>&amp;Receber</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and galilel: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e galilel: URIs)</translation>
+        <source>Request payments (generates QR codes and exotic: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e exotic: URIs)</translation>
     </message>
     <message>
         <source>&amp;Transactions</source>
@@ -443,8 +443,8 @@
         <translation>Abrir &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a galilel: URI or payment request</source>
-        <translation>Abre um galilel: URI ou solicitação de pagamento</translation>
+        <source>Open a exotic: URI or payment request</source>
+        <translation>Abre um exotic: URI ou solicitação de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -1259,9 +1259,9 @@ Endereço: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</source>
+https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</source>
         <translation>Linguagem não encontrada ou tradução incompleta? Ajude a traduzir aqui:
-https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translation>
+https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation>
     </message>
     <message>
         <source>User Interface Theme:</source>
@@ -1564,8 +1564,8 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
         <translation>Erro na solicitação de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start galilel: click-to-pay handler</source>
-        <translation>Não é possível iniciar o galilel: click-to-pay handler</translation>
+        <source>Cannot start exotic: click-to-pay handler</source>
+        <translation>Não é possível iniciar o exotic: click-to-pay handler</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -2543,8 +2543,8 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the galilel: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
-        <translation>Mensagem que foi anexada ao galilel: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede GALILEL.</translation>
+        <source>A message that was attached to the exotic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
+        <translation>Mensagem que foi anexada ao exotic: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede GALILEL.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3304,7 +3304,7 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
     </message>
 </context>
 <context>
-    <name>galilel-core</name>
+    <name>exotic-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>

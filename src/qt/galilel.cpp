@@ -6,7 +6,7 @@
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #if defined(HAVE_CONFIG_H)
-#include "config/galilel-config.h"
+#include "config/exotic-config.h"
 #endif
 
 #include "bitcoingui.h"
@@ -94,7 +94,7 @@ static void InitMessage(const std::string& message)
  */
 static std::string Translate(const char* psz)
 {
-    return QCoreApplication::translate("galilel-core", psz).toStdString();
+    return QCoreApplication::translate("exotic-core", psz).toStdString();
 }
 
 static QString GetLangTerritory()
@@ -141,11 +141,11 @@ static void initTranslations(QTranslator& qtTranslatorBase, QTranslator& qtTrans
     if (qtTranslator.load("qt_" + lang_territory, QLibraryInfo::location(QLibraryInfo::TranslationsPath)))
         QApplication::installTranslator(&qtTranslator);
 
-    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in galilel.qrc)
+    // Load e.g. bitcoin_de.qm (shortcut "de" needs to be defined in exotic.qrc)
     if (translatorBase.load(lang, ":/translations/"))
         QApplication::installTranslator(&translatorBase);
 
-    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in galilel.qrc)
+    // Load e.g. bitcoin_de_DE.qm (shortcut "de_DE" needs to be defined in exotic.qrc)
     if (translator.load(lang_territory, ":/translations/"))
         QApplication::installTranslator(&translator);
 }
@@ -253,7 +253,7 @@ private:
     void startThread();
 };
 
-#include "galilel.moc"
+#include "exotic.moc"
 
 BitcoinCore::BitcoinCore() : QObject()
 {
@@ -537,7 +537,7 @@ int main(int argc, char* argv[])
 #endif
 
     Q_INIT_RESOURCE(galilel_locale);
-    Q_INIT_RESOURCE(galilel);
+    Q_INIT_RESOURCE(exotic);
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100
@@ -580,7 +580,7 @@ int main(int argc, char* argv[])
     // User language is set up: pick a data directory
     Intro::pickDataDirectory();
 
-    /// 6. Determine availability of data directory and parse galilel.conf
+    /// 6. Determine availability of data directory and parse exotic.conf
     /// - Do not call GetDataDir(true) before this step finishes
     if (!boost::filesystem::is_directory(GetDataDir(false))) {
         QMessageBox::critical(0, QObject::tr("Exotic Core"),
@@ -637,7 +637,7 @@ int main(int argc, char* argv[])
         exit(0);
 
     // Start up the payment server early, too, so impatient users that click on
-    // galilel: links repeatedly have their payment requests routed to this process:
+    // exotic: links repeatedly have their payment requests routed to this process:
     app.createPaymentServer();
 #endif
 

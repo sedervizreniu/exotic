@@ -313,7 +313,7 @@ Value dumpprivkey(const Array& params, bool fHelp)
             "\nReveals the private key corresponding to 'galileladdress'.\n"
             "Then the importprivkey can be used with this output\n"
             "\nArguments:\n"
-            "1. \"galileladdress\"   (string, required) The galilel address for the private key\n"
+            "1. \"galileladdress\"   (string, required) The exotic address for the private key\n"
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
             "\nExamples:\n" +
@@ -400,7 +400,7 @@ Value bip38encrypt(const Array& params, bool fHelp)
             "bip38encrypt \"galileladdress\"\n"
             "\nEncrypts a private key corresponding to 'galileladdress'.\n"
             "\nArguments:\n"
-            "1. \"galileladdress\"   (string, required) The galilel address for the private key (you must hold the key already)\n"
+            "1. \"galileladdress\"   (string, required) The exotic address for the private key (you must hold the key already)\n"
             "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
             "\nResult:\n"
             "\"key\"                (string) The encrypted private key\n"

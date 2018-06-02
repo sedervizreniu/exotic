@@ -42,7 +42,7 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case GALILEL:
-        return QString("galilel");
+        return QString("exotic");
     case mGALILEL:
         return QString("mgalilel");
     case uGALILEL:

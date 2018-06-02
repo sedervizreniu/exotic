@@ -27,7 +27,7 @@ std::string HelpMessageCli()
     string strUsage;
     strUsage += HelpMessageGroup(_("Options:"));
     strUsage += HelpMessageOpt("-?", _("This help message"));
-    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "galilel.conf"));
+    strUsage += HelpMessageOpt("-conf=<file>", strprintf(_("Specify configuration file (default: %s)"), "exotic.conf"));
     strUsage += HelpMessageOpt("-datadir=<dir>", _("Specify data directory"));
     strUsage += HelpMessageOpt("-testnet", _("Use the test network"));
     strUsage += HelpMessageOpt("-regtest", _("Enter regression test mode, which uses a special chain in which blocks can be "
@@ -71,9 +71,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("Exotic Core RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  galilel-cli [options] <command> [params]  " + _("Send command to Exotic Core") + "\n" +
-                        "  galilel-cli [options] help                " + _("List commands") + "\n" +
-                        "  galilel-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  exotic-cli [options] <command> [params]  " + _("Send command to Exotic Core") + "\n" +
+                        "  exotic-cli [options] help                " + _("List commands") + "\n" +
+                        "  exotic-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

@@ -2286,7 +2286,7 @@ void ThreadCheckDarKsendPool()
     if (fLiteMode) return; //disable all Darksend/Masternode related functionality
 
     // Make this thread recognisable as the wallet flushing thread
-    RenameThread("galilel-Darksend");
+    RenameThread("exotic-Darksend");
 
     unsigned int c = 0;
 

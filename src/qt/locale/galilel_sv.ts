@@ -252,7 +252,7 @@
         <translation>&amp;Motta</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and galilel: URIs)</source>
+        <source>Request payments (generates QR codes and exotic: URIs)</source>
         <translation>Begär betalningar (genererar QR-koder och GALILEL:-URI:s)</translation>
     </message>
     <message>
@@ -404,7 +404,7 @@
         <translation>Öppna &amp;URI...</translation>
     </message>
     <message>
-        <source>Open a galilel: URI or payment request</source>
+        <source>Open a exotic: URI or payment request</source>
         <translation>Öppna en GALILEL-URI eller betalningsbegäran</translation>
     </message>
     <message>
@@ -1106,9 +1106,9 @@ Adress: %4
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
-https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</source>
+https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</source>
         <translation>Fattas språk eller är det en ofullständig översättning? Hjälp till att bidra med översättningar här:
-https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translation>
+https://www.transifex.com/exotic-crypto/exotic-wallet-translations/</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1335,8 +1335,8 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start galilel: click-to-pay handler</source>
-        <translation>Kan inte starta galilel: klicka-för-att-betala hanterare</translation>
+        <source>Cannot start exotic: click-to-pay handler</source>
+        <translation>Kan inte starta exotic: klicka-för-att-betala hanterare</translation>
     </message>
     <message>
         <source>URI handling</source>
@@ -1958,7 +1958,7 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
         <translation>Meddelande:</translation>
     </message>
     <message>
-        <source>A message that was attached to the galilel: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
+        <source>A message that was attached to the exotic: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the GALILEL network.</source>
         <translation>Ett meddelande som bifogades till GALILEL: URI vilket kommer att lagras med transaktionen så att du vet. Observera: Meddelandet kommer inte att skickas över GALILEL-nätverket.</translation>
     </message>
     <message>
@@ -2656,7 +2656,7 @@ https://www.transifex.com/galilel-crypto/galilel-wallet-translations/</translati
     </message>
 </context>
 <context>
-    <name>galilel-core</name>
+    <name>exotic-core</name>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Sammanbind till fastställd adress och avlyssna alltid den. Använd [host]:port-notation för IPv6</translation>

@@ -3,16 +3,16 @@ Description=GALILEL's distributed currency daemon
 After=network.target
 
 [Service]
-User=galilel
-Group=galilel
+User=exotic
+Group=exotic
 
 Type=forking
 PIDFile=/var/lib/galileld/galileld.pid
 
 ExecStart=/usr/bin/galileld -daemon -pid=/var/lib/galileld/galileld.pid \
-          -conf=/etc/galilel/galilel.conf -datadir=/var/lib/galileld
+          -conf=/etc/exotic/exotic.conf -datadir=/var/lib/galileld
 
-ExecStop=-/usr/bin/galilel-cli -conf=/etc/galilel/galilel.conf \
+ExecStop=-/usr/bin/exotic-cli -conf=/etc/exotic/exotic.conf \
          -datadir=/var/lib/galileld stop
 
 Restart=always

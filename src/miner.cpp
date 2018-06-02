@@ -449,7 +449,7 @@ void BitcoinMiner(CWallet* pwallet, bool fProofOfStake)
 {
     LogPrintf("GALILELMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("galilel-miner");
+    RenameThread("exotic-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);

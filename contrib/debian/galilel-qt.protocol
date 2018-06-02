@@ -1,6 +1,6 @@
 [Protocol]
-exec=galilel-qt '%u'
-protocol=galilel
+exec=exotic-qt '%u'
+protocol=exotic
 input=none
 output=none
 helper=true

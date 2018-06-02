@@ -2039,7 +2039,7 @@ static CCheckQueue<CScriptCheck> scriptcheckqueue(128);
 
 void ThreadScriptCheck()
 {
-    RenameThread("galilel-scriptch");
+    RenameThread("exotic-scriptch");
     scriptcheckqueue.Thread();
 }
 

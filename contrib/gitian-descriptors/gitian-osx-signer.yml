@@ -1,5 +1,5 @@
 ---
-name: "galilel-dmg-signer"
+name: "exotic-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -10,7 +10,7 @@ remotes:
 - "url": "https://github.com/GALILEL/GALILEL.SIGS.git"
   "dir": "signature"
 files:
-- "galilel-osx-unsigned.tar.gz"
+- "exotic-osx-unsigned.tar.gz"
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,8 +27,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=galilel-osx-unsigned.tar.gz
-  SIGNED=galilel-osx-signed.dmg
+  UNSIGNED=exotic-osx-unsigned.tar.gz
+  SIGNED=exotic-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

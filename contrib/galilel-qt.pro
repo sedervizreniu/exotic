@@ -78,7 +78,7 @@ HEADERS += src/activemasternode.h \
            src/crypter.h \
            src/Darksend-relay.h \
            src/Darksend.h \
-           src/galilel-config.h \
+           src/exotic-config.h \
            src/db.h \
            src/eccryptoverify.h \
            src/ecwrapper.h \
@@ -131,7 +131,7 @@ HEADERS += src/activemasternode.h \
            src/wallet_ismine.h \
            src/walletdb.h \
            src/compat/sanity.h \
-           src/config/galilel-config.h \
+           src/config/exotic-config.h \
            src/crypto/common.h \
            src/crypto/hmac_sha256.h \
            src/crypto/hmac_sha512.h \
@@ -334,7 +334,7 @@ HEADERS += src/activemasternode.h \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.h \
            src/crypto/aes_helper.c \
            src/qt/bitcoinamountfield.moc \
-           src/qt/galilel.moc \
+           src/qt/exotic.moc \
            src/qt/intro.moc \
            src/qt/overviewpage.moc \
 		   src/qt/coinmix.moc \
@@ -377,9 +377,9 @@ SOURCES += src/activemasternode.cpp \
            src/crypter.cpp \
            src/Darksend-relay.cpp \
            src/Darksend.cpp \
-           src/galilel-cli.cpp \
-           src/galilel-tx.cpp \
-           src/galilel.cpp \
+           src/exotic-cli.cpp \
+           src/exotic-tx.cpp \
+           src/exotic.cpp \
            src/db.cpp \
            src/eccryptoverify.cpp \
            src/ecwrapper.cpp \
@@ -474,7 +474,7 @@ SOURCES += src/activemasternode.cpp \
            src/qt/coincontroltreewidget.cpp \
            src/qt/csvmodelwriter.cpp \
            src/qt/Darksendconfig.cpp \
-           src/qt/galilel.cpp \
+           src/qt/exotic.cpp \
            src/qt/galilelstrings.cpp \
            src/qt/editaddressdialog.cpp \
            src/qt/guiutil.cpp \
@@ -645,7 +645,7 @@ SOURCES += src/activemasternode.cpp \
            src/leveldb/helpers/memenv/memenv.cc \
            src/leveldb/helpers/memenv/memenv_test.cc \
            src/secp256k1/src/java/org_bitcoin_NativeSecp256k1.c
-RESOURCES += src/qt/galilel.qrc src/qt/galilel_locale.qrc
+RESOURCES += src/qt/exotic.qrc src/qt/galilel_locale.qrc
 
 TRANSLATIONS += src/qt/locale/galilel_bg.ts \
                 src/qt/locale/galilel_de.ts \

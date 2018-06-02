@@ -1592,7 +1592,7 @@ test/test_test_galilel-rpc_wallet_tests.o: test/rpc_wallet_tests.cpp \
  /usr/include/boost/signals2/variadic_signal.hpp \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/signals2/detail/signal_template.hpp protocol.h \
- netbase.h config/galilel-config.h compat.h /usr/include/ifaddrs.h \
+ netbase.h config/exotic-config.h compat.h /usr/include/ifaddrs.h \
  /usr/include/x86_64-linux-gnu/sys/fcntl.h \
  /usr/include/x86_64-linux-gnu/sys/mman.h \
  /usr/include/x86_64-linux-gnu/bits/mman.h \
@@ -5376,7 +5376,7 @@ protocol.h:
 
 netbase.h:
 
-config/galilel-config.h:
+config/exotic-config.h:
 
 compat.h:
 

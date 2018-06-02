@@ -64,10 +64,10 @@ add_executable(Exotic
         build-aux/test-driver
         contrib/bitrpc/bitrpc.py
         contrib/bitrpc/README.md
-        contrib/debian/examples/galilel.conf
-        contrib/debian/manpages/galilel-qt.1
-        contrib/debian/manpages/galilel.1
-        contrib/debian/manpages/galilel.conf.5
+        contrib/debian/examples/exotic.conf
+        contrib/debian/manpages/exotic-qt.1
+        contrib/debian/manpages/exotic.1
+        contrib/debian/manpages/exotic.conf.5
         contrib/debian/patches/README
         contrib/debian/patches/series
         contrib/debian/source/format
@@ -78,10 +78,10 @@ add_executable(Exotic
         contrib/debian/gbp.conf
         contrib/debian/README.md
         contrib/debian/rules
-        contrib/debian/galilel-qt.desktop.desktop
-        contrib/debian/galilel-qt.install
-        contrib/debian/galilel-qt.lintian-overrides
-        contrib/debian/galilel-qt.protocol
+        contrib/debian/exotic-qt.desktop.desktop
+        contrib/debian/exotic-qt.install
+        contrib/debian/exotic-qt.lintian-overrides
+        contrib/debian/exotic-qt.protocol
         contrib/debian/galileld.bash-completion
         contrib/debian/galileld.examples
         contrib/debian/galileld.install
@@ -145,7 +145,7 @@ add_executable(Exotic
         contrib/qt_translations.py
         contrib/README.md
         contrib/tidy_datadir.sh
-        contrib/galilel-qt.pro
+        contrib/exotic-qt.pro
         contrib/galileld.bash-completion
         depends/builders/darwin.mk
         depends/builders/default.mk
@@ -302,8 +302,8 @@ add_executable(Exotic
         src/compat/strnlen.cpp
         src/config/.empty
         src/config/stamp-h1
-        src/config/galilel-config.h
-        src/config/galilel-config.h.in
+        src/config/exotic-config.h
+        src/config/exotic-config.h.in
         src/crypto/aes_helper.c
         src/crypto/blake.c
         src/crypto/bmw.c
@@ -793,7 +793,7 @@ add_executable(Exotic
         src/qt/res/src/clock_green.svg
         src/qt/res/src/inout.svg
         src/qt/res/src/questionmark.svg
-        src/qt/res/galilel-qt-res.rc
+        src/qt/res/exotic-qt-res.rc
         src/qt/test/.deps/.dirstamp
         src/qt/test/.deps/qt_test_test_alqo_qt-moc_paymentservertests.Po
         src/qt/test/.deps/qt_test_test_alqo_qt-moc_uritests.Po
@@ -912,8 +912,8 @@ add_executable(Exotic
         src/qt/transactionview.h
         src/qt/utilitydialog.cpp
         src/qt/utilitydialog.h
-        src/qt/galilel.cpp
-        src/qt/galilel.qrc
+        src/qt/exotic.cpp
+        src/qt/exotic.qrc
         src/qt/galilel_locale.qrc
         src/qt/galilelstrings.cpp
         src/qt/walletframe.cpp
@@ -1288,9 +1288,9 @@ add_executable(Exotic
         src/utilstrencodings.h
         src/utiltime.cpp
         src/utiltime.h
-        src/galilel-cli-res.rc
-        src/galilel-cli.cpp
-        src/galilel-tx.cpp
+        src/exotic-cli-res.rc
+        src/exotic-cli.cpp
+        src/exotic-tx.cpp
         src/galileld-res.rc
         src/galileld.cpp
         src/validationinterface.cpp

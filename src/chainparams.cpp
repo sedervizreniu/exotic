@@ -130,9 +130,9 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1527217408;
+        genesis.nTime = 1527975041;
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 121699;
+        genesis.nNonce = 0;
 
         hashGenesisBlock = genesis.GetHash();
 
@@ -244,8 +244,8 @@ public:
         nMaxMoneyOut = 90000000 * COIN;
 
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1527217409;
-        genesis.nNonce = 239560;
+        genesis.nTime = 1527975042;
+        genesis.nNonce = 0;
 
 
         hashGenesisBlock = genesis.GetHash();
@@ -350,9 +350,9 @@ public:
         nTargetTimespan = 24 * 60 * 60;
         nTargetSpacing = 1 * 60;
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1527217410;
+        genesis.nTime = 1527975043;
         genesis.nBits = 0x207fffff;
-        genesis.nNonce = 7;
+        genesis.nNonce = 0;
 		
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 57123;

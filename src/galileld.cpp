@@ -25,7 +25,7 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Exotic (http://www.galilel.org),
+ * This is the developer documentation of the reference client for an experimental new digital currency called Exotic (http://www.exotic.org),
  * which enables instant payments to anyone, anywhere in the world. Exotic uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
@@ -65,7 +65,7 @@ bool AppInit(int argc, char* argv[])
     //
     // Parameters
     //
-    // If Qt is used, parameters/galilel.conf are parsed in qt/galilel.cpp's main()
+    // If Qt is used, parameters/exotic.conf are parsed in qt/exotic.cpp's main()
     ParseParameters(argc, argv);
 
     // Process help and version before taking care about datadir
@@ -112,11 +112,11 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "galilel:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "exotic:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in galileld anymore. Use the galilel-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in galileld anymore. Use the exotic-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32

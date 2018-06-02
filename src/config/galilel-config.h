@@ -1,5 +1,5 @@
-/* src/config/galilel-config.h.  Generated from galilel-config.h.in by configure.  */
-/* src/config/galilel-config.h.in.  Generated from configure.ac by autoheader.  */
+/* src/config/exotic-config.h.  Generated from exotic-config.h.in by configure.  */
+/* src/config/exotic-config.h.in.  Generated from configure.ac by autoheader.  */
 
 #ifndef GALILEL_CONFIG_H
 
@@ -274,7 +274,7 @@
 #define LT_OBJDIR ".libs/"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://galilel.org"
+#define PACKAGE_BUGREPORT "https://exotic.org"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "Exotic Core"
@@ -283,7 +283,7 @@
 #define PACKAGE_STRING "Exotic Core 2.0.0"
 
 /* Define to the one symbol short name of this package. */
-#define PACKAGE_TARNAME "galilel"
+#define PACKAGE_TARNAME "exotic"
 
 /* Define to the home page for this package. */
 #define PACKAGE_URL ""

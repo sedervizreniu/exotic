@@ -1,7 +1,7 @@
 # /etc/conf.d/galileld: config file for /etc/init.d/galileld
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/galilel/galilel.conf"
+#BITCOIND_CONFIGFILE="/etc/exotic/exotic.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/galileld"
@@ -13,8 +13,8 @@
 #BITCOIND_DATADIR="/var/lib/galileld"
 
 # User and group to own galileld process
-#BITCOIND_USER="galilel"
-#BITCOIND_GROUP="galilel"
+#BITCOIND_USER="exotic"
+#BITCOIND_GROUP="exotic"
 
 # Path to galileld executable
 #BITCOIND_BIN="/usr/bin/galileld"

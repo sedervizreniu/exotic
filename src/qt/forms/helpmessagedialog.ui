@@ -28,7 +28,7 @@
       </sizepolicy>
      </property>
      <property name="pixmap">
-      <pixmap resource="../galilel.qrc">:/images/about</pixmap>
+      <pixmap resource="../exotic.qrc">:/images/about</pixmap>
      </property>
     </widget>
    </item>
@@ -97,7 +97,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../galilel.qrc"/>
+  <include location="../exotic.qrc"/>
  </resources>
  <connections>
   <connection>

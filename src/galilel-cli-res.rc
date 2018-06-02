@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "GALILEL"
             VALUE "FileDescription",    "GALILEL-cli (OSS RPC client for GALILEL)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "galilel-cli"
+            VALUE "InternalName",       "exotic-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "galilel-cli.exe"
+            VALUE "OriginalFilename",   "exotic-cli.exe"
             VALUE "ProductName",        "GALILEL-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

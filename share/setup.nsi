@@ -20,7 +20,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER "Exotic Core"
-!define MUI_FINISHPAGE_RUN $INSTDIR\galilel-qt.exe
+!define MUI_FINISHPAGE_RUN $INSTDIR\exotic-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "/root/GALILEL/share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -48,7 +48,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile /root/GALILEL/galilel-${VERSION}-win-setup.exe
+OutFile /root/GALILEL/exotic-${VERSION}-win-setup.exe
 !if "" == "64"
 InstallDir $PROGRAMFILES64\GALILEL
 !else
@@ -73,19 +73,19 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File /root/GALILEL/release/galilel-qt.exe
+    File /root/GALILEL/release/exotic-qt.exe
     File /oname=COPYING.txt /root/GALILEL/COPYING
     File /oname=readme.txt /root/GALILEL/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
     File /root/GALILEL/release/galileld.exe
-    File /root/GALILEL/release/galilel-cli.exe
+    File /root/GALILEL/release/exotic-cli.exe
     SetOutPath $INSTDIR\doc
     File /r /root/GALILEL/doc\*.*
     SetOutPath $INSTDIR
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
-    # Remove old wxwidgets-based-galilel executable and locales:
-    Delete /REBOOTOK $INSTDIR\galilel.exe
+    # Remove old wxwidgets-based-exotic executable and locales:
+    Delete /REBOOTOK $INSTDIR\exotic.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
@@ -95,7 +95,7 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\galilel-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\$(^Name).lnk" $INSTDIR\exotic-qt.exe
     CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall $(^Name).lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
@@ -106,10 +106,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "galilel" "URL Protocol" ""
-    WriteRegStr HKCR "galilel" "" "URL:GALILEL"
-    WriteRegStr HKCR "galilel\DefaultIcon" "" $INSTDIR\galilel-qt.exe
-    WriteRegStr HKCR "galilel\shell\open\command" "" '"$INSTDIR\galilel-qt.exe" "%1"'
+    WriteRegStr HKCR "exotic" "URL Protocol" ""
+    WriteRegStr HKCR "exotic" "" "URL:GALILEL"
+    WriteRegStr HKCR "exotic\DefaultIcon" "" $INSTDIR\exotic-qt.exe
+    WriteRegStr HKCR "exotic\shell\open\command" "" '"$INSTDIR\exotic-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -127,7 +127,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\galilel-qt.exe
+    Delete /REBOOTOK $INSTDIR\exotic-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -147,7 +147,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "galilel"
+    DeleteRegKey HKCR "exotic"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

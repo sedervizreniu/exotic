@@ -1,10 +1,10 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='galilel.conf'
-CONFIGFOLDER='/root/.galilel'
+CONFIG_FILE='exotic.conf'
+CONFIGFOLDER='/root/.exotic'
 COIN_DAEMON='galileld'
-COIN_CLI='galilel-cli'
+COIN_CLI='exotic-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/GalilelDev/Exotic.git'
 COIN_TGZ=''
