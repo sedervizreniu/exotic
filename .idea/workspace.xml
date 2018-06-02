@@ -10,124 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa69c21f-7170-496a-be6f-c6fe75669c7d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/qt/exotic_locale.qrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/control" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/galilel-qt.desktop.desktop" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/galilel-qt.desktop.desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/galilel.1" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/galilel.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/rules" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/rules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/devtools/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/devtools/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/devtools/update-translations.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/devtools/update-translations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/galilel-qt.pro" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/galilel-qt.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/galileld.bash-completion" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/galileld.bash-completion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh.in" beforeDir="false" afterPath="$PROJECT_DIR$/qa/pull-tester/tests-config.sh.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qa/rpc-tests/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa/rpc-tests/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/qt/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/Info.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/qt/Info.plist.in" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/Info.plist.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/setup.nsi" beforeDir="false" afterPath="$PROJECT_DIR$/share/setup.nsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/setup.nsi.in" beforeDir="false" afterPath="$PROJECT_DIR$/share/setup.nsi.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile.am" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Makefile.qt.include" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile.qt.include" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Makefile.qttest.include" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile.qttest.include" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Makefile.test.include" beforeDir="false" afterPath="$PROJECT_DIR$/src/Makefile.test.include" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/galilel-cli-res.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/exotic-cli-res.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/galilel-cli.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exotic-cli.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/galilel-tx.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exotic-tx.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/galileld-res.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/exoticd-res.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/galileld.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/exoticd.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_alqo_qt-alqo.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_alqo_qt-alqo.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-qrc_alqo.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-qrc_alqo.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-qrc_alqo_locale.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/.deps/qt_libbitcoinqt_a-qrc_alqo_locale.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/galilel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/exotic.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/galilel.qrc" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/exotic.qrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/galilel_locale.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/galilelstrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/exoticstrings.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/guiconstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiconstants.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_bg.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_bg.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_de.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_de.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_en.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_es.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_es.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_fi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_fi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_fr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_fr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_it.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_it.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_ja.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_ja.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_pl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_pl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_pt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_pt.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_ru.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_ru.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_sk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_sk.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_sv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_sv.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_vi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_vi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_zh_CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_zh_CN.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_zh_TW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/exotic_zh_TW.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/css/dark.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/css/dark.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/galilel-qt-res.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/exotic-qt-res.rc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/unit_galilel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/unit_exotic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/unit_mgalilel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/unit_mexotic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/unit_tgalilel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/unit_texotic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/unit_tmgalilel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/unit_tmexotic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/unit_tugalilel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/unit_tuexotic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/unit_ugalilel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/unit_uexotic.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-moc_paymentservertests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-moc_paymentservertests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-moc_uritests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-moc_uritests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-paymentservertests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-paymentservertests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-test_main.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-test_main.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-uritests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/.deps/qt_test_test_alqo_qt-uritests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcblockchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcblockchain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcdump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcdump.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcmasternode-budget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmasternode-budget.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcmasternode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmasternode.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcmisc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmisc.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcserver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcwallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcwallet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-Checkpoints_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-Checkpoints_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-DoS_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-DoS_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-accounting_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-accounting_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-allocator_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-allocator_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base32_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base32_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base58_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base58_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base64_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-base64_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-checkblock_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-checkblock_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-coins_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-coins_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-compress_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-compress_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-crypto_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-crypto_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-getarg_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-getarg_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-hash_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-hash_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-key_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-key_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-main_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-main_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mempool_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mempool_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mruset_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-mruset_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-multisig_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-multisig_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-netbase_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-netbase_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-pmt_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-pmt_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_wallet_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-rpc_wallet_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sanity_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sanity_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_P2SH_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_P2SH_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-script_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-scriptnum_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-scriptnum_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-serialize_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-serialize_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sighash_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sighash_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sigopcount_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-sigopcount_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-skiplist_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-skiplist_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-test_alqo.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-test_alqo.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-timedata_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-timedata_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-transaction_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-transaction_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-uint256_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-uint256_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-univalue_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-univalue_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-util_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-util_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-wallet_tests.Po" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/.deps/test_test_alqo-wallet_tests.Po" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_galilel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_galilel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test_galilel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_exotic.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -159,8 +42,8 @@
       <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="647" column="45" lean-forward="true" selection-start-line="647" selection-start-column="45" selection-end-line="647" selection-end-column="45" />
+            <state relative-caret-position="571">
+              <caret line="613" column="62" selection-start-line="613" selection-start-column="62" selection-end-line="613" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -286,9 +169,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="523" />
-    <option name="y" value="44" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="325" />
+    <option name="y" value="71" />
     <option name="width" value="2681" />
     <option name="height" value="1926" />
   </component>
@@ -328,6 +211,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="qt" type="462c0819:PsiDirectoryNode" />
               <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exotic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exotic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -370,20 +259,21 @@
       <workItem from="1527254357756" duration="342000" />
       <workItem from="1527284668035" duration="503000" />
       <workItem from="1527308235640" duration="2059000" />
-      <workItem from="1527965569498" duration="7311000" />
+      <workItem from="1527965569498" duration="8132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13738000" />
+    <option name="totallyTimeSpent" value="14559000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="3862" height="2126" extended-state="6" />
+    <frame x="325" y="71" width="2681" height="1926" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19921875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28770214" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3299544" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.36717427" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -775,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="647" column="45" lean-forward="true" selection-start-line="647" selection-start-column="45" selection-end-line="647" selection-end-column="45" />
+        <state relative-caret-position="571">
+          <caret line="613" column="62" selection-start-line="613" selection-start-column="62" selection-end-line="613" selection-end-column="62" />
         </state>
       </provider>
     </entry>
