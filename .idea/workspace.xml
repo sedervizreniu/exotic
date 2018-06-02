@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="false">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fa69c21f-7170-496a-be6f-c6fe75669c7d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/bitrpc/bitrpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/bitrpc/bitrpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/examples/galilel.conf" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/examples/galilel.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/galilel-qt.1" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/galilel-qt.1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/galilel.conf.5" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/galilel.conf.5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/init/galileld.conf" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/init/galileld.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/init/galileld.openrc" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/init/galileld.openrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/linearize/linearize-hashes.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/linearize/linearize-hashes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/qos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/qos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/qos/tc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/qos/tc.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/seeds/generate-seeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/seeds/generate-seeds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/spendfrom/spendfrom.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/masternode.sh" beforeDir="false" afterPath="$PROJECT_DIR$/masternode.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/rpc-tests/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/qa/rpc-tests/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qa/rpc-tests/util.sh" beforeDir="false" afterPath="$PROJECT_DIR$/qa/rpc-tests/util.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/qt/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/qt/Info.plist.in" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/Info.plist.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/setup.nsi" beforeDir="false" afterPath="$PROJECT_DIR$/share/setup.nsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/setup.nsi.in" beforeDir="false" afterPath="$PROJECT_DIR$/share/setup.nsi.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Darksend-relay.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Darksend-relay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Darksend.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Darksend.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Darksend.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Darksend.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Instantx.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/Instantx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/activemasternode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/activemasternode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chainparams.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainparams.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chainparamsbase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainparamsbase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/checkpoints.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkpoints.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientversion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientversion.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/clientversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/galilel-config.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/galilel-config.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/galilel-cli.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/galilel-cli.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/galilel-tx.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/galilel-tx.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/galileld.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/galileld.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/init.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode-budget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode-budget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode-budget.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode-budget.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode-payments.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode-payments.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode-sync.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode-sync.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode-sync.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode-sync.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternode.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternodeconfig.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternodeconfig.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternodeconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternodeconfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternodeman.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternodeman.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/masternodeman.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/masternodeman.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/miner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/miner.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixTX-relay.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixTX-relay.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixTX.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixTX.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mixTX.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/mixTX.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/net.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/noui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/noui.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/addresstablemodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addresstablemodel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bip38tooldialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bip38tooldialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/blockexplorer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/blockexplorer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/clientmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/clientmodel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/clientmodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/clientmodel.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/coinmix.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/coinmix.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/helpmessagedialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/helpmessagedialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/intro.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/intro.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/galilel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/galilel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/galilelstrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/galilelstrings.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/guiconstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiconstants.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/guiutil.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiutil.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/intro.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/intro.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_bg.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_bg.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_de.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_de.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_en.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_es.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_es.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_fi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_fi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_fr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_fr.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_it.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_it.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_pl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_pl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_pt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_pt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_ru.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_ru.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_sk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_sk.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_sv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_sv.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_vi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_vi.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_zh_CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_zh_CN.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/locale/galilel_zh_TW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/galilel_zh_TW.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/openuridialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/openuridialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/overviewpage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/overviewpage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/paymentserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/paymentserver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/res/galilel-qt-res.rc" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/galilel-qt-res.rc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/splashscreen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/splashscreen.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/test/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/test_main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/transactionrecord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactionrecord.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/utilitydialog.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/walletmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletmodel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/quicktx.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/quicktx.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcblockchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcblockchain.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcclient.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcclient.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcdump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcdump.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcmasternode-budget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmasternode-budget.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcmasternode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmasternode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcmining.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmining.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcmisc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmisc.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcnet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcnet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcprotocol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcprotocol.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcserver.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpcwallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcwallet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spork.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/spork.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main_tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/netbase_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/netbase_tests.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timedata.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/timedata.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uint256.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/uint256.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wallet.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/walletdb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/walletdb.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="108" column="43" lean-forward="true" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="splashscreen.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/qt/splashscreen.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="897">
+              <caret line="1618" column="1" lean-forward="true" selection-start-line="1618" selection-start-column="1" selection-end-line="1618" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="masternode.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/masternode.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="version.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/version.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clientversion.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clientversion.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="520">
+              <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+              <folding>
+                <element signature="e#2259#2405#0" expanded="true" />
+                <element signature="e#2589#2722#0" expanded="true" />
+                <element signature="e#2821#2862#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="clientversion.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clientversion.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>v1.0</find>
+      <find>Version</find>
+      <find>v</find>
+      <find>1500</find>
+      <find>synchronisier</find>
+      <find>fehlge</find>
+      <find>MASTERNODE_SYNC_FAILED</find>
+      <find>998</find>
+      <find>MASTERNODE_SYNC_SPORKS</find>
+      <find>payments</find>
+      <find>masternode_paym</find>
+      <find>bnProofOfWorkLimit</find>
+      <find>nLastPOWBlock</find>
+      <find>COINBASE_MATURITY</find>
+      <find>Galilel</find>
+      <find>galilel</find>
+      <find>Exotic</find>
+      <find>exotic.io</find>
+      <find>36001</find>
+      <find>36002</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Exotic</replace>
+      <replace>exotic</replace>
+      <replace />
+      <replace>31000</replace>
+      <replace>31001</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/version.h" />
+        <option value="$PROJECT_DIR$/src/clientversion.cpp" />
+        <option value="$PROJECT_DIR$/masternode.sh" />
+        <option value="$PROJECT_DIR$/src/clientversion.h" />
+        <option value="$PROJECT_DIR$/src/qt/splashscreen.cpp" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/chainparams.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="718" />
+    <option name="y" value="70" />
+    <option name="width" value="2681" />
+    <option name="height" value="1926" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="exotic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exotic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="exotic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="exotic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fa69c21f-7170-496a-be6f-c6fe75669c7d" name="Default" comment="" />
+      <created>1527237712475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1527237712475</updated>
+      <workItem from="1527237714290" duration="353000" />
+      <workItem from="1527238075823" duration="447000" />
+      <workItem from="1527239377791" duration="2723000" />
+      <workItem from="1527254357756" duration="342000" />
+      <workItem from="1527284668035" duration="503000" />
+      <workItem from="1527308235640" duration="2059000" />
+      <workItem from="1527965569498" duration="5004000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11431000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="718" y="70" width="2681" height="1926" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28770214" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="120" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/splashscreen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32840">
+          <caret line="1642" column="4" selection-start-line="1642" selection-start-column="4" selection-end-line="1642" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/version.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#2259#2405#0" expanded="true" />
+            <element signature="e#2589#2722#0" expanded="true" />
+            <element signature="e#2821#2862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/galilel_de.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87600">
+          <caret line="4380" column="14" selection-start-line="4380" selection-start-column="14" selection-end-line="4380" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15760">
+          <caret line="788" column="16" lean-forward="true" selection-start-line="788" selection-start-column="16" selection-end-line="788" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="120" lean-forward="true" selection-start-line="120" selection-end-line="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/splashscreen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32840">
+          <caret line="1642" column="4" lean-forward="true" selection-start-line="1642" selection-start-column="4" selection-end-line="1642" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/version.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#2259#2405#0" expanded="true" />
+            <element signature="e#2589#2722#0" expanded="true" />
+            <element signature="e#2821#2862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/galilel_de.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87600">
+          <caret line="4380" column="14" selection-start-line="4380" selection-start-column="14" selection-end-line="4380" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/splashscreen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32460">
+          <caret line="1623" column="43" selection-start-line="1623" selection-start-column="43" selection-end-line="1623" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/version.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#2259#2405#0" expanded="true" />
+            <element signature="e#2589#2722#0" expanded="true" />
+            <element signature="e#2821#2862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/galilel_de.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87600">
+          <caret line="4380" column="14" lean-forward="true" selection-start-line="4380" selection-start-column="14" selection-end-line="4380" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2280">
+          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/splashscreen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1720">
+          <caret line="86" column="44" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32460">
+          <caret line="1623" column="43" selection-start-line="1623" selection-start-column="43" selection-end-line="1623" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/version.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="23" column="67" lean-forward="true" selection-start-line="23" selection-start-column="67" selection-end-line="23" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <element signature="e#2259#2405#0" expanded="true" />
+            <element signature="e#2589#2722#0" expanded="true" />
+            <element signature="e#2821#2862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="117" selection-start-line="117" selection-end-line="117" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/amount.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2340">
+          <caret line="117" selection-start-line="117" selection-end-line="117" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wallet.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/amount.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/locale/galilel_de.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87600">
+          <caret line="4380" column="14" selection-start-line="4380" selection-start-column="14" selection-end-line="4380" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INSTALL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autogen.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile.am">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/version.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/masternode.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/masternode-payments.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15760">
+          <caret line="788" column="16" selection-start-line="788" selection-start-column="16" selection-end-line="788" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="26" column="74" selection-start-line="26" selection-start-column="74" selection-end-line="26" selection-end-column="74" />
+          <folding>
+            <element signature="e#2259#2405#0" expanded="true" />
+            <element signature="e#2589#2722#0" expanded="true" />
+            <element signature="e#2821#2862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientversion.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="108" column="43" lean-forward="true" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/qt/splashscreen.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="1618" column="1" lean-forward="true" selection-start-line="1618" selection-start-column="1" selection-end-line="1618" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
