@@ -1,8 +1,8 @@
 
 Debian
 ====================
-This directory contains files used to package galileld/exotic-qt
-for Debian-based Linux systems. If you compile galileld/exotic-qt yourself, there are some useful files here.
+This directory contains files used to package exoticd/exotic-qt
+for Debian-based Linux systems. If you compile exoticd/exotic-qt yourself, there are some useful files here.
 
 ## exotic: URI support ##
 

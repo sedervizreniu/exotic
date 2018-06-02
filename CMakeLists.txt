@@ -82,11 +82,11 @@ add_executable(Exotic
         contrib/debian/exotic-qt.install
         contrib/debian/exotic-qt.lintian-overrides
         contrib/debian/exotic-qt.protocol
-        contrib/debian/galileld.bash-completion
-        contrib/debian/galileld.examples
-        contrib/debian/galileld.install
-        contrib/debian/galileld.lintian-overrides
-        contrib/debian/galileld.manpages
+        contrib/debian/exoticd.bash-completion
+        contrib/debian/exoticd.examples
+        contrib/debian/exoticd.install
+        contrib/debian/exoticd.lintian-overrides
+        contrib/debian/exoticd.manpages
         contrib/debian/watch
         contrib/devtools/check-doc.py
         contrib/devtools/fix-copyright-headers.py
@@ -109,11 +109,11 @@ add_executable(Exotic
         contrib/gitian-keys/presstab-key.gpg
         contrib/gitian-keys/s3v3nh4cks-key.gpg
         contrib/init/README.md
-        contrib/init/galileld.conf
-        contrib/init/galileld.init
-        contrib/init/galileld.openrc
-        contrib/init/galileld.openrcconf
-        contrib/init/galileld.service
+        contrib/init/exoticd.conf
+        contrib/init/exoticd.init
+        contrib/init/exoticd.openrc
+        contrib/init/exoticd.openrcconf
+        contrib/init/exoticd.service
         contrib/linearize/example-linearize.cfg
         contrib/linearize/linearize-data.py
         contrib/linearize/linearize-hashes.py
@@ -146,7 +146,7 @@ add_executable(Exotic
         contrib/README.md
         contrib/tidy_datadir.sh
         contrib/exotic-qt.pro
-        contrib/galileld.bash-completion
+        contrib/exoticd.bash-completion
         depends/builders/darwin.mk
         depends/builders/default.mk
         depends/builders/linux.mk
@@ -1291,8 +1291,8 @@ add_executable(Exotic
         src/exotic-cli-res.rc
         src/exotic-cli.cpp
         src/exotic-tx.cpp
-        src/galileld-res.rc
-        src/galileld.cpp
+        src/exoticd-res.rc
+        src/exoticd.cpp
         src/validationinterface.cpp
         src/validationinterface.h
         src/version.h

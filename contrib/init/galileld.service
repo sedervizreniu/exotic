@@ -7,13 +7,13 @@ User=exotic
 Group=exotic
 
 Type=forking
-PIDFile=/var/lib/galileld/galileld.pid
+PIDFile=/var/lib/exoticd/exoticd.pid
 
-ExecStart=/usr/bin/galileld -daemon -pid=/var/lib/galileld/galileld.pid \
-          -conf=/etc/exotic/exotic.conf -datadir=/var/lib/galileld
+ExecStart=/usr/bin/exoticd -daemon -pid=/var/lib/exoticd/exoticd.pid \
+          -conf=/etc/exotic/exotic.conf -datadir=/var/lib/exoticd
 
 ExecStop=-/usr/bin/exotic-cli -conf=/etc/exotic/exotic.conf \
-         -datadir=/var/lib/galileld stop
+         -datadir=/var/lib/exoticd stop
 
 Restart=always
 PrivateTmp=true

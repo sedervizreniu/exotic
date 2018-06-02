@@ -9,7 +9,7 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between exotic-cli and galileld)
+ * CBaseChainParams defines the base parameters (shared between exotic-cli and exoticd)
  * of a given instance of the GALILEL system.
  */
 class CBaseChainParams

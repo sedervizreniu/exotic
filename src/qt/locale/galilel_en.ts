@@ -5243,7 +5243,7 @@ https://www.transifex.com/exotic-project/exotic-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>To use galileld, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:
+        <source>To use exoticd, or the -server option to exotic-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=galilelrpc

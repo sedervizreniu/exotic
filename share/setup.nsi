@@ -77,7 +77,7 @@ Section -Main SEC0000
     File /oname=COPYING.txt /root/GALILEL/COPYING
     File /oname=readme.txt /root/GALILEL/doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
-    File /root/GALILEL/release/galileld.exe
+    File /root/GALILEL/release/exoticd.exe
     File /root/GALILEL/release/exotic-cli.exe
     SetOutPath $INSTDIR\doc
     File /r /root/GALILEL/doc\*.*
