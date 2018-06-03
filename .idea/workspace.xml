@@ -9,7 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa69c21f-7170-496a-be6f-c6fe75669c7d" name="Default" comment="" />
+    <list default="true" id="fa69c21f-7170-496a-be6f-c6fe75669c7d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/bip38tooldialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/bip38tooldialog.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +26,8 @@
       <file leaf-file-name="chainparams.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+            <state relative-caret-position="480">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -162,9 +166,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="83" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="560" />
+    <option name="y" value="54" />
     <option name="width" value="2681" />
     <option name="height" value="1926" />
   </component>
@@ -255,20 +259,21 @@
       <workItem from="1527284668035" duration="503000" />
       <workItem from="1527308235640" duration="2059000" />
       <workItem from="1527965569498" duration="8769000" />
-      <workItem from="1527985176032" duration="828000" />
+      <workItem from="1527985176032" duration="2952000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16024000" />
+    <option name="totallyTimeSpent" value="18148000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="874" y="74" width="2681" height="1926" extended-state="0" />
+    <frame x="560" y="54" width="2681" height="1926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28770214" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.36717427" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -282,7 +287,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.36717427" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -644,8 +648,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chainparams.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="70" lean-forward="true" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+        <state relative-caret-position="480">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>

@@ -247,7 +247,7 @@ then
 fi
 
 # Set up build
-pushd ./exotic
+pushd exotic
 git fetch
 git checkout ${COMMIT}
 popd
@@ -256,7 +256,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./exotic-binaries/${VERSION}
+	mkdir -p exotic-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -266,7 +266,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../exotic/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C .exotic/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -274,9 +274,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit exotic=${COMMIT} --url exotic=${url} ../exotic/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../exotic/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/exotic-*.tar.gz build/out/src/exotic-*.tar.gz ../exotic-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit exotic=${COMMIT} --url exotic=${url} .exotic/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ .exotic/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/exotic-*.tar.gz build/out/src/exotic-*.tar.gz .exotic-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -284,10 +284,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit exotic=${COMMIT} --url exotic=${url} ../exotic/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../exotic/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit exotic=${COMMIT} --url exotic=${url} .exotic/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ .exotic/contrib/gitian-descriptors/gitian-win.yml
 	    mv build/out/exotic-*-win-unsigned.tar.gz inputs/exotic-win-unsigned.tar.gz
-	    mv build/out/exotic-*.zip build/out/exotic-*.exe ../exotic-binaries/${VERSION}
+	    mv build/out/exotic-*.zip build/out/exotic-*.exe .exotic-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -295,10 +295,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit exotic=${COMMIT} --url exotic=${url} ../exotic/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../exotic/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit exotic=${COMMIT} --url exotic=${url} .exotic/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ .exotic/contrib/gitian-descriptors/gitian-osx.yml
 	    mv build/out/exotic-*-osx-unsigned.tar.gz inputs/exotic-osx-unsigned.tar.gz
-	    mv build/out/exotic-*.tar.gz build/out/exotic-*.dmg ../exotic-binaries/${VERSION}
+	    mv build/out/exotic-*.tar.gz build/out/exotic-*.dmg .exotic-binaries/${VERSION}
 	fi
 	popd
 
@@ -325,27 +325,27 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../exotic/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux .exotic/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../exotic/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned .exotic/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../exotic/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned .exotic/contrib/gitian-descriptors/gitian-osx.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed .exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed .exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -360,10 +360,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../exotic/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../exotic/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/exotic-*win64-setup.exe ../exotic-binaries/${VERSION}
-	    mv build/out/exotic-*win32-setup.exe ../exotic-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} .exotic/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ .exotic/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/exotic-*win64-setup.exe .exotic-binaries/${VERSION}
+	    mv build/out/exotic-*win32-setup.exe .exotic-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -371,9 +371,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/exotic-osx-signed.dmg ../exotic-binaries/${VERSION}/exotic-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} .exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ .exotic/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/exotic-osx-signed.dmg .exotic-binaries/${VERSION}/exotic-${VERSION}-osx.dmg
 	fi
 	popd
 
